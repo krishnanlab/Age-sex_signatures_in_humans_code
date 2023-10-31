@@ -1,0 +1,53 @@
+gtex_tissue	uberon_term	uberon_name
+Whole Blood	UBERON:0000178	blood
+Brain - Frontal Cortex (BA9)	UBERON:0013540	Brodmann (1909) area 9
+Adipose - Subcutaneous	UBERON:0002190	subcutaneous adipose tissue
+Muscle - Skeletal	UBERON:0001134	skeletal muscle tissue
+Artery - Tibial	UBERON:0007610	tibial artery
+Artery - Coronary	UBERON:0001621	coronary artery
+Heart - Atrial Appendage	UBERON:0006630	left atrium auricular region
+Adipose - Visceral (Omentum)	UBERON:0035818	visceral fat
+Ovary	UBERON:0000992	ovary
+Uterus	UBERON:0000995	uterus
+Vagina	UBERON:0000996	vagina
+Breast - Mammary Tissue	UBERON:0000310	breast
+Skin - Not Sun Exposed (Suprapubic)	UBERON:0036149	suprapubic skin
+Minor Salivary Gland	UBERON:0001830	minor salivary gland
+Brain - Cortex	UBERON:0000956	cerebral cortex
+Adrenal Gland	UBERON:0002369	adrenal gland
+Thyroid	UBERON:0002046	thyroid gland
+Lung	UBERON:0002048	lung
+Spleen	UBERON:0002106	spleen
+Pancreas	UBERON:0001264	pancreas
+Esophagus - Muscularis	UBERON:0004648	esophagus muscularis mucosa
+Esophagus - Mucosa	UBERON:0002469	esophagus mucosa
+Esophagus - Gastroesophageal Junction	UBERON:0007650	esophagogastric junction
+Stomach	UBERON:0000945	stomach
+Colon - Sigmoid	UBERON:0001159	sigmoid colon
+Small Intestine - Terminal Ileum	UBERON:0002116	ileum
+Colon - Transverse	UBERON:0001157	transverse colon
+Prostate	UBERON:0002367	prostate gland
+Testis	UBERON:0000473	testis
+Skin - Sun Exposed (Lower leg)	UBERON:0002097	skin of body
+Nerve - Tibial	UBERON:0001323	tibial nerve
+Heart - Left Ventricle	UBERON:0002084	heart left ventricle
+Pituitary	UBERON:0000007	pituitary gland
+Brain - Cerebellum	UBERON:0002037	cerebellum
+Artery - Aorta	UBERON:0000947	aorta
+Brain - Cerebellar Hemisphere	UBERON:0002245	cerebellar hemisphere
+Brain - Caudate (basal ganglia)	UBERON:0001873	caudate nucleus
+Brain - Nucleus accumbens (basal ganglia)	UBERON:0001882	nucleus accumbens
+Brain - Putamen (basal ganglia)	UBERON:0001874	putamen
+Brain - Hypothalamus	UBERON:0001898	hypothalamus
+Brain - Spinal cord (cervical c-1)	UBERON:0002240	spinal cord
+Liver	UBERON:0002107	liver
+Brain - Hippocampus	UBERON:0002421	hippocampal formation
+Brain - Anterior cingulate cortex (BA24)	UBERON:0009835	anterior cingulate cortex
+Brain - Substantia nigra	UBERON:000203	substantia nigra
+Kidney - Cortex	UBERON:0001225	cotrex of kidney
+Brain - Amygdala	UBERON:0001876	amygdala
+Cervix - Ectocervix	UBERON:0012249	ectocervix
+Fallopian Tube	UBERON:0003889	fallopian tube
+Cervix - Endocervix	UBERON:0000458	endocervix
+Bladder	UBERON:0001255	urinary bladder
+Kidney - Medulla	UBERON:0000362	renal medulla

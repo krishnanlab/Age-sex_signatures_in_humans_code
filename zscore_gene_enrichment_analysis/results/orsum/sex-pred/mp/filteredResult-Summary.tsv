@@ -1,0 +1,82 @@
+Representing term id	Representing term name	Representing term size	Representing term rank	Represented term number	mp_adolescent_terms_by_significance.txt term rank	mp_adult_terms_by_significance.txt term rank	mp_child_terms_by_significance.txt term rank	mp_elderly_terms_by_significance.txt term rank	mp_fetus_terms_by_significance.txt term rank	mp_infant_terms_by_significance.txt term rank	mp_middle_adult_terms_by_significance.txt term rank	mp_old_adult_terms_by_significance.txt term rank	mp_older_adult_terms_by_significance.txt term rank	mp_young_adult_terms_by_significance.txt term rank	mp_young_child_terms_by_significance.txt term rank
+embryonic lethality prior to tooth bud stage	embryonic lethality prior to tooth bud stage	1252	1	21	1	61	3	812	151	1247	965	123	27	8	5
+abnormal adaptive immunity	abnormal adaptive immunity	1449	1	131	14	1	6	273	2	1	3	2	305	7	18
+embryonic lethality	embryonic lethality	2145	1	54	2	23	1	281	262	431	89	142	4	4	4
+abnormal nervous system physiology	abnormal nervous system physiology	2081	1	143	11	3	125	1	327	415	1	332	3	1	321
+abnormal immune system physiology	abnormal immune system physiology	2446	1	272	62	2	16	97	1	2	2	1	310	23	15
+embryo phenotype	embryo phenotype	2057	1	227	15	46	91	139	200	382	167	365	1	21	7
+preweaning lethality	preweaning lethality	4992	1	142	4	24	2	391	360	266	448	89	5	6	1
+abnormal survival	abnormal survival	5465	2	73	7	88	14	298	544	386	509	329	11	60	2
+abnormal cognition	abnormal cognition	1044	5	46	48	42	563	5	433	471	53	1098	18	12	305
+abnormal blood cell physiology	abnormal blood cell physiology	1502	5	13	115	8	11	369	5	7	7	6	1246	38	36
+abnormal hematopoietic system physiology	abnormal hematopoietic system physiology	1582	6	4	122	6	13	379	7	6	12	7	1303	34	53
+abnormal T cell morphology	abnormal T cell morphology	867	7	102	42	65	7	442	62	16	45	45	209	61	199
+abnormal emotion/affect behavior	abnormal emotion/affect behavior	1272	7	29	79	70	351	7	595	417	95	605	39	30	764
+mortality/aging	mortality/aging	5942	8	37	8	63	18	833	155	531	507	432	17	58	8
+hyperactivity	hyperactivity	1048	8	4	73	51	758	8	1367	1592	93	303	62	39	3726
+abnormal hemopoiesis	abnormal hemopoiesis	836	8	35	126	30	25	1025	158	8	23	35	151	28	460
+immune system phenotype	immune system phenotype	4216	8	238	98	14	10	434	10	12	16	8	187	37	29
+abnormal neuron morphology	abnormal neuron morphology	1424	9	129	9	22	79	23	324	173	51	431	28	19	434
+abnormal behavior	abnormal behavior	4666	9	195	20	27	44	9	909	90	13	237	16	10	68
+abnormal gametogenesis	abnormal gametogenesis	953	9	74	995	645	925	741	9	289	263	392	248	400	137
+nervous system phenotype	nervous system phenotype	3671	10	316	10	19	58	11	239	196	24	406	37	20	21
+abnormal prenatal growth/weight/body size	abnormal prenatal growth/weight/body size	1320	12	9	18	113	95	846	670	957	844	3380	12	70	12
+abnormal blood cell morphology/development	abnormal blood cell morphology/development	994	13	11	123	26	23	2162	123	13	22	30	130	25	214
+chromosomal instability	chromosomal instability	108	14	4	152	833	354	2425	225	870	2333	2834	302	220	14
+abnormal chromosome stability	abnormal chromosome stability	113	16	1	140	834	371	2372	223	797	2579	3082	340	226	16
+hematopoietic system phenotype	hematopoietic system phenotype	4317	17	82	466	17	33	704	25	37	50	37	243	88	81
+muscle phenotype	muscle phenotype	1452	24	141	24	492	75	83	214	104	197	350	397	236	672
+digestive/alimentary phenotype	digestive/alimentary phenotype	1380	25	108	60	243	46	25	393	428	184	95	81	449	94
+abnormal imprinting	abnormal imprinting	16	27	1	449	238	284	104	166	126	64	27	44	80	108
+abnormal blood vessel morphology	abnormal blood vessel morphology	1296	30	98	188	235	151	30	177	137	344	166	118	697	497
+male infertility	male infertility	866	30	1	2928	1558	4827	3058	30	911	4185	4756	5047	2286	1381
+normal phenotype	normal phenotype	2020	31	2	31	3791	134	1963	4956	1698	2178	120	1166	678	1543
+abnormal cell cycle	abnormal cell cycle	262	32	4	58	403	265	2497	254	339	1528	689	101	183	32
+abnormal cell morphology	abnormal cell morphology	1438	33	39	81	533	275	329	33	206	373	477	255	219	71
+craniofacial phenotype	craniofacial phenotype	1250	33	151	234	427	153	58	382	304	219	304	33	749	335
+limbs/digits/tail phenotype	limbs/digits/tail phenotype	1068	35	83	357	268	219	69	341	378	178	179	35	431	206
+infertility	infertility	1101	37	2	2182	2265	2878	914	37	1562	1229	492	417	1075	1643
+abnormal male reproductive system physiology	abnormal male reproductive system physiology	1229	38	21	593	903	1797	1829	38	955	1689	1260	2319	1099	1075
+abnormal skeleton physiology	abnormal skeleton physiology	601	41	31	560	152	771	62	145	834	94	41	105	491	381
+abnormal respiratory system morphology	abnormal respiratory system morphology	891	43	66	267	607	193	43	769	315	1175	197	110	952	455
+abnormal cardiovascular development	abnormal cardiovascular development	758	47	10	948	269	591	64	553	228	238	204	47	625	248
+abnormal reproductive system morphology	abnormal reproductive system morphology	1970	48	158	655	1469	487	211	48	792	444	190	389	682	109
+abnormal cardiovascular system morphology	abnormal cardiovascular system morphology	2582	49	103	168	236	136	49	419	133	352	233	86	540	545
+abnormal appendicular skeleton morphology	abnormal appendicular skeleton morphology	850	50	29	667	240	761	65	554	716	156	128	50	535	228
+abnormal hormone level	abnormal hormone level	1021	51	115	51	383	74	377	1026	787	827	638	865	385	567
+abnormal joint morphology	abnormal joint morphology	392	51	20	202	510	373	51	1036	1306	200	228	76	866	468
+abnormal fertility/fecundity	abnormal fertility/fecundity	1693	53	8	584	2330	1356	1287	53	1014	1852	418	1713	1350	1764
+abnormal cell proliferation	abnormal cell proliferation	1246	56	15	71	93	107	1279	246	56	99	102	74	74	177
+abnormal skeleton development	abnormal skeleton development	420	57	11	416	293	550	57	279	1130	228	134	117	641	2585
+genetic imprinting	genetic imprinting	49	58	3	1094	537	879	401	850	542	142	58	129	221	179
+abnormal vertebrae morphology	abnormal vertebrae morphology	505	60	29	905	406	522	76	882	408	168	189	60	297	193
+abnormal ear morphology	abnormal ear morphology	455	65	34	65	2096	83	175	2208	1909	540	374	287	1898	1915
+reproductive system phenotype	reproductive system phenotype	2749	65	36	487	1146	1233	715	65	760	680	203	592	754	269
+abnormal cartilage morphology	abnormal cartilage morphology	318	68	3	183	794	165	68	967	668	600	532	235	2137	2558
+kidney cyst	kidney cyst	172	74	5	442	1550	1702	74	1520	306	332	263	237	1595	2334
+abnormal induced cell death	abnormal induced cell death	244	76	13	76	300	128	2487	498	913	986	2271	379	268	114
+abnormal porphyrin level	abnormal porphyrin level	15	77	2	3464	4218	2608	4237	4626	1167	1832	3077	2535	3149	77
+abnormal double-strand DNA break repair	abnormal double-strand DNA break repair	64	79	1	3190	2925	2372	4863	79	4444	1623	4521	1519	788	636
+abnormal blood vessel physiology	abnormal blood vessel physiology	379	84	8	141	1235	84	168	132	375	1024	150	754	2521	3484
+abnormal cell migration	abnormal cell migration	484	84	6	1330	224	2479	2008	229	287	421	84	738	507	246
+abnormal axial skeleton morphology	abnormal axial skeleton morphology	1325	84	17	838	637	1292	90	555	658	210	286	84	657	458
+abnormal enzyme/coenzyme level	abnormal enzyme/coenzyme level	1121	85	28	720	1225	1227	1227	566	85	1371	703	1091	1410	242
+abnormal head morphology	abnormal head morphology	995	85	5	306	643	232	191	1590	452	659	973	85	865	414
+renal/urinary system phenotype	renal/urinary system phenotype	1630	87	163	148	358	142	87	224	107	280	136	400	432	231
+abnormal intercellular signaling peptide or protein level	abnormal intercellular signaling peptide or protein level	446	87	2	1036	130	824	2347	111	214	189	160	3782	373	87
+homeostasis/metabolism phenotype	homeostasis/metabolism phenotype	5935	91	353	131	256	264	170	100	91	306	107	136	301	161
+hearing/vestibular/ear phenotype	hearing/vestibular/ear phenotype	810	93	19	93	614	334	872	2771	923	755	1146	373	927	464
+abnormal trabecular bone morphology	abnormal trabecular bone morphology	274	94	18	499	303	762	94	479	1957	229	117	510	919	404
+abnormal vasculature physiology	abnormal vasculature physiology	390	100	1	190	1475	100	153	127	675	3393	186	3265	3473	3512
+abnormal skin tensile strength	abnormal skin tensile strength	29	101	2	1635	868	270	101	2516	427	1261	312	641	1283	3944
+respiratory system phenotype	respiratory system phenotype	1392	102	39	111	704	148	102	421	785	929	131	259	480	1040
+increased bone mass	increased bone mass	78	104	1	1197	1427	4334	4453	718	1386	915	598	4348	4146	104
+abnormal eye morphology	abnormal eye morphology	2268	110	113	574	945	312	458	380	110	383	1272	194	757	307
+cellular phenotype	cellular phenotype	4388	111	55	135	111	300	141	159	156	256	143	116	164	180
+abnormal cutaneous collagen fibril morphology	abnormal cutaneous collagen fibril morphology	24	115	1	1383	866	195	115	1161	240	1755	401	715	1698	2918
+skeleton phenotype	skeleton phenotype	2529	121	36	411	344	839	134	598	815	257	177	121	504	167
+abnormal cardiovascular system physiology	abnormal cardiovascular system physiology	1855	127	76	128	1404	234	291	180	127	465	836	1362	779	804
+vision/eye phenotype	vision/eye phenotype	2426	128	22	139	290	260	1902	220	128	1100	2643	179	413	922
+cardiovascular system phenotype	cardiovascular system phenotype	3337	131	1	359	364	860	181	457	131	1595	607	296	1734	1446
+increased hemolymphoid system tumor incidence	increased hemolymphoid system tumor incidence	192	149	7	281	1075	259	2365	1162	149	712	649	726	420	225
+mammalian phenotype	mammalian phenotype	12982	155	400	192	258	238	155	188	166	236	192	175	213	222

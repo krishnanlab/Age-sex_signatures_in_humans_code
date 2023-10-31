@@ -1,0 +1,3261 @@
+hgnc_symbol	chromosome	sex_bias	tissue
+FAM151A	1	F	Adipose
+SALL1	16	F	Adipose
+GYG2	X	F	Adipose
+IP6K3	6	M	Adipose
+SGCZ	8	M	Adipose
+AMER2	13	M	Adipose
+RXFP2	13	M	Adipose
+CPAMD8	19	M	Adipose
+AFF2	X	M	Adipose
+DDX3Y	Y	M	Adipose
+EIF1AY	Y	M	Adipose
+KDM5D	Y	M	Adipose
+NLGN4Y	Y	M	Adipose
+PCDH11Y	Y	M	Adipose
+RPS4Y1	Y	M	Adipose
+TMSB4Y	Y	M	Adipose
+USP9Y	Y	M	Adipose
+UTY	Y	M	Adipose
+ZFY	Y	M	Adipose
+DDX3Y	Y	M	Amygdala
+EIF1AY	Y	M	Amygdala
+NLGN4Y	Y	M	Amygdala
+PCDH11Y	Y	M	Amygdala
+RPS4Y1	Y	M	Amygdala
+TMSB4Y	Y	M	Amygdala
+USP9Y	Y	M	Amygdala
+UTY	Y	M	Amygdala
+ZFY	Y	M	Amygdala
+PROX1	1	F	Artery
+OXGR1	13	F	Artery
+ZSCAN4	19	F	Artery
+MAP7D2	X	F	Artery
+CPAMD8	19	M	Artery
+DDX3Y	Y	M	Artery
+EIF1AY	Y	M	Artery
+KDM5D	Y	M	Artery
+NLGN4Y	Y	M	Artery
+PCDH11Y	Y	M	Artery
+RPS4Y1	Y	M	Artery
+SRY	Y	M	Artery
+TBL1Y	Y	M	Artery
+TMSB4Y	Y	M	Artery
+TSPY2	Y	M	Artery
+USP9Y	Y	M	Artery
+UTY	Y	M	Artery
+ZFY	Y	M	Artery
+AK5	1	F	Breast
+AMPD1	1	F	Breast
+ANKRD65	1	F	Breast
+C1orf106	1	F	Breast
+C1orf116	1	F	Breast
+C4BPA	1	F	Breast
+C4BPB	1	F	Breast
+CCDC163P	1	F	Breast
+CD164L2	1	F	Breast
+CD2	1	F	Breast
+CITED4	1	F	Breast
+CLDN19	1	F	Breast
+COL8A2	1	F	Breast
+CR2	1	F	Breast
+ETV3L	1	F	Breast
+FAM177B	1	F	Breast
+FAM183A	1	F	Breast
+FCRL2	1	F	Breast
+FCRL5	1	F	Breast
+FHAD1	1	F	Breast
+GFI1	1	F	Breast
+GPR25	1	F	Breast
+IFFO2	1	F	Breast
+IFNLR1	1	F	Breast
+IL24	1	F	Breast
+INSRR	1	F	Breast
+KCNA3	1	F	Breast
+KCNK1	1	F	Breast
+KLHDC8A	1	F	Breast
+LAD1	1	F	Breast
+LAMB3	1	F	Breast
+LAMC2	1	F	Breast
+LCK	1	F	Breast
+LGR6	1	F	Breast
+LRRN2	1	F	Breast
+MROH7	1	F	Breast
+MYBPH	1	F	Breast
+NTRK1	1	F	Breast
+OBSCN	1	F	Breast
+OR2L13	1	F	Breast
+PADI2	1	F	Breast
+PDE4B	1	F	Breast
+PDZK1IP1	1	F	Breast
+PIGR	1	F	Breast
+PLA2G2D	1	F	Breast
+PLCH2	1	F	Breast
+RGS1	1	F	Breast
+RNF186	1	F	Breast
+RUNX3	1	F	Breast
+S100A14	1	F	Breast
+SFN	1	F	Breast
+SLC35F3	1	F	Breast
+ST6GALNAC5	1	F	Breast
+TMEM61	1	F	Breast
+TNFRSF18	1	F	Breast
+TP73	1	F	Breast
+TRIM17	1	F	Breast
+TTC22	1	F	Breast
+ZNF648	1	F	Breast
+ZNF683	1	F	Breast
+ATP6V1B1	2	F	Breast
+BCL11A	2	F	Breast
+C1QL2	2	F	Breast
+CD207	2	F	Breast
+CD8A	2	F	Breast
+CD8B	2	F	Breast
+CLEC4F	2	F	Breast
+COL4A3	2	F	Breast
+CYTIP	2	F	Breast
+DTNB	2	F	Breast
+DUSP2	2	F	Breast
+EPCAM	2	F	Breast
+EVA1A	2	F	Breast
+FAM110C	2	F	Breast
+FIGLA	2	F	Breast
+FZD7	2	F	Breast
+HOXD9	2	F	Breast
+ICOS	2	F	Breast
+IGKJ5	2	F	Breast
+IQCA1	2	F	Breast
+ITGB6	2	F	Breast
+KRTCAP3	2	F	Breast
+KYNU	2	F	Breast
+LY75	2	F	Breast
+LYPD6B	2	F	Breast
+PDCD1	2	F	Breast
+PTH2R	2	F	Breast
+SCN2A	2	F	Breast
+SDC1	2	F	Breast
+SOX11	2	F	Breast
+SPHKAP	2	F	Breast
+ST6GAL2	2	F	Breast
+TGFA	2	F	Breast
+VAX2	2	F	Breast
+VSNL1	2	F	Breast
+WNT10A	2	F	Breast
+XDH	2	F	Breast
+ZAP70	2	F	Breast
+ATP13A4	3	F	Breast
+ATP13A5	3	F	Breast
+CCR2	3	F	Breast
+CD96	3	F	Breast
+CLDN16	3	F	Breast
+CMTM7	3	F	Breast
+CNTN4	3	F	Breast
+COL7A1	3	F	Breast
+CXCR6	3	F	Breast
+EPHB1	3	F	Breast
+EPHB3	3	F	Breast
+ESYT3	3	F	Breast
+FAM3D	3	F	Breast
+FETUB	3	F	Breast
+FEZF2	3	F	Breast
+KCNH8	3	F	Breast
+LAMP3	3	F	Breast
+LRRN1	3	F	Breast
+LTF	3	F	Breast
+MFI2	3	F	Breast
+MST1R	3	F	Breast
+NFKBIZ	3	F	Breast
+OXTR	3	F	Breast
+PLCH1	3	F	Breast
+PRSS45	3	F	Breast
+RARRES1	3	F	Breast
+ROPN1	3	F	Breast
+ROPN1B	3	F	Breast
+RTP4	3	F	Breast
+STX19	3	F	Breast
+TP63	3	F	Breast
+ADH4	4	F	Breast
+CDKL2	4	F	Breast
+CXCL5	4	F	Breast
+CXCL6	4	F	Breast
+DAPP1	4	F	Breast
+DCHS2	4	F	Breast
+EGF	4	F	Breast
+FAM160A1	4	F	Breast
+FDCSP	4	F	Breast
+FGFBP1	4	F	Breast
+JCHAIN	4	F	Breast
+KIT	4	F	Breast
+NEUROG2	4	F	Breast
+NIPAL1	4	F	Breast
+NKX6-1	4	F	Breast
+NSG1	4	F	Breast
+PF4V1	4	F	Breast
+PROM1	4	F	Breast
+RASSF6	4	F	Breast
+SLC2A9	4	F	Breast
+SLC34A2	4	F	Breast
+TMEM156	4	F	Breast
+TMPRSS11A	4	F	Breast
+UGT8	4	F	Breast
+UNC5C	4	F	Breast
+ACTBL2	5	F	Breast
+CCL28	5	F	Breast
+CCNJL	5	F	Breast
+CCNO	5	F	Breast
+F2RL1	5	F	Breast
+FAM196B	5	F	Breast
+FAT2	5	F	Breast
+FGF1	5	F	Breast
+FOXI1	5	F	Breast
+GABRP	5	F	Breast
+IL17B	5	F	Breast
+IL7R	5	F	Breast
+IRX1	5	F	Breast
+IRX2	5	F	Breast
+IRX4	5	F	Breast
+KCNMB1	5	F	Breast
+PDLIM4	5	F	Breast
+PITX1	5	F	Breast
+PLEKHG4B	5	F	Breast
+PSD2	5	F	Breast
+SLC12A2	5	F	Breast
+SLC27A6	5	F	Breast
+TCF7	5	F	Breast
+TENM2	5	F	Breast
+TERT	5	F	Breast
+ADGRF1	6	F	Breast
+ADTRP	6	F	Breast
+C4A	6	F	Breast
+C4B	6	F	Breast
+C6orf15	6	F	Breast
+DACT2	6	F	Breast
+DLK2	6	F	Breast
+DST	6	F	Breast
+FABP7	6	F	Breast
+FAM83B	6	F	Breast
+FAXC	6	F	Breast
+FUT9	6	F	Breast
+IL22RA2	6	F	Breast
+MRAP2	6	F	Breast
+RFX6	6	F	Breast
+RNF39	6	F	Breast
+RUNX2	6	F	Breast
+SAMD5	6	F	Breast
+SCML4	6	F	Breast
+TAGAP	6	F	Breast
+THEMIS	6	F	Breast
+ATP6V0A4	7	F	Breast
+BHLHA15	7	F	Breast
+C7orf65	7	F	Breast
+CARD11	7	F	Breast
+CCDC129	7	F	Breast
+CLCN1	7	F	Breast
+EPHA1	7	F	Breast
+PDE1C	7	F	Breast
+PDGFA	7	F	Breast
+SVOPL	7	F	Breast
+TMEM213	7	F	Breast
+WDR86	7	F	Breast
+AARD	8	F	Breast
+ADAM28	8	F	Breast
+BLK	8	F	Breast
+CCAR2	8	F	Breast
+CHMP4C	8	F	Breast
+CRISPLD1	8	F	Breast
+DPYS	8	F	Breast
+EFCAB1	8	F	Breast
+ERICH5	8	F	Breast
+FAM167A	8	F	Breast
+FBXO32	8	F	Breast
+GSDMC	8	F	Breast
+HNF4G	8	F	Breast
+LY6D	8	F	Breast
+NCALD	8	F	Breast
+NPM2	8	F	Breast
+NUGGC	8	F	Breast
+PLAT	8	F	Breast
+PNOC	8	F	Breast
+SFRP1	8	F	Breast
+SLC25A37	8	F	Breast
+BARX1	9	F	Breast
+CARD9	9	F	Breast
+CDKN2A	9	F	Breast
+CRB2	9	F	Breast
+ENTPD2	9	F	Breast
+FAM189A2	9	F	Breast
+IFNE	9	F	Breast
+LCN2	9	F	Breast
+ROR2	9	F	Breast
+SARDH	9	F	Breast
+SLC28A3	9	F	Breast
+WNK2	9	F	Breast
+ANTXRL	10	F	Breast
+ANXA8	10	F	Breast
+ANXA8L1	10	F	Breast
+C10orf90	10	F	Breast
+CALML3	10	F	Breast
+CDHR1	10	F	Breast
+COL17A1	10	F	Breast
+CYP26A1	10	F	Breast
+DMBT1	10	F	Breast
+GPRIN2	10	F	Breast
+PLEKHS1	10	F	Breast
+PRKCQ	10	F	Breast
+ACY3	11	F	Breast
+ANO1	11	F	Breast
+B3GAT1	11	F	Breast
+BBOX1	11	F	Breast
+CCDC88B	11	F	Breast
+CD3D	11	F	Breast
+CD3E	11	F	Breast
+CD3G	11	F	Breast
+CD6	11	F	Breast
+CDC42BPG	11	F	Breast
+CHRM1	11	F	Breast
+COLCA1	11	F	Breast
+EHF	11	F	Breast
+ELF5	11	F	Breast
+EPS8L2	11	F	Breast
+FOLH1	11	F	Breast
+FOLR1	11	F	Breast
+GLB1L3	11	F	Breast
+GLYATL2	11	F	Breast
+GRIA4	11	F	Breast
+GYLTL1B	11	F	Breast
+KIAA1549L	11	F	Breast
+LRRC4C	11	F	Breast
+MMP20	11	F	Breast
+MMP7	11	F	Breast
+MRGPRX3	11	F	Breast
+MS4A1	11	F	Breast
+MUC15	11	F	Breast
+MUC5B	11	F	Breast
+NXPE4	11	F	Breast
+OR10A3	11	F	Breast
+OR5P3	11	F	Breast
+PAMR1	11	F	Breast
+PLEKHB1	11	F	Breast
+POU2AF1	11	F	Breast
+POU2F3	11	F	Breast
+PVRL1	11	F	Breast
+SAA4	11	F	Breast
+ST14	11	F	Breast
+ST5	11	F	Breast
+SYT12	11	F	Breast
+SYT13	11	F	Breast
+SYT8	11	F	Breast
+TMPRSS13	11	F	Breast
+TNNI2	11	F	Breast
+TP53AIP1	11	F	Breast
+TRIM29	11	F	Breast
+USH1C	11	F	Breast
+AMIGO2	12	F	Breast
+B4GALNT3	12	F	Breast
+BCL2L14	12	F	Breast
+BHLHE41	12	F	Breast
+BTBD11	12	F	Breast
+CAPZA3	12	F	Breast
+CD27	12	F	Breast
+CD69	12	F	Breast
+CFAP73	12	F	Breast
+HOXC10	12	F	Breast
+HOXC13	12	F	Breast
+KCNH3	12	F	Breast
+KLRC1	12	F	Breast
+KLRC2	12	F	Breast
+KRT5	12	F	Breast
+KRT7	12	F	Breast
+KRT74	12	F	Breast
+KRT81	12	F	Breast
+KRT83	12	F	Breast
+PIK3C2G	12	F	Breast
+PLCZ1	12	F	Breast
+RASAL1	12	F	Breast
+SCNN1A	12	F	Breast
+SLCO1A2	12	F	Breast
+ST8SIA1	12	F	Breast
+TRPV4	12	F	Breast
+VDR	12	F	Breast
+CCNA1	13	F	Breast
+GPR12	13	F	Breast
+KLF5	13	F	Breast
+"NALCN"	13	F	Breast
+OLFM4	13	F	Breast
+TNFRSF19	13	F	Breast
+BEGAIN	14	F	Breast
+NKX2-8	14	F	Breast
+OR11H6	14	F	Breast
+PLD4	14	F	Breast
+PLEK2	14	F	Breast
+SLC39A2	14	F	Breast
+C15orf52	15	F	Breast
+CKMT1A	15	F	Breast
+CKMT1B	15	F	Breast
+CRABP1	15	F	Breast
+FRMD5	15	F	Breast
+GRAMD2	15	F	Breast
+HAPLN3	15	F	Breast
+SCG5	15	F	Breast
+ST8SIA2	15	F	Breast
+STRA6	15	F	Breast
+SYNM	15	F	Breast
+ADGRG5	16	F	Breast
+CCL22	16	F	Breast
+CDH3	16	F	Breast
+CNGB1	16	F	Breast
+CX3CL1	16	F	Breast
+FAM92B	16	F	Breast
+FBXL19	16	F	Breast
+HAS3	16	F	Breast
+HS3ST4	16	F	Breast
+IL34	16	F	Breast
+PRSS21	16	F	Breast
+SALL1	16	F	Breast
+SCNN1G	16	F	Breast
+TNFRSF17	16	F	Breast
+TVP23A	16	F	Breast
+ABCC3	17	F	Breast
+ADORA2B	17	F	Breast
+ATP2A3	17	F	Breast
+CACNB1	17	F	Breast
+DNAH2	17	F	Breast
+ETV4	17	F	Breast
+HEATR9	17	F	Breast
+IKZF3	17	F	Breast
+ITGB4	17	F	Breast
+KRT15	17	F	Breast
+KRT17	17	F	Breast
+MYH13	17	F	Breast
+PLXDC1	17	F	Breast
+SLC13A2	17	F	Breast
+SLC47A2	17	F	Breast
+SLFN13	17	F	Breast
+SOX9	17	F	Breast
+SP6	17	F	Breast
+STAC2	17	F	Breast
+TBX21	17	F	Breast
+TNFRSF13B	17	F	Breast
+TNS4	17	F	Breast
+UTS2R	17	F	Breast
+ZNF750	17	F	Breast
+CHST9	18	F	Breast
+DSC1	18	F	Breast
+DSC2	18	F	Breast
+DSC3	18	F	Breast
+DSG1	18	F	Breast
+DSG3	18	F	Breast
+GRP	18	F	Breast
+PSTPIP2	18	F	Breast
+RNF165	18	F	Breast
+SERPINB5	18	F	Breast
+B3GNT3	19	F	Breast
+BRSK1	19	F	Breast
+CCDC8	19	F	Breast
+CD79A	19	F	Breast
+CELF5	19	F	Breast
+CNN1	19	F	Breast
+COX6B2	19	F	Breast
+CXCL17	19	F	Breast
+DMKN	19	F	Breast
+FBN3	19	F	Breast
+FUT3	19	F	Breast
+FUT6	19	F	Breast
+HSH2D	19	F	Breast
+ICAM5	19	F	Breast
+JSRP1	19	F	Breast
+KCNN4	19	F	Breast
+KLC3	19	F	Breast
+KLK6	19	F	Breast
+KLK8	19	F	Breast
+LMTK3	19	F	Breast
+MUC16	19	F	Breast
+NCCRP1	19	F	Breast
+NKPD1	19	F	Breast
+NLRP11	19	F	Breast
+NLRP7	19	F	Breast
+NRTN	19	F	Breast
+PALM3	19	F	Breast
+PLPP2	19	F	Breast
+PNMAL1	19	F	Breast
+PODNL1	19	F	Breast
+PSG4	19	F	Breast
+SH2D3A	19	F	Breast
+SPIB	19	F	Breast
+TDRD12	19	F	Breast
+THEG	19	F	Breast
+TTYH1	19	F	Breast
+APCDD1L	20	F	Breast
+BPI	20	F	Breast
+CDH22	20	F	Breast
+EDN3	20	F	Breast
+EYA2	20	F	Breast
+FERMT1	20	F	Breast
+PAK7	20	F	Breast
+PI3	20	F	Breast
+PTPRT	20	F	Breast
+SIRPG	20	F	Breast
+SLPI	20	F	Breast
+TFAP2C	20	F	Breast
+VSX1	20	F	Breast
+ZBP1	20	F	Breast
+B3GALT5	21	F	Breast
+CLDN8	21	F	Breast
+CXADR	21	F	Breast
+RIPK4	21	F	Breast
+TMPRSS3	21	F	Breast
+UBASH3A	21	F	Breast
+APOBEC3H	22	F	Breast
+DERL3	22	F	Breast
+IGLL5	22	F	Breast
+KLHDC7B	22	F	Breast
+MEI1	22	F	Breast
+RASL10A	22	F	Breast
+SLC5A1	22	F	Breast
+SOX10	22	F	Breast
+SULT4A1	22	F	Breast
+TMEM211	22	F	Breast
+TMPRSS6	22	F	Breast
+TNFRSF13C	22	F	Breast
+CD40LG	X	F	Breast
+CXCR3	X	F	Breast
+FRMPD3	X	F	Breast
+GPR174	X	F	Breast
+KLHL13	X	F	Breast
+NUP62CL	X	F	Breast
+P2RY10	X	F	Breast
+PCYT1B	X	F	Breast
+PIM2	X	F	Breast
+PTCHD1	X	F	Breast
+SLC6A14	X	F	Breast
+SLC7A3	X	F	Breast
+TCEAL5	X	F	Breast
+TEX11	X	F	Breast
+VGLL1	X	F	Breast
+DPT	1	M	Breast
+SERPINC1	1	M	Breast
+ACADL	2	M	Breast
+CCDC85A	2	M	Breast
+GALNT13	2	M	Breast
+SIX2	2	M	Breast
+AADAC	3	M	Breast
+TRH	3	M	Breast
+NPY2R	4	M	Breast
+FGF10	5	M	Breast
+PRR16	5	M	Breast
+RASGRF2	5	M	Breast
+RHOBTB3	5	M	Breast
+SLC36A2	5	M	Breast
+CNR1	6	M	Breast
+SLC35F1	6	M	Breast
+SNX10	7	M	Breast
+PLAG1	8	M	Breast
+DMRTA1	9	M	Breast
+SLC1A1	9	M	Breast
+KIAA1462	10	M	Breast
+PANK1	10	M	Breast
+PAPSS2	10	M	Breast
+KCNE3	11	M	Breast
+MS4A14	11	M	Breast
+MS4A7	11	M	Breast
+PDE2A	11	M	Breast
+ANO4	12	M	Breast
+AVPR1A	12	M	Breast
+GSG1	12	M	Breast
+LMO3	12	M	Breast
+TMEM132B	12	M	Breast
+TRHDE	12	M	Breast
+ACOT4	14	M	Breast
+CNTNAP4	16	M	Breast
+NQO1	16	M	Breast
+HOXB7	17	M	Breast
+HOXB8	17	M	Breast
+SHISA6	17	M	Breast
+GREB1L	18	M	Breast
+HIF3A	19	M	Breast
+CLIC6	21	M	Breast
+CECR2	22	M	Breast
+SLITRK4	X	M	Breast
+DDX3Y	Y	M	Breast
+EIF1AY	Y	M	Breast
+KDM5D	Y	M	Breast
+NLGN4Y	Y	M	Breast
+PCDH11Y	Y	M	Breast
+RPS4Y1	Y	M	Breast
+TBL1Y	Y	M	Breast
+TMSB4Y	Y	M	Breast
+USP9Y	Y	M	Breast
+UTY	Y	M	Breast
+ZFY	Y	M	Breast
+DDX3Y	Y	M	Caudate
+EIF1AY	Y	M	Caudate
+KDM5D	Y	M	Caudate
+NLGN4Y	Y	M	Caudate
+PCDH11Y	Y	M	Caudate
+RPS4Y1	Y	M	Caudate
+TBL1Y	Y	M	Caudate
+TMSB4Y	Y	M	Caudate
+USP9Y	Y	M	Caudate
+UTY	Y	M	Caudate
+ZFY	Y	M	Caudate
+DDX3Y	Y	M	Cerebellar cortex
+EIF1AY	Y	M	Cerebellar cortex
+NLGN4Y	Y	M	Cerebellar cortex
+RPS4Y1	Y	M	Cerebellar cortex
+USP9Y	Y	M	Cerebellar cortex
+UTY	Y	M	Cerebellar cortex
+ZFY	Y	M	Cerebellar cortex
+GCSAML	1	F	Cerebellum
+HAND2	4	F	Cerebellum
+FKBP9	7	F	Cerebellum
+GLDC	9	F	Cerebellum
+IFNE	9	F	Cerebellum
+SLC26A11	17	F	Cerebellum
+COMP	19	F	Cerebellum
+NLRP2	19	F	Cerebellum
+DDX3X	X	F	Cerebellum
+EIF2S3	X	F	Cerebellum
+KDM5C	X	F	Cerebellum
+KDM6A	X	F	Cerebellum
+MAGED4	X	F	Cerebellum
+PUDP	X	F	Cerebellum
+RPS4X	X	F	Cerebellum
+STS	X	F	Cerebellum
+TRAPPC2	X	F	Cerebellum
+USP9X	X	F	Cerebellum
+ZFX	X	F	Cerebellum
+ZRSR2	X	F	Cerebellum
+CA5B	X	F	Cerebellum
+DDX3X	X	F	Cerebellum
+EIF2S3	X	F	Cerebellum
+KDM5C	X	F	Cerebellum
+KDM6A	X	F	Cerebellum
+PUDP	X	F	Cerebellum
+RPS4X	X	F	Cerebellum
+STS	X	F	Cerebellum
+TXLNG	X	F	Cerebellum
+ZFX	X	F	Cerebellum
+MAP3K2	2	M	Cerebellum
+CD24	6	M	Cerebellum
+CD24	6	M	Cerebellum
+MAL2	8	M	Cerebellum
+PTPN20	10	M	Cerebellum
+NXPH4	12	M	Cerebellum
+SPESP1	15	M	Cerebellum
+AKAP17A	X	M	Cerebellum
+ASMTL	X	M	Cerebellum
+CD99	X	M	Cerebellum
+DHRSX	X	M	Cerebellum
+GTPBP6	X	M	Cerebellum
+PLCXD1	X	M	Cerebellum
+PPP2R3B	X	M	Cerebellum
+ZBED1	X	M	Cerebellum
+HAUS7	X	M	Cerebellum
+ZBED1	X	M	Cerebellum
+DDX3Y	Y	M	Cerebellum
+EIF1AY	Y	M	Cerebellum
+HSFY2	Y	M	Cerebellum
+KDM5D	Y	M	Cerebellum
+NLGN4Y	Y	M	Cerebellum
+PCDH11Y	Y	M	Cerebellum
+RPS4Y1	Y	M	Cerebellum
+RPS4Y2	Y	M	Cerebellum
+TMSB4Y	Y	M	Cerebellum
+USP9Y	Y	M	Cerebellum
+UTY	Y	M	Cerebellum
+ZFY	Y	M	Cerebellum
+DDX3Y	Y	M	Cerebellum
+EIF1AY	Y	M	Cerebellum
+KDM5D	Y	M	Cerebellum
+NLGN4Y	Y	M	Cerebellum
+RPS4Y1	Y	M	Cerebellum
+TMSB4Y	Y	M	Cerebellum
+USP9Y	Y	M	Cerebellum
+UTY	Y	M	Cerebellum
+ZFY	Y	M	Cerebellum
+PLCXD1	X	M	Cortex
+DDX3Y	Y	M	Cortex
+EIF1AY	Y	M	Cortex
+KDM5D	Y	M	Cortex
+NLGN4Y	Y	M	Cortex
+PCDH11Y	Y	M	Cortex
+RPS4Y1	Y	M	Cortex
+TMSB4Y	Y	M	Cortex
+USP9Y	Y	M	Cortex
+UTY	Y	M	Cortex
+ZFY	Y	M	Cortex
+AKNAD1	1	F	Dorsolateral prefrontal cortex
+C3orf62	3	F	Dorsolateral prefrontal cortex
+TET2	4	F	Dorsolateral prefrontal cortex
+KHDRBS2	6	F	Dorsolateral prefrontal cortex
+CSMD3	8	F	Dorsolateral prefrontal cortex
+CAPRIN2	12	F	Dorsolateral prefrontal cortex
+ARGLU1	13	F	Dorsolateral prefrontal cortex
+OSGEP	14	F	Dorsolateral prefrontal cortex
+HYDIN	16	F	Dorsolateral prefrontal cortex
+LUC7L	16	F	Dorsolateral prefrontal cortex
+ARL17A	17	F	Dorsolateral prefrontal cortex
+FAM106A	17	F	Dorsolateral prefrontal cortex
+USP6	17	F	Dorsolateral prefrontal cortex
+KIF16B	20	F	Dorsolateral prefrontal cortex
+ZNF337	20	F	Dorsolateral prefrontal cortex
+ZFX	X	F	Dorsolateral prefrontal cortex
+CD53	1	M	Dorsolateral prefrontal cortex
+CFH	1	M	Dorsolateral prefrontal cortex
+OLFML3	1	M	Dorsolateral prefrontal cortex
+PRRX1	1	M	Dorsolateral prefrontal cortex
+COL3A1	2	M	Dorsolateral prefrontal cortex
+CLDN11	3	M	Dorsolateral prefrontal cortex
+TM4SF1	3	M	Dorsolateral prefrontal cortex
+ZIC1	3	M	Dorsolateral prefrontal cortex
+EDNRA	4	M	Dorsolateral prefrontal cortex
+CSF1R	5	M	Dorsolateral prefrontal cortex
+SEPP1	5	M	Dorsolateral prefrontal cortex
+SPARC	5	M	Dorsolateral prefrontal cortex
+CALD1	7	M	Dorsolateral prefrontal cortex
+COL1A2	7	M	Dorsolateral prefrontal cortex
+CPED1	7	M	Dorsolateral prefrontal cortex
+PDK4	7	M	Dorsolateral prefrontal cortex
+CEBPD	8	M	Dorsolateral prefrontal cortex
+SDC2	8	M	Dorsolateral prefrontal cortex
+ANXA1	9	M	Dorsolateral prefrontal cortex
+OGN	9	M	Dorsolateral prefrontal cortex
+PTGDS	9	M	Dorsolateral prefrontal cortex
+ACTA2	10	M	Dorsolateral prefrontal cortex
+TSPAN15	10	M	Dorsolateral prefrontal cortex
+FOLR2	11	M	Dorsolateral prefrontal cortex
+IGF2	11	M	Dorsolateral prefrontal cortex
+LYVE1	11	M	Dorsolateral prefrontal cortex
+ARHGDIB	12	M	Dorsolateral prefrontal cortex
+LUM	12	M	Dorsolateral prefrontal cortex
+ALOX5AP	13	M	Dorsolateral prefrontal cortex
+LPAR6	13	M	Dorsolateral prefrontal cortex
+NPC2	14	M	Dorsolateral prefrontal cortex
+RNASE1	14	M	Dorsolateral prefrontal cortex
+CEMIP	15	M	Dorsolateral prefrontal cortex
+CRABP1	15	M	Dorsolateral prefrontal cortex
+ISLR	15	M	Dorsolateral prefrontal cortex
+COL1A1	17	M	Dorsolateral prefrontal cortex
+LGALS3BP	17	M	Dorsolateral prefrontal cortex
+SLC9A3R1	17	M	Dorsolateral prefrontal cortex
+COLEC12	18	M	Dorsolateral prefrontal cortex
+EHD2	19	M	Dorsolateral prefrontal cortex
+TYROBP	19	M	Dorsolateral prefrontal cortex
+LGALS1	22	M	Dorsolateral prefrontal cortex
+BGN	X	M	Dorsolateral prefrontal cortex
+CYBB	X	M	Dorsolateral prefrontal cortex
+MSN	X	M	Dorsolateral prefrontal cortex
+DDX3Y	Y	M	Dorsolateral prefrontal cortex
+EIF1AY	Y	M	Dorsolateral prefrontal cortex
+NLGN4Y	Y	M	Dorsolateral prefrontal cortex
+PCDH11Y	Y	M	Dorsolateral prefrontal cortex
+RPS4Y1	Y	M	Dorsolateral prefrontal cortex
+USP9Y	Y	M	Dorsolateral prefrontal cortex
+UTY	Y	M	Dorsolateral prefrontal cortex
+ZFY	Y	M	Dorsolateral prefrontal cortex
+DDX3Y	Y	M	Epstein-Barr virus-transformed lymphocyte
+EIF1AY	Y	M	Epstein-Barr virus-transformed lymphocyte
+KDM5D	Y	M	Epstein-Barr virus-transformed lymphocyte
+NLGN4Y	Y	M	Epstein-Barr virus-transformed lymphocyte
+RPS4Y1	Y	M	Epstein-Barr virus-transformed lymphocyte
+TMSB4Y	Y	M	Epstein-Barr virus-transformed lymphocyte
+USP9Y	Y	M	Epstein-Barr virus-transformed lymphocyte
+UTY	Y	M	Epstein-Barr virus-transformed lymphocyte
+ZFY	Y	M	Epstein-Barr virus-transformed lymphocyte
+DDX3Y	Y	M	Esophagus
+EIF1AY	Y	M	Esophagus
+KDM5D	Y	M	Esophagus
+NLGN4Y	Y	M	Esophagus
+RPS4Y1	Y	M	Esophagus
+TMSB4Y	Y	M	Esophagus
+USP9Y	Y	M	Esophagus
+UTY	Y	M	Esophagus
+ZFY	Y	M	Esophagus
+HAND2	4	F	Frontal cortex
+ABCA6	17	F	Frontal cortex
+NLRP2	19	F	Frontal cortex
+DDX3X	X	F	Frontal cortex
+KDM5C	X	F	Frontal cortex
+KDM6A	X	F	Frontal cortex
+PUDP	X	F	Frontal cortex
+ZFX	X	F	Frontal cortex
+DDX3X	X	F	Frontal cortex
+EIF2S3	X	F	Frontal cortex
+KDM6A	X	F	Frontal cortex
+PUDP	X	F	Frontal cortex
+RPS4X	X	F	Frontal cortex
+ZFX	X	F	Frontal cortex
+ZRSR2	X	F	Frontal cortex
+TAX1BP1	7	M	Frontal cortex
+PTPN20	10	M	Frontal cortex
+STRN3	14	M	Frontal cortex
+SPESP1	15	M	Frontal cortex
+OPRL1	20	M	Frontal cortex
+ASMTL	X	M	Frontal cortex
+CD99	X	M	Frontal cortex
+DHRSX	X	M	Frontal cortex
+GTPBP6	X	M	Frontal cortex
+PCDH11X	X	M	Frontal cortex
+PLCXD1	X	M	Frontal cortex
+PPP2R3B	X	M	Frontal cortex
+ZBED1	X	M	Frontal cortex
+DDX3Y	Y	M	Frontal cortex
+EIF1AY	Y	M	Frontal cortex
+KDM5D	Y	M	Frontal cortex
+NLGN4Y	Y	M	Frontal cortex
+RPS4Y1	Y	M	Frontal cortex
+TMSB4Y	Y	M	Frontal cortex
+USP9Y	Y	M	Frontal cortex
+UTY	Y	M	Frontal cortex
+ZFY	Y	M	Frontal cortex
+DDX3Y	Y	M	Frontal cortex
+EIF1AY	Y	M	Frontal cortex
+HSFY2	Y	M	Frontal cortex
+KDM5D	Y	M	Frontal cortex
+NLGN4Y	Y	M	Frontal cortex
+PCDH11Y	Y	M	Frontal cortex
+RPS4Y1	Y	M	Frontal cortex
+RPS4Y2	Y	M	Frontal cortex
+TMSB4Y	Y	M	Frontal cortex
+USP9Y	Y	M	Frontal cortex
+UTY	Y	M	Frontal cortex
+ZFY	Y	M	Frontal cortex
+ZNF502	3	F	Heart
+RAPGEF6	5	F	Heart
+SAMD5	6	F	Heart
+WRN	8	F	Heart
+BMI1	10	F	Heart
+JMJD1C	10	F	Heart
+BTBD10	11	F	Heart
+ZNF470	19	F	Heart
+DOK5	20	F	Heart
+STS	X	F	Heart
+CA5B	X	F	Heart
+SYAP1	X	F	Heart
+TXLNG	X	F	Heart
+EIF2S3	X	F	Heart
+ZFX	X	F	Heart
+DDX3X	X	F	Heart
+KDM6A	X	F	Heart
+KDM5C	X	F	Heart
+SMC1A	X	F	Heart
+CLIC2	X	F	Heart
+HMGCL	1	M	Heart
+NIPAL3	1	M	Heart
+GSTM2	1	M	Heart
+FMO5	1	M	Heart
+NCSTN	1	M	Heart
+NIT1	1	M	Heart
+ETNK2	1	M	Heart
+RNF187	1	M	Heart
+KCNJ3	2	M	Heart
+DNER	2	M	Heart
+CACNA2D3	3	M	Heart
+FHIT	3	M	Heart
+SLC15A2	3	M	Heart
+ILDR1	3	M	Heart
+HOPX	4	M	Heart
+GPX3	5	M	Heart
+SLC36A2	5	M	Heart
+FABP6	5	M	Heart
+MDGA1	6	M	Heart
+FAM83B	6	M	Heart
+CD24	6	M	Heart
+NPTX2	7	M	Heart
+ATP6V0E2	7	M	Heart
+ASTN2	9	M	Heart
+PGAP2	11	M	Heart
+TPP1	11	M	Heart
+CSRP2	12	M	Heart
+HS6ST3	13	M	Heart
+ESR2	14	M	Heart
+ITPKA	15	M	Heart
+FRMD5	15	M	Heart
+CPLX3	15	M	Heart
+MPI	15	M	Heart
+SV2B	15	M	Heart
+ADAM11	17	M	Heart
+WSCD1	17	M	Heart
+PPM1E	17	M	Heart
+GNAL	18	M	Heart
+CLPP	19	M	Heart
+ELAVL3	19	M	Heart
+TMEM161A	19	M	Heart
+ATP5SL	19	M	Heart
+RTN2	19	M	Heart
+TMEM143	19	M	Heart
+ASIP	20	M	Heart
+GTPBP6	X	M	Heart
+ASMTL	X	M	Heart
+ZBED1	X	M	Heart
+CD99	X	M	Heart
+FAM155B	X	M	Heart
+NGFRAP1	X	M	Heart
+MBNL3	X	M	Heart
+RPS4Y2	Y	M	Heart
+DAZ1	Y	M	Heart
+DAZ2	Y	M	Heart
+DDX3Y	Y	M	Heart
+EIF1AY	Y	M	Heart
+KDM5D	Y	M	Heart
+NLGN4Y	Y	M	Heart
+RPS4Y1	Y	M	Heart
+TBL1Y	Y	M	Heart
+TMSB4Y	Y	M	Heart
+USP9Y	Y	M	Heart
+UTY	Y	M	Heart
+ZFY	Y	M	Heart
+CCDC146	7	F	Hippocampus
+CCDC85C	14	F	Hippocampus
+RIBC1	X	F	Hippocampus
+ZFX	X	F	Hippocampus
+DDX3X	X	F	Hippocampus
+KDM5C	X	F	Hippocampus
+KDM6A	X	F	Hippocampus
+PUDP	X	F	Hippocampus
+ZFX	X	F	Hippocampus
+DDX3Y	Y	M	Hippocampus
+EIF1AY	Y	M	Hippocampus
+NLGN4Y	Y	M	Hippocampus
+PCDH11Y	Y	M	Hippocampus
+RPS4Y1	Y	M	Hippocampus
+USP9Y	Y	M	Hippocampus
+UTY	Y	M	Hippocampus
+ZFY	Y	M	Hippocampus
+DDX3Y	Y	M	Hippocampus
+EIF1AY	Y	M	Hippocampus
+KDM5D	Y	M	Hippocampus
+NLGN4Y	Y	M	Hippocampus
+RPS4Y1	Y	M	Hippocampus
+TMSB4Y	Y	M	Hippocampus
+USP9Y	Y	M	Hippocampus
+UTY	Y	M	Hippocampus
+ZFY	Y	M	Hippocampus
+HES5	1	F	Human umbilical vein endothelial cells
+LEPR	1	F	Human umbilical vein endothelial cells
+CYP1B1	2	F	Human umbilical vein endothelial cells
+ELN	7	F	Human umbilical vein endothelial cells
+IGFBP3	7	F	Human umbilical vein endothelial cells
+FBP2	9	F	Human umbilical vein endothelial cells
+HSD17B3	9	F	Human umbilical vein endothelial cells
+ADIRF	10	F	Human umbilical vein endothelial cells
+AFAP1L2	10	F	Human umbilical vein endothelial cells
+AS3MT	10	F	Human umbilical vein endothelial cells
+KNDC1	10	F	Human umbilical vein endothelial cells
+CLMP	11	F	Human umbilical vein endothelial cells
+GTSF1	12	F	Human umbilical vein endothelial cells
+MUC19	12	F	Human umbilical vein endothelial cells
+IRS2	13	F	Human umbilical vein endothelial cells
+INSR	19	F	Human umbilical vein endothelial cells
+GATA5	20	F	Human umbilical vein endothelial cells
+APOBEC3G	22	F	Human umbilical vein endothelial cells
+APOL3	22	F	Human umbilical vein endothelial cells
+APOL6	22	F	Human umbilical vein endothelial cells
+ARHGAP6	X	F	Human umbilical vein endothelial cells
+ARSD	X	F	Human umbilical vein endothelial cells
+BEX2	X	F	Human umbilical vein endothelial cells
+BTK	X	F	Human umbilical vein endothelial cells
+CA5B	X	F	Human umbilical vein endothelial cells
+CHRDL1	X	F	Human umbilical vein endothelial cells
+CYBB	X	F	Human umbilical vein endothelial cells
+EIF1AX	X	F	Human umbilical vein endothelial cells
+IL1RAPL1	X	F	Human umbilical vein endothelial cells
+KDM6A	X	F	Human umbilical vein endothelial cells
+KLF8	X	F	Human umbilical vein endothelial cells
+OTC	X	F	Human umbilical vein endothelial cells
+PRKX	X	F	Human umbilical vein endothelial cells
+RGN	X	F	Human umbilical vein endothelial cells
+RPS6KA6	X	F	Human umbilical vein endothelial cells
+TXLNG	X	F	Human umbilical vein endothelial cells
+XG	X	F	Human umbilical vein endothelial cells
+ZDHHC15	X	F	Human umbilical vein endothelial cells
+ZFX	X	F	Human umbilical vein endothelial cells
+ZMAT1	X	F	Human umbilical vein endothelial cells
+TDGF1	3	M	Human umbilical vein endothelial cells
+ALAS2	X	M	Human umbilical vein endothelial cells
+AWAT1	X	M	Human umbilical vein endothelial cells
+DDX3Y	Y	M	Human umbilical vein endothelial cells
+KDM5D	Y	M	Human umbilical vein endothelial cells
+NLGN4Y	Y	M	Human umbilical vein endothelial cells
+RBMY1A1	Y	M	Human umbilical vein endothelial cells
+RPS4Y1	Y	M	Human umbilical vein endothelial cells
+RPS4Y2	Y	M	Human umbilical vein endothelial cells
+USP9Y	Y	M	Human umbilical vein endothelial cells
+UTY	Y	M	Human umbilical vein endothelial cells
+VCY	Y	M	Human umbilical vein endothelial cells
+ZFY	Y	M	Human umbilical vein endothelial cells
+RSPO1	1	M	Hypothalamus
+DDX3Y	Y	M	Hypothalamus
+KDM5D	Y	M	Hypothalamus
+NLGN4Y	Y	M	Hypothalamus
+RPS4Y1	Y	M	Hypothalamus
+USP9Y	Y	M	Hypothalamus
+DDX3Y	Y	M	Hypothalamus
+EIF1AY	Y	M	Hypothalamus
+KDM5D	Y	M	Hypothalamus
+NLGN4Y	Y	M	Hypothalamus
+PCDH11Y	Y	M	Hypothalamus
+RPS4Y1	Y	M	Hypothalamus
+TBL1Y	Y	M	Hypothalamus
+TMSB4Y	Y	M	Hypothalamus
+USP9Y	Y	M	Hypothalamus
+UTY	Y	M	Hypothalamus
+ZFY	Y	M	Hypothalamus
+OLFML3	1	M	Inferior temporal cortex
+COL1A2	7	M	Inferior temporal cortex
+SDC2	8	M	Inferior temporal cortex
+FZD8	10	M	Inferior temporal cortex
+COLEC12	18	M	Inferior temporal cortex
+DDX3Y	Y	M	Inferior temporal cortex
+EIF1AY	Y	M	Inferior temporal cortex
+NLGN4Y	Y	M	Inferior temporal cortex
+PCDH11Y	Y	M	Inferior temporal cortex
+RPS4Y1	Y	M	Inferior temporal cortex
+USP9Y	Y	M	Inferior temporal cortex
+UTY	Y	M	Inferior temporal cortex
+ZFY	Y	M	Inferior temporal cortex
+DDX3Y	Y	M	Lung
+EIF1AY	Y	M	Lung
+KDM5D	Y	M	Lung
+NLGN4Y	Y	M	Lung
+PCDH11Y	Y	M	Lung
+RPS4Y1	Y	M	Lung
+TBL1Y	Y	M	Lung
+TMSB4Y	Y	M	Lung
+USP9Y	Y	M	Lung
+UTY	Y	M	Lung
+ZFY	Y	M	Lung
+S100A10	1	F	Medial prefrontal cortex
+C3orf62	3	F	Medial prefrontal cortex
+NR3C2	4	F	Medial prefrontal cortex
+ZNF793	19	F	Medial prefrontal cortex
+PCSK2	20	F	Medial prefrontal cortex
+ZFX	X	F	Medial prefrontal cortex
+MFAP2	1	M	Medial prefrontal cortex
+OLFML3	1	M	Medial prefrontal cortex
+COL3A1	2	M	Medial prefrontal cortex
+NEUROG2	4	M	Medial prefrontal cortex
+IQGAP2	5	M	Medial prefrontal cortex
+LIFR	5	M	Medial prefrontal cortex
+MEGF10	5	M	Medial prefrontal cortex
+SNCAIP	5	M	Medial prefrontal cortex
+EZR	6	M	Medial prefrontal cortex
+HIST1H1A	6	M	Medial prefrontal cortex
+HIST1H2BB	6	M	Medial prefrontal cortex
+HIST1H2BC	6	M	Medial prefrontal cortex
+HIST1H2BK	6	M	Medial prefrontal cortex
+HIST1H3F	6	M	Medial prefrontal cortex
+HIST1H4A	6	M	Medial prefrontal cortex
+HIST1H4B	6	M	Medial prefrontal cortex
+HIST1H4C	6	M	Medial prefrontal cortex
+HIST1H4D	6	M	Medial prefrontal cortex
+HIST1H4F	6	M	Medial prefrontal cortex
+COL1A2	7	M	Medial prefrontal cortex
+EEPD1	7	M	Medial prefrontal cortex
+FZD8	10	M	Medial prefrontal cortex
+ITPRIP	10	M	Medial prefrontal cortex
+VIM	10	M	Medial prefrontal cortex
+H2AFX	11	M	Medial prefrontal cortex
+LYVE1	11	M	Medial prefrontal cortex
+PARVA	11	M	Medial prefrontal cortex
+RCOR2	11	M	Medial prefrontal cortex
+SERPINH1	11	M	Medial prefrontal cortex
+ASCL1	12	M	Medial prefrontal cortex
+LUM	12	M	Medial prefrontal cortex
+PARP4	13	M	Medial prefrontal cortex
+EMP2	16	M	Medial prefrontal cortex
+ZNF423	16	M	Medial prefrontal cortex
+COL1A1	17	M	Medial prefrontal cortex
+SLC9A3R1	17	M	Medial prefrontal cortex
+COLEC12	18	M	Medial prefrontal cortex
+JAG1	20	M	Medial prefrontal cortex
+PREX1	20	M	Medial prefrontal cortex
+MSN	X	M	Medial prefrontal cortex
+TSPAN6	X	M	Medial prefrontal cortex
+DDX3Y	Y	M	Medial prefrontal cortex
+EIF1AY	Y	M	Medial prefrontal cortex
+NLGN4Y	Y	M	Medial prefrontal cortex
+PCDH11Y	Y	M	Medial prefrontal cortex
+RPS4Y1	Y	M	Medial prefrontal cortex
+TMSB4Y	Y	M	Medial prefrontal cortex
+USP9Y	Y	M	Medial prefrontal cortex
+UTY	Y	M	Medial prefrontal cortex
+ZFY	Y	M	Medial prefrontal cortex
+KCNIP4	4	M	Mediodorsal nucleus of the thalamus
+SERPINB9	6	M	Mediodorsal nucleus of the thalamus
+BAMBI	10	M	Mediodorsal nucleus of the thalamus
+DDX3Y	Y	M	Mediodorsal nucleus of the thalamus
+EIF1AY	Y	M	Mediodorsal nucleus of the thalamus
+NLGN4Y	Y	M	Mediodorsal nucleus of the thalamus
+PCDH11Y	Y	M	Mediodorsal nucleus of the thalamus
+RPS4Y1	Y	M	Mediodorsal nucleus of the thalamus
+TMSB4Y	Y	M	Mediodorsal nucleus of the thalamus
+USP9Y	Y	M	Mediodorsal nucleus of the thalamus
+UTY	Y	M	Mediodorsal nucleus of the thalamus
+ZFY	Y	M	Mediodorsal nucleus of the thalamus
+DDX3X	X	F	Medulla
+EIF2S3	X	F	Medulla
+KDM5C	X	F	Medulla
+PNPLA4	X	F	Medulla
+ZFX	X	F	Medulla
+ZRSR2	X	F	Medulla
+DDX3Y	Y	M	Medulla
+EIF1AY	Y	M	Medulla
+KDM5D	Y	M	Medulla
+NLGN4Y	Y	M	Medulla
+RPS4Y1	Y	M	Medulla
+TMSB4Y	Y	M	Medulla
+USP9Y	Y	M	Medulla
+UTY	Y	M	Medulla
+ZFY	Y	M	Medulla
+CD48	1	F	Monocyte-derived dendritic cells
+CTSK	1	F	Monocyte-derived dendritic cells
+GBP1	1	F	Monocyte-derived dendritic cells
+GBP3	1	F	Monocyte-derived dendritic cells
+KIAA1324	1	F	Monocyte-derived dendritic cells
+ADCY3	2	F	Monocyte-derived dendritic cells
+REL	2	F	Monocyte-derived dendritic cells
+SLC8A1	2	F	Monocyte-derived dendritic cells
+STAT4	2	F	Monocyte-derived dendritic cells
+TNFAIP6	2	F	Monocyte-derived dendritic cells
+ADGRG7	3	F	Monocyte-derived dendritic cells
+NFKBIZ	3	F	Monocyte-derived dendritic cells
+IL15	4	F	Monocyte-derived dendritic cells
+RHOH	4	F	Monocyte-derived dendritic cells
+TNIP3	4	F	Monocyte-derived dendritic cells
+IRF1	5	F	Monocyte-derived dendritic cells
+HIVEP2	6	F	Monocyte-derived dendritic cells
+ITGB8	7	F	Monocyte-derived dendritic cells
+MSR1	8	F	Monocyte-derived dendritic cells
+PTK2B	8	F	Monocyte-derived dendritic cells
+SLCO5A1	8	F	Monocyte-derived dendritic cells
+TRAF1	9	F	Monocyte-derived dendritic cells
+TTC39B	9	F	Monocyte-derived dendritic cells
+CASP7	10	F	Monocyte-derived dendritic cells
+IL2RA	10	F	Monocyte-derived dendritic cells
+CD3E	11	F	Monocyte-derived dendritic cells
+ABCD2	12	F	Monocyte-derived dendritic cells
+GAPDH	12	F	Monocyte-derived dendritic cells
+GPR68	14	F	Monocyte-derived dendritic cells
+ATP10A	15	F	Monocyte-derived dendritic cells
+IL4R	16	F	Monocyte-derived dendritic cells
+SLC7A5	16	F	Monocyte-derived dendritic cells
+ALOX15B	17	F	Monocyte-derived dendritic cells
+BRIP1	17	F	Monocyte-derived dendritic cells
+CCR7	17	F	Monocyte-derived dendritic cells
+PTPN1	20	F	Monocyte-derived dendritic cells
+ARSD	X	F	Monocyte-derived dendritic cells
+CFAP47	X	F	Monocyte-derived dendritic cells
+CT45A1	X	F	Monocyte-derived dendritic cells
+CT45A2	X	F	Monocyte-derived dendritic cells
+CT45A3	X	F	Monocyte-derived dendritic cells
+CT45A6	X	F	Monocyte-derived dendritic cells
+DDX3X	X	F	Monocyte-derived dendritic cells
+GAGE12B	X	F	Monocyte-derived dendritic cells
+GAGE12G	X	F	Monocyte-derived dendritic cells
+GAGE12I	X	F	Monocyte-derived dendritic cells
+GAGE12J	X	F	Monocyte-derived dendritic cells
+KDM5C	X	F	Monocyte-derived dendritic cells
+KDM6A	X	F	Monocyte-derived dendritic cells
+PNPLA4	X	F	Monocyte-derived dendritic cells
+PRKX	X	F	Monocyte-derived dendritic cells
+PUDP	X	F	Monocyte-derived dendritic cells
+RPS4X	X	F	Monocyte-derived dendritic cells
+SMC1A	X	F	Monocyte-derived dendritic cells
+STS	X	F	Monocyte-derived dendritic cells
+XAGE5	X	F	Monocyte-derived dendritic cells
+ZFX	X	F	Monocyte-derived dendritic cells
+ATF2	2	M	Monocyte-derived dendritic cells
+GLB1L	2	M	Monocyte-derived dendritic cells
+LRRFIP1	2	M	Monocyte-derived dendritic cells
+ZNF513	2	M	Monocyte-derived dendritic cells
+TEC	4	M	Monocyte-derived dendritic cells
+CD24	6	M	Monocyte-derived dendritic cells
+FAM26F	6	M	Monocyte-derived dendritic cells
+MRAP2	6	M	Monocyte-derived dendritic cells
+UST	6	M	Monocyte-derived dendritic cells
+STEAP4	7	M	Monocyte-derived dendritic cells
+KLF4	9	M	Monocyte-derived dendritic cells
+FAM24B	10	M	Monocyte-derived dendritic cells
+HPS1	10	M	Monocyte-derived dendritic cells
+ST8SIA6	10	M	Monocyte-derived dendritic cells
+AP2A2	11	M	Monocyte-derived dendritic cells
+IL18	11	M	Monocyte-derived dendritic cells
+TNFRSF1A	12	M	Monocyte-derived dendritic cells
+GCOM1	15	M	Monocyte-derived dendritic cells
+GNAS	20	M	Monocyte-derived dendritic cells
+BPY2	Y	M	Monocyte-derived dendritic cells
+CDY1	Y	M	Monocyte-derived dendritic cells
+DAZ1	Y	M	Monocyte-derived dendritic cells
+DAZ2	Y	M	Monocyte-derived dendritic cells
+DDX3Y	Y	M	Monocyte-derived dendritic cells
+EIF1AY	Y	M	Monocyte-derived dendritic cells
+HSFY2	Y	M	Monocyte-derived dendritic cells
+KDM5D	Y	M	Monocyte-derived dendritic cells
+NLGN4Y	Y	M	Monocyte-derived dendritic cells
+PRY	Y	M	Monocyte-derived dendritic cells
+RBMY1A1	Y	M	Monocyte-derived dendritic cells
+RBMY1B	Y	M	Monocyte-derived dendritic cells
+RPS4Y1	Y	M	Monocyte-derived dendritic cells
+RPS4Y2	Y	M	Monocyte-derived dendritic cells
+TMSB4Y	Y	M	Monocyte-derived dendritic cells
+TSPY1	Y	M	Monocyte-derived dendritic cells
+TSPY2	Y	M	Monocyte-derived dendritic cells
+TSPY3	Y	M	Monocyte-derived dendritic cells
+USP9Y	Y	M	Monocyte-derived dendritic cells
+UTY	Y	M	Monocyte-derived dendritic cells
+XKRY	Y	M	Monocyte-derived dendritic cells
+ZFY	Y	M	Monocyte-derived dendritic cells
+TPRG1	3	F	Muscle
+ERCC6L	X	F	Muscle
+MAP7D2	X	F	Muscle
+TSPAN5	4	M	Muscle
+IRF4	6	M	Muscle
+MMP3	11	M	Muscle
+AMER2	13	M	Muscle
+IRX3	16	M	Muscle
+CDH20	18	M	Muscle
+GGT7	20	M	Muscle
+DDX3Y	Y	M	Muscle
+EIF1AY	Y	M	Muscle
+KDM5D	Y	M	Muscle
+NLGN4Y	Y	M	Muscle
+RPS4Y1	Y	M	Muscle
+TBL1Y	Y	M	Muscle
+TMSB4Y	Y	M	Muscle
+USP9Y	Y	M	Muscle
+UTY	Y	M	Muscle
+ZFY	Y	M	Muscle
+ACTG2	2	M	Neocortex
+GYPC	2	M	Neocortex
+ITIH2	10	M	Neocortex
+EMP3	19	M	Neocortex
+MAP7D2	X	F	Nerve
+CADPS	3	M	Nerve
+MMP3	11	M	Nerve
+CLIC6	21	M	Nerve
+SLITRK4	X	M	Nerve
+DDX3Y	Y	M	Nerve
+EIF1AY	Y	M	Nerve
+KDM5D	Y	M	Nerve
+NLGN4Y	Y	M	Nerve
+PCDH11Y	Y	M	Nerve
+RPS4Y1	Y	M	Nerve
+TBL1Y	Y	M	Nerve
+TMSB4Y	Y	M	Nerve
+USP9Y	Y	M	Nerve
+UTY	Y	M	Nerve
+ZFY	Y	M	Nerve
+DDX3Y	Y	M	Nucleusaccumbens
+EIF1AY	Y	M	Nucleusaccumbens
+KDM5D	Y	M	Nucleusaccumbens
+NLGN4Y	Y	M	Nucleusaccumbens
+RPS4Y1	Y	M	Nucleusaccumbens
+TBL1Y	Y	M	Nucleusaccumbens
+TMSB4Y	Y	M	Nucleusaccumbens
+USP9Y	Y	M	Nucleusaccumbens
+UTY	Y	M	Nucleusaccumbens
+ZFY	Y	M	Nucleusaccumbens
+KDM5C	X	F	Occipital cortex
+KDM6A	X	F	Occipital cortex
+PUDP	X	F	Occipital cortex
+ZFX	X	F	Occipital cortex
+DDX3Y	Y	M	Occipital cortex
+EIF1AY	Y	M	Occipital cortex
+KDM5D	Y	M	Occipital cortex
+NLGN4Y	Y	M	Occipital cortex
+RPS4Y1	Y	M	Occipital cortex
+TMSB4Y	Y	M	Occipital cortex
+USP9Y	Y	M	Occipital cortex
+UTY	Y	M	Occipital cortex
+ZFY	Y	M	Occipital cortex
+PUDP	X	F	Orbital prefrontal cortex
+ZFX	X	F	Orbital prefrontal cortex
+OLFML3	1	M	Orbital prefrontal cortex
+COL3A1	2	M	Orbital prefrontal cortex
+SPARC	5	M	Orbital prefrontal cortex
+CTGF	6	M	Orbital prefrontal cortex
+COL1A2	7	M	Orbital prefrontal cortex
+ITIH5	10	M	Orbital prefrontal cortex
+LUM	12	M	Orbital prefrontal cortex
+RNASE1	14	M	Orbital prefrontal cortex
+ISLR	15	M	Orbital prefrontal cortex
+COLEC12	18	M	Orbital prefrontal cortex
+BGN	X	M	Orbital prefrontal cortex
+DDX3Y	Y	M	Orbital prefrontal cortex
+EIF1AY	Y	M	Orbital prefrontal cortex
+NLGN4Y	Y	M	Orbital prefrontal cortex
+PCDH11Y	Y	M	Orbital prefrontal cortex
+RPS4Y1	Y	M	Orbital prefrontal cortex
+TMSB4Y	Y	M	Orbital prefrontal cortex
+USP9Y	Y	M	Orbital prefrontal cortex
+UTY	Y	M	Orbital prefrontal cortex
+ZFY	Y	M	Orbital prefrontal cortex
+AGRN	1	F	Peripheral blood mononuclear cells
+ARHGEF11	1	F	Peripheral blood mononuclear cells
+B3GALT2	1	F	Peripheral blood mononuclear cells
+B4GALT3	1	F	Peripheral blood mononuclear cells
+CACHD1	1	F	Peripheral blood mononuclear cells
+CD1A	1	F	Peripheral blood mononuclear cells
+CD1C	1	F	Peripheral blood mononuclear cells
+CD55	1	F	Peripheral blood mononuclear cells
+CDC42BPA	1	F	Peripheral blood mononuclear cells
+CLIC4	1	F	Peripheral blood mononuclear cells
+CR1	1	F	Peripheral blood mononuclear cells
+CR1L	1	F	Peripheral blood mononuclear cells
+CYR61	1	F	Peripheral blood mononuclear cells
+DDAH1	1	F	Peripheral blood mononuclear cells
+DHRS3	1	F	Peripheral blood mononuclear cells
+DNM3	1	F	Peripheral blood mononuclear cells
+EGLN1	1	F	Peripheral blood mononuclear cells
+FCGR2A	1	F	Peripheral blood mononuclear cells
+FCGR2B	1	F	Peripheral blood mononuclear cells
+FCGR2C	1	F	Peripheral blood mononuclear cells
+FCMR	1	F	Peripheral blood mononuclear cells
+FOXD3	1	F	Peripheral blood mononuclear cells
+FRRS1	1	F	Peripheral blood mononuclear cells
+GPA33	1	F	Peripheral blood mononuclear cells
+HFM1	1	F	Peripheral blood mononuclear cells
+HHAT	1	F	Peripheral blood mononuclear cells
+HIST3H2A	1	F	Peripheral blood mononuclear cells
+HORMAD1	1	F	Peripheral blood mononuclear cells
+HSPA6	1	F	Peripheral blood mononuclear cells
+IFI44L	1	F	Peripheral blood mononuclear cells
+IFI6	1	F	Peripheral blood mononuclear cells
+IGSF21	1	F	Peripheral blood mononuclear cells
+INSL5	1	F	Peripheral blood mononuclear cells
+INTS3	1	F	Peripheral blood mononuclear cells
+IQCC	1	F	Peripheral blood mononuclear cells
+ISG15	1	F	Peripheral blood mononuclear cells
+KCNA10	1	F	Peripheral blood mononuclear cells
+KCNC4	1	F	Peripheral blood mononuclear cells
+KCNK2	1	F	Peripheral blood mononuclear cells
+LIN28A	1	F	Peripheral blood mononuclear cells
+LOR	1	F	Peripheral blood mononuclear cells
+MATN1	1	F	Peripheral blood mononuclear cells
+MIER1	1	F	Peripheral blood mononuclear cells
+MIXL1	1	F	Peripheral blood mononuclear cells
+MUC1	1	F	Peripheral blood mononuclear cells
+MYOG	1	F	Peripheral blood mononuclear cells
+NLRP3	1	F	Peripheral blood mononuclear cells
+NPPA	1	F	Peripheral blood mononuclear cells
+NR0B2	1	F	Peripheral blood mononuclear cells
+NSL1	1	F	Peripheral blood mononuclear cells
+OAZ3	1	F	Peripheral blood mononuclear cells
+OBSCN	1	F	Peripheral blood mononuclear cells
+OLFML2B	1	F	Peripheral blood mononuclear cells
+OPN3	1	F	Peripheral blood mononuclear cells
+OR10K1	1	F	Peripheral blood mononuclear cells
+PAFAH2	1	F	Peripheral blood mononuclear cells
+PBX1	1	F	Peripheral blood mononuclear cells
+PDE4B	1	F	Peripheral blood mononuclear cells
+PDZK1IP1	1	F	Peripheral blood mononuclear cells
+RHD	1	F	Peripheral blood mononuclear cells
+S100A7A	1	F	Peripheral blood mononuclear cells
+SMAP2	1	F	Peripheral blood mononuclear cells
+SORT1	1	F	Peripheral blood mononuclear cells
+ST7L	1	F	Peripheral blood mononuclear cells
+TAF13	1	F	Peripheral blood mononuclear cells
+TAL1	1	F	Peripheral blood mononuclear cells
+THRAP3	1	F	Peripheral blood mononuclear cells
+TRIM63	1	F	Peripheral blood mononuclear cells
+VWA1	1	F	Peripheral blood mononuclear cells
+WDTC1	1	F	Peripheral blood mononuclear cells
+ACADL	2	F	Peripheral blood mononuclear cells
+ALPI	2	F	Peripheral blood mononuclear cells
+ALS2CR12	2	F	Peripheral blood mononuclear cells
+APOB	2	F	Peripheral blood mononuclear cells
+ASAP2	2	F	Peripheral blood mononuclear cells
+BBS5	2	F	Peripheral blood mononuclear cells
+BCL2L11	2	F	Peripheral blood mononuclear cells
+C2orf82	2	F	Peripheral blood mononuclear cells
+CD8B	2	F	Peripheral blood mononuclear cells
+CMPK2	2	F	Peripheral blood mononuclear cells
+COPS8	2	F	Peripheral blood mononuclear cells
+CYP26B1	2	F	Peripheral blood mononuclear cells
+DES	2	F	Peripheral blood mononuclear cells
+DNAH6	2	F	Peripheral blood mononuclear cells
+EDAR	2	F	Peripheral blood mononuclear cells
+EFEMP1	2	F	Peripheral blood mononuclear cells
+EIF2AK3	2	F	Peripheral blood mononuclear cells
+FAM124B	2	F	Peripheral blood mononuclear cells
+FIGN	2	F	Peripheral blood mononuclear cells
+GAD1	2	F	Peripheral blood mononuclear cells
+GBX2	2	F	Peripheral blood mononuclear cells
+GCG	2	F	Peripheral blood mononuclear cells
+GPR39	2	F	Peripheral blood mononuclear cells
+GRB14	2	F	Peripheral blood mononuclear cells
+HOXD1	2	F	Peripheral blood mononuclear cells
+HOXD13	2	F	Peripheral blood mononuclear cells
+ID2	2	F	Peripheral blood mononuclear cells
+IFT172	2	F	Peripheral blood mononuclear cells
+IGFBP2	2	F	Peripheral blood mononuclear cells
+IL1R1	2	F	Peripheral blood mononuclear cells
+IL1RN	2	F	Peripheral blood mononuclear cells
+LOXL3	2	F	Peripheral blood mononuclear cells
+M1AP	2	F	Peripheral blood mononuclear cells
+MYCN	2	F	Peripheral blood mononuclear cells
+NCKAP5	2	F	Peripheral blood mononuclear cells
+NCOA1	2	F	Peripheral blood mononuclear cells
+NEU2	2	F	Peripheral blood mononuclear cells
+NXPH2	2	F	Peripheral blood mononuclear cells
+PUM2	2	F	Peripheral blood mononuclear cells
+RAPGEF4	2	F	Peripheral blood mononuclear cells
+REG1B	2	F	Peripheral blood mononuclear cells
+RGPD5	2	F	Peripheral blood mononuclear cells
+RGPD6	2	F	Peripheral blood mononuclear cells
+RHBDD1	2	F	Peripheral blood mononuclear cells
+RSAD2	2	F	Peripheral blood mononuclear cells
+SCN9A	2	F	Peripheral blood mononuclear cells
+SERTAD2	2	F	Peripheral blood mononuclear cells
+SH3RF3	2	F	Peripheral blood mononuclear cells
+SNED1	2	F	Peripheral blood mononuclear cells
+SP3	2	F	Peripheral blood mononuclear cells
+SP5	2	F	Peripheral blood mononuclear cells
+TANC1	2	F	Peripheral blood mononuclear cells
+TMEFF2	2	F	Peripheral blood mononuclear cells
+TMEM37	2	F	Peripheral blood mononuclear cells
+TNFAIP6	2	F	Peripheral blood mononuclear cells
+UBR3	2	F	Peripheral blood mononuclear cells
+ABCC5	3	F	Peripheral blood mononuclear cells
+ACAD9	3	F	Peripheral blood mononuclear cells
+ALS2CL	3	F	Peripheral blood mononuclear cells
+AMIGO3	3	F	Peripheral blood mononuclear cells
+ATP13A5	3	F	Peripheral blood mononuclear cells
+C3orf36	3	F	Peripheral blood mononuclear cells
+CAND2	3	F	Peripheral blood mononuclear cells
+CCDC39	3	F	Peripheral blood mononuclear cells
+CCR9	3	F	Peripheral blood mononuclear cells
+CHL1	3	F	Peripheral blood mononuclear cells
+CISH	3	F	Peripheral blood mononuclear cells
+DCBLD2	3	F	Peripheral blood mononuclear cells
+DGKG	3	F	Peripheral blood mononuclear cells
+DPPA4	3	F	Peripheral blood mononuclear cells
+EPHB3	3	F	Peripheral blood mononuclear cells
+FETUB	3	F	Peripheral blood mononuclear cells
+FLNB	3	F	Peripheral blood mononuclear cells
+FNDC3B	3	F	Peripheral blood mononuclear cells
+GPR149	3	F	Peripheral blood mononuclear cells
+HEG1	3	F	Peripheral blood mononuclear cells
+ILDR1	3	F	Peripheral blood mononuclear cells
+IQCF2	3	F	Peripheral blood mononuclear cells
+ITGB5	3	F	Peripheral blood mononuclear cells
+MRAS	3	F	Peripheral blood mononuclear cells
+NFKBIZ	3	F	Peripheral blood mononuclear cells
+OSBPL10	3	F	Peripheral blood mononuclear cells
+PLA1A	3	F	Peripheral blood mononuclear cells
+PLS1	3	F	Peripheral blood mononuclear cells
+PLXND1	3	F	Peripheral blood mononuclear cells
+PRSS50	3	F	Peripheral blood mononuclear cells
+RARB	3	F	Peripheral blood mononuclear cells
+RARRES1	3	F	Peripheral blood mononuclear cells
+SLC4A7	3	F	Peripheral blood mononuclear cells
+TDGF1	3	F	Peripheral blood mononuclear cells
+TF	3	F	Peripheral blood mononuclear cells
+TM4SF18	3	F	Peripheral blood mononuclear cells
+TMPPE	3	F	Peripheral blood mononuclear cells
+UPK1B	3	F	Peripheral blood mononuclear cells
+USP13	3	F	Peripheral blood mononuclear cells
+VIPR1	3	F	Peripheral blood mononuclear cells
+ADH1B	4	F	Peripheral blood mononuclear cells
+ADH6	4	F	Peripheral blood mononuclear cells
+ARHGAP10	4	F	Peripheral blood mononuclear cells
+CCKAR	4	F	Peripheral blood mononuclear cells
+CD38	4	F	Peripheral blood mononuclear cells
+CXCL5	4	F	Peripheral blood mononuclear cells
+DCHS2	4	F	Peripheral blood mononuclear cells
+FAM13A	4	F	Peripheral blood mononuclear cells
+GK2	4	F	Peripheral blood mononuclear cells
+HERC5	4	F	Peripheral blood mononuclear cells
+IRF2	4	F	Peripheral blood mononuclear cells
+KLHL5	4	F	Peripheral blood mononuclear cells
+MSANTD1	4	F	Peripheral blood mononuclear cells
+PALLD	4	F	Peripheral blood mononuclear cells
+PAPSS1	4	F	Peripheral blood mononuclear cells
+PDGFRA	4	F	Peripheral blood mononuclear cells
+PDLIM3	4	F	Peripheral blood mononuclear cells
+PDLIM5	4	F	Peripheral blood mononuclear cells
+PF4V1	4	F	Peripheral blood mononuclear cells
+PTPN13	4	F	Peripheral blood mononuclear cells
+RBM46	4	F	Peripheral blood mononuclear cells
+SFRP2	4	F	Peripheral blood mononuclear cells
+SH3RF1	4	F	Peripheral blood mononuclear cells
+SHROOM3	4	F	Peripheral blood mononuclear cells
+SLC10A4	4	F	Peripheral blood mononuclear cells
+STOX2	4	F	Peripheral blood mononuclear cells
+SULT1E1	4	F	Peripheral blood mononuclear cells
+UGT2B4	4	F	Peripheral blood mononuclear cells
+ADAMTS16	5	F	Peripheral blood mononuclear cells
+ADGRV1	5	F	Peripheral blood mononuclear cells
+ALDH7A1	5	F	Peripheral blood mononuclear cells
+ANKRD55	5	F	Peripheral blood mononuclear cells
+ARHGAP26	5	F	Peripheral blood mononuclear cells
+ARRDC3	5	F	Peripheral blood mononuclear cells
+CMBL	5	F	Peripheral blood mononuclear cells
+DDX4	5	F	Peripheral blood mononuclear cells
+EGR1	5	F	Peripheral blood mononuclear cells
+FAM193B	5	F	Peripheral blood mononuclear cells
+FGF18	5	F	Peripheral blood mononuclear cells
+GABRA6	5	F	Peripheral blood mononuclear cells
+GPX8	5	F	Peripheral blood mononuclear cells
+HAVCR1	5	F	Peripheral blood mononuclear cells
+HBEGF	5	F	Peripheral blood mononuclear cells
+HOMER1	5	F	Peripheral blood mononuclear cells
+KCNN2	5	F	Peripheral blood mononuclear cells
+LPCAT1	5	F	Peripheral blood mononuclear cells
+MARVELD2	5	F	Peripheral blood mononuclear cells
+MYOT	5	F	Peripheral blood mononuclear cells
+NREP	5	F	Peripheral blood mononuclear cells
+PCDHB7	5	F	Peripheral blood mononuclear cells
+PDE8B	5	F	Peripheral blood mononuclear cells
+PLPP1	5	F	Peripheral blood mononuclear cells
+POLR3G	5	F	Peripheral blood mononuclear cells
+ROPN1L	5	F	Peripheral blood mononuclear cells
+SHROOM1	5	F	Peripheral blood mononuclear cells
+SPATA9	5	F	Peripheral blood mononuclear cells
+SRP19	5	F	Peripheral blood mononuclear cells
+SSBP2	5	F	Peripheral blood mononuclear cells
+TIMD4	5	F	Peripheral blood mononuclear cells
+TTC23L	5	F	Peripheral blood mononuclear cells
+UBE2D2	5	F	Peripheral blood mononuclear cells
+UBE2QL1	5	F	Peripheral blood mononuclear cells
+ZNF300	5	F	Peripheral blood mononuclear cells
+AIF1	6	F	Peripheral blood mononuclear cells
+ANKS1A	6	F	Peripheral blood mononuclear cells
+ARG1	6	F	Peripheral blood mononuclear cells
+BACH2	6	F	Peripheral blood mononuclear cells
+BVES	6	F	Peripheral blood mononuclear cells
+C6orf25	6	F	Peripheral blood mononuclear cells
+CRISP2	6	F	Peripheral blood mononuclear cells
+DUSP22	6	F	Peripheral blood mononuclear cells
+EPB41L2	6	F	Peripheral blood mononuclear cells
+GNL1	6	F	Peripheral blood mononuclear cells
+GRIK2	6	F	Peripheral blood mononuclear cells
+GTF2H4	6	F	Peripheral blood mononuclear cells
+HFE	6	F	Peripheral blood mononuclear cells
+HIST1H2BA	6	F	Peripheral blood mononuclear cells
+HIST1H2BK	6	F	Peripheral blood mononuclear cells
+HIST1H2BL	6	F	Peripheral blood mononuclear cells
+HIST1H3A	6	F	Peripheral blood mononuclear cells
+HIST1H3G	6	F	Peripheral blood mononuclear cells
+HIST1H4B	6	F	Peripheral blood mononuclear cells
+HIST1H4E	6	F	Peripheral blood mononuclear cells
+HLA-DQB1	6	F	Peripheral blood mononuclear cells
+HLA-DRB1	6	F	Peripheral blood mononuclear cells
+HLA-DRB5	6	F	Peripheral blood mononuclear cells
+IMPG1	6	F	Peripheral blood mononuclear cells
+KHDRBS2	6	F	Peripheral blood mononuclear cells
+LAMA2	6	F	Peripheral blood mononuclear cells
+OR11A1	6	F	Peripheral blood mononuclear cells
+PDE7B	6	F	Peripheral blood mononuclear cells
+PIM1	6	F	Peripheral blood mononuclear cells
+PLG	6	F	Peripheral blood mononuclear cells
+PLN	6	F	Peripheral blood mononuclear cells
+PTCHD4	6	F	Peripheral blood mononuclear cells
+RAB23	6	F	Peripheral blood mononuclear cells
+RNF144B	6	F	Peripheral blood mononuclear cells
+SFT2D1	6	F	Peripheral blood mononuclear cells
+SGK1	6	F	Peripheral blood mononuclear cells
+SIRT5	6	F	Peripheral blood mononuclear cells
+SOBP	6	F	Peripheral blood mononuclear cells
+SYNGAP1	6	F	Peripheral blood mononuclear cells
+TINAG	6	F	Peripheral blood mononuclear cells
+TRERF1	6	F	Peripheral blood mononuclear cells
+VIP	6	F	Peripheral blood mononuclear cells
+VNN2	6	F	Peripheral blood mononuclear cells
+AASS	7	F	Peripheral blood mononuclear cells
+ADAM22	7	F	Peripheral blood mononuclear cells
+ATG9B	7	F	Peripheral blood mononuclear cells
+AVL9	7	F	Peripheral blood mononuclear cells
+BAIAP2L1	7	F	Peripheral blood mononuclear cells
+BRAF	7	F	Peripheral blood mononuclear cells
+CALN1	7	F	Peripheral blood mononuclear cells
+CDCA7L	7	F	Peripheral blood mononuclear cells
+CDK14	7	F	Peripheral blood mononuclear cells
+CDK6	7	F	Peripheral blood mononuclear cells
+CEP41	7	F	Peripheral blood mononuclear cells
+CNTNAP2	7	F	Peripheral blood mononuclear cells
+CPED1	7	F	Peripheral blood mononuclear cells
+CREB5	7	F	Peripheral blood mononuclear cells
+CUX1	7	F	Peripheral blood mononuclear cells
+DLX6	7	F	Peripheral blood mononuclear cells
+EPO	7	F	Peripheral blood mononuclear cells
+FKBP6	7	F	Peripheral blood mononuclear cells
+GAL3ST4	7	F	Peripheral blood mononuclear cells
+GATSL2	7	F	Peripheral blood mononuclear cells
+GET4	7	F	Peripheral blood mononuclear cells
+GNAI1	7	F	Peripheral blood mononuclear cells
+GPR141	7	F	Peripheral blood mononuclear cells
+GRM8	7	F	Peripheral blood mononuclear cells
+HDAC9	7	F	Peripheral blood mononuclear cells
+HOXA9	7	F	Peripheral blood mononuclear cells
+LMTK2	7	F	Peripheral blood mononuclear cells
+NFE2L3	7	F	Peripheral blood mononuclear cells
+NOS3	7	F	Peripheral blood mononuclear cells
+OPN1SW	7	F	Peripheral blood mononuclear cells
+POLR2J3	7	F	Peripheral blood mononuclear cells
+PPP1R3A	7	F	Peripheral blood mononuclear cells
+PSPH	7	F	Peripheral blood mononuclear cells
+RASA4	7	F	Peripheral blood mononuclear cells
+SEMA3A	7	F	Peripheral blood mononuclear cells
+SLC13A1	7	F	Peripheral blood mononuclear cells
+SPDYE1	7	F	Peripheral blood mononuclear cells
+SPDYE2	7	F	Peripheral blood mononuclear cells
+SPDYE5	7	F	Peripheral blood mononuclear cells
+STEAP4	7	F	Peripheral blood mononuclear cells
+SUN1	7	F	Peripheral blood mononuclear cells
+TPST1	7	F	Peripheral blood mononuclear cells
+UPP1	7	F	Peripheral blood mononuclear cells
+VIPR2	7	F	Peripheral blood mononuclear cells
+WIPF3	7	F	Peripheral blood mononuclear cells
+ZNF777	7	F	Peripheral blood mononuclear cells
+ANGPT1	8	F	Peripheral blood mononuclear cells
+ANK1	8	F	Peripheral blood mononuclear cells
+C8orf4	8	F	Peripheral blood mononuclear cells
+DEFA6	8	F	Peripheral blood mononuclear cells
+DEPTOR	8	F	Peripheral blood mononuclear cells
+ENPP2	8	F	Peripheral blood mononuclear cells
+EXT1	8	F	Peripheral blood mononuclear cells
+FAM83H	8	F	Peripheral blood mononuclear cells
+FAM92A1	8	F	Peripheral blood mononuclear cells
+HAS2	8	F	Peripheral blood mononuclear cells
+MMP16	8	F	Peripheral blood mononuclear cells
+MSR1	8	F	Peripheral blood mononuclear cells
+NRG1	8	F	Peripheral blood mononuclear cells
+PTK2	8	F	Peripheral blood mononuclear cells
+PURG	8	F	Peripheral blood mononuclear cells
+RHPN1	8	F	Peripheral blood mononuclear cells
+SFRP1	8	F	Peripheral blood mononuclear cells
+SPAG11B	8	F	Peripheral blood mononuclear cells
+TACC1	8	F	Peripheral blood mononuclear cells
+TMEM71	8	F	Peripheral blood mononuclear cells
+TOX	8	F	Peripheral blood mononuclear cells
+TRHR	8	F	Peripheral blood mononuclear cells
+ASPN	9	F	Peripheral blood mononuclear cells
+CDKN2B	9	F	Peripheral blood mononuclear cells
+CNTNAP3B	9	F	Peripheral blood mononuclear cells
+EPB41L4B	9	F	Peripheral blood mononuclear cells
+FAM120AOS	9	F	Peripheral blood mononuclear cells
+FIBCD1	9	F	Peripheral blood mononuclear cells
+GADD45G	9	F	Peripheral blood mononuclear cells
+GSN	9	F	Peripheral blood mononuclear cells
+KANK1	9	F	Peripheral blood mononuclear cells
+KIAA1161	9	F	Peripheral blood mononuclear cells
+KIAA1958	9	F	Peripheral blood mononuclear cells
+MLLT3	9	F	Peripheral blood mononuclear cells
+MTAP	9	F	Peripheral blood mononuclear cells
+OR1L6	9	F	Peripheral blood mononuclear cells
+ORM1	9	F	Peripheral blood mononuclear cells
+ORM2	9	F	Peripheral blood mononuclear cells
+PHYHD1	9	F	Peripheral blood mononuclear cells
+SEMA4D	9	F	Peripheral blood mononuclear cells
+SLC28A3	9	F	Peripheral blood mononuclear cells
+SLC31A1	9	F	Peripheral blood mononuclear cells
+SPATA6L	9	F	Peripheral blood mononuclear cells
+STOM	9	F	Peripheral blood mononuclear cells
+TLE4	9	F	Peripheral blood mononuclear cells
+TMEM2	9	F	Peripheral blood mononuclear cells
+TMEM245	9	F	Peripheral blood mononuclear cells
+TMEM38B	9	F	Peripheral blood mononuclear cells
+TRBV21OR9-2	9	F	Peripheral blood mononuclear cells
+MARCH8	10	F	Peripheral blood mononuclear cells
+ANKRD30A	10	F	Peripheral blood mononuclear cells
+ARHGAP12	10	F	Peripheral blood mononuclear cells
+ARID5B	10	F	Peripheral blood mononuclear cells
+ATRNL1	10	F	Peripheral blood mononuclear cells
+BICC1	10	F	Peripheral blood mononuclear cells
+C10orf53	10	F	Peripheral blood mononuclear cells
+DNMBP	10	F	Peripheral blood mononuclear cells
+FFAR4	10	F	Peripheral blood mononuclear cells
+FGFR2	10	F	Peripheral blood mononuclear cells
+IFIT1	10	F	Peripheral blood mononuclear cells
+IFIT2	10	F	Peripheral blood mononuclear cells
+IFIT3	10	F	Peripheral blood mononuclear cells
+LIPA	10	F	Peripheral blood mononuclear cells
+MFSD13A	10	F	Peripheral blood mononuclear cells
+MKX	10	F	Peripheral blood mononuclear cells
+NRP1	10	F	Peripheral blood mononuclear cells
+PAPSS2	10	F	Peripheral blood mononuclear cells
+PARD3	10	F	Peripheral blood mononuclear cells
+RHOBTB1	10	F	Peripheral blood mononuclear cells
+RTKN2	10	F	Peripheral blood mononuclear cells
+TACR2	10	F	Peripheral blood mononuclear cells
+TEX36	10	F	Peripheral blood mononuclear cells
+WNT8B	10	F	Peripheral blood mononuclear cells
+APBB1	11	F	Peripheral blood mononuclear cells
+ATG16L2	11	F	Peripheral blood mononuclear cells
+BACE1	11	F	Peripheral blood mononuclear cells
+C11orf74	11	F	Peripheral blood mononuclear cells
+C11orf95	11	F	Peripheral blood mononuclear cells
+CD3E	11	F	Peripheral blood mononuclear cells
+CHID1	11	F	Peripheral blood mononuclear cells
+CNTN5	11	F	Peripheral blood mononuclear cells
+CORO1B	11	F	Peripheral blood mononuclear cells
+DDIAS	11	F	Peripheral blood mononuclear cells
+EHF	11	F	Peripheral blood mononuclear cells
+EIF3F	11	F	Peripheral blood mononuclear cells
+FOLR2	11	F	Peripheral blood mononuclear cells
+FZD4	11	F	Peripheral blood mononuclear cells
+HBG1	11	F	Peripheral blood mononuclear cells
+HBG2	11	F	Peripheral blood mononuclear cells
+IFITM3	11	F	Peripheral blood mononuclear cells
+IRF7	11	F	Peripheral blood mononuclear cells
+LGR4	11	F	Peripheral blood mononuclear cells
+MMP1	11	F	Peripheral blood mononuclear cells
+MS4A4A	11	F	Peripheral blood mononuclear cells
+MUC5AC	11	F	Peripheral blood mononuclear cells
+MYEOV	11	F	Peripheral blood mononuclear cells
+OR10A2	11	F	Peripheral blood mononuclear cells
+OR2AG2	11	F	Peripheral blood mononuclear cells
+OR2D2	11	F	Peripheral blood mononuclear cells
+OR52E5	11	F	Peripheral blood mononuclear cells
+OR56A3	11	F	Peripheral blood mononuclear cells
+OR56A4	11	F	Peripheral blood mononuclear cells
+OR5M10	11	F	Peripheral blood mononuclear cells
+OR5M11	11	F	Peripheral blood mononuclear cells
+PC	11	F	Peripheral blood mononuclear cells
+PGA3	11	F	Peripheral blood mononuclear cells
+PGA4	11	F	Peripheral blood mononuclear cells
+PGA5	11	F	Peripheral blood mononuclear cells
+PKNOX2	11	F	Peripheral blood mononuclear cells
+RASGRP2	11	F	Peripheral blood mononuclear cells
+RBM14	11	F	Peripheral blood mononuclear cells
+RNF169	11	F	Peripheral blood mononuclear cells
+RTN4RL2	11	F	Peripheral blood mononuclear cells
+SCGB2A1	11	F	Peripheral blood mononuclear cells
+SMPD1	11	F	Peripheral blood mononuclear cells
+SYTL2	11	F	Peripheral blood mononuclear cells
+TEX12	11	F	Peripheral blood mononuclear cells
+TMEM134	11	F	Peripheral blood mononuclear cells
+TMEM45B	11	F	Peripheral blood mononuclear cells
+TMEM86A	11	F	Peripheral blood mononuclear cells
+UNC93B1	11	F	Peripheral blood mononuclear cells
+UNC93B6	11	F	Peripheral blood mononuclear cells
+UPK2	11	F	Peripheral blood mononuclear cells
+ZBTB16	11	F	Peripheral blood mononuclear cells
+ZNF215	11	F	Peripheral blood mononuclear cells
+ACRBP	12	F	Peripheral blood mononuclear cells
+ACVRL1	12	F	Peripheral blood mononuclear cells
+AICDA	12	F	Peripheral blood mononuclear cells
+ARHGAP9	12	F	Peripheral blood mononuclear cells
+ASIC1	12	F	Peripheral blood mononuclear cells
+AVIL	12	F	Peripheral blood mononuclear cells
+C12orf42	12	F	Peripheral blood mononuclear cells
+CACNB3	12	F	Peripheral blood mononuclear cells
+CD163	12	F	Peripheral blood mononuclear cells
+CDK2	12	F	Peripheral blood mononuclear cells
+CLEC4E	12	F	Peripheral blood mononuclear cells
+CSAD	12	F	Peripheral blood mononuclear cells
+FAIM2	12	F	Peripheral blood mononuclear cells
+FGD6	12	F	Peripheral blood mononuclear cells
+GLT8D2	12	F	Peripheral blood mononuclear cells
+KCNH3	12	F	Peripheral blood mononuclear cells
+LUM	12	F	Peripheral blood mononuclear cells
+MFAP5	12	F	Peripheral blood mononuclear cells
+MMP19	12	F	Peripheral blood mononuclear cells
+"NAV3"	12	F	Peripheral blood mononuclear cells
+NCOR2	12	F	Peripheral blood mononuclear cells
+OAS1	12	F	Peripheral blood mononuclear cells
+OAS3	12	F	Peripheral blood mononuclear cells
+OASL	12	F	Peripheral blood mononuclear cells
+PCED1B	12	F	Peripheral blood mononuclear cells
+PDE3A	12	F	Peripheral blood mononuclear cells
+PDZRN4	12	F	Peripheral blood mononuclear cells
+PITPNM2	12	F	Peripheral blood mononuclear cells
+SCN8A	12	F	Peripheral blood mononuclear cells
+SETD1B	12	F	Peripheral blood mononuclear cells
+SLC2A13	12	F	Peripheral blood mononuclear cells
+SOCS2	12	F	Peripheral blood mononuclear cells
+SSPN	12	F	Peripheral blood mononuclear cells
+TPCN1	12	F	Peripheral blood mononuclear cells
+TWF1	12	F	Peripheral blood mononuclear cells
+CYSTM1	13	F	Peripheral blood mononuclear cells
+DACH1	13	F	Peripheral blood mononuclear cells
+EDNRB	13	F	Peripheral blood mononuclear cells
+FLT1	13	F	Peripheral blood mononuclear cells
+ITGBL1	13	F	Peripheral blood mononuclear cells
+KCTD4	13	F	Peripheral blood mononuclear cells
+KLHL1	13	F	Peripheral blood mononuclear cells
+NBEA	13	F	Peripheral blood mononuclear cells
+PCCA	13	F	Peripheral blood mononuclear cells
+POU4F1	13	F	Peripheral blood mononuclear cells
+RGCC	13	F	Peripheral blood mononuclear cells
+TBC1D4	13	F	Peripheral blood mononuclear cells
+TMEM255B	13	F	Peripheral blood mononuclear cells
+ANKRD9	14	F	Peripheral blood mononuclear cells
+DACT1	14	F	Peripheral blood mononuclear cells
+DPF3	14	F	Peripheral blood mononuclear cells
+DYNC1H1	14	F	Peripheral blood mononuclear cells
+FRMD6	14	F	Peripheral blood mononuclear cells
+GALC	14	F	Peripheral blood mononuclear cells
+GALNT16	14	F	Peripheral blood mononuclear cells
+GPX2	14	F	Peripheral blood mononuclear cells
+IGHG1	14	F	Peripheral blood mononuclear cells
+LGALS3	14	F	Peripheral blood mononuclear cells
+LGMN	14	F	Peripheral blood mononuclear cells
+NOVA1	14	F	Peripheral blood mononuclear cells
+NPAS3	14	F	Peripheral blood mononuclear cells
+PELI2	14	F	Peripheral blood mononuclear cells
+RNASE3	14	F	Peripheral blood mononuclear cells
+RPS6KL1	14	F	Peripheral blood mononuclear cells
+SERPINA10	14	F	Peripheral blood mononuclear cells
+SGPP1	14	F	Peripheral blood mononuclear cells
+SLC39A9	14	F	Peripheral blood mononuclear cells
+SLC7A8	14	F	Peripheral blood mononuclear cells
+ZNF839	14	F	Peripheral blood mononuclear cells
+ANPEP	15	F	Peripheral blood mononuclear cells
+BMF	15	F	Peripheral blood mononuclear cells
+FAM189A1	15	F	Peripheral blood mononuclear cells
+FSD2	15	F	Peripheral blood mononuclear cells
+GCOM1	15	F	Peripheral blood mononuclear cells
+HYKK	15	F	Peripheral blood mononuclear cells
+JMJD7-PLA2G4B	15	F	Peripheral blood mononuclear cells
+MAN2C1	15	F	Peripheral blood mononuclear cells
+NEDD4	15	F	Peripheral blood mononuclear cells
+NR2E3	15	F	Peripheral blood mononuclear cells
+NR2F2	15	F	Peripheral blood mononuclear cells
+PCSK6	15	F	Peripheral blood mononuclear cells
+RGMA	15	F	Peripheral blood mononuclear cells
+STARD9	15	F	Peripheral blood mononuclear cells
+TMOD2	15	F	Peripheral blood mononuclear cells
+TRPM1	15	F	Peripheral blood mononuclear cells
+UACA	15	F	Peripheral blood mononuclear cells
+ADCY9	16	F	Peripheral blood mononuclear cells
+ADGRG5	16	F	Peripheral blood mononuclear cells
+BANP	16	F	Peripheral blood mononuclear cells
+CARHSP1	16	F	Peripheral blood mononuclear cells
+CDH1	16	F	Peripheral blood mononuclear cells
+CMTM1	16	F	Peripheral blood mononuclear cells
+CPNE2	16	F	Peripheral blood mononuclear cells
+DNASE1	16	F	Peripheral blood mononuclear cells
+DOK4	16	F	Peripheral blood mononuclear cells
+EMP2	16	F	Peripheral blood mononuclear cells
+ITGAX	16	F	Peripheral blood mononuclear cells
+KATNB1	16	F	Peripheral blood mononuclear cells
+KDM8	16	F	Peripheral blood mononuclear cells
+MT1F	16	F	Peripheral blood mononuclear cells
+MT1M	16	F	Peripheral blood mononuclear cells
+MT2A	16	F	Peripheral blood mononuclear cells
+MYH11	16	F	Peripheral blood mononuclear cells
+PMFBP1	16	F	Peripheral blood mononuclear cells
+SALL1	16	F	Peripheral blood mononuclear cells
+SLC38A7	16	F	Peripheral blood mononuclear cells
+SOCS1	16	F	Peripheral blood mononuclear cells
+TPPP3	16	F	Peripheral blood mononuclear cells
+TPSB2	16	F	Peripheral blood mononuclear cells
+TSR3	16	F	Peripheral blood mononuclear cells
+ZFHX3	16	F	Peripheral blood mononuclear cells
+ZG16B	16	F	Peripheral blood mononuclear cells
+ZNF646	16	F	Peripheral blood mononuclear cells
+APOH	17	F	Peripheral blood mononuclear cells
+ATP6V0A1	17	F	Peripheral blood mononuclear cells
+AXIN2	17	F	Peripheral blood mononuclear cells
+B9D1	17	F	Peripheral blood mononuclear cells
+BAIAP2	17	F	Peripheral blood mononuclear cells
+C17orf98	17	F	Peripheral blood mononuclear cells
+CCDC57	17	F	Peripheral blood mononuclear cells
+CCL8	17	F	Peripheral blood mononuclear cells
+CCR7	17	F	Peripheral blood mononuclear cells
+CD300E	17	F	Peripheral blood mononuclear cells
+CEP112	17	F	Peripheral blood mononuclear cells
+CFAP52	17	F	Peripheral blood mononuclear cells
+CSHL1	17	F	Peripheral blood mononuclear cells
+CSNK1D	17	F	Peripheral blood mononuclear cells
+CTC1	17	F	Peripheral blood mononuclear cells
+CUEDC1	17	F	Peripheral blood mononuclear cells
+DCXR	17	F	Peripheral blood mononuclear cells
+EPN2	17	F	Peripheral blood mononuclear cells
+FSCN2	17	F	Peripheral blood mononuclear cells
+GH2	17	F	Peripheral blood mononuclear cells
+GIP	17	F	Peripheral blood mononuclear cells
+GRB7	17	F	Peripheral blood mononuclear cells
+KCNJ12	17	F	Peripheral blood mononuclear cells
+KRT12	17	F	Peripheral blood mononuclear cells
+KRT13	17	F	Peripheral blood mononuclear cells
+KRT222	17	F	Peripheral blood mononuclear cells
+KRT23	17	F	Peripheral blood mononuclear cells
+KRTAP9-9	17	F	Peripheral blood mononuclear cells
+LRRC37A2	17	F	Peripheral blood mononuclear cells
+MINK1	17	F	Peripheral blood mononuclear cells
+MMP28	17	F	Peripheral blood mononuclear cells
+PECAM1	17	F	Peripheral blood mononuclear cells
+PITPNC1	17	F	Peripheral blood mononuclear cells
+PMP22	17	F	Peripheral blood mononuclear cells
+RTN4RL1	17	F	Peripheral blood mononuclear cells
+SLC26A11	17	F	Peripheral blood mononuclear cells
+SLC43A2	17	F	Peripheral blood mononuclear cells
+TEX14	17	F	Peripheral blood mononuclear cells
+TOM1L2	17	F	Peripheral blood mononuclear cells
+UBALD2	17	F	Peripheral blood mononuclear cells
+CCDC102B	18	F	Peripheral blood mononuclear cells
+CTDP1	18	F	Peripheral blood mononuclear cells
+DLGAP1	18	F	Peripheral blood mononuclear cells
+DSEL	18	F	Peripheral blood mononuclear cells
+GNAL	18	F	Peripheral blood mononuclear cells
+MAPRE2	18	F	Peripheral blood mononuclear cells
+PHLPP1	18	F	Peripheral blood mononuclear cells
+PTPRM	18	F	Peripheral blood mononuclear cells
+SERPINB4	18	F	Peripheral blood mononuclear cells
+SOCS6	18	F	Peripheral blood mononuclear cells
+ZNF521	18	F	Peripheral blood mononuclear cells
+ABCA7	19	F	Peripheral blood mononuclear cells
+ADAMTS10	19	F	Peripheral blood mononuclear cells
+ADAMTSL5	19	F	Peripheral blood mononuclear cells
+ADGRE3	19	F	Peripheral blood mononuclear cells
+ATP1A3	19	F	Peripheral blood mononuclear cells
+ATP8B3	19	F	Peripheral blood mononuclear cells
+C19orf44	19	F	Peripheral blood mononuclear cells
+CC2D1A	19	F	Peripheral blood mononuclear cells
+CD209	19	F	Peripheral blood mononuclear cells
+CEACAM1	19	F	Peripheral blood mononuclear cells
+CYP2B6	19	F	Peripheral blood mononuclear cells
+DMWD	19	F	Peripheral blood mononuclear cells
+FCGBP	19	F	Peripheral blood mononuclear cells
+HCST	19	F	Peripheral blood mononuclear cells
+IL4I1	19	F	Peripheral blood mononuclear cells
+ISYNA1	19	F	Peripheral blood mononuclear cells
+KCNK6	19	F	Peripheral blood mononuclear cells
+KLK12	19	F	Peripheral blood mononuclear cells
+LAIR1	19	F	Peripheral blood mononuclear cells
+LIG1	19	F	Peripheral blood mononuclear cells
+NFIX	19	F	Peripheral blood mononuclear cells
+NLRP2	19	F	Peripheral blood mononuclear cells
+NOSIP	19	F	Peripheral blood mononuclear cells
+NUP62	19	F	Peripheral blood mononuclear cells
+OR7A5	19	F	Peripheral blood mononuclear cells
+OR7C2	19	F	Peripheral blood mononuclear cells
+PLPPR3	19	F	Peripheral blood mononuclear cells
+PTGIR	19	F	Peripheral blood mononuclear cells
+RFX2	19	F	Peripheral blood mononuclear cells
+RRAS	19	F	Peripheral blood mononuclear cells
+SAE1	19	F	Peripheral blood mononuclear cells
+SIGLEC11	19	F	Peripheral blood mononuclear cells
+SIGLEC8	19	F	Peripheral blood mononuclear cells
+SPPL2B	19	F	Peripheral blood mononuclear cells
+TDRD12	19	F	Peripheral blood mononuclear cells
+TECR	19	F	Peripheral blood mononuclear cells
+TIMM13	19	F	Peripheral blood mononuclear cells
+TLE2	19	F	Peripheral blood mononuclear cells
+TMEM143	19	F	Peripheral blood mononuclear cells
+TMEM38A	19	F	Peripheral blood mononuclear cells
+TNNT1	19	F	Peripheral blood mononuclear cells
+ZFR2	19	F	Peripheral blood mononuclear cells
+ZNF155	19	F	Peripheral blood mononuclear cells
+ZNF229	19	F	Peripheral blood mononuclear cells
+ZNF404	19	F	Peripheral blood mononuclear cells
+ZNF780B	19	F	Peripheral blood mononuclear cells
+ABHD12	20	F	Peripheral blood mononuclear cells
+DBNDD2	20	F	Peripheral blood mononuclear cells
+EPB41L1	20	F	Peripheral blood mononuclear cells
+GATA5	20	F	Peripheral blood mononuclear cells
+GFRA4	20	F	Peripheral blood mononuclear cells
+ISM1	20	F	Peripheral blood mononuclear cells
+MROH8	20	F	Peripheral blood mononuclear cells
+PCED1A	20	F	Peripheral blood mononuclear cells
+PCIF1	20	F	Peripheral blood mononuclear cells
+RTFDC1	20	F	Peripheral blood mononuclear cells
+SEL1L2	20	F	Peripheral blood mononuclear cells
+SEMG1	20	F	Peripheral blood mononuclear cells
+SLC24A3	20	F	Peripheral blood mononuclear cells
+SUN5	20	F	Peripheral blood mononuclear cells
+C2CD2	21	F	Peripheral blood mononuclear cells
+CLDN14	21	F	Peripheral blood mononuclear cells
+CXADR	21	F	Peripheral blood mononuclear cells
+KRTAP15-1	21	F	Peripheral blood mononuclear cells
+OLIG1	21	F	Peripheral blood mononuclear cells
+PLAC4	21	F	Peripheral blood mononuclear cells
+PRDM15	21	F	Peripheral blood mononuclear cells
+TIAM1	21	F	Peripheral blood mononuclear cells
+AIFM3	22	F	Peripheral blood mononuclear cells
+POLR2F	22	F	Peripheral blood mononuclear cells
+PVALB	22	F	Peripheral blood mononuclear cells
+SEC14L3	22	F	Peripheral blood mononuclear cells
+SMTN	22	F	Peripheral blood mononuclear cells
+TCF20	22	F	Peripheral blood mononuclear cells
+XBP1	22	F	Peripheral blood mononuclear cells
+ZC3H7B	22	F	Peripheral blood mononuclear cells
+SEPT6	X	F	Peripheral blood mononuclear cells
+ACE2	X	F	Peripheral blood mononuclear cells
+ACRC	X	F	Peripheral blood mononuclear cells
+ADGRG4	X	F	Peripheral blood mononuclear cells
+AGTR2	X	F	Peripheral blood mononuclear cells
+AKAP4	X	F	Peripheral blood mononuclear cells
+ALG13	X	F	Peripheral blood mononuclear cells
+AMOT	X	F	Peripheral blood mononuclear cells
+ARHGAP6	X	F	Peripheral blood mononuclear cells
+ARL13A	X	F	Peripheral blood mononuclear cells
+ARSD	X	F	Peripheral blood mononuclear cells
+ATP11C	X	F	Peripheral blood mononuclear cells
+ATP2B3	X	F	Peripheral blood mononuclear cells
+AVPR2	X	F	Peripheral blood mononuclear cells
+AWAT2	X	F	Peripheral blood mononuclear cells
+BEND2	X	F	Peripheral blood mononuclear cells
+CA5B	X	F	Peripheral blood mononuclear cells
+CAPN6	X	F	Peripheral blood mononuclear cells
+CDK16	X	F	Peripheral blood mononuclear cells
+CDR1	X	F	Peripheral blood mononuclear cells
+CDX4	X	F	Peripheral blood mononuclear cells
+CFAP47	X	F	Peripheral blood mononuclear cells
+CNGA2	X	F	Peripheral blood mononuclear cells
+CSAG2	X	F	Peripheral blood mononuclear cells
+CT45A1	X	F	Peripheral blood mononuclear cells
+CT45A2	X	F	Peripheral blood mononuclear cells
+CT45A3	X	F	Peripheral blood mononuclear cells
+CT45A5	X	F	Peripheral blood mononuclear cells
+CT45A6	X	F	Peripheral blood mononuclear cells
+CXorf36	X	F	Peripheral blood mononuclear cells
+CXorf38	X	F	Peripheral blood mononuclear cells
+DCAF12L1	X	F	Peripheral blood mononuclear cells
+DCX	X	F	Peripheral blood mononuclear cells
+DDX3X	X	F	Peripheral blood mononuclear cells
+DGAT2L6	X	F	Peripheral blood mononuclear cells
+DIAPH2	X	F	Peripheral blood mononuclear cells
+DMD	X	F	Peripheral blood mononuclear cells
+DUSP21	X	F	Peripheral blood mononuclear cells
+EIF1AX	X	F	Peripheral blood mononuclear cells
+EIF2S3	X	F	Peripheral blood mononuclear cells
+ERCC6L	X	F	Peripheral blood mononuclear cells
+FAM133A	X	F	Peripheral blood mononuclear cells
+FRMPD4	X	F	Peripheral blood mononuclear cells
+FUNDC1	X	F	Peripheral blood mononuclear cells
+GABRA3	X	F	Peripheral blood mononuclear cells
+GAGE12B	X	F	Peripheral blood mononuclear cells
+GAGE12G	X	F	Peripheral blood mononuclear cells
+GAGE12J	X	F	Peripheral blood mononuclear cells
+GK	X	F	Peripheral blood mononuclear cells
+GPR119	X	F	Peripheral blood mononuclear cells
+GPR173	X	F	Peripheral blood mononuclear cells
+GPR50	X	F	Peripheral blood mononuclear cells
+GPR82	X	F	Peripheral blood mononuclear cells
+HCFC1	X	F	Peripheral blood mononuclear cells
+HEPH	X	F	Peripheral blood mononuclear cells
+HSD17B10	X	F	Peripheral blood mononuclear cells
+IGSF1	X	F	Peripheral blood mononuclear cells
+IL13RA2	X	F	Peripheral blood mononuclear cells
+IL1RAPL1	X	F	Peripheral blood mononuclear cells
+IQSEC2	X	F	Peripheral blood mononuclear cells
+ITM2A	X	F	Peripheral blood mononuclear cells
+KDM5C	X	F	Peripheral blood mononuclear cells
+KDM6A	X	F	Peripheral blood mononuclear cells
+KLHL13	X	F	Peripheral blood mononuclear cells
+LHFPL1	X	F	Peripheral blood mononuclear cells
+LPAR4	X	F	Peripheral blood mononuclear cells
+LRCH2	X	F	Peripheral blood mononuclear cells
+MAGEA1	X	F	Peripheral blood mononuclear cells
+MAGEA9	X	F	Peripheral blood mononuclear cells
+MAGEB16	X	F	Peripheral blood mononuclear cells
+MAGEB18	X	F	Peripheral blood mononuclear cells
+MAGEB3	X	F	Peripheral blood mononuclear cells
+MAP7D2	X	F	Peripheral blood mononuclear cells
+MCF2	X	F	Peripheral blood mononuclear cells
+MED12	X	F	Peripheral blood mononuclear cells
+MED14	X	F	Peripheral blood mononuclear cells
+NCBP2L	X	F	Peripheral blood mononuclear cells
+NKRF	X	F	Peripheral blood mononuclear cells
+NOX1	X	F	Peripheral blood mononuclear cells
+NUDT10	X	F	Peripheral blood mononuclear cells
+NUDT11	X	F	Peripheral blood mononuclear cells
+NUP62CL	X	F	Peripheral blood mononuclear cells
+NXF2	X	F	Peripheral blood mononuclear cells
+NXF2B	X	F	Peripheral blood mononuclear cells
+OPHN1	X	F	Peripheral blood mononuclear cells
+OPN1LW	X	F	Peripheral blood mononuclear cells
+OPN1MW	X	F	Peripheral blood mononuclear cells
+OPN1MW2	X	F	Peripheral blood mononuclear cells
+OR13H1	X	F	Peripheral blood mononuclear cells
+PAGE2B	X	F	Peripheral blood mononuclear cells
+PAGE5	X	F	Peripheral blood mononuclear cells
+PNPLA4	X	F	Peripheral blood mononuclear cells
+POF1B	X	F	Peripheral blood mononuclear cells
+PPEF1	X	F	Peripheral blood mononuclear cells
+PPP1R3F	X	F	Peripheral blood mononuclear cells
+PRKX	X	F	Peripheral blood mononuclear cells
+PRRG1	X	F	Peripheral blood mononuclear cells
+PUDP	X	F	Peripheral blood mononuclear cells
+RAB41	X	F	Peripheral blood mononuclear cells
+REPS2	X	F	Peripheral blood mononuclear cells
+RGAG1	X	F	Peripheral blood mononuclear cells
+RGN	X	F	Peripheral blood mononuclear cells
+RIBC1	X	F	Peripheral blood mononuclear cells
+RNF128	X	F	Peripheral blood mononuclear cells
+RPS4X	X	F	Peripheral blood mononuclear cells
+SAGE1	X	F	Peripheral blood mononuclear cells
+SERPINA7	X	F	Peripheral blood mononuclear cells
+SLC6A14	X	F	Peripheral blood mononuclear cells
+SMC1A	X	F	Peripheral blood mononuclear cells
+SPACA5	X	F	Peripheral blood mononuclear cells
+SSX2	X	F	Peripheral blood mononuclear cells
+SSX3	X	F	Peripheral blood mononuclear cells
+SSX4	X	F	Peripheral blood mononuclear cells
+SSX7	X	F	Peripheral blood mononuclear cells
+STS	X	F	Peripheral blood mononuclear cells
+SYAP1	X	F	Peripheral blood mononuclear cells
+TBL1X	X	F	Peripheral blood mononuclear cells
+TBX22	X	F	Peripheral blood mononuclear cells
+TCEAL7	X	F	Peripheral blood mononuclear cells
+TENM1	X	F	Peripheral blood mononuclear cells
+TEX28	X	F	Peripheral blood mononuclear cells
+TMEM164	X	F	Peripheral blood mononuclear cells
+TMEM27	X	F	Peripheral blood mononuclear cells
+TMEM31	X	F	Peripheral blood mononuclear cells
+TMEM35	X	F	Peripheral blood mononuclear cells
+TRPC5	X	F	Peripheral blood mononuclear cells
+TSPAN7	X	F	Peripheral blood mononuclear cells
+TXLNG	X	F	Peripheral blood mononuclear cells
+UBA1	X	F	Peripheral blood mononuclear cells
+USP9X	X	F	Peripheral blood mononuclear cells
+VGLL1	X	F	Peripheral blood mononuclear cells
+VSIG4	X	F	Peripheral blood mononuclear cells
+WNK3	X	F	Peripheral blood mononuclear cells
+XAGE1A	X	F	Peripheral blood mononuclear cells
+XAGE1B	X	F	Peripheral blood mononuclear cells
+XAGE1E	X	F	Peripheral blood mononuclear cells
+XG	X	F	Peripheral blood mononuclear cells
+XKRX	X	F	Peripheral blood mononuclear cells
+ZCCHC16	X	F	Peripheral blood mononuclear cells
+ZDHHC15	X	F	Peripheral blood mononuclear cells
+ZFX	X	F	Peripheral blood mononuclear cells
+ZNF711	X	F	Peripheral blood mononuclear cells
+ZRSR2	X	F	Peripheral blood mononuclear cells
+AJAP1	1	M	Peripheral blood mononuclear cells
+AK2	1	M	Peripheral blood mononuclear cells
+ALG14	1	M	Peripheral blood mononuclear cells
+ANP32E	1	M	Peripheral blood mononuclear cells
+ARL8A	1	M	Peripheral blood mononuclear cells
+BTG2	1	M	Peripheral blood mononuclear cells
+C1orf101	1	M	Peripheral blood mononuclear cells
+C1orf174	1	M	Peripheral blood mononuclear cells
+C1orf228	1	M	Peripheral blood mononuclear cells
+CAPN2	1	M	Peripheral blood mononuclear cells
+CERS2	1	M	Peripheral blood mononuclear cells
+CSF1	1	M	Peripheral blood mononuclear cells
+CYB561D1	1	M	Peripheral blood mononuclear cells
+CYB5RL	1	M	Peripheral blood mononuclear cells
+DENND1B	1	M	Peripheral blood mononuclear cells
+DOCK7	1	M	Peripheral blood mononuclear cells
+EFNA1	1	M	Peripheral blood mononuclear cells
+F5	1	M	Peripheral blood mononuclear cells
+FAAH	1	M	Peripheral blood mononuclear cells
+FAM213B	1	M	Peripheral blood mononuclear cells
+FOXO6	1	M	Peripheral blood mononuclear cells
+GBP1	1	M	Peripheral blood mononuclear cells
+GBP2	1	M	Peripheral blood mononuclear cells
+GBP5	1	M	Peripheral blood mononuclear cells
+GCLM	1	M	Peripheral blood mononuclear cells
+GNB1	1	M	Peripheral blood mononuclear cells
+GPR137B	1	M	Peripheral blood mononuclear cells
+GPR89A	1	M	Peripheral blood mononuclear cells
+GUCA2B	1	M	Peripheral blood mononuclear cells
+H6PD	1	M	Peripheral blood mononuclear cells
+HENMT1	1	M	Peripheral blood mononuclear cells
+ID3	1	M	Peripheral blood mononuclear cells
+IFFO2	1	M	Peripheral blood mononuclear cells
+IKBKE	1	M	Peripheral blood mononuclear cells
+INADL	1	M	Peripheral blood mononuclear cells
+KCND3	1	M	Peripheral blood mononuclear cells
+KCTD3	1	M	Peripheral blood mononuclear cells
+KIFAP3	1	M	Peripheral blood mononuclear cells
+LGR6	1	M	Peripheral blood mononuclear cells
+LPGAT1	1	M	Peripheral blood mononuclear cells
+LRIF1	1	M	Peripheral blood mononuclear cells
+MFSD4	1	M	Peripheral blood mononuclear cells
+MR1	1	M	Peripheral blood mononuclear cells
+"NAV1"	1	M	Peripheral blood mononuclear cells
+NEK2	1	M	Peripheral blood mononuclear cells
+NIPAL3	1	M	Peripheral blood mononuclear cells
+NR5A2	1	M	Peripheral blood mononuclear cells
+NUCKS1	1	M	Peripheral blood mononuclear cells
+OVGP1	1	M	Peripheral blood mononuclear cells
+PER3	1	M	Peripheral blood mononuclear cells
+PFKFB2	1	M	Peripheral blood mononuclear cells
+PINK1	1	M	Peripheral blood mononuclear cells
+PLCH2	1	M	Peripheral blood mononuclear cells
+PSMA5	1	M	Peripheral blood mononuclear cells
+PTPN22	1	M	Peripheral blood mononuclear cells
+PTPN7	1	M	Peripheral blood mononuclear cells
+RALGPS2	1	M	Peripheral blood mononuclear cells
+RRAGC	1	M	Peripheral blood mononuclear cells
+SCCPDH	1	M	Peripheral blood mononuclear cells
+SH3GLB1	1	M	Peripheral blood mononuclear cells
+SLC2A1	1	M	Peripheral blood mononuclear cells
+SPRTN	1	M	Peripheral blood mononuclear cells
+SUSD4	1	M	Peripheral blood mononuclear cells
+SYT11	1	M	Peripheral blood mononuclear cells
+TARS2	1	M	Peripheral blood mononuclear cells
+THBS3	1	M	Peripheral blood mononuclear cells
+TNNI3K	1	M	Peripheral blood mononuclear cells
+TP73	1	M	Peripheral blood mononuclear cells
+UCK2	1	M	Peripheral blood mononuclear cells
+VAMP3	1	M	Peripheral blood mononuclear cells
+WDR77	1	M	Peripheral blood mononuclear cells
+WLS	1	M	Peripheral blood mononuclear cells
+ZFYVE9	1	M	Peripheral blood mononuclear cells
+ZMYM4	1	M	Peripheral blood mononuclear cells
+ZSWIM5	1	M	Peripheral blood mononuclear cells
+ZYG11B	1	M	Peripheral blood mononuclear cells
+SEPT2	2	M	Peripheral blood mononuclear cells
+ACKR3	2	M	Peripheral blood mononuclear cells
+ACVR1C	2	M	Peripheral blood mononuclear cells
+ACVR2A	2	M	Peripheral blood mononuclear cells
+ADAM23	2	M	Peripheral blood mononuclear cells
+AGAP1	2	M	Peripheral blood mononuclear cells
+ANKAR	2	M	Peripheral blood mononuclear cells
+ARL4C	2	M	Peripheral blood mononuclear cells
+ATIC	2	M	Peripheral blood mononuclear cells
+C2orf69	2	M	Peripheral blood mononuclear cells
+CCDC93	2	M	Peripheral blood mononuclear cells
+CENPO	2	M	Peripheral blood mononuclear cells
+CHST10	2	M	Peripheral blood mononuclear cells
+COL6A3	2	M	Peripheral blood mononuclear cells
+DYNC2LI1	2	M	Peripheral blood mononuclear cells
+EPT1	2	M	Peripheral blood mononuclear cells
+ERCC3	2	M	Peripheral blood mononuclear cells
+FARSB	2	M	Peripheral blood mononuclear cells
+FASTKD2	2	M	Peripheral blood mononuclear cells
+FBLN7	2	M	Peripheral blood mononuclear cells
+FBXO11	2	M	Peripheral blood mononuclear cells
+GFPT1	2	M	Peripheral blood mononuclear cells
+GLB1L	2	M	Peripheral blood mononuclear cells
+GPAT2	2	M	Peripheral blood mononuclear cells
+GPR155	2	M	Peripheral blood mononuclear cells
+HTR2B	2	M	Peripheral blood mononuclear cells
+IAH1	2	M	Peripheral blood mononuclear cells
+ICA1L	2	M	Peripheral blood mononuclear cells
+IDH1	2	M	Peripheral blood mononuclear cells
+IKZF2	2	M	Peripheral blood mononuclear cells
+INO80D	2	M	Peripheral blood mononuclear cells
+IRS1	2	M	Peripheral blood mononuclear cells
+KANSL3	2	M	Peripheral blood mononuclear cells
+KCMF1	2	M	Peripheral blood mononuclear cells
+KCNF1	2	M	Peripheral blood mononuclear cells
+LPIN1	2	M	Peripheral blood mononuclear cells
+LY75	2	M	Peripheral blood mononuclear cells
+MAT2A	2	M	Peripheral blood mononuclear cells
+MTHFD2	2	M	Peripheral blood mononuclear cells
+MYO1B	2	M	Peripheral blood mononuclear cells
+MZT2A	2	M	Peripheral blood mononuclear cells
+NCAPH	2	M	Peripheral blood mononuclear cells
+OSGEPL1	2	M	Peripheral blood mononuclear cells
+PCYOX1	2	M	Peripheral blood mononuclear cells
+PPP1R21	2	M	Peripheral blood mononuclear cells
+PQLC3	2	M	Peripheral blood mononuclear cells
+RAPH1	2	M	Peripheral blood mononuclear cells
+RQCD1	2	M	Peripheral blood mononuclear cells
+RRM2	2	M	Peripheral blood mononuclear cells
+SGPP2	2	M	Peripheral blood mononuclear cells
+SP140	2	M	Peripheral blood mononuclear cells
+SPOPL	2	M	Peripheral blood mononuclear cells
+SPTBN1	2	M	Peripheral blood mononuclear cells
+STAT1	2	M	Peripheral blood mononuclear cells
+WDFY1	2	M	Peripheral blood mononuclear cells
+APPL1	3	M	Peripheral blood mononuclear cells
+ATP13A3	3	M	Peripheral blood mononuclear cells
+C3orf14	3	M	Peripheral blood mononuclear cells
+C3orf17	3	M	Peripheral blood mononuclear cells
+C3orf58	3	M	Peripheral blood mononuclear cells
+CAMP	3	M	Peripheral blood mononuclear cells
+CCDC191	3	M	Peripheral blood mononuclear cells
+CDV3	3	M	Peripheral blood mononuclear cells
+CLDND1	3	M	Peripheral blood mononuclear cells
+CRTAP	3	M	Peripheral blood mononuclear cells
+CX3CR1	3	M	Peripheral blood mononuclear cells
+DOCK3	3	M	Peripheral blood mononuclear cells
+EPM2AIP1	3	M	Peripheral blood mononuclear cells
+FAM131A	3	M	Peripheral blood mononuclear cells
+FAM162A	3	M	Peripheral blood mononuclear cells
+FANCD2	3	M	Peripheral blood mononuclear cells
+GPR160	3	M	Peripheral blood mononuclear cells
+GUCA1C	3	M	Peripheral blood mononuclear cells
+IQCG	3	M	Peripheral blood mononuclear cells
+LPP	3	M	Peripheral blood mononuclear cells
+LRRC58	3	M	Peripheral blood mononuclear cells
+LRRFIP2	3	M	Peripheral blood mononuclear cells
+MORC1	3	M	Peripheral blood mononuclear cells
+NCKIPSD	3	M	Peripheral blood mononuclear cells
+NIT2	3	M	Peripheral blood mononuclear cells
+PARP14	3	M	Peripheral blood mononuclear cells
+PARP3	3	M	Peripheral blood mononuclear cells
+PCYT1A	3	M	Peripheral blood mononuclear cells
+PDIA5	3	M	Peripheral blood mononuclear cells
+PFN2	3	M	Peripheral blood mononuclear cells
+PHF7	3	M	Peripheral blood mononuclear cells
+PIGX	3	M	Peripheral blood mononuclear cells
+RAP2B	3	M	Peripheral blood mononuclear cells
+RPP14	3	M	Peripheral blood mononuclear cells
+SEC22C	3	M	Peripheral blood mononuclear cells
+SELT	3	M	Peripheral blood mononuclear cells
+SLC6A6	3	M	Peripheral blood mononuclear cells
+SSR3	3	M	Peripheral blood mononuclear cells
+TCAIM	3	M	Peripheral blood mononuclear cells
+TFDP2	3	M	Peripheral blood mononuclear cells
+TMEM110	3	M	Peripheral blood mononuclear cells
+TTLL3	3	M	Peripheral blood mononuclear cells
+UBE2E1	3	M	Peripheral blood mononuclear cells
+WNT5A	3	M	Peripheral blood mononuclear cells
+ZIC4	3	M	Peripheral blood mononuclear cells
+ZNF621	3	M	Peripheral blood mononuclear cells
+ZNF662	3	M	Peripheral blood mononuclear cells
+ACSL1	4	M	Peripheral blood mononuclear cells
+ADGRA3	4	M	Peripheral blood mononuclear cells
+AFAP1	4	M	Peripheral blood mononuclear cells
+APBB2	4	M	Peripheral blood mononuclear cells
+C4orf26	4	M	Peripheral blood mononuclear cells
+CCSER1	4	M	Peripheral blood mononuclear cells
+CDS1	4	M	Peripheral blood mononuclear cells
+CPEB2	4	M	Peripheral blood mononuclear cells
+CTSO	4	M	Peripheral blood mononuclear cells
+CWH43	4	M	Peripheral blood mononuclear cells
+CXCL3	4	M	Peripheral blood mononuclear cells
+CYP4V2	4	M	Peripheral blood mononuclear cells
+ENOPH1	4	M	Peripheral blood mononuclear cells
+EVC	4	M	Peripheral blood mononuclear cells
+FRG1	4	M	Peripheral blood mononuclear cells
+GNRHR	4	M	Peripheral blood mononuclear cells
+HHIP	4	M	Peripheral blood mononuclear cells
+KLKB1	4	M	Peripheral blood mononuclear cells
+LARP1B	4	M	Peripheral blood mononuclear cells
+MRPS18C	4	M	Peripheral blood mononuclear cells
+"NAAA"	4	M	Peripheral blood mononuclear cells
+PACRGL	4	M	Peripheral blood mononuclear cells
+PCDH10	4	M	Peripheral blood mononuclear cells
+PLAC8	4	M	Peripheral blood mononuclear cells
+PLK4	4	M	Peripheral blood mononuclear cells
+RBPJ	4	M	Peripheral blood mononuclear cells
+RNF212	4	M	Peripheral blood mononuclear cells
+RUFY3	4	M	Peripheral blood mononuclear cells
+RXFP1	4	M	Peripheral blood mononuclear cells
+SCFD2	4	M	Peripheral blood mononuclear cells
+SEL1L3	4	M	Peripheral blood mononuclear cells
+SLC25A4	4	M	Peripheral blood mononuclear cells
+SLC4A4	4	M	Peripheral blood mononuclear cells
+SLC9B2	4	M	Peripheral blood mononuclear cells
+TSPAN5	4	M	Peripheral blood mononuclear cells
+USP53	4	M	Peripheral blood mononuclear cells
+WDR1	4	M	Peripheral blood mononuclear cells
+WHSC1	4	M	Peripheral blood mononuclear cells
+WWC2	4	M	Peripheral blood mononuclear cells
+ADRB2	5	M	Peripheral blood mononuclear cells
+ANXA6	5	M	Peripheral blood mononuclear cells
+BNIP1	5	M	Peripheral blood mononuclear cells
+BRD9	5	M	Peripheral blood mononuclear cells
+C1QTNF3	5	M	Peripheral blood mononuclear cells
+C5orf56	5	M	Peripheral blood mononuclear cells
+CAST	5	M	Peripheral blood mononuclear cells
+CCNB1	5	M	Peripheral blood mononuclear cells
+CDC42SE2	5	M	Peripheral blood mononuclear cells
+CTXN3	5	M	Peripheral blood mononuclear cells
+FAM169A	5	M	Peripheral blood mononuclear cells
+HDAC3	5	M	Peripheral blood mononuclear cells
+IRF1	5	M	Peripheral blood mononuclear cells
+LNPEP	5	M	Peripheral blood mononuclear cells
+LRRTM2	5	M	Peripheral blood mononuclear cells
+MAPK9	5	M	Peripheral blood mononuclear cells
+MAST4	5	M	Peripheral blood mononuclear cells
+MCCC2	5	M	Peripheral blood mononuclear cells
+MTRR	5	M	Peripheral blood mononuclear cells
+NUDT12	5	M	Peripheral blood mononuclear cells
+PDLIM4	5	M	Peripheral blood mononuclear cells
+PGGT1B	5	M	Peripheral blood mononuclear cells
+PIK3R1	5	M	Peripheral blood mononuclear cells
+RNF130	5	M	Peripheral blood mononuclear cells
+RNF14	5	M	Peripheral blood mononuclear cells
+SFXN1	5	M	Peripheral blood mononuclear cells
+SH3TC2	5	M	Peripheral blood mononuclear cells
+SLC22A5	5	M	Peripheral blood mononuclear cells
+SMAD5	5	M	Peripheral blood mononuclear cells
+SNX24	5	M	Peripheral blood mononuclear cells
+SOWAHA	5	M	Peripheral blood mononuclear cells
+UNC5A	5	M	Peripheral blood mononuclear cells
+ZNF346	5	M	Peripheral blood mononuclear cells
+ABCF1	6	M	Peripheral blood mononuclear cells
+ADGRB3	6	M	Peripheral blood mononuclear cells
+ADGRF1	6	M	Peripheral blood mononuclear cells
+AKAP7	6	M	Peripheral blood mononuclear cells
+ANKRD6	6	M	Peripheral blood mononuclear cells
+ATXN1	6	M	Peripheral blood mononuclear cells
+CD24	6	M	Peripheral blood mononuclear cells
+CLIC5	6	M	Peripheral blood mononuclear cells
+CMTR1	6	M	Peripheral blood mononuclear cells
+CNR1	6	M	Peripheral blood mononuclear cells
+DDX43	6	M	Peripheral blood mononuclear cells
+DST	6	M	Peripheral blood mononuclear cells
+ENPP4	6	M	Peripheral blood mononuclear cells
+ERMARD	6	M	Peripheral blood mononuclear cells
+EYS	6	M	Peripheral blood mononuclear cells
+EZR	6	M	Peripheral blood mononuclear cells
+FGFR1OP	6	M	Peripheral blood mononuclear cells
+FNDC1	6	M	Peripheral blood mononuclear cells
+FRK	6	M	Peripheral blood mononuclear cells
+FUCA2	6	M	Peripheral blood mononuclear cells
+HSD17B8	6	M	Peripheral blood mononuclear cells
+IP6K3	6	M	Peripheral blood mononuclear cells
+IRF4	6	M	Peripheral blood mononuclear cells
+LIN28B	6	M	Peripheral blood mononuclear cells
+LRRC1	6	M	Peripheral blood mononuclear cells
+LRRC16A	6	M	Peripheral blood mononuclear cells
+LYRM4	6	M	Peripheral blood mononuclear cells
+MAS1L	6	M	Peripheral blood mononuclear cells
+MB21D1	6	M	Peripheral blood mononuclear cells
+MBOAT1	6	M	Peripheral blood mononuclear cells
+MDC1	6	M	Peripheral blood mononuclear cells
+MLLT4	6	M	Peripheral blood mononuclear cells
+MRS2	6	M	Peripheral blood mononuclear cells
+NQO2	6	M	Peripheral blood mononuclear cells
+NUDT3	6	M	Peripheral blood mononuclear cells
+NUP153	6	M	Peripheral blood mononuclear cells
+OGFRL1	6	M	Peripheral blood mononuclear cells
+PM20D2	6	M	Peripheral blood mononuclear cells
+PNPLA1	6	M	Peripheral blood mononuclear cells
+POLH	6	M	Peripheral blood mononuclear cells
+PRDM1	6	M	Peripheral blood mononuclear cells
+RPS6KA2	6	M	Peripheral blood mononuclear cells
+SERPINB1	6	M	Peripheral blood mononuclear cells
+SERPINB6	6	M	Peripheral blood mononuclear cells
+SLC17A5	6	M	Peripheral blood mononuclear cells
+SLC22A3	6	M	Peripheral blood mononuclear cells
+TBC1D32	6	M	Peripheral blood mononuclear cells
+TDP2	6	M	Peripheral blood mononuclear cells
+TFAP2A	6	M	Peripheral blood mononuclear cells
+TMEM14A	6	M	Peripheral blood mononuclear cells
+TRAF3IP2	6	M	Peripheral blood mononuclear cells
+TRDN	6	M	Peripheral blood mononuclear cells
+UBE2J1	6	M	Peripheral blood mononuclear cells
+UBE3D	6	M	Peripheral blood mononuclear cells
+WRNIP1	6	M	Peripheral blood mononuclear cells
+ZNF165	6	M	Peripheral blood mononuclear cells
+ACHE	7	M	Peripheral blood mononuclear cells
+ACTB	7	M	Peripheral blood mononuclear cells
+AGBL3	7	M	Peripheral blood mononuclear cells
+AGK	7	M	Peripheral blood mononuclear cells
+ASB4	7	M	Peripheral blood mononuclear cells
+BLVRA	7	M	Peripheral blood mononuclear cells
+CARD11	7	M	Peripheral blood mononuclear cells
+FAM220A	7	M	Peripheral blood mononuclear cells
+FKBP14	7	M	Peripheral blood mononuclear cells
+GNA12	7	M	Peripheral blood mononuclear cells
+GSAP	7	M	Peripheral blood mononuclear cells
+GTF2IRD2	7	M	Peripheral blood mononuclear cells
+GTF2IRD2B	7	M	Peripheral blood mononuclear cells
+ICA1	7	M	Peripheral blood mononuclear cells
+IKZF1	7	M	Peripheral blood mononuclear cells
+INSIG1	7	M	Peripheral blood mononuclear cells
+LANCL2	7	M	Peripheral blood mononuclear cells
+LMOD2	7	M	Peripheral blood mononuclear cells
+NRCAM	7	M	Peripheral blood mononuclear cells
+PSMC2	7	M	Peripheral blood mononuclear cells
+PTN	7	M	Peripheral blood mononuclear cells
+SYPL1	7	M	Peripheral blood mononuclear cells
+TMEM213	7	M	Peripheral blood mononuclear cells
+UBE2D4	7	M	Peripheral blood mononuclear cells
+VKORC1L1	7	M	Peripheral blood mononuclear cells
+WBSCR22	7	M	Peripheral blood mononuclear cells
+WDR60	7	M	Peripheral blood mononuclear cells
+YWHAG	7	M	Peripheral blood mononuclear cells
+ADAM9	8	M	Peripheral blood mononuclear cells
+ASH2L	8	M	Peripheral blood mononuclear cells
+CPNE3	8	M	Peripheral blood mononuclear cells
+CPQ	8	M	Peripheral blood mononuclear cells
+DDHD2	8	M	Peripheral blood mononuclear cells
+DMTN	8	M	Peripheral blood mononuclear cells
+ERICH1	8	M	Peripheral blood mononuclear cells
+FBXO25	8	M	Peripheral blood mononuclear cells
+FZD6	8	M	Peripheral blood mononuclear cells
+GFRA2	8	M	Peripheral blood mononuclear cells
+HGSNAT	8	M	Peripheral blood mononuclear cells
+IMPAD1	8	M	Peripheral blood mononuclear cells
+JRK	8	M	Peripheral blood mononuclear cells
+KLF10	8	M	Peripheral blood mononuclear cells
+LPL	8	M	Peripheral blood mononuclear cells
+MTDH	8	M	Peripheral blood mononuclear cells
+MYOM2	8	M	Peripheral blood mononuclear cells
+NEFL	8	M	Peripheral blood mononuclear cells
+NSMAF	8	M	Peripheral blood mononuclear cells
+PCM1	8	M	Peripheral blood mononuclear cells
+PLEKHA2	8	M	Peripheral blood mononuclear cells
+PNOC	8	M	Peripheral blood mononuclear cells
+PSD3	8	M	Peripheral blood mononuclear cells
+PTP4A3	8	M	Peripheral blood mononuclear cells
+RNF170	8	M	Peripheral blood mononuclear cells
+TCEB1	8	M	Peripheral blood mononuclear cells
+TNFRSF10B	8	M	Peripheral blood mononuclear cells
+TRAPPC9	8	M	Peripheral blood mononuclear cells
+TSPYL5	8	M	Peripheral blood mononuclear cells
+VDAC3	8	M	Peripheral blood mononuclear cells
+ZNF250	8	M	Peripheral blood mononuclear cells
+ZNF251	8	M	Peripheral blood mononuclear cells
+ABCA1	9	M	Peripheral blood mononuclear cells
+ABL1	9	M	Peripheral blood mononuclear cells
+ABO	9	M	Peripheral blood mononuclear cells
+ANKRD18A	9	M	Peripheral blood mononuclear cells
+ANKRD18B	9	M	Peripheral blood mononuclear cells
+C9orf135	9	M	Peripheral blood mononuclear cells
+C9orf64	9	M	Peripheral blood mononuclear cells
+CACNA1B	9	M	Peripheral blood mononuclear cells
+CAMSAP1	9	M	Peripheral blood mononuclear cells
+CARD19	9	M	Peripheral blood mononuclear cells
+CDC14B	9	M	Peripheral blood mononuclear cells
+CDK9	9	M	Peripheral blood mononuclear cells
+CNTNAP3	9	M	Peripheral blood mononuclear cells
+CORO2A	9	M	Peripheral blood mononuclear cells
+DBH	9	M	Peripheral blood mononuclear cells
+EXOSC2	9	M	Peripheral blood mononuclear cells
+GBA2	9	M	Peripheral blood mononuclear cells
+GLIS3	9	M	Peripheral blood mononuclear cells
+IDNK	9	M	Peripheral blood mononuclear cells
+JAK2	9	M	Peripheral blood mononuclear cells
+KIAA0368	9	M	Peripheral blood mononuclear cells
+MSANTD3	9	M	Peripheral blood mononuclear cells
+MVB12B	9	M	Peripheral blood mononuclear cells
+NR6A1	9	M	Peripheral blood mononuclear cells
+OSTF1	9	M	Peripheral blood mononuclear cells
+PDCL	9	M	Peripheral blood mononuclear cells
+PGM5	9	M	Peripheral blood mononuclear cells
+POMT1	9	M	Peripheral blood mononuclear cells
+RABGAP1	9	M	Peripheral blood mononuclear cells
+RAPGEF1	9	M	Peripheral blood mononuclear cells
+RXRA	9	M	Peripheral blood mononuclear cells
+SLC35D2	9	M	Peripheral blood mononuclear cells
+SUSD1	9	M	Peripheral blood mononuclear cells
+TRAF1	9	M	Peripheral blood mononuclear cells
+TRMO	9	M	Peripheral blood mononuclear cells
+VCP	9	M	Peripheral blood mononuclear cells
+ZBTB6	9	M	Peripheral blood mononuclear cells
+ZDHHC21	9	M	Peripheral blood mononuclear cells
+ZNF658	9	M	Peripheral blood mononuclear cells
+ACBD5	10	M	Peripheral blood mononuclear cells
+ACSL5	10	M	Peripheral blood mononuclear cells
+AKR1C8P	10	M	Peripheral blood mononuclear cells
+ANKRD16	10	M	Peripheral blood mononuclear cells
+ASB13	10	M	Peripheral blood mononuclear cells
+BMPR1A	10	M	Peripheral blood mononuclear cells
+CDC123	10	M	Peripheral blood mononuclear cells
+CISD1	10	M	Peripheral blood mononuclear cells
+CNNM1	10	M	Peripheral blood mononuclear cells
+COMMD3	10	M	Peripheral blood mononuclear cells
+CYP2E1	10	M	Peripheral blood mononuclear cells
+DCLRE1A	10	M	Peripheral blood mononuclear cells
+DHX32	10	M	Peripheral blood mononuclear cells
+DNAJC1	10	M	Peripheral blood mononuclear cells
+DNAJC12	10	M	Peripheral blood mononuclear cells
+DPYSL4	10	M	Peripheral blood mononuclear cells
+FAM107B	10	M	Peripheral blood mononuclear cells
+FAM160B1	10	M	Peripheral blood mononuclear cells
+FAM171A1	10	M	Peripheral blood mononuclear cells
+FAM24B	10	M	Peripheral blood mononuclear cells
+FAM35A	10	M	Peripheral blood mononuclear cells
+FAM45A	10	M	Peripheral blood mononuclear cells
+GOT1	10	M	Peripheral blood mononuclear cells
+H2AFY2	10	M	Peripheral blood mononuclear cells
+IDI1	10	M	Peripheral blood mononuclear cells
+INPP5F	10	M	Peripheral blood mononuclear cells
+KIAA1462	10	M	Peripheral blood mononuclear cells
+KLF6	10	M	Peripheral blood mononuclear cells
+MCM10	10	M	Peripheral blood mononuclear cells
+NSMCE4A	10	M	Peripheral blood mononuclear cells
+OBFC1	10	M	Peripheral blood mononuclear cells
+PCBD1	10	M	Peripheral blood mononuclear cells
+PITRM1	10	M	Peripheral blood mononuclear cells
+PLEKHS1	10	M	Peripheral blood mononuclear cells
+PNLIPRP1	10	M	Peripheral blood mononuclear cells
+PTPN20	10	M	Peripheral blood mononuclear cells
+REEP3	10	M	Peripheral blood mononuclear cells
+SAR1A	10	M	Peripheral blood mononuclear cells
+SEPHS1	10	M	Peripheral blood mononuclear cells
+SGPL1	10	M	Peripheral blood mononuclear cells
+SLK	10	M	Peripheral blood mononuclear cells
+SORCS3	10	M	Peripheral blood mononuclear cells
+UROS	10	M	Peripheral blood mononuclear cells
+XPNPEP1	10	M	Peripheral blood mononuclear cells
+ZDHHC16	10	M	Peripheral blood mononuclear cells
+ZMYND11	10	M	Peripheral blood mononuclear cells
+ACAT1	11	M	Peripheral blood mononuclear cells
+ACER3	11	M	Peripheral blood mononuclear cells
+ADAMTS8	11	M	Peripheral blood mononuclear cells
+AHNAK	11	M	Peripheral blood mononuclear cells
+ALG9	11	M	Peripheral blood mononuclear cells
+ALKBH3	11	M	Peripheral blood mononuclear cells
+ALKBH8	11	M	Peripheral blood mononuclear cells
+ARFIP2	11	M	Peripheral blood mononuclear cells
+ARHGEF12	11	M	Peripheral blood mononuclear cells
+C11orf49	11	M	Peripheral blood mononuclear cells
+CAT	11	M	Peripheral blood mononuclear cells
+CD44	11	M	Peripheral blood mononuclear cells
+CEP295	11	M	Peripheral blood mononuclear cells
+COPB1	11	M	Peripheral blood mononuclear cells
+CPT1A	11	M	Peripheral blood mononuclear cells
+CTSW	11	M	Peripheral blood mononuclear cells
+DDB2	11	M	Peripheral blood mononuclear cells
+DHCR7	11	M	Peripheral blood mononuclear cells
+EEF1G	11	M	Peripheral blood mononuclear cells
+FADS2	11	M	Peripheral blood mononuclear cells
+FAM76B	11	M	Peripheral blood mononuclear cells
+FAR1	11	M	Peripheral blood mononuclear cells
+FOLR3	11	M	Peripheral blood mononuclear cells
+FXYD6	11	M	Peripheral blood mononuclear cells
+GPR137	11	M	Peripheral blood mononuclear cells
+GRM5	11	M	Peripheral blood mononuclear cells
+IFT46	11	M	Peripheral blood mononuclear cells
+INPPL1	11	M	Peripheral blood mononuclear cells
+LDHA	11	M	Peripheral blood mononuclear cells
+LPXN	11	M	Peripheral blood mononuclear cells
+MAP6	11	M	Peripheral blood mononuclear cells
+ME3	11	M	Peripheral blood mononuclear cells
+MMP13	11	M	Peripheral blood mononuclear cells
+MTCH2	11	M	Peripheral blood mononuclear cells
+"NAALADL1"	11	M	Peripheral blood mononuclear cells
+OR52N4	11	M	Peripheral blood mononuclear cells
+PGM2L1	11	M	Peripheral blood mononuclear cells
+PPME1	11	M	Peripheral blood mononuclear cells
+PRDM11	11	M	Peripheral blood mononuclear cells
+PRG2	11	M	Peripheral blood mononuclear cells
+PRSS23	11	M	Peripheral blood mononuclear cells
+PSMA1	11	M	Peripheral blood mononuclear cells
+PTS	11	M	Peripheral blood mononuclear cells
+RCN1	11	M	Peripheral blood mononuclear cells
+RIC3	11	M	Peripheral blood mononuclear cells
+SLC25A45	11	M	Peripheral blood mononuclear cells
+SLC35F2	11	M	Peripheral blood mononuclear cells
+SLC36A4	11	M	Peripheral blood mononuclear cells
+SWAP70	11	M	Peripheral blood mononuclear cells
+TBCEL	11	M	Peripheral blood mononuclear cells
+TMEM41B	11	M	Peripheral blood mononuclear cells
+TMEM9B	11	M	Peripheral blood mononuclear cells
+TPP1	11	M	Peripheral blood mononuclear cells
+TRIM21	11	M	Peripheral blood mononuclear cells
+ZDHHC13	11	M	Peripheral blood mononuclear cells
+AGAP2	12	M	Peripheral blood mononuclear cells
+ANKLE2	12	M	Peripheral blood mononuclear cells
+ANKRD13A	12	M	Peripheral blood mononuclear cells
+ATF7IP	12	M	Peripheral blood mononuclear cells
+ATP2A2	12	M	Peripheral blood mononuclear cells
+ATP6V0A2	12	M	Peripheral blood mononuclear cells
+C1RL	12	M	Peripheral blood mononuclear cells
+CCDC91	12	M	Peripheral blood mononuclear cells
+CCDC92	12	M	Peripheral blood mononuclear cells
+CCND2	12	M	Peripheral blood mononuclear cells
+CD63	12	M	Peripheral blood mononuclear cells
+CDK2AP1	12	M	Peripheral blood mononuclear cells
+CLIP1	12	M	Peripheral blood mononuclear cells
+DTX1	12	M	Peripheral blood mononuclear cells
+EMG1	12	M	Peripheral blood mononuclear cells
+ENO2	12	M	Peripheral blood mononuclear cells
+ETV6	12	M	Peripheral blood mononuclear cells
+GIT2	12	M	Peripheral blood mononuclear cells
+GOLT1B	12	M	Peripheral blood mononuclear cells
+GRIP1	12	M	Peripheral blood mononuclear cells
+KLHL42	12	M	Peripheral blood mononuclear cells
+KMT5A	12	M	Peripheral blood mononuclear cells
+LIMA1	12	M	Peripheral blood mononuclear cells
+LIN7A	12	M	Peripheral blood mononuclear cells
+M6PR	12	M	Peripheral blood mononuclear cells
+MANSC1	12	M	Peripheral blood mononuclear cells
+MAP3K12	12	M	Peripheral blood mononuclear cells
+MAPKAPK5	12	M	Peripheral blood mononuclear cells
+NELL2	12	M	Peripheral blood mononuclear cells
+NR4A1	12	M	Peripheral blood mononuclear cells
+NUAK1	12	M	Peripheral blood mononuclear cells
+PARP11	12	M	Peripheral blood mononuclear cells
+PEBP1	12	M	Peripheral blood mononuclear cells
+PEX5	12	M	Peripheral blood mononuclear cells
+PFKM	12	M	Peripheral blood mononuclear cells
+PRDM4	12	M	Peripheral blood mononuclear cells
+RBM19	12	M	Peripheral blood mononuclear cells
+RECQL	12	M	Peripheral blood mononuclear cells
+RHOF	12	M	Peripheral blood mononuclear cells
+RILPL1	12	M	Peripheral blood mononuclear cells
+RNF34	12	M	Peripheral blood mononuclear cells
+SLC15A4	12	M	Peripheral blood mononuclear cells
+SLC38A2	12	M	Peripheral blood mononuclear cells
+TBK1	12	M	Peripheral blood mononuclear cells
+TMEM106C	12	M	Peripheral blood mononuclear cells
+TMEM117	12	M	Peripheral blood mononuclear cells
+TMEM19	12	M	Peripheral blood mononuclear cells
+TMEM5	12	M	Peripheral blood mononuclear cells
+UTP20	12	M	Peripheral blood mononuclear cells
+VPS29	12	M	Peripheral blood mononuclear cells
+ZCRB1	12	M	Peripheral blood mononuclear cells
+ZNF641	12	M	Peripheral blood mononuclear cells
+ANKRD10	13	M	Peripheral blood mononuclear cells
+BIVM	13	M	Peripheral blood mononuclear cells
+CDC16	13	M	Peripheral blood mononuclear cells
+DCT	13	M	Peripheral blood mononuclear cells
+DIAPH3	13	M	Peripheral blood mononuclear cells
+DOCK9	13	M	Peripheral blood mononuclear cells
+KLF5	13	M	Peripheral blood mononuclear cells
+NEK3	13	M	Peripheral blood mononuclear cells
+NHLRC3	13	M	Peripheral blood mononuclear cells
+OLFM4	13	M	Peripheral blood mononuclear cells
+PARP4	13	M	Peripheral blood mononuclear cells
+RAP2A	13	M	Peripheral blood mononuclear cells
+RFC3	13	M	Peripheral blood mononuclear cells
+SLAIN1	13	M	Peripheral blood mononuclear cells
+SLC7A1	13	M	Peripheral blood mononuclear cells
+STK24	13	M	Peripheral blood mononuclear cells
+TDRD3	13	M	Peripheral blood mononuclear cells
+UGGT2	13	M	Peripheral blood mononuclear cells
+ZMYM2	13	M	Peripheral blood mononuclear cells
+AKAP6	14	M	Peripheral blood mononuclear cells
+AKT1	14	M	Peripheral blood mononuclear cells
+AMN	14	M	Peripheral blood mononuclear cells
+ARHGAP5	14	M	Peripheral blood mononuclear cells
+ATP5S	14	M	Peripheral blood mononuclear cells
+C14orf1	14	M	Peripheral blood mononuclear cells
+C14orf142	14	M	Peripheral blood mononuclear cells
+CDC42BPB	14	M	Peripheral blood mononuclear cells
+CFL2	14	M	Peripheral blood mononuclear cells
+DLST	14	M	Peripheral blood mononuclear cells
+EVL	14	M	Peripheral blood mononuclear cells
+FOXG1	14	M	Peripheral blood mononuclear cells
+GMFB	14	M	Peripheral blood mononuclear cells
+MGAT2	14	M	Peripheral blood mononuclear cells
+MLH3	14	M	Peripheral blood mononuclear cells
+PABPN1	14	M	Peripheral blood mononuclear cells
+PARP2	14	M	Peripheral blood mononuclear cells
+PPP1R13B	14	M	Peripheral blood mononuclear cells
+PSMA6	14	M	Peripheral blood mononuclear cells
+PSME2	14	M	Peripheral blood mononuclear cells
+PTGDR	14	M	Peripheral blood mononuclear cells
+PTGR2	14	M	Peripheral blood mononuclear cells
+PTPN21	14	M	Peripheral blood mononuclear cells
+RAB2B	14	M	Peripheral blood mononuclear cells
+SAV1	14	M	Peripheral blood mononuclear cells
+SNX6	14	M	Peripheral blood mononuclear cells
+SOCS4	14	M	Peripheral blood mononuclear cells
+TMEM30B	14	M	Peripheral blood mononuclear cells
+ARRDC4	15	M	Peripheral blood mononuclear cells
+C2CD4B	15	M	Peripheral blood mononuclear cells
+CASC5	15	M	Peripheral blood mononuclear cells
+CGNL1	15	M	Peripheral blood mononuclear cells
+CORO2B	15	M	Peripheral blood mononuclear cells
+DIS3L	15	M	Peripheral blood mononuclear cells
+DPH6	15	M	Peripheral blood mononuclear cells
+EID1	15	M	Peripheral blood mononuclear cells
+FAM174B	15	M	Peripheral blood mononuclear cells
+FAM219B	15	M	Peripheral blood mononuclear cells
+FANCI	15	M	Peripheral blood mononuclear cells
+GDPGP1	15	M	Peripheral blood mononuclear cells
+HDGFRP3	15	M	Peripheral blood mononuclear cells
+IVD	15	M	Peripheral blood mononuclear cells
+LPCAT4	15	M	Peripheral blood mononuclear cells
+MAN2A2	15	M	Peripheral blood mononuclear cells
+MYEF2	15	M	Peripheral blood mononuclear cells
+MYO5A	15	M	Peripheral blood mononuclear cells
+PARP16	15	M	Peripheral blood mononuclear cells
+PARP6	15	M	Peripheral blood mononuclear cells
+PDE8A	15	M	Peripheral blood mononuclear cells
+PIGB	15	M	Peripheral blood mononuclear cells
+PTPN9	15	M	Peripheral blood mononuclear cells
+RPLP1	15	M	Peripheral blood mononuclear cells
+SCG3	15	M	Peripheral blood mononuclear cells
+SNRPN	15	M	Peripheral blood mononuclear cells
+SPESP1	15	M	Peripheral blood mononuclear cells
+ST20	15	M	Peripheral blood mononuclear cells
+TMEM62	15	M	Peripheral blood mononuclear cells
+VWA9	15	M	Peripheral blood mononuclear cells
+WDR61	15	M	Peripheral blood mononuclear cells
+ZWILCH	15	M	Peripheral blood mononuclear cells
+ADGRG1	16	M	Peripheral blood mononuclear cells
+ARL6IP1	16	M	Peripheral blood mononuclear cells
+C16orf45	16	M	Peripheral blood mononuclear cells
+C16orf70	16	M	Peripheral blood mononuclear cells
+C16orf74	16	M	Peripheral blood mononuclear cells
+CDYL2	16	M	Peripheral blood mononuclear cells
+CMC2	16	M	Peripheral blood mononuclear cells
+CMTM3	16	M	Peripheral blood mononuclear cells
+CNGB1	16	M	Peripheral blood mononuclear cells
+COQ7	16	M	Peripheral blood mononuclear cells
+CYB5B	16	M	Peripheral blood mononuclear cells
+DYNC1LI2	16	M	Peripheral blood mononuclear cells
+EEF2K	16	M	Peripheral blood mononuclear cells
+FUS	16	M	Peripheral blood mononuclear cells
+GSE1	16	M	Peripheral blood mononuclear cells
+MEIOB	16	M	Peripheral blood mononuclear cells
+NOD2	16	M	Peripheral blood mononuclear cells
+NTAN1	16	M	Peripheral blood mononuclear cells
+PDXDC1	16	M	Peripheral blood mononuclear cells
+PHLPP2	16	M	Peripheral blood mononuclear cells
+SDR42E1	16	M	Peripheral blood mononuclear cells
+SNTB2	16	M	Peripheral blood mononuclear cells
+TAT	16	M	Peripheral blood mononuclear cells
+TK2	16	M	Peripheral blood mononuclear cells
+USP7	16	M	Peripheral blood mononuclear cells
+VAC14	16	M	Peripheral blood mononuclear cells
+XYLT1	16	M	Peripheral blood mononuclear cells
+ZSCAN32	16	M	Peripheral blood mononuclear cells
+ACTG1	17	M	Peripheral blood mononuclear cells
+ALDH3A2	17	M	Peripheral blood mononuclear cells
+ARSG	17	M	Peripheral blood mononuclear cells
+BCL6B	17	M	Peripheral blood mononuclear cells
+BRIP1	17	M	Peripheral blood mononuclear cells
+C17orf75	17	M	Peripheral blood mononuclear cells
+CACNB1	17	M	Peripheral blood mononuclear cells
+CARD14	17	M	Peripheral blood mononuclear cells
+CCDC43	17	M	Peripheral blood mononuclear cells
+CCDC47	17	M	Peripheral blood mononuclear cells
+CCT6B	17	M	Peripheral blood mononuclear cells
+CDC27	17	M	Peripheral blood mononuclear cells
+CDRT15L2	17	M	Peripheral blood mononuclear cells
+CHD3	17	M	Peripheral blood mononuclear cells
+CSH1	17	M	Peripheral blood mononuclear cells
+DGKE	17	M	Peripheral blood mononuclear cells
+DUSP14	17	M	Peripheral blood mononuclear cells
+EIF4A3	17	M	Peripheral blood mononuclear cells
+FN3K	17	M	Peripheral blood mononuclear cells
+GJC1	17	M	Peripheral blood mononuclear cells
+HLF	17	M	Peripheral blood mononuclear cells
+KCNJ16	17	M	Peripheral blood mononuclear cells
+MAFG	17	M	Peripheral blood mononuclear cells
+MPO	17	M	Peripheral blood mononuclear cells
+MPRIP	17	M	Peripheral blood mononuclear cells
+MSI2	17	M	Peripheral blood mononuclear cells
+MYO18A	17	M	Peripheral blood mononuclear cells
+NGFR	17	M	Peripheral blood mononuclear cells
+NPEPPS	17	M	Peripheral blood mononuclear cells
+OR3A2	17	M	Peripheral blood mononuclear cells
+PFAS	17	M	Peripheral blood mononuclear cells
+PIGL	17	M	Peripheral blood mononuclear cells
+PIP4K2B	17	M	Peripheral blood mononuclear cells
+PITPNA	17	M	Peripheral blood mononuclear cells
+RAB37	17	M	Peripheral blood mononuclear cells
+RECQL5	17	M	Peripheral blood mononuclear cells
+RNF135	17	M	Peripheral blood mononuclear cells
+SCN4A	17	M	Peripheral blood mononuclear cells
+SLFN11	17	M	Peripheral blood mononuclear cells
+SOST	17	M	Peripheral blood mononuclear cells
+SPNS3	17	M	Peripheral blood mononuclear cells
+SRR	17	M	Peripheral blood mononuclear cells
+STAT3	17	M	Peripheral blood mononuclear cells
+STAT5A	17	M	Peripheral blood mononuclear cells
+TTYH2	17	M	Peripheral blood mononuclear cells
+ULK2	17	M	Peripheral blood mononuclear cells
+ARHGAP28	18	M	Peripheral blood mononuclear cells
+CELF4	18	M	Peripheral blood mononuclear cells
+ELAC1	18	M	Peripheral blood mononuclear cells
+GALNT1	18	M	Peripheral blood mononuclear cells
+HRH4	18	M	Peripheral blood mononuclear cells
+IMPACT	18	M	Peripheral blood mononuclear cells
+KDSR	18	M	Peripheral blood mononuclear cells
+MALT1	18	M	Peripheral blood mononuclear cells
+MBP	18	M	Peripheral blood mononuclear cells
+NPC1	18	M	Peripheral blood mononuclear cells
+PMAIP1	18	M	Peripheral blood mononuclear cells
+PPP4R1	18	M	Peripheral blood mononuclear cells
+PSTPIP2	18	M	Peripheral blood mononuclear cells
+PTPN2	18	M	Peripheral blood mononuclear cells
+RAB12	18	M	Peripheral blood mononuclear cells
+RAB27B	18	M	Peripheral blood mononuclear cells
+RTTN	18	M	Peripheral blood mononuclear cells
+SLC39A6	18	M	Peripheral blood mononuclear cells
+ST8SIA5	18	M	Peripheral blood mononuclear cells
+ZNF516	18	M	Peripheral blood mononuclear cells
+ZNF532	18	M	Peripheral blood mononuclear cells
+CEBPG	19	M	Peripheral blood mononuclear cells
+CHAF1A	19	M	Peripheral blood mononuclear cells
+CIRBP	19	M	Peripheral blood mononuclear cells
+DAZAP1	19	M	Peripheral blood mononuclear cells
+EPS15L1	19	M	Peripheral blood mononuclear cells
+GPATCH1	19	M	Peripheral blood mononuclear cells
+MAP4K1	19	M	Peripheral blood mononuclear cells
+NPHS1	19	M	Peripheral blood mononuclear cells
+ODF3L2	19	M	Peripheral blood mononuclear cells
+OR10H2	19	M	Peripheral blood mononuclear cells
+PDCD5	19	M	Peripheral blood mononuclear cells
+PRMT1	19	M	Peripheral blood mononuclear cells
+S1PR5	19	M	Peripheral blood mononuclear cells
+SULT2A1	19	M	Peripheral blood mononuclear cells
+TSHZ3	19	M	Peripheral blood mononuclear cells
+ZFP30	19	M	Peripheral blood mononuclear cells
+ZNF208	19	M	Peripheral blood mononuclear cells
+ZNF264	19	M	Peripheral blood mononuclear cells
+ZNF529	19	M	Peripheral blood mononuclear cells
+ZNF653	19	M	Peripheral blood mononuclear cells
+ZNF837	19	M	Peripheral blood mononuclear cells
+AURKA	20	M	Peripheral blood mononuclear cells
+CDS2	20	M	Peripheral blood mononuclear cells
+GINS1	20	M	Peripheral blood mononuclear cells
+GNAS	20	M	Peripheral blood mononuclear cells
+IFT52	20	M	Peripheral blood mononuclear cells
+KIAA1755	20	M	Peripheral blood mononuclear cells
+NCOA6	20	M	Peripheral blood mononuclear cells
+NPBWR2	20	M	Peripheral blood mononuclear cells
+NPEPL1	20	M	Peripheral blood mononuclear cells
+PRNP	20	M	Peripheral blood mononuclear cells
+RASSF2	20	M	Peripheral blood mononuclear cells
+SLC23A2	20	M	Peripheral blood mononuclear cells
+SYCP2	20	M	Peripheral blood mononuclear cells
+TMX4	20	M	Peripheral blood mononuclear cells
+TSHZ2	20	M	Peripheral blood mononuclear cells
+ZBP1	20	M	Peripheral blood mononuclear cells
+ZNFX1	20	M	Peripheral blood mononuclear cells
+C21orf2	21	M	Peripheral blood mononuclear cells
+CHAF1B	21	M	Peripheral blood mononuclear cells
+CLIC6	21	M	Peripheral blood mononuclear cells
+CSTB	21	M	Peripheral blood mononuclear cells
+ETS2	21	M	Peripheral blood mononuclear cells
+FTCD	21	M	Peripheral blood mononuclear cells
+HLCS	21	M	Peripheral blood mononuclear cells
+NCAM2	21	M	Peripheral blood mononuclear cells
+RWDD2B	21	M	Peripheral blood mononuclear cells
+SUMO3	21	M	Peripheral blood mononuclear cells
+TMPRSS2	21	M	Peripheral blood mononuclear cells
+U2AF1	21	M	Peripheral blood mononuclear cells
+APOBEC3C	22	M	Peripheral blood mononuclear cells
+APOBEC3F	22	M	Peripheral blood mononuclear cells
+APOL1	22	M	Peripheral blood mononuclear cells
+APOL3	22	M	Peripheral blood mononuclear cells
+APOL6	22	M	Peripheral blood mononuclear cells
+CERK	22	M	Peripheral blood mononuclear cells
+EIF4ENIF1	22	M	Peripheral blood mononuclear cells
+FBXO7	22	M	Peripheral blood mononuclear cells
+FOXRED2	22	M	Peripheral blood mononuclear cells
+IL2RB	22	M	Peripheral blood mononuclear cells
+NF2	22	M	Peripheral blood mononuclear cells
+PARVB	22	M	Peripheral blood mononuclear cells
+PATZ1	22	M	Peripheral blood mononuclear cells
+SRRD	22	M	Peripheral blood mononuclear cells
+TTLL1	22	M	Peripheral blood mononuclear cells
+YWHAH	22	M	Peripheral blood mononuclear cells
+ACOT9	X	M	Peripheral blood mononuclear cells
+ANOS1	X	M	Peripheral blood mononuclear cells
+ARHGEF9	X	M	Peripheral blood mononuclear cells
+BCOR	X	M	Peripheral blood mononuclear cells
+CD99	X	M	Peripheral blood mononuclear cells
+CLIC2	X	M	Peripheral blood mononuclear cells
+CSF2RA	X	M	Peripheral blood mononuclear cells
+CTPS2	X	M	Peripheral blood mononuclear cells
+DKC1	X	M	Peripheral blood mononuclear cells
+DNASE1L1	X	M	Peripheral blood mononuclear cells
+GAB3	X	M	Peripheral blood mononuclear cells
+KAL1	X	M	Peripheral blood mononuclear cells
+KIAA2022	X	M	Peripheral blood mononuclear cells
+LDOC1	X	M	Peripheral blood mononuclear cells
+LONRF3	X	M	Peripheral blood mononuclear cells
+MAGED1	X	M	Peripheral blood mononuclear cells
+MID2	X	M	Peripheral blood mononuclear cells
+MTM1	X	M	Peripheral blood mononuclear cells
+MTMR1	X	M	Peripheral blood mononuclear cells
+MTMR8	X	M	Peripheral blood mononuclear cells
+P2RY8	X	M	Peripheral blood mononuclear cells
+PBDC1	X	M	Peripheral blood mononuclear cells
+PRPS2	X	M	Peripheral blood mononuclear cells
+RBBP7	X	M	Peripheral blood mononuclear cells
+RBM3	X	M	Peripheral blood mononuclear cells
+RPS6KA6	X	M	Peripheral blood mononuclear cells
+SAT1	X	M	Peripheral blood mononuclear cells
+SCML1	X	M	Peripheral blood mononuclear cells
+SLC25A43	X	M	Peripheral blood mononuclear cells
+SLC25A5	X	M	Peripheral blood mononuclear cells
+TIMP1	X	M	Peripheral blood mononuclear cells
+ZBED1	X	M	Peripheral blood mononuclear cells
+ZNF185	X	M	Peripheral blood mononuclear cells
+ZNF449	X	M	Peripheral blood mononuclear cells
+BPY2	Y	M	Peripheral blood mononuclear cells
+CDY1	Y	M	Peripheral blood mononuclear cells
+DAZ2	Y	M	Peripheral blood mononuclear cells
+DDX3Y	Y	M	Peripheral blood mononuclear cells
+EIF1AY	Y	M	Peripheral blood mononuclear cells
+HSFY2	Y	M	Peripheral blood mononuclear cells
+KDM5D	Y	M	Peripheral blood mononuclear cells
+NLGN4Y	Y	M	Peripheral blood mononuclear cells
+PRY	Y	M	Peripheral blood mononuclear cells
+RBMY1A1	Y	M	Peripheral blood mononuclear cells
+RBMY1B	Y	M	Peripheral blood mononuclear cells
+RPS4Y1	Y	M	Peripheral blood mononuclear cells
+RPS4Y2	Y	M	Peripheral blood mononuclear cells
+TMSB4Y	Y	M	Peripheral blood mononuclear cells
+TSPY1	Y	M	Peripheral blood mononuclear cells
+TSPY2	Y	M	Peripheral blood mononuclear cells
+TSPY3	Y	M	Peripheral blood mononuclear cells
+USP9Y	Y	M	Peripheral blood mononuclear cells
+UTY	Y	M	Peripheral blood mononuclear cells
+XKRY	Y	M	Peripheral blood mononuclear cells
+ZFY	Y	M	Peripheral blood mononuclear cells
+CEP135	4	F	Posterior inferior parietal cortex
+ZFX	X	F	Posterior inferior parietal cortex
+EDNRA	4	M	Posterior inferior parietal cortex
+AIF1	6	M	Posterior inferior parietal cortex
+COL1A2	7	M	Posterior inferior parietal cortex
+CPED1	7	M	Posterior inferior parietal cortex
+TYROBP	19	M	Posterior inferior parietal cortex
+CBR1	21	M	Posterior inferior parietal cortex
+DDX3Y	Y	M	Posterior inferior parietal cortex
+EIF1AY	Y	M	Posterior inferior parietal cortex
+NLGN4Y	Y	M	Posterior inferior parietal cortex
+PCDH11Y	Y	M	Posterior inferior parietal cortex
+RPS4Y1	Y	M	Posterior inferior parietal cortex
+USP9Y	Y	M	Posterior inferior parietal cortex
+UTY	Y	M	Posterior inferior parietal cortex
+ZFY	Y	M	Posterior inferior parietal cortex
+SCN9A	2	F	Primary auditory cortex
+CCSER1	4	F	Primary auditory cortex
+CEP135	4	F	Primary auditory cortex
+CEP162	6	F	Primary auditory cortex
+ZNF804B	7	F	Primary auditory cortex
+KIF16B	20	F	Primary auditory cortex
+ZFX	X	F	Primary auditory cortex
+LAPTM5	1	M	Primary auditory cortex
+COL3A1	2	M	Primary auditory cortex
+EDNRA	4	M	Primary auditory cortex
+COL1A2	7	M	Primary auditory cortex
+CPED1	7	M	Primary auditory cortex
+CTSC	11	M	Primary auditory cortex
+LYVE1	11	M	Primary auditory cortex
+LUM	12	M	Primary auditory cortex
+COLEC12	18	M	Primary auditory cortex
+C3	19	M	Primary auditory cortex
+TYROBP	19	M	Primary auditory cortex
+BGN	X	M	Primary auditory cortex
+CYBB	X	M	Primary auditory cortex
+DDX3Y	Y	M	Primary auditory cortex
+EIF1AY	Y	M	Primary auditory cortex
+NLGN4Y	Y	M	Primary auditory cortex
+PCDH11Y	Y	M	Primary auditory cortex
+RPS4Y1	Y	M	Primary auditory cortex
+TMSB4Y	Y	M	Primary auditory cortex
+USP9Y	Y	M	Primary auditory cortex
+UTY	Y	M	Primary auditory cortex
+ZFY	Y	M	Primary auditory cortex
+GNG11	7	F	Primary motor cortex
+PUDP	X	F	Primary motor cortex
+TET2	4	M	Primary motor cortex
+DDX3Y	Y	M	Primary motor cortex
+EIF1AY	Y	M	Primary motor cortex
+NLGN4Y	Y	M	Primary motor cortex
+PCDH11Y	Y	M	Primary motor cortex
+RPS4Y1	Y	M	Primary motor cortex
+USP9Y	Y	M	Primary motor cortex
+UTY	Y	M	Primary motor cortex
+ZFY	Y	M	Primary motor cortex
+PUDP	X	F	Primary somatosensory cortex
+ZFX	X	F	Primary somatosensory cortex
+COL3A1	2	M	Primary somatosensory cortex
+COL1A2	7	M	Primary somatosensory cortex
+CPED1	7	M	Primary somatosensory cortex
+COL1A1	17	M	Primary somatosensory cortex
+DDX3Y	Y	M	Primary somatosensory cortex
+EIF1AY	Y	M	Primary somatosensory cortex
+NLGN4Y	Y	M	Primary somatosensory cortex
+PCDH11Y	Y	M	Primary somatosensory cortex
+RPS4Y1	Y	M	Primary somatosensory cortex
+USP9Y	Y	M	Primary somatosensory cortex
+UTY	Y	M	Primary somatosensory cortex
+ZFY	Y	M	Primary somatosensory cortex
+ZFX	X	F	Primary visual cortex
+EDNRA	4	M	Primary visual cortex
+COX7A2	6	M	Primary visual cortex
+GLO1	6	M	Primary visual cortex
+HIST1H2BK	6	M	Primary visual cortex
+CPED1	7	M	Primary visual cortex
+LY6E	8	M	Primary visual cortex
+DDX3Y	Y	M	Primary visual cortex
+EIF1AY	Y	M	Primary visual cortex
+NLGN4Y	Y	M	Primary visual cortex
+PCDH11Y	Y	M	Primary visual cortex
+RPS4Y1	Y	M	Primary visual cortex
+USP9Y	Y	M	Primary visual cortex
+UTY	Y	M	Primary visual cortex
+ZFY	Y	M	Primary visual cortex
+ORC3L	6	F	Putamen
+KDM5C	X	F	Putamen
+PUDP	X	F	Putamen
+ZFX	X	F	Putamen
+DDX3Y	Y	M	Putamen
+EIF1AY	Y	M	Putamen
+KDM5D	Y	M	Putamen
+NLGN4Y	Y	M	Putamen
+RPS4Y1	Y	M	Putamen
+TMSB4Y	Y	M	Putamen
+USP9Y	Y	M	Putamen
+UTY	Y	M	Putamen
+ZFY	Y	M	Putamen
+ASTN1	1	F	Skin
+CLCNKA	1	M	Skin
+C2orf72	2	M	Skin
+SPATA3	2	M	Skin
+CORIN	4	M	Skin
+CUX2	12	M	Skin
+DAZ2	Y	M	Skin
+DDX3Y	Y	M	Skin
+EIF1AY	Y	M	Skin
+KDM5D	Y	M	Skin
+NLGN4Y	Y	M	Skin
+PCDH11Y	Y	M	Skin
+RPS4Y1	Y	M	Skin
+SRY	Y	M	Skin
+TBL1Y	Y	M	Skin
+TMSB4Y	Y	M	Skin
+USP9Y	Y	M	Skin
+UTY	Y	M	Skin
+ZFY	Y	M	Skin
+NKTR	3	F	Striatum
+DDX3Y	Y	M	Striatum
+EIF1AY	Y	M	Striatum
+NLGN4Y	Y	M	Striatum
+PCDH11Y	Y	M	Striatum
+RPS4Y1	Y	M	Striatum
+TMSB4Y	Y	M	Striatum
+USP9Y	Y	M	Striatum
+UTY	Y	M	Striatum
+ZFY	Y	M	Striatum
+DDX3X	X	F	Substantianigra
+KDM5C	X	F	Substantianigra
+KDM6A	X	F	Substantianigra
+PUDP	X	F	Substantianigra
+ZFX	X	F	Substantianigra
+DDX3Y	Y	M	Substantianigra
+EIF1AY	Y	M	Substantianigra
+KDM5D	Y	M	Substantianigra
+NLGN4Y	Y	M	Substantianigra
+RPS4Y1	Y	M	Substantianigra
+TMSB4Y	Y	M	Substantianigra
+USP9Y	Y	M	Substantianigra
+UTY	Y	M	Substantianigra
+ZFY	Y	M	Substantianigra
+DDX3Y	Y	M	Substantianigra
+EIF1AY	Y	M	Substantianigra
+KDM5D	Y	M	Substantianigra
+NLGN4Y	Y	M	Substantianigra
+PCDH11Y	Y	M	Substantianigra
+RPS4Y1	Y	M	Substantianigra
+TMSB4Y	Y	M	Substantianigra
+USP9Y	Y	M	Substantianigra
+UTY	Y	M	Substantianigra
+ZFY	Y	M	Substantianigra
+PPP1R2	3	F	Superior temporal cortex
+CCSER1	4	F	Superior temporal cortex
+TET2	4	F	Superior temporal cortex
+PLXNA4	7	F	Superior temporal cortex
+ZFX	X	F	Superior temporal cortex
+DHRS3	1	M	Superior temporal cortex
+OLFML3	1	M	Superior temporal cortex
+COL3A1	2	M	Superior temporal cortex
+CYBRD1	2	M	Superior temporal cortex
+WIPF1	2	M	Superior temporal cortex
+CX3CR1	3	M	Superior temporal cortex
+P2RY12	3	M	Superior temporal cortex
+EDNRA	4	M	Superior temporal cortex
+COX7A2	6	M	Superior temporal cortex
+CALD1	7	M	Superior temporal cortex
+COL1A2	7	M	Superior temporal cortex
+CPED1	7	M	Superior temporal cortex
+PDK4	7	M	Superior temporal cortex
+SDC2	8	M	Superior temporal cortex
+CKS2	9	M	Superior temporal cortex
+GSN	9	M	Superior temporal cortex
+STOM	9	M	Superior temporal cortex
+FZD8	10	M	Superior temporal cortex
+FOLR2	11	M	Superior temporal cortex
+LYVE1	11	M	Superior temporal cortex
+LUM	12	M	Superior temporal cortex
+FBLN5	14	M	Superior temporal cortex
+NPC2	14	M	Superior temporal cortex
+RNASE1	14	M	Superior temporal cortex
+ISLR	15	M	Superior temporal cortex
+COL1A1	17	M	Superior temporal cortex
+LGALS3BP	17	M	Superior temporal cortex
+"NAA38"	17	M	Superior temporal cortex
+COLEC12	18	M	Superior temporal cortex
+C3	19	M	Superior temporal cortex
+TYROBP	19	M	Superior temporal cortex
+UQCR11	19	M	Superior temporal cortex
+MYL9	20	M	Superior temporal cortex
+PLTP	20	M	Superior temporal cortex
+CBR1	21	M	Superior temporal cortex
+LGALS1	22	M	Superior temporal cortex
+BGN	X	M	Superior temporal cortex
+CYBB	X	M	Superior temporal cortex
+MSN	X	M	Superior temporal cortex
+TIMP1	X	M	Superior temporal cortex
+DDX3Y	Y	M	Superior temporal cortex
+EIF1AY	Y	M	Superior temporal cortex
+NLGN4Y	Y	M	Superior temporal cortex
+PCDH11Y	Y	M	Superior temporal cortex
+RPS4Y1	Y	M	Superior temporal cortex
+TMSB4Y	Y	M	Superior temporal cortex
+USP9Y	Y	M	Superior temporal cortex
+UTY	Y	M	Superior temporal cortex
+ZFY	Y	M	Superior temporal cortex
+DNAJC1	10	F	Temporal cortex
+DDX3X	X	F	Temporal cortex
+EIF2S3	X	F	Temporal cortex
+KDM5C	X	F	Temporal cortex
+KDM6A	X	F	Temporal cortex
+PUDP	X	F	Temporal cortex
+ZFX	X	F	Temporal cortex
+DDX3Y	Y	M	Temporal cortex
+EIF1AY	Y	M	Temporal cortex
+KDM5D	Y	M	Temporal cortex
+NLGN4Y	Y	M	Temporal cortex
+RPS4Y1	Y	M	Temporal cortex
+TMSB4Y	Y	M	Temporal cortex
+USP9Y	Y	M	Temporal cortex
+UTY	Y	M	Temporal cortex
+ZFY	Y	M	Temporal cortex
+HAND2	4	F	Thalamus
+RHCG	15	F	Thalamus
+MT1X	16	F	Thalamus
+ALG12	22	F	Thalamus
+DDX3X	X	F	Thalamus
+EIF2S3	X	F	Thalamus
+KDM5C	X	F	Thalamus
+KDM6A	X	F	Thalamus
+PUDP	X	F	Thalamus
+SMC1A	X	F	Thalamus
+ZFX	X	F	Thalamus
+DDX3Y	Y	M	Thalamus
+EIF1AY	Y	M	Thalamus
+KDM5D	Y	M	Thalamus
+NLGN4Y	Y	M	Thalamus
+RPS4Y1	Y	M	Thalamus
+TMSB4Y	Y	M	Thalamus
+USP9Y	Y	M	Thalamus
+UTY	Y	M	Thalamus
+ZFY	Y	M	Thalamus
+HTRA4	8	F	Thyroid
+ITGAX	16	F	Thyroid
+CXorf21	X	F	Thyroid
+SLITRK4	X	M	Thyroid
+DDX3Y	Y	M	Thyroid
+EIF1AY	Y	M	Thyroid
+KDM5D	Y	M	Thyroid
+NLGN4Y	Y	M	Thyroid
+PCDH11Y	Y	M	Thyroid
+RPS4Y1	Y	M	Thyroid
+TBL1Y	Y	M	Thyroid
+TMSB4Y	Y	M	Thyroid
+USP9Y	Y	M	Thyroid
+UTY	Y	M	Thyroid
+ZFY	Y	M	Thyroid
+ZFX	X	F	Ventrolateral prefrontal cortex
+OLFML3	1	M	Ventrolateral prefrontal cortex
+EDNRA	4	M	Ventrolateral prefrontal cortex
+CPED1	7	M	Ventrolateral prefrontal cortex
+LYVE1	11	M	Ventrolateral prefrontal cortex
+CRABP1	15	M	Ventrolateral prefrontal cortex
+COLEC12	18	M	Ventrolateral prefrontal cortex
+BGN	X	M	Ventrolateral prefrontal cortex
+DDX3Y	Y	M	Ventrolateral prefrontal cortex
+EIF1AY	Y	M	Ventrolateral prefrontal cortex
+NLGN4Y	Y	M	Ventrolateral prefrontal cortex
+PCDH11Y	Y	M	Ventrolateral prefrontal cortex
+RPS4Y1	Y	M	Ventrolateral prefrontal cortex
+TMSB4Y	Y	M	Ventrolateral prefrontal cortex
+USP9Y	Y	M	Ventrolateral prefrontal cortex
+UTY	Y	M	Ventrolateral prefrontal cortex
+ZFY	Y	M	Ventrolateral prefrontal cortex
+DDX3X	X	F	Whitematter
+EIF1AX	X	F	Whitematter
+EIF2S3	X	F	Whitematter
+KDM5C	X	F	Whitematter
+KDM6A	X	F	Whitematter
+PUDP	X	F	Whitematter
+ZFX	X	F	Whitematter
+DDX3Y	Y	M	Whitematter
+EIF1AY	Y	M	Whitematter
+KDM5D	Y	M	Whitematter
+NLGN4Y	Y	M	Whitematter
+RPS4Y1	Y	M	Whitematter
+TMSB4Y	Y	M	Whitematter
+USP9Y	Y	M	Whitematter
+UTY	Y	M	Whitematter
+ZFY	Y	M	Whitematter

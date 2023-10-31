@@ -1,0 +1,3 @@
+Alex gave me files called gwasATLAS_v20191115.txt, which has metadata of GWAS, and magma.P.r3.txt, which has the p values of each gene for each trait, as determined by magma. The labels for the disease aren't in the magma file, just numbers referring to a trait number. First row of gwasATLAS_v20191115.txt refers to first column of magma.P.r3.txt, etc.
+
+The gene-group files in this directory are either the top 25/50 genes based on p value or lists based on FDR = 0.05 or 0.1 (bioconductor qvalue package used to calculate q values, in the case where pi0 cannot be estimated from the data, pi0 = 1 to force BH procedure to be used)

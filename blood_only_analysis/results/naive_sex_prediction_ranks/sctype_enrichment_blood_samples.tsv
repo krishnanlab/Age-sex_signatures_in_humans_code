@@ -1,0 +1,1396 @@
+age_group	term	combined_zscore
+adolescent	Immune system: Pro-B cells	-3.362011082295507
+adolescent	Immune system: Pre-B cells	-4.6340763329315235
+adolescent	Immune system: Naive B cells	-2.888949228801698
+adolescent	Immune system: Memory B cells	-2.8397666859138804
+adolescent	Immune system: Plasma B cells	-2.475520945882753
+adolescent	Immune system: Naive CD8+ T cells	-0.06106703055634004
+adolescent	Immune system: Naive CD4+ T cells	0.13095490112345526
+adolescent	Immune system: Memory CD8+ T cells	-0.5100702888549539
+adolescent	Immune system: Memory CD4+ T cells	-0.3408104841406127
+adolescent	Immune system: Effector CD8+ T cells	-0.09035867486061744
+adolescent	Immune system: Effector CD4+ T cells	0.10031763039336192
+adolescent	Immune system: γδ-T cells	0.24034351736114787
+adolescent	Immune system: CD8+ NKT-like cells	-1.937158543055692
+adolescent	Immune system: CD4+ NKT-like cells	-1.9105035679044204
+adolescent	Immune system: Natural killer  cells	-1.1348377114492596
+adolescent	Immune system: Eosinophils	-4.5494733246000445
+adolescent	Immune system: Neutrophils	-6.4039694601399075
+adolescent	Immune system: Basophils	-4.445416243907282
+adolescent	Immune system: Classical Monocytes	-5.387557315225864
+adolescent	Immune system: Non-classical monocytes	-5.208914488729415
+adolescent	Immune system: Intermediate monocytes	-3.6724727046640524
+adolescent	Immune system: Macrophages	-1.7512035039206444
+adolescent	Immune system: Endothelial	0.8581560337004305
+adolescent	Immune system: Erythroid-like and erythroid precursor cells	-2.108238614655855
+adolescent	Immune system: HSC/MPP cells	-1.4592437006893766
+adolescent	Immune system: Progenitor cells	0.1529765718676937
+adolescent	Immune system: Myeloid Dendritic cells	-2.9501019331542246
+adolescent	Immune system: Plasmacytoid Dendritic cells	-2.7028385803004755
+adolescent	Immune system: Granulocytes	-4.131256009129893
+adolescent	Immune system: ISG expressing immune cells	0.364163571979001
+adolescent	Pancreas: Acinar cells	-1.7676738407649215
+adolescent	Pancreas: Alpha cells	-2.3695964007141384
+adolescent	Pancreas: Beta cells	-0.8774935935749628
+adolescent	Pancreas: Delta cells	-1.609997971394661
+adolescent	Pancreas: Ductal cells	-1.035414139925756
+adolescent	Pancreas: Endothelial cells	-0.6517351972073755
+adolescent	Pancreas: Epsilon cells	-2.8032321830428977
+adolescent	Pancreas: Gamma (PP) cells	-1.0183063582172087
+adolescent	Pancreas: Immune system cells	-1.9700516231591365
+adolescent	Pancreas: Pancreatic progenitor cells	1.6257984759679593
+adolescent	Pancreas: Pancreatic stellate cells	0.37495123841556555
+adolescent	Pancreas: Peri-islet Schwann cells	-0.321964239070611
+adolescent	Liver: Cholangiocytes	-2.2704980331114557
+adolescent	Liver: Endothelial cell	0.012066866398183709
+adolescent	Liver: Hepatic stellate cells	-1.4811153586580048
+adolescent	Liver: Hepatoblasts	-1.0461011997188145
+adolescent	Liver: Hepatocytes	-1.8457250369606224
+adolescent	Liver: Immune system cells	-2.844952652062682
+adolescent	Liver: Kupffer cells	-3.2346193591981343
+adolescent	Eye: Muller cells	-0.7834197424552195
+adolescent	Eye: Retinal ganglion cells	0.12882601815929604
+adolescent	Eye: Retinal progenitor cells	-1.5059147407229942
+adolescent	Eye: Rod bipolar cells	-1.2893651978456842
+adolescent	Eye: Cone bipolar cells	-1.909793622769329
+adolescent	Eye: GABAergic amacrine cells	-0.34055498510844306
+adolescent	Eye: Rod photoreceptor cells	-1.0012594585712007
+adolescent	Eye: Cone photoreceptor cells	-1.1524202809085335
+adolescent	Eye: Microglial cells	-3.873194447208931
+adolescent	Eye: Horizontal cells	-1.7631085839309453
+adolescent	Eye: Retinal pigment epithelial cells	0.23148112085948738
+adolescent	Eye: Endothelial cells	-1.3043995786359055
+adolescent	Eye: Extracellular matrix cells	-0.8316163941040365
+adolescent	Eye: Glycinergic amacrine cells	-1.1670261967556266
+adolescent	Eye: Cholinergic GABAergic amacrine cells	-0.5221733727195007
+adolescent	Eye: Tachykinin GABAergic amacrine cells	-0.8366668967422561
+adolescent	Eye: Starburst amacrine cells	-0.9445208885768162
+adolescent	Kidney: Immune cells	-4.458370248260372
+adolescent	Kidney: α-intercalated cells (Collecting duct system)	-3.1635121288824912
+adolescent	Kidney: β-intercalated cells (Collecting duct system)	-2.403243516631173
+adolescent	Kidney: Loop of Henle cells	-0.1085068511458043
+adolescent	Kidney: Mesangial cells	-0.8377013720839696
+adolescent	Kidney: Podocytes	0.144101088334143
+adolescent	Kidney: Principal cells (Collecting duct system)	-0.15699523284115258
+adolescent	Kidney: Proximal tubule cells	-2.9096119430577616
+adolescent	Kidney: Endothelial cells	-2.8892668522205547
+adolescent	Kidney: Distal tubule cells	-1.272391530009843
+adolescent	Kidney: Renal Vesicle cells	-0.8834568143650355
+adolescent	Brain: Astrocytes	-0.6875973130264422
+adolescent	Brain: Endothelial cells	0.6494656036464377
+adolescent	Brain: Microglial cells	-3.8301269658505315
+adolescent	Brain: Neural Progenitor cells	-1.0622504717454069
+adolescent	Brain: Oligodendrocytes	-1.8460448458894354
+adolescent	Brain: Radial glial cells	0.026265400739468103
+adolescent	Lung: Airway goblet cells	-1.166760986656298
+adolescent	Lung: Mesothelial cells	-1.2982875807514385
+adolescent	Lung: Basal cells (Airway progenitor cells)	0.2514522258358242
+adolescent	Lung: Alveolar macrophages	-2.0100355278253867
+adolescent	Lung: Ciliated cells	-1.0974715872131071
+adolescent	Lung: Clara cells	-2.087248492650155
+adolescent	Lung: Immune system cells	-2.9581330101970393
+adolescent	Lung: Endothelial cell	-1.599640603995731
+adolescent	Lung: Pulmonary alveolar type I cells	-0.03867780479168167
+adolescent	Lung: Pulmonary alveolar type II cells	-3.703776681004085
+adolescent	Adrenal: CSH1_CSH2 positive cells	-0.4924429291396813
+adolescent	Adrenal: Megakaryocytes	-7.665078765117089
+adolescent	Adrenal: Schwann cells	-0.8309083608856408
+adolescent	Adrenal: Myeloid cells	-3.702743173692305
+adolescent	Adrenal: Vascular endothelial cells	0.3911652746546651
+adolescent	Adrenal: Lymphoid cells	-2.315874012669526
+adolescent	Heart: Megakaryocytes	-7.440385898152358
+adolescent	Heart: Lymphatic endothelial cells	-0.1938373524110252
+adolescent	Heart: Schwann cells	-1.6620917874659773
+adolescent	Heart: Lymphoid cells	-3.9516668696866875
+adolescent	Heart: Myeloid cells	-3.541895393576783
+adolescent	Heart: Endocardial cells	-1.8846318326315443
+adolescent	Heart: Stromal cells	0.26959062104936704
+adolescent	Heart: SATB2_LRRC7 positive cells	-0.3040803580401221
+adolescent	Heart: Erythroblasts	-0.13652049085732043
+adolescent	Heart: Visceral neurons	-1.156524697754326
+adolescent	Heart: ELF3_AGBL2 positive cells	-0.7523314984998386
+adolescent	Intestine: Erythroblasts	-7.307210993959535
+adolescent	Intestine: Chromaffin cells	-1.437255088596912
+adolescent	Intestine: Smooth muscle cells	-1.2295310411814075
+adolescent	Intestine: Myeloid cells	-2.006980077214025
+adolescent	Intestine: Lymphoid cells	0.5438647707776144
+adolescent	Intestine: ENS glia	-1.1616625297028011
+adolescent	Intestine: ENS neurons	-0.8266841172041952
+adolescent	Intestine: Vascular endothelial cells	-1.2070880197834233
+adolescent	Intestine: Mesothelial cells	-0.6391597198711163
+adolescent	Intestine: Lymphatic endothelial cells	-0.43318320336771265
+adolescent	Muscle: Megakaryocytes	-7.5447239626372715
+adolescent	Muscle: Schwann cells	-2.0968539377565834
+adolescent	Muscle: Lymphatic endothelial cells	0.3879446233977209
+adolescent	Muscle: Erythroblasts	-6.831030779388903
+adolescent	Muscle: Smooth muscle cells	-1.443653823630741
+adolescent	Muscle: Myeloid cells	-4.213988512787985
+adolescent	Muscle: Lymphoid cells	-1.5850879469847245
+adolescent	Placenta: AFP_ALB positive cells	-1.5964560574191162
+adolescent	Placenta: Extravillous trophoblasts	-2.2516741672445306
+adolescent	Placenta: Smooth muscle cells	-0.48652447324813314
+adolescent	Placenta: IGFBP1_DKK1 positive cells	0.11157404208610519
+adolescent	Placenta: Myeloid cells	-3.3872195305539807
+adolescent	Spleen: AFP_ALB positive cells	-0.5922618791796527
+adolescent	Spleen: STC2_TLX1 positive cells	-0.32255100736272685
+adolescent	Spleen: Megakaryocytes	-6.4158338124692795
+adolescent	Spleen: Mesothelial cells	-0.9841305631089152
+adolescent	Stomach: Neuroendocrine cells	-1.710590227494257
+adolescent	Stomach: Erythroblasts	-7.071575446833163
+adolescent	Stomach: Squamous epithelial cells	-1.184080580907788
+adolescent	Stomach: Parietal and chief cells	-0.8577791461574797
+adolescent	Stomach: MUC13_DMBT1 positive cells	-1.3640589404193553
+adolescent	Stomach: Myeloid cells	-3.678138141282784
+adolescent	Stomach: Goblet cells	-1.91771774516809
+adolescent	Stomach: Stromal cells	1.033388416359549
+adolescent	Stomach: ENS neurons	0.2878732565321906
+adolescent	Stomach: ENS glia	-1.0208680572063291
+adolescent	Stomach: Vascular endothelial cells	-0.3792856179650749
+adolescent	Stomach: Lymphatic endothelial cells	-1.0868473608750726
+adolescent	Stomach: Mesothelial cells	0.1240449919523018
+adolescent	Stomach: Lymphoid cells	-1.040247796201065
+adolescent	Stomach: PDE1C_ACSM3 positive cells	0.07440050132715853
+adolescent	Thymus: Stromal cells	-0.24119917079399059
+adolescent	Thymus: Antigen presenting cells	-2.271707591747683
+adolescent	Thymus: Vascular endothelial cells	-0.058077327730202036
+adolescent	Lung: Cancer stem cells	-0.19258250273813046
+adult	Immune system: Pro-B cells	-0.44335674762500915
+adult	Immune system: Pre-B cells	0.35427956965471585
+adult	Immune system: Naive B cells	-0.3758298177228581
+adult	Immune system: Memory B cells	-0.2920319691208137
+adult	Immune system: Plasma B cells	0.039927135079268344
+adult	Immune system: Naive CD8+ T cells	0.9111875002798123
+adult	Immune system: Naive CD4+ T cells	1.1334417280672473
+adult	Immune system: Memory CD8+ T cells	0.37676293836611413
+adult	Immune system: Memory CD4+ T cells	0.5733017371864197
+adult	Immune system: Effector CD8+ T cells	0.6445539305902728
+adult	Immune system: Effector CD4+ T cells	0.8585887294737579
+adult	Immune system: γδ-T cells	0.9751115943591653
+adult	Immune system: CD8+ NKT-like cells	-1.3841527833714233
+adult	Immune system: CD4+ NKT-like cells	-1.2428488141961531
+adult	Immune system: Natural killer  cells	-2.002971243298027
+adult	Immune system: Eosinophils	-1.3586606556944978
+adult	Immune system: Neutrophils	-2.4824991919291968
+adult	Immune system: Basophils	-0.945656036708347
+adult	Immune system: Classical Monocytes	-0.18837339382665672
+adult	Immune system: Non-classical monocytes	-0.35429774957954363
+adult	Immune system: Intermediate monocytes	0.18673627159830508
+adult	Immune system: Macrophages	0.5321901740065522
+adult	Immune system: Endothelial	-1.2805872652794672
+adult	Immune system: Erythroid-like and erythroid precursor cells	1.8291656478625746
+adult	Immune system: HSC/MPP cells	-0.86625180857705
+adult	Immune system: Progenitor cells	0.12319530497346144
+adult	Immune system: Myeloid Dendritic cells	-0.05644142831634148
+adult	Immune system: Plasmacytoid Dendritic cells	-0.4488066614181093
+adult	Immune system: Granulocytes	-0.6498217230304063
+adult	Immune system: ISG expressing immune cells	2.831169745631339
+adult	Pancreas: Acinar cells	-1.3701292280812551
+adult	Pancreas: Alpha cells	-0.3960672096799548
+adult	Pancreas: Beta cells	-1.6852365176736976
+adult	Pancreas: Delta cells	-0.6396738762131707
+adult	Pancreas: Ductal cells	-1.1616947417457466
+adult	Pancreas: Endothelial cells	-1.8771445908204094
+adult	Pancreas: Epsilon cells	-0.48426428673745747
+adult	Pancreas: Gamma (PP) cells	-0.36670438214119483
+adult	Pancreas: Immune system cells	1.0755692660075795
+adult	Pancreas: Pancreatic progenitor cells	-0.594105736507145
+adult	Pancreas: Pancreatic stellate cells	-1.9909793592342482
+adult	Pancreas: Peri-islet Schwann cells	-0.7609886583191064
+adult	Liver: Cholangiocytes	-1.6937386101312164
+adult	Liver: Endothelial cell	-2.004462296043505
+adult	Liver: Hepatic stellate cells	-2.720910322763993
+adult	Liver: Hepatoblasts	-0.7861966621905337
+adult	Liver: Hepatocytes	-1.0200018179012174
+adult	Liver: Immune system cells	0.6599056849199764
+adult	Liver: Kupffer cells	-0.18726454648441496
+adult	Eye: Muller cells	0.49267992130579735
+adult	Eye: Retinal ganglion cells	-0.27334632553843063
+adult	Eye: Retinal progenitor cells	-1.3646231241711122
+adult	Eye: Rod bipolar cells	-0.9639319401882792
+adult	Eye: Cone bipolar cells	-1.1624080197845763
+adult	Eye: GABAergic amacrine cells	-2.038963127115433
+adult	Eye: Rod photoreceptor cells	-0.17784547245608304
+adult	Eye: Cone photoreceptor cells	-0.3295076021759057
+adult	Eye: Microglial cells	-0.9104791383738507
+adult	Eye: Horizontal cells	-0.07413015855316174
+adult	Eye: Retinal pigment epithelial cells	-1.0787071110544846
+adult	Eye: Endothelial cells	-1.4762577106526267
+adult	Eye: Extracellular matrix cells	-0.865768126664999
+adult	Eye: Glycinergic amacrine cells	-1.4056728562278051
+adult	Eye: Cholinergic GABAergic amacrine cells	-2.2420181692596235
+adult	Eye: Tachykinin GABAergic amacrine cells	-2.055183309809382
+adult	Eye: Starburst amacrine cells	-2.1943457629668908
+adult	Kidney: Immune cells	-0.8673699491831893
+adult	Kidney: α-intercalated cells (Collecting duct system)	1.0283344591985617
+adult	Kidney: β-intercalated cells (Collecting duct system)	0.6483550359851364
+adult	Kidney: Loop of Henle cells	-1.3587554722815596
+adult	Kidney: Mesangial cells	-0.43165052166488144
+adult	Kidney: Podocytes	-0.4164472995398579
+adult	Kidney: Principal cells (Collecting duct system)	-0.20813532730898468
+adult	Kidney: Proximal tubule cells	-1.1556690048907428
+adult	Kidney: Endothelial cells	-0.9616849162220749
+adult	Kidney: Distal tubule cells	-0.9891083171222268
+adult	Kidney: Renal Vesicle cells	-1.1302329417712922
+adult	Brain: Astrocytes	0.5566853945746734
+adult	Brain: Endothelial cells	-1.3304155056060059
+adult	Brain: Microglial cells	-0.8774238177239645
+adult	Brain: Neural Progenitor cells	-0.3859847585459219
+adult	Brain: Oligodendrocytes	0.9498505000871568
+adult	Brain: Radial glial cells	-1.4257084741410126
+adult	Lung: Airway goblet cells	0.24678105904498795
+adult	Lung: Mesothelial cells	-1.2842708794754731
+adult	Lung: Basal cells (Airway progenitor cells)	-0.16372617709384407
+adult	Lung: Alveolar macrophages	-0.35616299573660753
+adult	Lung: Ciliated cells	0.7313965912366754
+adult	Lung: Clara cells	-0.19337264647454136
+adult	Lung: Immune system cells	-1.4065849761878548
+adult	Lung: Endothelial cell	-1.6108208774058332
+adult	Lung: Pulmonary alveolar type I cells	-0.10463695334684901
+adult	Lung: Pulmonary alveolar type II cells	-1.481510271948957
+adult	Adrenal: CSH1_CSH2 positive cells	-1.255999229451647
+adult	Adrenal: Megakaryocytes	-1.6441616696152401
+adult	Adrenal: Schwann cells	0.7331703375249357
+adult	Adrenal: Myeloid cells	0.3361400132202938
+adult	Adrenal: Vascular endothelial cells	-0.7782797772769684
+adult	Adrenal: Lymphoid cells	-0.8223572863230436
+adult	Heart: Megakaryocytes	-1.2141955454342366
+adult	Heart: Lymphatic endothelial cells	-0.6528838184448345
+adult	Heart: Schwann cells	0.21837991543126276
+adult	Heart: Lymphoid cells	-1.656859295496984
+adult	Heart: Myeloid cells	0.13889534836601009
+adult	Heart: Endocardial cells	-1.5657754315453871
+adult	Heart: Stromal cells	-1.2872991192409255
+adult	Heart: SATB2_LRRC7 positive cells	-0.47440317262907467
+adult	Heart: Erythroblasts	-0.2407271403052475
+adult	Heart: Visceral neurons	-0.373089472218193
+adult	Heart: ELF3_AGBL2 positive cells	-0.7771386628665046
+adult	Intestine: Erythroblasts	2.7996171777224674
+adult	Intestine: Chromaffin cells	-0.4662848463737127
+adult	Intestine: Smooth muscle cells	0.10248235725261212
+adult	Intestine: Myeloid cells	-1.0294239430414482
+adult	Intestine: Lymphoid cells	0.9266136833379384
+adult	Intestine: ENS glia	0.31229758551362846
+adult	Intestine: ENS neurons	0.6048199885239333
+adult	Intestine: Vascular endothelial cells	-0.8838080682779198
+adult	Intestine: Mesothelial cells	0.39882540956876356
+adult	Intestine: Lymphatic endothelial cells	-0.27471173964364776
+adult	Muscle: Megakaryocytes	-1.9765527704584196
+adult	Muscle: Schwann cells	-0.32876022675830063
+adult	Muscle: Lymphatic endothelial cells	-1.408486516907405
+adult	Muscle: Erythroblasts	3.5345557328136077
+adult	Muscle: Smooth muscle cells	-0.51712173009187
+adult	Muscle: Myeloid cells	1.1069709043047489
+adult	Muscle: Lymphoid cells	0.4519435532150872
+adult	Placenta: AFP_ALB positive cells	0.6480984350548873
+adult	Placenta: Extravillous trophoblasts	-1.2039272918804964
+adult	Placenta: Smooth muscle cells	-0.651412477523362
+adult	Placenta: IGFBP1_DKK1 positive cells	-0.2419747332915022
+adult	Placenta: Myeloid cells	-0.24686519149267366
+adult	Spleen: AFP_ALB positive cells	-0.774489750635918
+adult	Spleen: STC2_TLX1 positive cells	-0.23820067732652256
+adult	Spleen: Megakaryocytes	-2.271195043800788
+adult	Spleen: Mesothelial cells	-0.08987106943416304
+adult	Stomach: Neuroendocrine cells	-0.015811054375776932
+adult	Stomach: Erythroblasts	2.9868251560839454
+adult	Stomach: Squamous epithelial cells	-0.25330572403479185
+adult	Stomach: Parietal and chief cells	1.023332236454916
+adult	Stomach: MUC13_DMBT1 positive cells	-1.0556886876699896
+adult	Stomach: Myeloid cells	-0.11188443168001717
+adult	Stomach: Goblet cells	-0.6728812107545133
+adult	Stomach: Stromal cells	-2.7629968795607174
+adult	Stomach: ENS neurons	0.16706391759530323
+adult	Stomach: ENS glia	-0.37055494280228524
+adult	Stomach: Vascular endothelial cells	0.07883891210387445
+adult	Stomach: Lymphatic endothelial cells	-0.11610620115312192
+adult	Stomach: Mesothelial cells	-0.880014804444159
+adult	Stomach: Lymphoid cells	-0.5317404031766492
+adult	Stomach: PDE1C_ACSM3 positive cells	-1.872473400785774
+adult	Thymus: Stromal cells	-2.330739610167448
+adult	Thymus: Antigen presenting cells	0.8878943922431746
+adult	Thymus: Vascular endothelial cells	-1.897702901646229
+adult	Lung: Cancer stem cells	-0.5907542076278061
+child	Immune system: Pro-B cells	0.615510009733208
+child	Immune system: Pre-B cells	1.0094276955756
+child	Immune system: Naive B cells	0.8366565797256295
+child	Immune system: Memory B cells	1.389559382515565
+child	Immune system: Plasma B cells	1.3541080170798123
+child	Immune system: Naive CD8+ T cells	6.748143243678695
+child	Immune system: Naive CD4+ T cells	6.42096180785697
+child	Immune system: Memory CD8+ T cells	7.017916248029424
+child	Immune system: Memory CD4+ T cells	6.70396853723884
+child	Immune system: Effector CD8+ T cells	6.699678298100495
+child	Immune system: Effector CD4+ T cells	6.382835428941047
+child	Immune system: γδ-T cells	6.0469069349522755
+child	Immune system: CD8+ NKT-like cells	2.6843670792761958
+child	Immune system: CD4+ NKT-like cells	2.9056612308777505
+child	Immune system: Natural killer  cells	1.2224385229408725
+child	Immune system: Eosinophils	-2.9535082324288466
+child	Immune system: Neutrophils	-3.242132723260438
+child	Immune system: Basophils	-1.6965434311272194
+child	Immune system: Classical Monocytes	1.1340199552566381
+child	Immune system: Non-classical monocytes	2.7977506377020447
+child	Immune system: Intermediate monocytes	1.8320094563047593
+child	Immune system: Macrophages	0.2582146522780496
+child	Immune system: Endothelial	-1.2344817897936269
+child	Immune system: Erythroid-like and erythroid precursor cells	1.1224782787957803
+child	Immune system: HSC/MPP cells	-2.974919159835035
+child	Immune system: Progenitor cells	-0.9487154139772639
+child	Immune system: Myeloid Dendritic cells	-0.09873640438850156
+child	Immune system: Plasmacytoid Dendritic cells	-1.5916671415407013
+child	Immune system: Granulocytes	-4.3828920206800355
+child	Immune system: ISG expressing immune cells	2.7286584748031117
+child	Pancreas: Acinar cells	-1.0317445301733823
+child	Pancreas: Alpha cells	0.3362944982918111
+child	Pancreas: Beta cells	-1.953122060785371
+child	Pancreas: Delta cells	-1.4417781795254905
+child	Pancreas: Ductal cells	-1.0620998272957733
+child	Pancreas: Endothelial cells	-0.5283334932664497
+child	Pancreas: Epsilon cells	-1.3493270251929208
+child	Pancreas: Gamma (PP) cells	-0.8270927997108067
+child	Pancreas: Immune system cells	6.017910127327996
+child	Pancreas: Pancreatic progenitor cells	-0.7899940987503989
+child	Pancreas: Pancreatic stellate cells	-0.4433747002635402
+child	Pancreas: Peri-islet Schwann cells	-1.5829528383838658
+child	Liver: Cholangiocytes	-2.2896578429163683
+child	Liver: Endothelial cell	-0.9201841060088586
+child	Liver: Hepatic stellate cells	-2.2056721787938534
+child	Liver: Hepatoblasts	-2.5658071787280323
+child	Liver: Hepatocytes	-2.089280670450761
+child	Liver: Immune system cells	2.979592350110108
+child	Liver: Kupffer cells	-0.039935865242698695
+child	Eye: Muller cells	-2.0037399561711924
+child	Eye: Retinal ganglion cells	-1.204557471843662
+child	Eye: Retinal progenitor cells	-1.170824043720106
+child	Eye: Rod bipolar cells	-1.0417684693595046
+child	Eye: Cone bipolar cells	-1.1292943586643087
+child	Eye: GABAergic amacrine cells	-2.4311434559775447
+child	Eye: Rod photoreceptor cells	-1.5339247681430979
+child	Eye: Cone photoreceptor cells	-1.8199563985095908
+child	Eye: Microglial cells	-1.7139110200432723
+child	Eye: Horizontal cells	-1.271827232686129
+child	Eye: Retinal pigment epithelial cells	-1.111848725949637
+child	Eye: Endothelial cells	-1.8578602086485914
+child	Eye: Extracellular matrix cells	-2.2865683610034937
+child	Eye: Glycinergic amacrine cells	-1.6182431373314126
+child	Eye: Cholinergic GABAergic amacrine cells	-2.7069161764250183
+child	Eye: Tachykinin GABAergic amacrine cells	-2.5511462763416204
+child	Eye: Starburst amacrine cells	-2.1058775366341496
+child	Kidney: Immune cells	3.115571888478981
+child	Kidney: α-intercalated cells (Collecting duct system)	-1.1322445293092094
+child	Kidney: β-intercalated cells (Collecting duct system)	-1.3781098074878428
+child	Kidney: Loop of Henle cells	-0.5426670378492516
+child	Kidney: Mesangial cells	0.411381610356973
+child	Kidney: Podocytes	-1.464951958965644
+child	Kidney: Principal cells (Collecting duct system)	-0.47798188700797795
+child	Kidney: Proximal tubule cells	-2.0180549383619133
+child	Kidney: Endothelial cells	-1.0233378400364452
+child	Kidney: Distal tubule cells	-1.8907338115268297
+child	Kidney: Renal Vesicle cells	-2.0714711036925944
+child	Brain: Astrocytes	-0.5296069256837933
+child	Brain: Endothelial cells	-0.8775794610494309
+child	Brain: Microglial cells	-1.7171585395594
+child	Brain: Neural Progenitor cells	-1.1453052870694207
+child	Brain: Oligodendrocytes	-2.0113808525520316
+child	Brain: Radial glial cells	-3.089535403810958
+child	Lung: Airway goblet cells	-2.4222395262856447
+child	Lung: Mesothelial cells	-1.126166092285604
+child	Lung: Basal cells (Airway progenitor cells)	-0.33123298162655934
+child	Lung: Alveolar macrophages	-1.5776940420515118
+child	Lung: Ciliated cells	0.1153626295095273
+child	Lung: Clara cells	-1.1217873008242025
+child	Lung: Immune system cells	0.8069246448166222
+child	Lung: Endothelial cell	-1.5438890541510426
+child	Lung: Pulmonary alveolar type I cells	0.16837260839352416
+child	Lung: Pulmonary alveolar type II cells	-2.498961877774525
+child	Adrenal: CSH1_CSH2 positive cells	-0.07952054022722299
+child	Adrenal: Megakaryocytes	1.1481249541613785
+child	Adrenal: Schwann cells	-1.7522598067549773
+child	Adrenal: Myeloid cells	1.3509121276255796
+child	Adrenal: Vascular endothelial cells	-1.2614176628130247
+child	Adrenal: Lymphoid cells	1.8821756859160226
+child	Heart: Megakaryocytes	0.8397199085283179
+child	Heart: Lymphatic endothelial cells	-1.3692710753243489
+child	Heart: Schwann cells	-0.6896630095207996
+child	Heart: Lymphoid cells	2.5508927866961897
+child	Heart: Myeloid cells	-0.8237846448561743
+child	Heart: Endocardial cells	-2.46104696513173
+child	Heart: Stromal cells	-1.1619101289982474
+child	Heart: SATB2_LRRC7 positive cells	-1.93897361041918
+child	Heart: Erythroblasts	-0.8930698730752196
+child	Heart: Visceral neurons	-0.8641984837870011
+child	Heart: ELF3_AGBL2 positive cells	-1.9916631007845937
+child	Intestine: Erythroblasts	3.734057830930532
+child	Intestine: Chromaffin cells	-1.5386871632695707
+child	Intestine: Smooth muscle cells	-0.14987841831648735
+child	Intestine: Myeloid cells	-0.2930294917956847
+child	Intestine: Lymphoid cells	2.1467392585105727
+child	Intestine: ENS glia	-1.8867778271422897
+child	Intestine: ENS neurons	-1.2061344184042138
+child	Intestine: Vascular endothelial cells	-0.956442974373878
+child	Intestine: Mesothelial cells	-1.4632833063319273
+child	Intestine: Lymphatic endothelial cells	0.33045667323314015
+child	Muscle: Megakaryocytes	-0.7653289956538344
+child	Muscle: Schwann cells	-1.5625894806955425
+child	Muscle: Lymphatic endothelial cells	-0.8354309476014872
+child	Muscle: Erythroblasts	4.271220820050822
+child	Muscle: Smooth muscle cells	-1.4610640548157783
+child	Muscle: Myeloid cells	0.9735717667710023
+child	Muscle: Lymphoid cells	3.8183622097852554
+child	Placenta: AFP_ALB positive cells	-1.6039657172361788
+child	Placenta: Extravillous trophoblasts	0.5672249971248713
+child	Placenta: Smooth muscle cells	-2.0384432061836537
+child	Placenta: IGFBP1_DKK1 positive cells	-2.3094915779409235
+child	Placenta: Myeloid cells	0.7983673130602409
+child	Spleen: AFP_ALB positive cells	-0.06944749823059244
+child	Spleen: STC2_TLX1 positive cells	-0.07104704778808563
+child	Spleen: Megakaryocytes	-1.4942374489537833
+child	Spleen: Mesothelial cells	-0.8938407710615902
+child	Stomach: Neuroendocrine cells	-1.9487233443130063
+child	Stomach: Erythroblasts	4.044808601116163
+child	Stomach: Squamous epithelial cells	-0.5352668435370276
+child	Stomach: Parietal and chief cells	-1.3946166695438498
+child	Stomach: MUC13_DMBT1 positive cells	-0.6301392239851833
+child	Stomach: Myeloid cells	0.5800227345543555
+child	Stomach: Goblet cells	-1.6721730952543041
+child	Stomach: Stromal cells	-2.0408252352124743
+child	Stomach: ENS neurons	-1.8003714822178531
+child	Stomach: ENS glia	-1.6153831110086436
+child	Stomach: Vascular endothelial cells	0.7380893247514833
+child	Stomach: Lymphatic endothelial cells	-1.1517971089323271
+child	Stomach: Mesothelial cells	-1.8074385932618369
+child	Stomach: Lymphoid cells	5.18451937173573
+child	Stomach: PDE1C_ACSM3 positive cells	-1.8056904330979868
+child	Thymus: Stromal cells	-0.7304039553967195
+child	Thymus: Antigen presenting cells	0.9340641096237927
+child	Thymus: Vascular endothelial cells	-1.6075281183938765
+child	Lung: Cancer stem cells	-1.6192803853967461
+infant	Immune system: Pro-B cells	2.4945952528980877
+infant	Immune system: Pre-B cells	1.030022812246989
+infant	Immune system: Naive B cells	1.0444053132730604
+infant	Immune system: Memory B cells	0.8658715442005596
+infant	Immune system: Plasma B cells	0.6981708243079197
+infant	Immune system: Naive CD8+ T cells	-2.548306471886103
+infant	Immune system: Naive CD4+ T cells	-1.5594197534654168
+infant	Immune system: Memory CD8+ T cells	-2.400344704255617
+infant	Immune system: Memory CD4+ T cells	-1.4039488087658885
+infant	Immune system: Effector CD8+ T cells	-2.439463339417254
+infant	Immune system: Effector CD4+ T cells	-1.430739773069647
+infant	Immune system: γδ-T cells	-1.6986131503978772
+infant	Immune system: CD8+ NKT-like cells	-1.8420073738667995
+infant	Immune system: CD4+ NKT-like cells	-1.411616027039668
+infant	Immune system: Natural killer  cells	-0.7295600313917552
+infant	Immune system: Eosinophils	0.9887032278151041
+infant	Immune system: Neutrophils	-2.040304551330279
+infant	Immune system: Basophils	0.879300750501718
+infant	Immune system: Classical Monocytes	-2.947382125420214
+infant	Immune system: Non-classical monocytes	-1.8914318306138718
+infant	Immune system: Intermediate monocytes	-2.171594960172396
+infant	Immune system: Macrophages	-1.18628655184221
+infant	Immune system: Endothelial	0.3142739192953301
+infant	Immune system: Erythroid-like and erythroid precursor cells	-2.2141894752033435
+infant	Immune system: HSC/MPP cells	1.023549581565082
+infant	Immune system: Progenitor cells	1.402397309524197
+infant	Immune system: Myeloid Dendritic cells	0.7930462761111315
+infant	Immune system: Plasmacytoid Dendritic cells	1.755754324912631
+infant	Immune system: Granulocytes	2.2135480387998125
+infant	Immune system: ISG expressing immune cells	-0.008093338330827055
+infant	Pancreas: Acinar cells	-1.0820881574111523
+infant	Pancreas: Alpha cells	-2.5926385859208345
+infant	Pancreas: Beta cells	-2.4957375096221184
+infant	Pancreas: Delta cells	-1.5613872763058092
+infant	Pancreas: Ductal cells	-1.4445735447003794
+infant	Pancreas: Endothelial cells	0.20395085030920684
+infant	Pancreas: Epsilon cells	-0.8252697850260567
+infant	Pancreas: Gamma (PP) cells	0.22913667983939637
+infant	Pancreas: Immune system cells	-1.1871220788119428
+infant	Pancreas: Pancreatic progenitor cells	-0.5688577683889195
+infant	Pancreas: Pancreatic stellate cells	1.7184052233586493
+infant	Pancreas: Peri-islet Schwann cells	-1.0337754816476061
+infant	Liver: Cholangiocytes	-0.7220724537885577
+infant	Liver: Endothelial cell	0.34454559945884317
+infant	Liver: Hepatic stellate cells	0.1433869738974597
+infant	Liver: Hepatoblasts	0.05466096667151168
+infant	Liver: Hepatocytes	-2.039419743263974
+infant	Liver: Immune system cells	-0.9060701733210111
+infant	Liver: Kupffer cells	0.22270813190350894
+infant	Eye: Muller cells	0.48402077144155325
+infant	Eye: Retinal ganglion cells	-2.074681631415824
+infant	Eye: Retinal progenitor cells	-1.3144490134866151
+infant	Eye: Rod bipolar cells	-1.24536819128518
+infant	Eye: Cone bipolar cells	-0.8894091256593846
+infant	Eye: GABAergic amacrine cells	-0.7188453197488682
+infant	Eye: Rod photoreceptor cells	0.4402293631913803
+infant	Eye: Cone photoreceptor cells	1.5264494249714788
+infant	Eye: Microglial cells	-1.012835464906184
+infant	Eye: Horizontal cells	-0.5888921851853238
+infant	Eye: Retinal pigment epithelial cells	0.20865223336235564
+infant	Eye: Endothelial cells	-1.021539326565492
+infant	Eye: Extracellular matrix cells	-1.2604857199507922
+infant	Eye: Glycinergic amacrine cells	-1.7158942044398149
+infant	Eye: Cholinergic GABAergic amacrine cells	-1.2261026539855684
+infant	Eye: Tachykinin GABAergic amacrine cells	-0.9051003323958454
+infant	Eye: Starburst amacrine cells	-1.5541075457094926
+infant	Kidney: Immune cells	-1.8296650777883976
+infant	Kidney: α-intercalated cells (Collecting duct system)	-2.248352865563121
+infant	Kidney: β-intercalated cells (Collecting duct system)	-1.4376468953497339
+infant	Kidney: Loop of Henle cells	0.6629648846175447
+infant	Kidney: Mesangial cells	0.7606332016053701
+infant	Kidney: Podocytes	0.4171710788359242
+infant	Kidney: Principal cells (Collecting duct system)	-0.829198969817364
+infant	Kidney: Proximal tubule cells	-1.3202390955980559
+infant	Kidney: Endothelial cells	-0.7615636138896754
+infant	Kidney: Distal tubule cells	-0.9162963297546736
+infant	Kidney: Renal Vesicle cells	-1.2562507538185663
+infant	Brain: Astrocytes	-1.1898573132818937
+infant	Brain: Endothelial cells	-0.1215754109555271
+infant	Brain: Microglial cells	-0.8189913241054662
+infant	Brain: Neural Progenitor cells	-0.024505918836558224
+infant	Brain: Oligodendrocytes	0.1463644803745234
+infant	Brain: Radial glial cells	-0.9189369565174547
+infant	Lung: Airway goblet cells	-0.4362657781559911
+infant	Lung: Mesothelial cells	-1.198454329106889
+infant	Lung: Basal cells (Airway progenitor cells)	0.047744363827790286
+infant	Lung: Alveolar macrophages	-1.5473745147327052
+infant	Lung: Ciliated cells	1.2234083722400486
+infant	Lung: Clara cells	-0.050664184334560165
+infant	Lung: Immune system cells	-0.020131126573534195
+infant	Lung: Endothelial cell	0.14581058391071272
+infant	Lung: Pulmonary alveolar type I cells	0.7042912464868796
+infant	Lung: Pulmonary alveolar type II cells	-3.2304725904789726
+infant	Adrenal: CSH1_CSH2 positive cells	-0.17851022888500442
+infant	Adrenal: Megakaryocytes	-3.130454803862493
+infant	Adrenal: Schwann cells	0.044475645327392455
+infant	Adrenal: Myeloid cells	-0.18608449265715957
+infant	Adrenal: Vascular endothelial cells	-0.0893572632045183
+infant	Adrenal: Lymphoid cells	-2.7530358909131367
+infant	Heart: Megakaryocytes	-3.4423034342938545
+infant	Heart: Lymphatic endothelial cells	-0.44924847558573966
+infant	Heart: Schwann cells	-0.5762503586738652
+infant	Heart: Lymphoid cells	-2.8053233381139173
+infant	Heart: Myeloid cells	-0.7049863613190622
+infant	Heart: Endocardial cells	-1.7736681476140752
+infant	Heart: Stromal cells	-0.7852030999982936
+infant	Heart: SATB2_LRRC7 positive cells	-2.1510349099736956
+infant	Heart: Erythroblasts	0.42396420228024756
+infant	Heart: Visceral neurons	-0.17554936513654176
+infant	Heart: ELF3_AGBL2 positive cells	-0.5505693930137551
+infant	Intestine: Erythroblasts	-8.342241081594338
+infant	Intestine: Chromaffin cells	-2.184572162296108
+infant	Intestine: Smooth muscle cells	-0.5492031078235282
+infant	Intestine: Myeloid cells	-0.2015431002550056
+infant	Intestine: Lymphoid cells	-0.9125793220437023
+infant	Intestine: ENS glia	-0.16679028210975774
+infant	Intestine: ENS neurons	-0.2823730036868339
+infant	Intestine: Vascular endothelial cells	-1.11307268722921
+infant	Intestine: Mesothelial cells	0.011776907934678477
+infant	Intestine: Lymphatic endothelial cells	-0.0415892860322974
+infant	Muscle: Megakaryocytes	-3.1458454163021674
+infant	Muscle: Schwann cells	-0.5793533510706195
+infant	Muscle: Lymphatic endothelial cells	-0.35872433575608004
+infant	Muscle: Erythroblasts	-8.21039730841749
+infant	Muscle: Smooth muscle cells	-0.06902427807208641
+infant	Muscle: Myeloid cells	-0.5668979820881928
+infant	Muscle: Lymphoid cells	-1.9178070886247
+infant	Placenta: AFP_ALB positive cells	-1.40394797687553
+infant	Placenta: Extravillous trophoblasts	0.22717588579913947
+infant	Placenta: Smooth muscle cells	0.846936558500577
+infant	Placenta: IGFBP1_DKK1 positive cells	0.6717479326392667
+infant	Placenta: Myeloid cells	-1.5009154883677398
+infant	Spleen: AFP_ALB positive cells	-1.028329105868574
+infant	Spleen: STC2_TLX1 positive cells	1.093578220291698
+infant	Spleen: Megakaryocytes	-4.048249310316281
+infant	Spleen: Mesothelial cells	-1.2087101226435408
+infant	Stomach: Neuroendocrine cells	-0.8865020567187545
+infant	Stomach: Erythroblasts	-6.761342904352334
+infant	Stomach: Squamous epithelial cells	-2.153179672973754
+infant	Stomach: Parietal and chief cells	-0.6094215832909372
+infant	Stomach: MUC13_DMBT1 positive cells	-2.3726135776979094
+infant	Stomach: Myeloid cells	-0.36012755110837913
+infant	Stomach: Goblet cells	-1.0629203786128387
+infant	Stomach: Stromal cells	-0.8146578007654687
+infant	Stomach: ENS neurons	-1.791804111139072
+infant	Stomach: ENS glia	-0.81831108745589
+infant	Stomach: Vascular endothelial cells	0.19868145366574028
+infant	Stomach: Lymphatic endothelial cells	-0.7808470733872755
+infant	Stomach: Mesothelial cells	-0.5062551828279979
+infant	Stomach: Lymphoid cells	-2.906354729272938
+infant	Stomach: PDE1C_ACSM3 positive cells	-0.5995740310350649
+infant	Thymus: Stromal cells	-0.661378886603635
+infant	Thymus: Antigen presenting cells	-2.253897982014235
+infant	Thymus: Vascular endothelial cells	-0.06279985213932451
+infant	Lung: Cancer stem cells	0.3396368410120986
+middle_adult	Immune system: Pro-B cells	-2.213794179727062
+middle_adult	Immune system: Pre-B cells	-1.6749236596503339
+middle_adult	Immune system: Naive B cells	-4.215146422925637
+middle_adult	Immune system: Memory B cells	-3.7097142006371935
+middle_adult	Immune system: Plasma B cells	-3.5043284357991986
+middle_adult	Immune system: Naive CD8+ T cells	4.7632058746338934
+middle_adult	Immune system: Naive CD4+ T cells	4.154611010389686
+middle_adult	Immune system: Memory CD8+ T cells	4.245573637635878
+middle_adult	Immune system: Memory CD4+ T cells	3.6018053960085474
+middle_adult	Immune system: Effector CD8+ T cells	4.743278843324583
+middle_adult	Immune system: Effector CD4+ T cells	4.132144855699823
+middle_adult	Immune system: γδ-T cells	4.575360301869872
+middle_adult	Immune system: CD8+ NKT-like cells	1.1238176090419019
+middle_adult	Immune system: CD4+ NKT-like cells	0.7452381369987833
+middle_adult	Immune system: Natural killer  cells	-0.09318411514202118
+middle_adult	Immune system: Eosinophils	-0.7235921043910816
+middle_adult	Immune system: Neutrophils	-4.884491775545967
+middle_adult	Immune system: Basophils	-3.137984671280167
+middle_adult	Immune system: Classical Monocytes	-3.93359091102488
+middle_adult	Immune system: Non-classical monocytes	-4.155727055254045
+middle_adult	Immune system: Intermediate monocytes	-3.175496308444335
+middle_adult	Immune system: Macrophages	-3.8896425577209373
+middle_adult	Immune system: Endothelial	-0.615517456848361
+middle_adult	Immune system: Erythroid-like and erythroid precursor cells	1.3281874105085982
+middle_adult	Immune system: HSC/MPP cells	-1.8194883030574318
+middle_adult	Immune system: Progenitor cells	-1.1539486856539407
+middle_adult	Immune system: Myeloid Dendritic cells	-4.268217428181985
+middle_adult	Immune system: Plasmacytoid Dendritic cells	-3.3280482351937177
+middle_adult	Immune system: Granulocytes	-4.7118390275949045
+middle_adult	Immune system: ISG expressing immune cells	1.9386357573532216
+middle_adult	Pancreas: Acinar cells	-1.1706080679852309
+middle_adult	Pancreas: Alpha cells	1.6179944910460378
+middle_adult	Pancreas: Beta cells	0.6646504290103139
+middle_adult	Pancreas: Delta cells	0.7127661427778925
+middle_adult	Pancreas: Ductal cells	-0.2788375166595079
+middle_adult	Pancreas: Endothelial cells	-0.6590501479626074
+middle_adult	Pancreas: Epsilon cells	1.0831251452380222
+middle_adult	Pancreas: Gamma (PP) cells	1.4136516795387808
+middle_adult	Pancreas: Immune system cells	0.07346550452228343
+middle_adult	Pancreas: Pancreatic progenitor cells	0.9341392432877069
+middle_adult	Pancreas: Pancreatic stellate cells	-2.0302580743760577
+middle_adult	Pancreas: Peri-islet Schwann cells	0.8593678796862172
+middle_adult	Liver: Cholangiocytes	-0.6234916090808674
+middle_adult	Liver: Endothelial cell	-2.214247057692155
+middle_adult	Liver: Hepatic stellate cells	-1.4261094333198203
+middle_adult	Liver: Hepatoblasts	-0.1411137897001135
+middle_adult	Liver: Hepatocytes	-0.9783386340393716
+middle_adult	Liver: Immune system cells	-0.3398374318222202
+middle_adult	Liver: Kupffer cells	-7.427503676906073
+middle_adult	Eye: Muller cells	-1.07008591559741
+middle_adult	Eye: Retinal ganglion cells	2.2742851354933182
+middle_adult	Eye: Retinal progenitor cells	-0.5386780437704295
+middle_adult	Eye: Rod bipolar cells	0.3911134057564787
+middle_adult	Eye: Cone bipolar cells	-0.12910906371390407
+middle_adult	Eye: GABAergic amacrine cells	-0.6150268354961214
+middle_adult	Eye: Rod photoreceptor cells	1.8826882701671743
+middle_adult	Eye: Cone photoreceptor cells	1.7526381399621693
+middle_adult	Eye: Microglial cells	-4.145540639858749
+middle_adult	Eye: Horizontal cells	-0.020167688824620382
+middle_adult	Eye: Retinal pigment epithelial cells	0.012831589636007357
+middle_adult	Eye: Endothelial cells	-1.4320039628285024
+middle_adult	Eye: Extracellular matrix cells	-0.44857988007961436
+middle_adult	Eye: Glycinergic amacrine cells	-0.6180450019073198
+middle_adult	Eye: Cholinergic GABAergic amacrine cells	-0.3141235800255308
+middle_adult	Eye: Tachykinin GABAergic amacrine cells	-0.036190076271980745
+middle_adult	Eye: Starburst amacrine cells	-0.8413732731302673
+middle_adult	Kidney: Immune cells	-2.1490104002827195
+middle_adult	Kidney: α-intercalated cells (Collecting duct system)	0.6384944465716125
+middle_adult	Kidney: β-intercalated cells (Collecting duct system)	0.503868572369521
+middle_adult	Kidney: Loop of Henle cells	-0.2548885845133614
+middle_adult	Kidney: Mesangial cells	1.5149944419997887
+middle_adult	Kidney: Podocytes	-0.08109857221724126
+middle_adult	Kidney: Principal cells (Collecting duct system)	3.462898555934995
+middle_adult	Kidney: Proximal tubule cells	-0.822551983191141
+middle_adult	Kidney: Endothelial cells	-2.254809924237998
+middle_adult	Kidney: Distal tubule cells	-1.0164123980748447
+middle_adult	Kidney: Renal Vesicle cells	0.07153955936882732
+middle_adult	Brain: Astrocytes	-0.5465251726872479
+middle_adult	Brain: Endothelial cells	-0.5357363014561033
+middle_adult	Brain: Microglial cells	-4.293894113070288
+middle_adult	Brain: Neural Progenitor cells	1.5412094500029128
+middle_adult	Brain: Oligodendrocytes	0.4109285886488872
+middle_adult	Brain: Radial glial cells	-0.6407422269118249
+middle_adult	Lung: Airway goblet cells	0.784732487023929
+middle_adult	Lung: Mesothelial cells	0.01669128357220277
+middle_adult	Lung: Basal cells (Airway progenitor cells)	1.0275428269118567
+middle_adult	Lung: Alveolar macrophages	-5.019850380044253
+middle_adult	Lung: Ciliated cells	1.1855920322408733
+middle_adult	Lung: Clara cells	0.7267560034928776
+middle_adult	Lung: Immune system cells	-4.837532208838927
+middle_adult	Lung: Endothelial cell	-0.49307695409990543
+middle_adult	Lung: Pulmonary alveolar type I cells	2.1733401153737835
+middle_adult	Lung: Pulmonary alveolar type II cells	-2.4782789850119964
+middle_adult	Adrenal: CSH1_CSH2 positive cells	0.43124067905272684
+middle_adult	Adrenal: Megakaryocytes	-4.034588053108313
+middle_adult	Adrenal: Schwann cells	1.2596842793169378
+middle_adult	Adrenal: Myeloid cells	-5.764898605269117
+middle_adult	Adrenal: Vascular endothelial cells	-0.7061195500394087
+middle_adult	Adrenal: Lymphoid cells	1.8092453935800152
+middle_adult	Heart: Megakaryocytes	-3.4480473561610454
+middle_adult	Heart: Lymphatic endothelial cells	1.0713316739173004
+middle_adult	Heart: Schwann cells	0.9156162170925637
+middle_adult	Heart: Lymphoid cells	-0.38573603198287576
+middle_adult	Heart: Myeloid cells	-5.6686462806000115
+middle_adult	Heart: Endocardial cells	-0.4295153984568556
+middle_adult	Heart: Stromal cells	0.37720634476369547
+middle_adult	Heart: SATB2_LRRC7 positive cells	0.5165139894416348
+middle_adult	Heart: Erythroblasts	-0.3433054635027336
+middle_adult	Heart: Visceral neurons	0.8193823017659063
+middle_adult	Heart: ELF3_AGBL2 positive cells	0.8365830949021709
+middle_adult	Intestine: Erythroblasts	2.343390368665748
+middle_adult	Intestine: Chromaffin cells	1.2483403014324777
+middle_adult	Intestine: Smooth muscle cells	1.1236691680072026
+middle_adult	Intestine: Myeloid cells	-4.815359643719169
+middle_adult	Intestine: Lymphoid cells	2.670237783488772
+middle_adult	Intestine: ENS glia	0.4173748366148782
+middle_adult	Intestine: ENS neurons	1.0576433133372745
+middle_adult	Intestine: Vascular endothelial cells	0.5337050019343178
+middle_adult	Intestine: Mesothelial cells	1.2873384120510385
+middle_adult	Intestine: Lymphatic endothelial cells	1.4323289759930873
+middle_adult	Muscle: Megakaryocytes	-3.1854350982457467
+middle_adult	Muscle: Schwann cells	0.81449986037855715
+middle_adult	Muscle: Lymphatic endothelial cells	-1.1697271923283434
+middle_adult	Muscle: Erythroblasts	3.3733870813672175
+middle_adult	Muscle: Smooth muscle cells	0.6561084235253184
+middle_adult	Muscle: Myeloid cells	-5.090890336942762
+middle_adult	Muscle: Lymphoid cells	2.5479189573701495
+middle_adult	Placenta: AFP_ALB positive cells	1.50677030852765
+middle_adult	Placenta: Extravillous trophoblasts	0.6543892598426494
+middle_adult	Placenta: Smooth muscle cells	0.43042157546408133
+middle_adult	Placenta: IGFBP1_DKK1 positive cells	1.0517213008555009
+middle_adult	Placenta: Myeloid cells	-4.430219152626491
+middle_adult	Spleen: AFP_ALB positive cells	-0.09377632867675877
+middle_adult	Spleen: STC2_TLX1 positive cells	0.37880413653120304
+middle_adult	Spleen: Megakaryocytes	-4.467784634050651
+middle_adult	Spleen: Mesothelial cells	1.5042875324049907
+middle_adult	Stomach: Neuroendocrine cells	0.8849187448490852
+middle_adult	Stomach: Erythroblasts	2.1733095789724257
+middle_adult	Stomach: Squamous epithelial cells	1.5378358652182238
+middle_adult	Stomach: Parietal and chief cells	1.4118938852537197
+middle_adult	Stomach: MUC13_DMBT1 positive cells	0.33442572902866996
+middle_adult	Stomach: Myeloid cells	-6.035739837193449
+middle_adult	Stomach: Goblet cells	-0.7601437042717964
+middle_adult	Stomach: Stromal cells	-0.9623144735230509
+middle_adult	Stomach: ENS neurons	1.528428498761419
+middle_adult	Stomach: ENS glia	1.2144198012749263
+middle_adult	Stomach: Vascular endothelial cells	2.1202322494076364
+middle_adult	Stomach: Lymphatic endothelial cells	-1.047900032442891
+middle_adult	Stomach: Mesothelial cells	0.27494289880629924
+middle_adult	Stomach: Lymphoid cells	2.832999421813787
+middle_adult	Stomach: PDE1C_ACSM3 positive cells	1.0287764105295765
+middle_adult	Thymus: Stromal cells	1.6822102988217502
+middle_adult	Thymus: Antigen presenting cells	-4.492995165455269
+middle_adult	Thymus: Vascular endothelial cells	-0.3407238336564825
+middle_adult	Lung: Cancer stem cells	-1.5765155664489146
+old_adult	Immune system: Pro-B cells	-0.7573999555525764
+old_adult	Immune system: Pre-B cells	-0.03889506655140166
+old_adult	Immune system: Naive B cells	-1.5721937771793844
+old_adult	Immune system: Memory B cells	-1.336183299705292
+old_adult	Immune system: Plasma B cells	-1.3183886622887082
+old_adult	Immune system: Naive CD8+ T cells	3.452064257669671
+old_adult	Immune system: Naive CD4+ T cells	3.2636221831665937
+old_adult	Immune system: Memory CD8+ T cells	3.2520060059635343
+old_adult	Immune system: Memory CD4+ T cells	3.044124841445497
+old_adult	Immune system: Effector CD8+ T cells	3.8589699444260277
+old_adult	Immune system: Effector CD4+ T cells	3.683365197078435
+old_adult	Immune system: γδ-T cells	3.5555318409026437
+old_adult	Immune system: CD8+ NKT-like cells	2.9334431614752505
+old_adult	Immune system: CD4+ NKT-like cells	3.0268133848899432
+old_adult	Immune system: Natural killer  cells	2.2334427430167634
+old_adult	Immune system: Eosinophils	-2.009904644726478
+old_adult	Immune system: Neutrophils	-2.8059020504016488
+old_adult	Immune system: Basophils	-0.3630578525089419
+old_adult	Immune system: Classical Monocytes	-1.6310902561707508
+old_adult	Immune system: Non-classical monocytes	-1.033789218651426
+old_adult	Immune system: Intermediate monocytes	-1.2211365890833088
+old_adult	Immune system: Macrophages	-1.8395292142586506
+old_adult	Immune system: Endothelial	1.0961077571544457
+old_adult	Immune system: Erythroid-like and erythroid precursor cells	0.874702375900283
+old_adult	Immune system: HSC/MPP cells	1.096852277840384
+old_adult	Immune system: Progenitor cells	0.8252615297349046
+old_adult	Immune system: Myeloid Dendritic cells	-2.0926306213234223
+old_adult	Immune system: Plasmacytoid Dendritic cells	-1.4927000893620905
+old_adult	Immune system: Granulocytes	-2.104920271837219
+old_adult	Immune system: ISG expressing immune cells	-1.9621857921595633
+old_adult	Pancreas: Acinar cells	1.2859665638068294
+old_adult	Pancreas: Alpha cells	4.199218842660259
+old_adult	Pancreas: Beta cells	3.0127585232096017
+old_adult	Pancreas: Delta cells	2.4593163863186276
+old_adult	Pancreas: Ductal cells	1.4024831771564572
+old_adult	Pancreas: Endothelial cells	1.3105181067470502
+old_adult	Pancreas: Epsilon cells	2.838402013282086
+old_adult	Pancreas: Gamma (PP) cells	2.5336211685885894
+old_adult	Pancreas: Immune system cells	1.3258484033510733
+old_adult	Pancreas: Pancreatic progenitor cells	1.4714945764642855
+old_adult	Pancreas: Pancreatic stellate cells	0.8732738154857259
+old_adult	Pancreas: Peri-islet Schwann cells	1.1729810233668212
+old_adult	Liver: Cholangiocytes	0.12092918165169295
+old_adult	Liver: Endothelial cell	-2.053783437358989
+old_adult	Liver: Hepatic stellate cells	1.2383731638690845
+old_adult	Liver: Hepatoblasts	0.24073792245113398
+old_adult	Liver: Hepatocytes	1.8019800016539618
+old_adult	Liver: Immune system cells	1.5845756885586277
+old_adult	Liver: Kupffer cells	-3.1376700251213623
+old_adult	Eye: Muller cells	-0.6270051625491375
+old_adult	Eye: Retinal ganglion cells	1.8345109521408363
+old_adult	Eye: Retinal progenitor cells	0.9899233366461186
+old_adult	Eye: Rod bipolar cells	1.3984891675164361
+old_adult	Eye: Cone bipolar cells	0.5213840721032942
+old_adult	Eye: GABAergic amacrine cells	2.2140979066095943
+old_adult	Eye: Rod photoreceptor cells	1.449675777139985
+old_adult	Eye: Cone photoreceptor cells	1.3494981048384347
+old_adult	Eye: Microglial cells	-0.46616347044944684
+old_adult	Eye: Horizontal cells	-0.03729796698716605
+old_adult	Eye: Retinal pigment epithelial cells	0.43504172928420315
+old_adult	Eye: Endothelial cells	-1.5370970415217313
+old_adult	Eye: Extracellular matrix cells	0.0023135537276175434
+old_adult	Eye: Glycinergic amacrine cells	2.775458125291761
+old_adult	Eye: Cholinergic GABAergic amacrine cells	2.8209061684795866
+old_adult	Eye: Tachykinin GABAergic amacrine cells	2.5084051245995793
+old_adult	Eye: Starburst amacrine cells	2.354773939780324
+old_adult	Kidney: Immune cells	-0.8872028769870611
+old_adult	Kidney: α-intercalated cells (Collecting duct system)	1.6651829532848534
+old_adult	Kidney: β-intercalated cells (Collecting duct system)	2.1853642513727922
+old_adult	Kidney: Loop of Henle cells	2.1478690271792273
+old_adult	Kidney: Mesangial cells	2.421212640131966
+old_adult	Kidney: Podocytes	1.1128303053888724
+old_adult	Kidney: Principal cells (Collecting duct system)	1.8477815210472444
+old_adult	Kidney: Proximal tubule cells	2.549193708828309
+old_adult	Kidney: Endothelial cells	-1.1618734360042176
+old_adult	Kidney: Distal tubule cells	0.45859632417403134
+old_adult	Kidney: Renal Vesicle cells	1.3700684785801327
+old_adult	Brain: Astrocytes	-0.3843166082501027
+old_adult	Brain: Endothelial cells	0.3645274685586091
+old_adult	Brain: Microglial cells	-0.5989876984512784
+old_adult	Brain: Neural Progenitor cells	1.082436999126944
+old_adult	Brain: Oligodendrocytes	0.6707842980782829
+old_adult	Brain: Radial glial cells	-0.22989732188774173
+old_adult	Lung: Airway goblet cells	0.2628327833310955
+old_adult	Lung: Mesothelial cells	1.4588815955645886
+old_adult	Lung: Basal cells (Airway progenitor cells)	1.3712957271433133
+old_adult	Lung: Alveolar macrophages	-3.2513776247556496
+old_adult	Lung: Ciliated cells	0.3269084298581279
+old_adult	Lung: Clara cells	0.4194584776751328
+old_adult	Lung: Immune system cells	0.6969303207975426
+old_adult	Lung: Endothelial cell	0.17716282402125
+old_adult	Lung: Pulmonary alveolar type I cells	1.8841306349191664
+old_adult	Lung: Pulmonary alveolar type II cells	-1.694107142463192
+old_adult	Adrenal: CSH1_CSH2 positive cells	0.3776623042597161
+old_adult	Adrenal: Megakaryocytes	-0.3390929596282208
+old_adult	Adrenal: Schwann cells	0.8442384179360306
+old_adult	Adrenal: Myeloid cells	-2.5083011801423964
+old_adult	Adrenal: Vascular endothelial cells	2.0794233361047887
+old_adult	Adrenal: Lymphoid cells	3.795793105113224
+old_adult	Heart: Megakaryocytes	0.8189626823661461
+old_adult	Heart: Lymphatic endothelial cells	2.9438612581074284
+old_adult	Heart: Schwann cells	1.9624012996251543
+old_adult	Heart: Lymphoid cells	1.7636239305928951
+old_adult	Heart: Myeloid cells	-1.6595484688124464
+old_adult	Heart: Endocardial cells	1.045963741444975
+old_adult	Heart: Stromal cells	1.8226761291803455
+old_adult	Heart: SATB2_LRRC7 positive cells	1.0470267509880815
+old_adult	Heart: Erythroblasts	2.1208710684532917
+old_adult	Heart: Visceral neurons	1.811903663941482
+old_adult	Heart: ELF3_AGBL2 positive cells	0.17883007424445282
+old_adult	Intestine: Erythroblasts	2.7202721283473386
+old_adult	Intestine: Chromaffin cells	2.975179046942559
+old_adult	Intestine: Smooth muscle cells	0.5851850584903506
+old_adult	Intestine: Myeloid cells	-2.448910532868017
+old_adult	Intestine: Lymphoid cells	3.495231240311512
+old_adult	Intestine: ENS glia	1.8074740577771462
+old_adult	Intestine: ENS neurons	1.8653944204796493
+old_adult	Intestine: Vascular endothelial cells	1.6607528012555717
+old_adult	Intestine: Mesothelial cells	1.2414426073632845
+old_adult	Intestine: Lymphatic endothelial cells	1.9897057272217964
+old_adult	Muscle: Megakaryocytes	1.2967337815798479
+old_adult	Muscle: Schwann cells	2.3461661974925194
+old_adult	Muscle: Lymphatic endothelial cells	0.4726129323948
+old_adult	Muscle: Erythroblasts	3.0819133408883963
+old_adult	Muscle: Smooth muscle cells	0.7198818639126727
+old_adult	Muscle: Myeloid cells	-2.9399516600243683
+old_adult	Muscle: Lymphoid cells	3.680445915677305
+old_adult	Placenta: AFP_ALB positive cells	3.9941760587627706
+old_adult	Placenta: Extravillous trophoblasts	2.183771070161028
+old_adult	Placenta: Smooth muscle cells	1.6279599686972046
+old_adult	Placenta: IGFBP1_DKK1 positive cells	2.4152389201178464
+old_adult	Placenta: Myeloid cells	-1.8231769756086338
+old_adult	Spleen: AFP_ALB positive cells	2.5739648949881824
+old_adult	Spleen: STC2_TLX1 positive cells	-0.2002222168234161
+old_adult	Spleen: Megakaryocytes	0.12358900033435703
+old_adult	Spleen: Mesothelial cells	0.7285156794594158
+old_adult	Stomach: Neuroendocrine cells	1.2993761447260823
+old_adult	Stomach: Erythroblasts	2.4460783029389486
+old_adult	Stomach: Squamous epithelial cells	1.949973049928573
+old_adult	Stomach: Parietal and chief cells	2.938398274914664
+old_adult	Stomach: MUC13_DMBT1 positive cells	3.2085186231187297
+old_adult	Stomach: Myeloid cells	-1.9745236763381644
+old_adult	Stomach: Goblet cells	1.725357732642438
+old_adult	Stomach: Stromal cells	0.1065959824183829
+old_adult	Stomach: ENS neurons	3.2317788006018717
+old_adult	Stomach: ENS glia	3.424652805870936
+old_adult	Stomach: Vascular endothelial cells	0.6902940174202046
+old_adult	Stomach: Lymphatic endothelial cells	0.27407208265351124
+old_adult	Stomach: Mesothelial cells	1.4563886108074735
+old_adult	Stomach: Lymphoid cells	3.7389263264795027
+old_adult	Stomach: PDE1C_ACSM3 positive cells	1.3869859509522693
+old_adult	Thymus: Stromal cells	-0.06071599475739081
+old_adult	Thymus: Antigen presenting cells	-0.7544893892759472
+old_adult	Thymus: Vascular endothelial cells	0.7453734969607188
+old_adult	Lung: Cancer stem cells	1.35543500184654
+older_adult	Immune system: Pro-B cells	-3.713626176559004
+older_adult	Immune system: Pre-B cells	-4.239823231861769
+older_adult	Immune system: Naive B cells	-4.538595698945039
+older_adult	Immune system: Memory B cells	-4.275823036383248
+older_adult	Immune system: Plasma B cells	-3.945310873907668
+older_adult	Immune system: Naive CD8+ T cells	2.7383111727432645
+older_adult	Immune system: Naive CD4+ T cells	3.7234692965558147
+older_adult	Immune system: Memory CD8+ T cells	2.3029594849187762
+older_adult	Immune system: Memory CD4+ T cells	3.260578618737044
+older_adult	Immune system: Effector CD8+ T cells	3.035981371317233
+older_adult	Immune system: Effector CD4+ T cells	4.08083622704379
+older_adult	Immune system: γδ-T cells	4.017279989808322
+older_adult	Immune system: CD8+ NKT-like cells	0.5338682951545761
+older_adult	Immune system: CD4+ NKT-like cells	1.0872794823935268
+older_adult	Immune system: Natural killer  cells	-0.864464870808702
+older_adult	Immune system: Eosinophils	-1.042257153018704
+older_adult	Immune system: Neutrophils	-6.03567417385483
+older_adult	Immune system: Basophils	-3.235296242741934
+older_adult	Immune system: Classical Monocytes	-4.17584472852563
+older_adult	Immune system: Non-classical monocytes	-4.805393575369854
+older_adult	Immune system: Intermediate monocytes	-3.0660333533722817
+older_adult	Immune system: Macrophages	-3.7711777977629897
+older_adult	Immune system: Endothelial	2.7665747057204486
+older_adult	Immune system: Erythroid-like and erythroid precursor cells	-0.5454367643467353
+older_adult	Immune system: HSC/MPP cells	-0.009647253233458887
+older_adult	Immune system: Progenitor cells	0.22916830191307372
+older_adult	Immune system: Myeloid Dendritic cells	-4.992378486777968
+older_adult	Immune system: Plasmacytoid Dendritic cells	-4.101997676637681
+older_adult	Immune system: Granulocytes	-4.183765914647691
+older_adult	Immune system: ISG expressing immune cells	-2.860807478876484
+older_adult	Pancreas: Acinar cells	-0.1850025443706061
+older_adult	Pancreas: Alpha cells	3.0389298789344728
+older_adult	Pancreas: Beta cells	2.8801821658825264
+older_adult	Pancreas: Delta cells	1.5254387319582952
+older_adult	Pancreas: Ductal cells	1.4711444395935585
+older_adult	Pancreas: Endothelial cells	1.76870728156449
+older_adult	Pancreas: Epsilon cells	2.048019047980851
+older_adult	Pancreas: Gamma (PP) cells	1.9758274539766703
+older_adult	Pancreas: Immune system cells	-0.8698104745008903
+older_adult	Pancreas: Pancreatic progenitor cells	1.9620410090952027
+older_adult	Pancreas: Pancreatic stellate cells	-0.8718921116738849
+older_adult	Pancreas: Peri-islet Schwann cells	1.13961421815102
+older_adult	Liver: Cholangiocytes	0.8367103966251389
+older_adult	Liver: Endothelial cell	-1.5770865365880902
+older_adult	Liver: Hepatic stellate cells	0.8946640086346273
+older_adult	Liver: Hepatoblasts	-0.54816806984457
+older_adult	Liver: Hepatocytes	1.2839396813197232
+older_adult	Liver: Immune system cells	0.04512679890514657
+older_adult	Liver: Kupffer cells	-7.023158576939541
+older_adult	Eye: Muller cells	-1.2564017811053731
+older_adult	Eye: Retinal ganglion cells	1.5847137753788005
+older_adult	Eye: Retinal progenitor cells	0.4040083134096863
+older_adult	Eye: Rod bipolar cells	1.946283911027175
+older_adult	Eye: Cone bipolar cells	0.5870064417633858
+older_adult	Eye: GABAergic amacrine cells	0.9711855487928509
+older_adult	Eye: Rod photoreceptor cells	1.958020900550226
+older_adult	Eye: Cone photoreceptor cells	1.5940090570534236
+older_adult	Eye: Microglial cells	-3.4108399603822224
+older_adult	Eye: Horizontal cells	1.3303739829669132
+older_adult	Eye: Retinal pigment epithelial cells	1.1658221460217673
+older_adult	Eye: Endothelial cells	-0.10432064248911435
+older_adult	Eye: Extracellular matrix cells	0.2780360492176678
+older_adult	Eye: Glycinergic amacrine cells	1.4992322158560512
+older_adult	Eye: Cholinergic GABAergic amacrine cells	1.5672289290826318
+older_adult	Eye: Tachykinin GABAergic amacrine cells	1.5452522553896335
+older_adult	Eye: Starburst amacrine cells	0.8296453429228785
+older_adult	Kidney: Immune cells	-4.554750780534338
+older_adult	Kidney: α-intercalated cells (Collecting duct system)	-0.5367510126138534
+older_adult	Kidney: β-intercalated cells (Collecting duct system)	0.2157146444552344
+older_adult	Kidney: Loop of Henle cells	1.0937839115175487
+older_adult	Kidney: Mesangial cells	2.433636913127791
+older_adult	Kidney: Podocytes	1.149894492917067
+older_adult	Kidney: Principal cells (Collecting duct system)	2.694764306937347
+older_adult	Kidney: Proximal tubule cells	0.72155465320191
+older_adult	Kidney: Endothelial cells	-0.6459215739809386
+older_adult	Kidney: Distal tubule cells	-0.8252511922742461
+older_adult	Kidney: Renal Vesicle cells	2.1984518701476268
+older_adult	Brain: Astrocytes	-0.29472102388800325
+older_adult	Brain: Endothelial cells	1.5696878530580272
+older_adult	Brain: Microglial cells	-3.609410497408549
+older_adult	Brain: Neural Progenitor cells	3.0009231795771054
+older_adult	Brain: Oligodendrocytes	-0.12886204435326412
+older_adult	Brain: Radial glial cells	0.814373202745532
+older_adult	Lung: Airway goblet cells	0.7741852320365195
+older_adult	Lung: Mesothelial cells	-0.1622499566217903
+older_adult	Lung: Basal cells (Airway progenitor cells)	1.2612135721808913
+older_adult	Lung: Alveolar macrophages	-5.349106327187376
+older_adult	Lung: Ciliated cells	0.16212941869440406
+older_adult	Lung: Clara cells	-0.9156254105749055
+older_adult	Lung: Immune system cells	-4.420849630312823
+older_adult	Lung: Endothelial cell	1.2711225058250069
+older_adult	Lung: Pulmonary alveolar type I cells	3.3789627392171964
+older_adult	Lung: Pulmonary alveolar type II cells	-1.8364037189763134
+older_adult	Adrenal: CSH1_CSH2 positive cells	0.8590875772110466
+older_adult	Adrenal: Megakaryocytes	-4.9769817589122445
+older_adult	Adrenal: Schwann cells	1.5651902421036783
+older_adult	Adrenal: Myeloid cells	-6.2218937715796825
+older_adult	Adrenal: Vascular endothelial cells	1.59235025986579
+older_adult	Adrenal: Lymphoid cells	-1.2736991595432132
+older_adult	Heart: Megakaryocytes	-4.9124180402217945
+older_adult	Heart: Lymphatic endothelial cells	1.9269863213256886
+older_adult	Heart: Schwann cells	1.529113047371226
+older_adult	Heart: Lymphoid cells	-2.7630990571215808
+older_adult	Heart: Myeloid cells	-5.697248827557003
+older_adult	Heart: Endocardial cells	0.5237456084342618
+older_adult	Heart: Stromal cells	1.4878505847144348
+older_adult	Heart: SATB2_LRRC7 positive cells	1.5575802042459985
+older_adult	Heart: Erythroblasts	2.7679529786266843
+older_adult	Heart: Visceral neurons	0.5046000234250388
+older_adult	Heart: ELF3_AGBL2 positive cells	0.8434709740102015
+older_adult	Intestine: Erythroblasts	-0.09459803637138492
+older_adult	Intestine: Chromaffin cells	2.358100760998424
+older_adult	Intestine: Smooth muscle cells	1.7643620427161142
+older_adult	Intestine: Myeloid cells	-3.7102991317560976
+older_adult	Intestine: Lymphoid cells	2.457970919699071
+older_adult	Intestine: ENS glia	1.3545177617427113
+older_adult	Intestine: ENS neurons	1.910142277003241
+older_adult	Intestine: Vascular endothelial cells	1.4853948332298132
+older_adult	Intestine: Mesothelial cells	1.3264383606106418
+older_adult	Intestine: Lymphatic endothelial cells	1.2836575380305693
+older_adult	Muscle: Megakaryocytes	-3.5636974615867114
+older_adult	Muscle: Schwann cells	1.6766315012977682
+older_adult	Muscle: Lymphatic endothelial cells	0.2410341570173815
+older_adult	Muscle: Erythroblasts	-0.13264238463813396
+older_adult	Muscle: Smooth muscle cells	0.2235960595363169
+older_adult	Muscle: Myeloid cells	-6.379188301774709
+older_adult	Muscle: Lymphoid cells	0.06143578285363277
+older_adult	Placenta: AFP_ALB positive cells	2.224149459173457
+older_adult	Placenta: Extravillous trophoblasts	-0.16986706760202383
+older_adult	Placenta: Smooth muscle cells	1.3759938618730423
+older_adult	Placenta: IGFBP1_DKK1 positive cells	1.911225222131563
+older_adult	Placenta: Myeloid cells	-5.444361336644699
+older_adult	Spleen: AFP_ALB positive cells	0.17944588387350285
+older_adult	Spleen: STC2_TLX1 positive cells	1.2150083661315383
+older_adult	Spleen: Megakaryocytes	-4.3478401289314315
+older_adult	Spleen: Mesothelial cells	0.5959147938976236
+older_adult	Stomach: Neuroendocrine cells	1.6576372568486146
+older_adult	Stomach: Erythroblasts	-0.8122716443244314
+older_adult	Stomach: Squamous epithelial cells	1.964000463126756
+older_adult	Stomach: Parietal and chief cells	1.7918235023681548
+older_adult	Stomach: MUC13_DMBT1 positive cells	0.9308042770638872
+older_adult	Stomach: Myeloid cells	-5.735672447511594
+older_adult	Stomach: Goblet cells	1.2579972417410668
+older_adult	Stomach: Stromal cells	2.043864815642868
+older_adult	Stomach: ENS neurons	2.099918023867919
+older_adult	Stomach: ENS glia	1.8564600846565884
+older_adult	Stomach: Vascular endothelial cells	2.2377473429024763
+older_adult	Stomach: Lymphatic endothelial cells	-0.6396572686656494
+older_adult	Stomach: Mesothelial cells	1.404320549411779
+older_adult	Stomach: Lymphoid cells	0.7220439670566596
+older_adult	Stomach: PDE1C_ACSM3 positive cells	1.3506420679834306
+older_adult	Thymus: Stromal cells	3.745698742776786
+older_adult	Thymus: Antigen presenting cells	-4.485940539683819
+older_adult	Thymus: Vascular endothelial cells	1.564941052567041
+older_adult	Lung: Cancer stem cells	0.820128499862058
+young_adult	Immune system: Pro-B cells	-0.894718194047732
+young_adult	Immune system: Pre-B cells	1.3179846732942908
+young_adult	Immune system: Naive B cells	-0.06886572297852064
+young_adult	Immune system: Memory B cells	-0.04758082943337224
+young_adult	Immune system: Plasma B cells	0.062445855687885625
+young_adult	Immune system: Naive CD8+ T cells	2.117106023345988
+young_adult	Immune system: Naive CD4+ T cells	2.001571038752838
+young_adult	Immune system: Memory CD8+ T cells	1.3373432705315376
+young_adult	Immune system: Memory CD4+ T cells	1.1816479683475234
+young_adult	Immune system: Effector CD8+ T cells	2.0249555966588035
+young_adult	Immune system: Effector CD4+ T cells	1.8985530347130242
+young_adult	Immune system: γδ-T cells	2.3566991800040586
+young_adult	Immune system: CD8+ NKT-like cells	-1.3986928415988331
+young_adult	Immune system: CD4+ NKT-like cells	-1.745329140250811
+young_adult	Immune system: Natural killer  cells	-2.379726466610623
+young_adult	Immune system: Eosinophils	-2.530045846897347
+young_adult	Immune system: Neutrophils	-3.426845367278093
+young_adult	Immune system: Basophils	-2.449972639183411
+young_adult	Immune system: Classical Monocytes	-2.9578927010140346
+young_adult	Immune system: Non-classical monocytes	-3.369711209131864
+young_adult	Immune system: Intermediate monocytes	-2.6917993217512324
+young_adult	Immune system: Macrophages	-1.898895258279138
+young_adult	Immune system: Endothelial	0.26215414784188495
+young_adult	Immune system: Erythroid-like and erythroid precursor cells	1.519297331684395
+young_adult	Immune system: HSC/MPP cells	0.11735358096889102
+young_adult	Immune system: Progenitor cells	0.228594868870109
+young_adult	Immune system: Myeloid Dendritic cells	-2.4771920425482006
+young_adult	Immune system: Plasmacytoid Dendritic cells	-1.8744964291688881
+young_adult	Immune system: Granulocytes	-3.35665720650879
+young_adult	Immune system: ISG expressing immune cells	4.248306571753168
+young_adult	Pancreas: Acinar cells	-1.9868573501877753
+young_adult	Pancreas: Alpha cells	-0.11054854462196732
+young_adult	Pancreas: Beta cells	0.04472580470343959
+young_adult	Pancreas: Delta cells	0.33427929520909166
+young_adult	Pancreas: Ductal cells	-0.0929799007801191
+young_adult	Pancreas: Endothelial cells	-0.4563402267368485
+young_adult	Pancreas: Epsilon cells	0.025060253979446674
+young_adult	Pancreas: Gamma (PP) cells	0.5779257756146666
+young_adult	Pancreas: Immune system cells	1.1226133222973673
+young_adult	Pancreas: Pancreatic progenitor cells	0.5766654291809202
+young_adult	Pancreas: Pancreatic stellate cells	0.19745970371829022
+young_adult	Pancreas: Peri-islet Schwann cells	0.7820197245416157
+young_adult	Liver: Cholangiocytes	-0.8125504741149041
+young_adult	Liver: Endothelial cell	0.3278378572055697
+young_adult	Liver: Hepatic stellate cells	0.5573763149351598
+young_adult	Liver: Hepatoblasts	-0.01476642851112336
+young_adult	Liver: Hepatocytes	-0.4554717372923716
+young_adult	Liver: Immune system cells	0.36938004434589283
+young_adult	Liver: Kupffer cells	-4.423536280682044
+young_adult	Eye: Muller cells	0.2579953924537864
+young_adult	Eye: Retinal ganglion cells	1.0023228547889869
+young_adult	Eye: Retinal progenitor cells	-0.3355197058254335
+young_adult	Eye: Rod bipolar cells	-1.0423450654452195
+young_adult	Eye: Cone bipolar cells	-1.2547323982511742
+young_adult	Eye: GABAergic amacrine cells	-1.3575067973298958
+young_adult	Eye: Rod photoreceptor cells	-0.14310619799360008
+young_adult	Eye: Cone photoreceptor cells	-0.33954645730612537
+young_adult	Eye: Microglial cells	-2.578747645300092
+young_adult	Eye: Horizontal cells	-0.43297272738073894
+young_adult	Eye: Retinal pigment epithelial cells	0.29219420210590275
+young_adult	Eye: Endothelial cells	-0.5729740756875342
+young_adult	Eye: Extracellular matrix cells	0.05998056527752549
+young_adult	Eye: Glycinergic amacrine cells	-0.9674959321560797
+young_adult	Eye: Cholinergic GABAergic amacrine cells	-1.2145824661505917
+young_adult	Eye: Tachykinin GABAergic amacrine cells	-1.0408147201729034
+young_adult	Eye: Starburst amacrine cells	-1.6174366723097666
+young_adult	Kidney: Immune cells	-0.28386079263377983
+young_adult	Kidney: α-intercalated cells (Collecting duct system)	-0.07556681565499787
+young_adult	Kidney: β-intercalated cells (Collecting duct system)	-0.147501050473001
+young_adult	Kidney: Loop of Henle cells	1.3700664901362118
+young_adult	Kidney: Mesangial cells	1.2884736008186553
+young_adult	Kidney: Podocytes	0.9859363728470631
+young_adult	Kidney: Principal cells (Collecting duct system)	1.6995816102261612
+young_adult	Kidney: Proximal tubule cells	-1.5078593366558584
+young_adult	Kidney: Endothelial cells	-2.1923724752159073
+young_adult	Kidney: Distal tubule cells	-0.9952140295996482
+young_adult	Kidney: Renal Vesicle cells	0.9668041911161396
+young_adult	Brain: Astrocytes	0.6652324185314279
+young_adult	Brain: Endothelial cells	0.5855465168627669
+young_adult	Brain: Microglial cells	-2.6655480309423147
+young_adult	Brain: Neural Progenitor cells	1.281179570666262
+young_adult	Brain: Oligodendrocytes	0.16547324151049747
+young_adult	Brain: Radial glial cells	0.33922823692026627
+young_adult	Lung: Airway goblet cells	-0.4486906013567253
+young_adult	Lung: Mesothelial cells	0.26502827679040847
+young_adult	Lung: Basal cells (Airway progenitor cells)	1.210547651606512
+young_adult	Lung: Alveolar macrophages	-2.675438917061573
+young_adult	Lung: Ciliated cells	-1.0941770448594104
+young_adult	Lung: Clara cells	-1.671678459603441
+young_adult	Lung: Immune system cells	-2.409029292503215
+young_adult	Lung: Endothelial cell	-1.2359762356347441
+young_adult	Lung: Pulmonary alveolar type I cells	1.5149304054208679
+young_adult	Lung: Pulmonary alveolar type II cells	-2.3067031353629277
+young_adult	Adrenal: CSH1_CSH2 positive cells	-0.5240277907353441
+young_adult	Adrenal: Megakaryocytes	-5.854191397867129
+young_adult	Adrenal: Schwann cells	0.4367381424381493
+young_adult	Adrenal: Myeloid cells	-3.070708218075565
+young_adult	Adrenal: Vascular endothelial cells	-0.6011666402031639
+young_adult	Adrenal: Lymphoid cells	0.04398691554038861
+young_adult	Heart: Megakaryocytes	-6.076416244094707
+young_adult	Heart: Lymphatic endothelial cells	-0.11494629519229088
+young_adult	Heart: Schwann cells	0.5498499900955865
+young_adult	Heart: Lymphoid cells	-0.524233074717858
+young_adult	Heart: Myeloid cells	-3.401651808008
+young_adult	Heart: Endocardial cells	-1.8714756066417437
+young_adult	Heart: Stromal cells	0.6276708866484396
+young_adult	Heart: SATB2_LRRC7 positive cells	-0.8213590393616607
+young_adult	Heart: Erythroblasts	-0.7029355523779981
+young_adult	Heart: Visceral neurons	0.3984385978749264
+young_adult	Heart: ELF3_AGBL2 positive cells	-0.89340318172986
+young_adult	Intestine: Erythroblasts	1.5530953798848675
+young_adult	Intestine: Chromaffin cells	0.2689582006386844
+young_adult	Intestine: Smooth muscle cells	1.604649049483442
+young_adult	Intestine: Myeloid cells	-3.428207653471858
+young_adult	Intestine: Lymphoid cells	1.3734551627615266
+young_adult	Intestine: ENS glia	-0.0783388394596205
+young_adult	Intestine: ENS neurons	-0.23585218769430102
+young_adult	Intestine: Vascular endothelial cells	-0.8249641616059074
+young_adult	Intestine: Mesothelial cells	0.3162236418031559
+young_adult	Intestine: Lymphatic endothelial cells	-0.7617054613203229
+young_adult	Muscle: Megakaryocytes	-5.2857711000176915
+young_adult	Muscle: Schwann cells	-0.30739828753466414
+young_adult	Muscle: Lymphatic endothelial cells	-0.3990187020434327
+young_adult	Muscle: Erythroblasts	2.5592419843619827
+young_adult	Muscle: Smooth muscle cells	-0.573252439957397
+young_adult	Muscle: Myeloid cells	-3.0269992209911982
+young_adult	Muscle: Lymphoid cells	-0.4728584401955114
+young_adult	Placenta: AFP_ALB positive cells	0.21716375395707296
+young_adult	Placenta: Extravillous trophoblasts	-1.5890238209661598
+young_adult	Placenta: Smooth muscle cells	-0.5748480948456499
+young_adult	Placenta: IGFBP1_DKK1 positive cells	0.11831219176829555
+young_adult	Placenta: Myeloid cells	-1.722452640823564
+young_adult	Spleen: AFP_ALB positive cells	-0.4003547904500728
+young_adult	Spleen: STC2_TLX1 positive cells	0.7149333978758762
+young_adult	Spleen: Megakaryocytes	-6.163997630967029
+young_adult	Spleen: Mesothelial cells	0.09946050914582569
+young_adult	Stomach: Neuroendocrine cells	-0.5238593492025098
+young_adult	Stomach: Erythroblasts	1.1464615016178512
+young_adult	Stomach: Squamous epithelial cells	0.9200065910761986
+young_adult	Stomach: Parietal and chief cells	0.2631018720704661
+young_adult	Stomach: MUC13_DMBT1 positive cells	-0.09449967390342844
+young_adult	Stomach: Myeloid cells	-2.7822625861707126
+young_adult	Stomach: Goblet cells	-1.9424114815841784
+young_adult	Stomach: Stromal cells	0.4846667689212506
+young_adult	Stomach: ENS neurons	0.9815245242876329
+young_adult	Stomach: ENS glia	-0.26147287010256376
+young_adult	Stomach: Vascular endothelial cells	1.1632105571390803
+young_adult	Stomach: Lymphatic endothelial cells	-0.5806697477461094
+young_adult	Stomach: Mesothelial cells	-0.38514814490461224
+young_adult	Stomach: Lymphoid cells	0.4267516382734069
+young_adult	Stomach: PDE1C_ACSM3 positive cells	0.1855157384424592
+young_adult	Thymus: Stromal cells	1.537559595721072
+young_adult	Thymus: Antigen presenting cells	-0.9583712561293681
+young_adult	Thymus: Vascular endothelial cells	0.06933599642828978
+young_adult	Lung: Cancer stem cells	0.4901086855711014
+young_child	Immune system: Pro-B cells	0.8775480697967515
+young_child	Immune system: Pre-B cells	0.4855161172483224
+young_child	Immune system: Naive B cells	3.0999123149685586
+young_child	Immune system: Memory B cells	3.1851761388761433
+young_child	Immune system: Plasma B cells	3.422717520548799
+young_child	Immune system: Naive CD8+ T cells	-2.04015807616472
+young_child	Immune system: Naive CD4+ T cells	-1.3378359992436506
+young_child	Immune system: Memory CD8+ T cells	-2.4603479296758484
+young_child	Immune system: Memory CD4+ T cells	-1.7707218940018485
+young_child	Immune system: Effector CD8+ T cells	-2.2534559626470276
+young_child	Immune system: Effector CD4+ T cells	-1.5465517387085035
+young_child	Immune system: γδ-T cells	-1.4806610614243143
+young_child	Immune system: CD8+ NKT-like cells	-3.4194330380217077
+young_child	Immune system: CD4+ NKT-like cells	-3.222623532390862
+young_child	Immune system: Natural killer  cells	-2.51686731436313
+young_child	Immune system: Eosinophils	1.2828895039796464
+young_child	Immune system: Neutrophils	4.993218271681256
+young_child	Immune system: Basophils	-0.3552568897719803
+young_child	Immune system: Classical Monocytes	-0.16010775623081358
+young_child	Immune system: Non-classical monocytes	0.14229971014998488
+young_child	Immune system: Intermediate monocytes	-0.8862871949699029
+young_child	Immune system: Macrophages	1.173657321579063
+young_child	Immune system: Endothelial	2.8677813099100464
+young_child	Immune system: Erythroid-like and erythroid precursor cells	4.1065295410226295
+young_child	Immune system: HSC/MPP cells	2.1389077839934085
+young_child	Immune system: Progenitor cells	1.3757504480835083
+young_child	Immune system: Myeloid Dendritic cells	-1.799220244959037
+young_child	Immune system: Plasmacytoid Dendritic cells	-1.6970376132021432
+young_child	Immune system: Granulocytes	0.705399595509287
+young_child	Immune system: ISG expressing immune cells	1.3504149349844907
+young_child	Pancreas: Acinar cells	2.9832902268320067
+young_child	Pancreas: Alpha cells	4.481498990024416
+young_child	Pancreas: Beta cells	3.1472899150079106
+young_child	Pancreas: Delta cells	3.7256677398874816
+young_child	Pancreas: Ductal cells	3.335618530451912
+young_child	Pancreas: Endothelial cells	2.2220435048404434
+young_child	Pancreas: Epsilon cells	2.3416348027300637
+young_child	Pancreas: Gamma (PP) cells	2.9365764284073097
+young_child	Pancreas: Immune system cells	-1.637687531816408
+young_child	Pancreas: Pancreatic progenitor cells	1.3218472487197692
+young_child	Pancreas: Pancreatic stellate cells	1.6458050267880477
+young_child	Pancreas: Peri-islet Schwann cells	3.7183780280266028
+young_child	Liver: Cholangiocytes	3.507302618323556
+young_child	Liver: Endothelial cell	1.1888221234694214
+young_child	Liver: Hepatic stellate cells	3.990386324152206
+young_child	Liver: Hepatoblasts	3.0627875654509573
+young_child	Liver: Hepatocytes	3.0297134571150686
+young_child	Liver: Immune system cells	-0.7047764490061703
+young_child	Liver: Kupffer cells	3.0174347812290714
+young_child	Eye: Muller cells	1.4219649343920926
+young_child	Eye: Retinal ganglion cells	3.402730403894845
+young_child	Eye: Retinal progenitor cells	2.200535868935008
+young_child	Eye: Rod bipolar cells	0.9713257015109439
+young_child	Eye: Cone bipolar cells	2.069094063297426
+young_child	Eye: GABAergic amacrine cells	3.055731097633909
+young_child	Eye: Rod photoreceptor cells	1.3757376775940924
+young_child	Eye: Cone photoreceptor cells	1.0536906035262072
+young_child	Eye: Microglial cells	-0.25985022467562424
+young_child	Eye: Horizontal cells	1.546700197946036
+young_child	Eye: Retinal pigment epithelial cells	2.7948391373205648
+young_child	Eye: Endothelial cells	2.604379191452389
+young_child	Eye: Extracellular matrix cells	1.5337494904693154
+young_child	Eye: Glycinergic amacrine cells	3.339330951212975
+young_child	Eye: Cholinergic GABAergic amacrine cells	3.35034191456001
+young_child	Eye: Tachykinin GABAergic amacrine cells	3.662790988235386
+young_child	Eye: Starburst amacrine cells	2.946497503748487
+young_child	Kidney: Immune cells	0.5360561567726572
+young_child	Kidney: α-intercalated cells (Collecting duct system)	4.224119141630401
+young_child	Kidney: β-intercalated cells (Collecting duct system)	3.547213501565995
+young_child	Kidney: Loop of Henle cells	3.2894672883492935
+young_child	Kidney: Mesangial cells	1.5360372737120496
+young_child	Kidney: Podocytes	2.3565564919115336
+young_child	Kidney: Principal cells (Collecting duct system)	2.5869829701074174
+young_child	Kidney: Proximal tubule cells	0.9937445096688224
+young_child	Kidney: Endothelial cells	1.4999142394058786
+young_child	Kidney: Distal tubule cells	3.1522294925544134
+young_child	Kidney: Renal Vesicle cells	2.3174517598433244
+young_child	Brain: Astrocytes	0.7908733977360755
+young_child	Brain: Endothelial cells	2.6363317290272232
+young_child	Brain: Microglial cells	-0.5415756761784465
+young_child	Brain: Neural Progenitor cells	0.08134036683321523
+young_child	Brain: Oligodendrocytes	0.3612691656897607
+young_child	Brain: Radial glial cells	1.581146077486369
+young_child	Lung: Airway goblet cells	4.327167321024808
+young_child	Lung: Mesothelial cells	1.6739440863445232
+young_child	Lung: Basal cells (Airway progenitor cells)	1.749890487223253
+young_child	Lung: Alveolar macrophages	1.818757712389543
+young_child	Lung: Ciliated cells	-0.44819017552734597
+young_child	Lung: Clara cells	2.2674264716007992
+young_child	Lung: Immune system cells	-0.7991906443202351
+young_child	Lung: Endothelial cell	3.014637476407614
+young_child	Lung: Pulmonary alveolar type I cells	2.757764765348668
+young_child	Lung: Pulmonary alveolar type II cells	-0.29375152446303227
+young_child	Adrenal: CSH1_CSH2 positive cells	1.7096132217753233
+young_child	Adrenal: Megakaryocytes	0.30177595911695554
+young_child	Adrenal: Schwann cells	2.243647438380067
+young_child	Adrenal: Myeloid cells	0.5137855582375211
+young_child	Adrenal: Vascular endothelial cells	2.1990438288923446
+young_child	Adrenal: Lymphoid cells	-4.272375373818862
+young_child	Heart: Megakaryocytes	1.8096104648019002
+young_child	Heart: Lymphatic endothelial cells	2.8705060167785184
+young_child	Heart: Schwann cells	1.603330875121958
+young_child	Heart: Lymphoid cells	-2.692185932627973
+young_child	Heart: Myeloid cells	2.8409967507064477
+young_child	Heart: Endocardial cells	0.6347812902799423
+young_child	Heart: Stromal cells	1.760901371674584
+young_child	Heart: SATB2_LRRC7 positive cells	1.521274378230926
+young_child	Heart: Erythroblasts	-0.9042320964290864
+young_child	Heart: Visceral neurons	2.3092897634237484
+young_child	Heart: ELF3_AGBL2 positive cells	1.6176858261453113
+young_child	Intestine: Erythroblasts	6.209884183187342
+young_child	Intestine: Chromaffin cells	2.2012284492504226
+young_child	Intestine: Smooth muscle cells	1.7932818984271957
+young_child	Intestine: Myeloid cells	2.3659592570441808
+young_child	Intestine: Lymphoid cells	-0.8817919822767536
+young_child	Intestine: ENS glia	2.2483436284734415
+young_child	Intestine: ENS neurons	1.650462947452097
+young_child	Intestine: Vascular endothelial cells	1.7049496688062453
+young_child	Intestine: Mesothelial cells	3.3471429242977515
+young_child	Intestine: Lymphatic endothelial cells	2.766481430329358
+young_child	Muscle: Megakaryocytes	-0.5732626898914674
+young_child	Muscle: Schwann cells	1.5262603462505282
+young_child	Muscle: Lymphatic endothelial cells	2.4526377123438263
+young_child	Muscle: Erythroblasts	7.067168947999255
+young_child	Muscle: Smooth muscle cells	1.6255085451399172
+young_child	Muscle: Myeloid cells	0.1815651164107489
+young_child	Muscle: Lymphoid cells	-3.21610814940515
+young_child	Placenta: AFP_ALB positive cells	2.8321247922867543
+young_child	Placenta: Extravillous trophoblasts	0.9954572909133184
+young_child	Placenta: Smooth muscle cells	3.014123966988468
+young_child	Placenta: IGFBP1_DKK1 positive cells	2.16161448899913
+young_child	Placenta: Myeloid cells	1.65993012621476
+young_child	Spleen: AFP_ALB positive cells	2.7944674176858673
+young_child	Spleen: STC2_TLX1 positive cells	-0.08573812903762978
+young_child	Spleen: Megakaryocytes	-0.11901883185447441
+young_child	Spleen: Mesothelial cells	3.3076140211976806
+young_child	Stomach: Neuroendocrine cells	1.3533115430103186
+young_child	Stomach: Erythroblasts	6.540450554278191
+young_child	Stomach: Squamous epithelial cells	3.1874675802657233
+young_child	Stomach: Parietal and chief cells	2.16550687299218
+young_child	Stomach: MUC13_DMBT1 positive cells	2.2961396213040324
+young_child	Stomach: Myeloid cells	2.443465026497586
+young_child	Stomach: Goblet cells	2.2346166033729338
+young_child	Stomach: Stromal cells	2.466125177065779
+young_child	Stomach: ENS neurons	2.9147324995815063
+young_child	Stomach: ENS glia	3.2941133746049664
+young_child	Stomach: Vascular endothelial cells	3.9617816435564266
+young_child	Stomach: Lymphatic endothelial cells	2.2196238383562372
+young_child	Stomach: Mesothelial cells	3.3089887631134833
+young_child	Stomach: Lymphoid cells	-3.0800519310314107
+young_child	Stomach: PDE1C_ACSM3 positive cells	1.5492514945125575
+young_child	Thymus: Stromal cells	3.509207259272744
+young_child	Thymus: Antigen presenting cells	3.073830304728708
+young_child	Thymus: Vascular endothelial cells	2.8850142420331264
+young_child	Lung: Cancer stem cells	2.1787617528370995

@@ -1,0 +1,220 @@
+go_id	go_name	gene_count
+GO:2001300	lipoxin metabolic process	6
+GO:2001301	lipoxin biosynthetic process	6
+GO:0030502	negative regulation of bone mineralization	7
+GO:0070168	negative regulation of biomineral tissue development	10
+GO:0110150	negative regulation of biomineralization	10
+GO:0045663	positive regulation of myoblast differentiation	6
+GO:0008089	anterograde axonal transport	6
+GO:0000022	mitotic spindle elongation	8
+GO:0051231	spindle elongation	8
+GO:0001707	mesoderm formation	6
+GO:0048333	mesodermal cell differentiation	6
+GO:0042762	regulation of sulfur metabolic process	10
+GO:0010510	regulation of acetyl-CoA biosynthetic process from pyruvate	8
+GO:0050812	regulation of acyl-CoA biosynthetic process	8
+GO:1903975	regulation of glial cell migration	8
+GO:0043500	muscle adaptation	6
+GO:2000104	negative regulation of DNA-dependent DNA replication	7
+GO:0042373	vitamin K metabolic process	6
+GO:0045987	positive regulation of smooth muscle contraction	8
+GO:0010887	negative regulation of cholesterol storage	8
+GO:0019373	epoxygenase P450 pathway	10
+GO:0097267	omega-hydroxylase P450 pathway	10
+GO:0017158	regulation of calcium ion-dependent exocytosis	8
+GO:0019934	cGMP-mediated signaling	7
+GO:0034698	response to gonadotropin	6
+GO:0071280	cellular response to copper ion	7
+GO:0071295	cellular response to vitamin	7
+GO:0000050	urea cycle	10
+GO:0006525	arginine metabolic process	6
+GO:0030277	maintenance of gastrointestinal epithelium	7
+GO:0002828	regulation of type 2 immune response	7
+GO:1903896	positive regulation of IRE1-mediated unfolded protein response	7
+GO:0071169	establishment of protein localization to chromatin	7
+GO:1902656	calcium ion import into cytosol	7
+GO:2000601	positive regulation of Arp2/3 complex-mediated actin nucleation	6
+GO:0019400	alditol metabolic process	6
+GO:2000479	regulation of cAMP-dependent protein kinase activity	12
+GO:0032471	negative regulation of endoplasmic reticulum calcium ion concentration	6
+GO:0016540	protein autoprocessing	9
+GO:0033173	calcineurin-NFAT signaling cascade	7
+GO:0097720	calcineurin-mediated signaling	9
+GO:0019695	choline metabolic process	7
+GO:0042426	choline catabolic process	6
+GO:1902916	positive regulation of protein polyubiquitination	8
+GO:0001657	ureteric bud development	6
+GO:0072164	mesonephric tubule development	6
+GO:0001823	mesonephros development	6
+GO:0072163	mesonephric epithelium development	6
+GO:0015696	ammonium transport	6
+GO:0019430	removal of superoxide radicals	6
+GO:0000305	response to oxygen radical	8
+GO:0071451	cellular response to superoxide	7
+GO:0000303	response to superoxide	7
+GO:0071450	cellular response to oxygen radical	7
+GO:0006144	purine nucleobase metabolic process	8
+GO:0009112	nucleobase metabolic process	12
+GO:0042472	inner ear morphogenesis	7
+GO:0048839	inner ear development	9
+GO:0010992	ubiquitin recycling	7
+GO:0033539	fatty acid beta-oxidation using acyl-CoA dehydrogenase	9
+GO:0090197	NA	8
+GO:0010737	protein kinase A signaling	6
+GO:1902033	regulation of hematopoietic stem cell proliferation	7
+GO:0034112	positive regulation of homotypic cell-cell adhesion	6
+GO:0043152	induction of bacterial agglutination	6
+GO:0010165	response to X-ray	9
+GO:0006825	copper ion transport	6
+GO:0044854	plasma membrane raft assembly	6
+GO:0044857	plasma membrane raft organization	6
+GO:0090083	regulation of inclusion body assembly	12
+GO:0032075	positive regulation of nuclease activity	7
+GO:1903265	positive regulation of tumor necrosis factor-mediated signaling pathway	8
+GO:2000425	regulation of apoptotic cell clearance	6
+GO:0106049	regulation of cellular response to osmotic stress	7
+GO:2001169	regulation of ATP biosynthetic process	8
+GO:1903236	regulation of leukocyte tethering or rolling	6
+GO:1902259	regulation of delayed rectifier potassium channel activity	10
+GO:1902498	regulation of protein autoubiquitination	6
+GO:1904776	regulation of protein localization to cell cortex	8
+GO:0040014	regulation of multicellular organism growth	7
+GO:0040018	positive regulation of multicellular organism growth	7
+GO:0036155	acylglycerol acyl-chain remodeling	8
+GO:0051482	positive regulation of cytosolic calcium ion concentration involved in phospholipase C-activating G protein-coupled signaling pathway	8
+GO:0071875	adrenergic receptor signaling pathway	11
+GO:0001947	heart looping	7
+GO:0034063	stress granule assembly	11
+GO:0060287	epithelial cilium movement involved in determination of left/right asymmetry	7
+GO:0003351	epithelial cilium movement involved in extracellular fluid movement	9
+GO:0006858	extracellular transport	12
+GO:0033234	negative regulation of protein sumoylation	7
+GO:0046716	muscle cell cellular homeostasis	7
+GO:0090280	positive regulation of calcium ion import	9
+GO:0032071	regulation of endodeoxyribonuclease activity	8
+GO:1903729	regulation of plasma membrane organization	9
+GO:0071351	cellular response to interleukin-18	7
+GO:0035655	interleukin-18-mediated signaling pathway	7
+GO:0070673	response to interleukin-18	7
+GO:0007398	ectoderm development	7
+GO:0051715	cytolysis in other organism	9
+GO:0051801	cytolysis in other organism involved in symbiotic interaction	9
+GO:0019835	cytolysis	9
+GO:0051838	cytolysis by host of symbiont cells	9
+GO:0045672	positive regulation of osteoclast differentiation	10
+GO:0050482	arachidonic acid secretion	8
+GO:1903963	arachidonate transport	8
+GO:0050435	amyloid-beta metabolic process	12
+GO:1901098	positive regulation of autophagosome maturation	6
+GO:0032817	regulation of natural killer cell proliferation	7
+GO:0010832	negative regulation of myotube differentiation	7
+GO:0006855	drug transmembrane transport	8
+GO:0015893	drug transport	10
+GO:2000786	positive regulation of autophagosome assembly	9
+GO:0034643	establishment of mitochondrion localization, microtubule-mediated	10
+GO:0047497	mitochondrion transport along microtubule	10
+GO:0046951	ketone body biosynthetic process	8
+GO:0046950	cellular ketone body metabolic process	10
+GO:1902224	ketone body metabolic process	10
+GO:1904385	cellular response to angiotensin	9
+GO:1990776	response to angiotensin	9
+GO:0006705	mineralocorticoid biosynthetic process	6
+GO:0008212	mineralocorticoid metabolic process	6
+GO:0030835	negative regulation of actin filament depolymerization	6
+GO:0070862	negative regulation of protein exit from endoplasmic reticulum	10
+GO:1904153	negative regulation of retrograde protein transport, ER to cytosol	9
+GO:0048548	regulation of pinocytosis	7
+GO:0032799	low-density lipoprotein receptor particle metabolic process	10
+GO:0032802	low-density lipoprotein particle receptor catabolic process	10
+GO:0035635	entry of bacterium into host cell	8
+GO:0016079	synaptic vesicle exocytosis	10
+GO:0032530	regulation of microvillus organization	7
+GO:0071801	regulation of podosome assembly	9
+GO:0002675	positive regulation of acute inflammatory response	7
+GO:0055119	relaxation of cardiac muscle	7
+GO:0071355	cellular response to interleukin-9	9
+GO:0038113	interleukin-9-mediated signaling pathway	9
+GO:0071104	response to interleukin-9	9
+GO:0097400	interleukin-17-mediated signaling pathway	9
+GO:0097396	response to interleukin-17	9
+GO:0097398	cellular response to interleukin-17	9
+GO:0001541	ovarian follicle development	6
+GO:1903753	negative regulation of p38MAPK cascade	8
+GO:0042982	amyloid precursor protein metabolic process	14
+GO:0034205	amyloid-beta formation	6
+GO:1900044	regulation of protein K63-linked ubiquitination	10
+GO:0070327	thyroid hormone transport	7
+GO:1902961	positive regulation of aspartic-type endopeptidase activity involved in amyloid precursor protein catabolic process	6
+GO:1905247	positive regulation of aspartic-type peptidase activity	7
+GO:1902959	regulation of aspartic-type endopeptidase activity involved in amyloid precursor protein catabolic process	9
+GO:1905245	regulation of aspartic-type peptidase activity	11
+GO:0061820	telomeric D-loop disassembly	9
+GO:2001222	regulation of neuron migration	10
+GO:0010762	regulation of fibroblast migration	10
+GO:0034135	regulation of toll-like receptor 2 signaling pathway	7
+GO:0034137	positive regulation of toll-like receptor 2 signaling pathway	6
+GO:0097623	potassium ion export across plasma membrane	9
+GO:0018242	protein O-linked glycosylation via serine	10
+GO:1900426	positive regulation of defense response to bacterium	7
+GO:0018126	protein hydroxylation	16
+GO:0019511	peptidyl-proline hydroxylation	6
+GO:0046512	sphingosine biosynthetic process	9
+GO:1905600	regulation of receptor-mediated endocytosis involved in cholesterol transport	6
+GO:0032377	regulation of intracellular lipid transport	9
+GO:0032380	regulation of intracellular sterol transport	9
+GO:0032383	regulation of intracellular cholesterol transport	9
+GO:0038089	positive regulation of cell migration by vascular endothelial growth factor signaling pathway	6
+GO:0051900	regulation of mitochondrial depolarization	9
+GO:0001765	membrane raft assembly	10
+GO:0002065	columnar/cuboidal epithelial cell differentiation	17
+GO:0002062	chondrocyte differentiation	9
+GO:0150105	protein localization to cell-cell junction	7
+GO:1902414	protein localization to cell junction	14
+GO:0007498	mesoderm development	21
+GO:0070141	response to UV-A	6
+GO:0090030	regulation of steroid hormone biosynthetic process	9
+GO:0031943	regulation of glucocorticoid metabolic process	8
+GO:0031946	regulation of glucocorticoid biosynthetic process	7
+GO:2000064	regulation of cortisol biosynthetic process	7
+GO:1905208	negative regulation of cardiocyte differentiation	9
+GO:1901552	positive regulation of endothelial cell development	6
+GO:1903142	positive regulation of establishment of endothelial barrier	6
+GO:0045346	regulation of MHC class II biosynthetic process	7
+GO:0045651	positive regulation of macrophage differentiation	8
+GO:0030042	actin filament depolymerization	7
+GO:0051005	negative regulation of lipoprotein lipase activity	7
+GO:0032926	negative regulation of activin receptor signaling pathway	7
+GO:0071850	mitotic cell cycle arrest	8
+GO:0060411	cardiac septum morphogenesis	9
+GO:0032891	negative regulation of organic acid transport	10
+GO:0048593	camera-type eye morphogenesis	10
+GO:0072506	trivalent inorganic anion homeostasis	8
+GO:0055062	phosphate ion homeostasis	8
+GO:0072505	divalent inorganic anion homeostasis	8
+GO:0042554	superoxide anion generation	8
+GO:0044406	adhesion of symbiont to host	11
+GO:0090240	positive regulation of histone H4 acetylation	7
+GO:0045820	negative regulation of glycolytic process	6
+GO:1900543	negative regulation of purine nucleotide metabolic process	9
+GO:2000561	regulation of CD4-positive, alpha-beta T cell proliferation	8
+GO:0032736	positive regulation of interleukin-13 production	7
+GO:0050862	positive regulation of T cell receptor signaling pathway	9
+GO:0051645	Golgi localization	9
+GO:1904667	negative regulation of ubiquitin protein ligase activity	9
+GO:0071636	positive regulation of transforming growth factor beta production	8
+GO:0009218	pyrimidine ribonucleotide metabolic process	6
+GO:0006489	dolichyl diphosphate biosynthetic process	6
+GO:0046465	dolichyl diphosphate metabolic process	6
+GO:0050861	positive regulation of B cell receptor signaling pathway	6
+GO:2000516	positive regulation of CD4-positive, alpha-beta T cell activation	9
+GO:0033623	regulation of integrin activation	11
+GO:0055007	cardiac muscle cell differentiation	9
+GO:0085029	extracellular matrix assembly	7
+GO:0046637	regulation of alpha-beta T cell differentiation	10
+GO:0046638	positive regulation of alpha-beta T cell differentiation	8
+GO:0043370	regulation of CD4-positive, alpha-beta T cell differentiation	8
+GO:0043372	positive regulation of CD4-positive, alpha-beta T cell differentiation	6
+GO:1901201	regulation of extracellular matrix assembly	10
+GO:0009650	UV protection	9
+GO:0034350	regulation of glial cell apoptotic process	6
+GO:0034351	negative regulation of glial cell apoptotic process	6

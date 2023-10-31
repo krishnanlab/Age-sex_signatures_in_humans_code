@@ -1,0 +1,94 @@
+---
+title: "gtex enrichment"
+author: "Kayla Johnson"
+date: '2022-06-12'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(RColorBrewer)
+library(pheatmap)
+library(colorspace)
+```
+
+```{r data_read, include=FALSE}
+# read enrichment results
+ngtex <- read_tsv("../../results/naive_sex_prediction_ranks/gtex_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+# line to make palette with colorspace gui
+# choose_palette(pal = diverging_hcl, n = 7L, parent = NULL, gui = "tcltk")
+
+# blue/orange palette
+light_bo_div <- diverge_hcl(11, c = 100, h = c(260, 35), l = c(50, 90), rev = T)
+# dark colors hex codes blue "#1c4587ff"/ orange "#783f04ff"
+#blue/orange using on slides for M/F
+fm_palette <- c("#6fa8dcff", "#e69138ff")
+
+# order of age groups
+fine_ag_order <- c("fetus", "infant", "young_child", "child", 
+                                   "adolescent", "young_adult", "adult", 
+                                   "middle_adult", "older_adult", "old_adult", "elderly")
+
+age_ranges <- c("< 0", "[0-2]", "(2-8]", "(8-12]", "(12-20]", 
+                "(20-35]", "(35-45]", "(45-60]", "(60-70]", "(70-80]", "> 80")
+
+ar_tibble <- tibble(age_group = fine_ag_order, age_range = age_ranges, ag_number = c(1:11))
+
+# add age range col to ngtex
+ngtex <- left_join(ngtex, ar_tibble, by = "age_group")
+
+# cut extreme zscore values to reasonable range
+ngtex <- ngtex %>% 
+  mutate(zscore = ifelse(zscore > 5, 5, zscore)) %>% 
+  mutate(zscore = ifelse(zscore < -5, -5, zscore))
+```
+
+```{r make_zscore_heatmap, include=FALSE}
+make_zscore_heatmap <- function(df){
+  
+  # set up matrix for heatmap
+  row_names <- age_ranges
+  col_names <- df %>% pull(term_id) %>% unique()
+  
+  mat <- matrix(rep(0, length(row_names) * length(col_names)), nrow = length(row_names))
+  rownames(mat) <- row_names
+  colnames(mat) <- col_names
+  
+  col_annotation <- data.frame(GTEx_sex = ifelse(grepl("female", col_names), "female", "male"))
+  row.names(col_annotation) <- col_names
+  
+  for (ar in row_names){
+    for (t in col_names){
+      zs <- df %>% 
+        filter(age_range == !!ar) %>% 
+        filter(term_id == !!t) %>% 
+        pull(zscore)
+      if (length(zs) == 0){
+        zs <- NA
+      }
+      mat[ar, t] <- zs
+    }
+  }
+  
+  heatmap <- pheatmap(mat, color = light_bo_div, 
+                      cluster_rows = F, cluster_cols = T,
+                      annotation_col = col_annotation,
+                      annotation_colors = list(GTEx_sex = c(female = "#6fa8dcff", male = "#e69138ff")))
+  return(heatmap)
+}
+```
+
+```{r}
+ngtex_heatmap <- make_zscore_heatmap(ngtex)
+```
+
+```{r}
+ggsave("~/Desktop/naive_gtex_enrichment_heatmap.pdf", width = 12, height = 6, plot = ngtex_heatmap)
+```
+

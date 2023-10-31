@@ -1,0 +1,57 @@
+######################
+# RNAseq submissions #
+######################
+# logistic regression model jobs
+Rscript submit_blood_enrichment_jobs.R LR rnaseq disgenetC
+Rscript submit_blood_enrichment_jobs.R LR rnaseq disgenetF
+Rscript submit_blood_enrichment_jobs.R LR rnaseq gobp
+Rscript submit_blood_enrichment_jobs.R LR rnaseq gtex
+Rscript submit_blood_enrichment_jobs.R LR rnaseq guo
+Rscript submit_blood_enrichment_jobs.R LR rnaseq gwas
+Rscript submit_blood_enrichment_jobs.R LR rnaseq mp
+Rscript submit_blood_enrichment_jobs.R LR rnaseq sagd
+Rscript submit_blood_enrichment_jobs.R LR rnaseq mondo
+Rscript submit_blood_enrichment_jobs.R LR rnaseq gtex_tissue-spec
+Rscript submit_blood_enrichment_jobs.R LR rnaseq sctype
+
+# naive rank jobs
+Rscript submit_blood_enrichment_jobs.R naive rnaseq disgenetC
+Rscript submit_blood_enrichment_jobs.R naive rnaseq disgenetF
+Rscript submit_blood_enrichment_jobs.R naive rnaseq gobp
+Rscript submit_blood_enrichment_jobs.R naive rnaseq gtex
+Rscript submit_blood_enrichment_jobs.R naive rnaseq guo
+Rscript submit_blood_enrichment_jobs.R naive rnaseq gwas
+Rscript submit_blood_enrichment_jobs.R naive rnaseq mp
+Rscript submit_blood_enrichment_jobs.R naive rnaseq sagd
+Rscript submit_blood_enrichment_jobs.R naive rnaseq mondo
+Rscript submit_blood_enrichment_jobs.R naive rnaseq gtex_tissue-spec
+Rscript submit_blood_enrichment_jobs.R naive rnaseq sctype
+
+##########################
+# microarray submissions #
+##########################
+# logistic regression model jobs
+Rscript submit_blood_enrichment_jobs.R LR microarray disgenetC
+Rscript submit_blood_enrichment_jobs.R LR microarray disgenetF
+Rscript submit_blood_enrichment_jobs.R LR microarray gobp
+Rscript submit_blood_enrichment_jobs.R LR microarray gtex
+Rscript submit_blood_enrichment_jobs.R LR microarray guo
+Rscript submit_blood_enrichment_jobs.R LR microarray gwas
+Rscript submit_blood_enrichment_jobs.R LR microarray mp
+Rscript submit_blood_enrichment_jobs.R LR microarray sagd
+Rscript submit_blood_enrichment_jobs.R LR microarray mondo
+Rscript submit_blood_enrichment_jobs.R LR microarray gtex_tissue-spec
+Rscript submit_blood_enrichment_jobs.R LR microarray sctype
+
+# naive rank jobs
+Rscript submit_blood_enrichment_jobs.R naive microarray disgenetC
+Rscript submit_blood_enrichment_jobs.R naive microarray disgenetF
+Rscript submit_blood_enrichment_jobs.R naive microarray gobp
+Rscript submit_blood_enrichment_jobs.R naive microarray gtex
+Rscript submit_blood_enrichment_jobs.R naive microarray guo
+Rscript submit_blood_enrichment_jobs.R naive microarray gwas
+Rscript submit_blood_enrichment_jobs.R naive microarray mp
+Rscript submit_blood_enrichment_jobs.R naive microarray sagd
+Rscript submit_blood_enrichment_jobs.R naive microarray mondo
+Rscript submit_blood_enrichment_jobs.R naive microarray gtex_tissue-spec
+Rscript submit_blood_enrichment_jobs.R naive microarray sctype

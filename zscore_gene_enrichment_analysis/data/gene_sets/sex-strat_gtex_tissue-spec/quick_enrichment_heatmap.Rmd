@@ -1,0 +1,86 @@
+---
+title: "GTEx sex-stratified tissue-specific genes enrichment in sex signatures"
+output: pdf_document
+---
+
+```{r include=FALSE}
+library(tidyverse)
+```
+
+```{r include=FALSE}
+ssgtex <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/sex-strat_gtex_tissue-spec_enrichment.tsv")
+
+# add age ranges
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = rev(age_ranges)),
+                    age_number = rev(1:11))
+
+ssgtex <- left_join(ssgtex, ar_tibble, by = "age_group")
+
+ssgtex <- ssgtex %>% 
+  separate(term, into = c("sex", "tissue"), sep = "__") %>% 
+  mutate(sex = ifelse(sex == "female", "Female", "Male")) %>% 
+  mutate(trunc_combined_zscore = ifelse(combined_zscore > 4, 4, combined_zscore)) %>% 
+  mutate(trunc_combined_zscore = ifelse(trunc_combined_zscore < -4, -4, trunc_combined_zscore))
+```
+
+## Female tissue-specific gene enrichment
+
+```{r out.width="100%", echo=FALSE}
+ssgtex %>% 
+  filter(sex == "Female") %>%
+  ggplot(aes(y = tissue, 
+             x = age_range, 
+             fill = trunc_combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-4,4),
+                       breaks = c(-4, 0, 4), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #facet_grid(term_sex ~ study, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.ticks.x = element_blank(),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 14))
+```
+
+## Male tissue-specific gene enrichment
+
+```{r out.width="100%", echo=FALSE}
+ssgtex %>% 
+  filter(sex == "Male") %>%
+  ggplot(aes(y = tissue, 
+             x = age_range, 
+             fill = trunc_combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-4,4),
+                       breaks = c(-4, 0, 4), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #facet_grid(term_sex ~ study, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.ticks.x = element_blank(),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 14))
+```
+
+

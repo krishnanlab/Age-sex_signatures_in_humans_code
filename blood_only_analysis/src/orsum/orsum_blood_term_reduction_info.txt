@@ -1,0 +1,34 @@
+####################### Orsum term reduction info ####################### 
+#### GOBP ####
+# Sex #
+initial term number: 3568
+reduced to: 1274
+# Age #
+initial term number: 3568
+reduced to: 1660
+
+#### GWAS ####
+# Sex #
+initial term number: 4746
+reduced to: 4721
+# Age #
+initial term number: 4746
+reduced to: 4721
+
+#### MP ####
+# Sex #
+initial term number: 5108
+reduced to: 18
+# Age #
+initial term number: 5108
+reduced to: 361
+
+#### MONDO ####
+# Sex #
+initial term number: 904
+reduced to: 45
+# Age #
+initial term number: 904
+reduced to: 58
+
+

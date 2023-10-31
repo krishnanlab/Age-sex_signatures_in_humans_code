@@ -1,0 +1,231 @@
+---
+title: "Tissue specific genes from sex-stratified and unstratified data"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+
+library(tidyverse)
+library(patchwork)
+library(viridis)
+```
+
+```{r include=FALSE}
+# gene-tissue files
+nsg <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/gtex_tissue-spec/gtex_tissue-spec_gene-group_file.tsv") %>% 
+  mutate(tissue = gsub("_", " ", tissue)) %>% 
+  mutate(tissue = str_to_title(tissue)) %>% 
+  mutate(tissue = ifelse(tissue == "Adipose", "Adipose Tissue", tissue))
+
+ssg <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/sex-strat_gtex_tissue-spec/sex-strat_gtex_tissue-spec_gene-group_file.tsv") %>% 
+  separate(tissue, into = c("sex", "tissue"), sep = "__")
+
+# sep male and female for plots
+fssg <- ssg %>% 
+  filter(sex == "female")
+mssg <- ssg %>% 
+  filter(sex == "male")
+
+# enrichment results 
+nsgtex <- read_delim("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/gtex_tissue-spec_enrichment.tsv")
+ssgtex <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/sex-strat_gtex_tissue-spec_enrichment.tsv")
+
+nsgtex <- nsgtex %>% 
+  mutate(trunc_combined_zscore = ifelse(combined_zscore > 4, 4, combined_zscore)) %>% 
+  mutate(trunc_combined_zscore = ifelse(trunc_combined_zscore < -4, -4, trunc_combined_zscore)) %>% 
+  rename(tissue = term)
+
+ssgtex <- ssgtex %>% 
+  separate(term, into = c("sex", "tissue"), sep = "__") %>% 
+  mutate(sex = ifelse(sex == "female", "Female", "Male")) %>% 
+  mutate(trunc_combined_zscore = ifelse(combined_zscore > 4, 4, combined_zscore)) %>% 
+  mutate(trunc_combined_zscore = ifelse(trunc_combined_zscore < -4, -4, trunc_combined_zscore))
+
+
+# add age ranges
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = rev(age_ranges)),
+                    age_number = rev(1:11))
+
+nsgtex <- left_join(nsgtex, ar_tibble, by = "age_group")
+ssgtex <- left_join(ssgtex, ar_tibble, by = "age_group")
+```
+
+## Gene overlap in common tissues 
+
+```{r include=FALSE}
+make_overlap_plot <- function(df1, df2, title1, title2){
+  # filter to common tissues
+  common_tis <- intersect(unique(df1$tissue), unique(df2$tissue))
+  
+  # find overlaps
+  overlap_df <- tibble()
+  
+  for (tis1 in common_tis){
+    for (tis2 in common_tis){
+      df1_genes <- df1 %>% 
+        filter(tissue == tis1) %>% 
+        pull(Entrez)
+      df2_genes <- df2 %>% 
+        filter(tissue == tis2) %>% 
+        pull(Entrez)
+      jac <- length(intersect(df1_genes, df2_genes)) / length(union(df1_genes, df2_genes))
+      
+      tis_df <- tibble(df1_tissue = tis1, df2_tissue = tis2, jaccard = jac)
+      overlap_df <- bind_rows(overlap_df, tis_df)
+    }
+  }
+  
+  # overlap heatmap 
+  heatmap <- overlap_df %>% 
+    mutate(dis_jac = round(jaccard, 1)) %>% 
+    mutate(dis_jac = factor(dis_jac, levels = c(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9))) %>% 
+    ggplot(aes(x = df1_tissue, y = df2_tissue, fill = dis_jac)) +
+    geom_tile() +
+    scale_fill_viridis(discrete = T) +
+    #geom_text(aes(label = round(jaccard, 1))) +
+    theme(panel.background = element_rect(fill = NA),
+          axis.text.x = element_text(angle = 45, hjust = 1),
+          axis.ticks.x = element_blank(),
+          axis.title = element_blank(),
+          strip.background = element_rect(fill="lightgray"),
+          strip.text = element_text(size = 20),
+          text = element_text(size = 14),
+          legend.position = "bottom",
+          plot.margin = margin(c(0,0,0,0))) +
+    guides(fill=guide_legend(title="jaccard"))
+  
+  # bar plots with total number of genes for each df
+  bar1 <- df1 %>% 
+    group_by(tissue) %>% 
+    tally() %>% 
+    ggplot(aes(x = tissue, y = n)) +
+    geom_col() +
+    geom_text(aes(label = n), angle = 90, hjust = 0) +
+    ggtitle(title1) +
+    theme(panel.background = element_rect(fill = NA),
+          axis.text.x = element_blank(),
+          axis.title = element_blank())
+  
+    bar2 <- df2 %>% 
+    group_by(tissue) %>% 
+    tally() %>% 
+    ggplot(aes(y = tissue, x = n)) +
+    geom_col() +
+    geom_text(aes(label = n), hjust = 0) +
+    ggtitle(title2) +
+    theme(panel.background = element_rect(fill = NA),
+          axis.text.y = element_blank(),
+          axis.title = element_blank())
+    
+    layout <- "
+    AAA#
+    BBBC
+    BBBC
+    BBBC"
+    
+    bar1 + heatmap + bar2 + plot_layout(design = layout)
+}
+```
+
+```{r out.width="100%", fig.height=8}
+make_overlap_plot(fssg, mssg, "Female tissue-specific genes", "Male tissue-specific genes")
+```
+
+```{r out.width="100%", fig.height=8}
+make_overlap_plot(fssg, nsg, "Female tissue-specific genes", "non-strat tissue-specific genes")
+```
+
+```{r out.width="100%", fig.height=8}
+make_overlap_plot(mssg, nsg, "Male tissue-specific genes", "non-strat tissue-specific genes")
+```
+
+## Enrichment of tissue-specific genes
+
+### Female tissue-specific gene enrichment
+
+```{r out.width="100%", fig.height=8}
+ssgtex %>% 
+  filter(sex == "Female") %>%
+  ggplot(aes(y = tissue, 
+             x = age_range, 
+             fill = trunc_combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-4,4),
+                       breaks = c(-4, 0, 4), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #facet_grid(term_sex ~ study, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.ticks.x = element_blank(),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 14))
+```
+
+## Male tissue-specific gene enrichment
+
+```{r out.width="100%", fig.height=8}
+ssgtex %>% 
+  filter(sex == "Male") %>%
+  ggplot(aes(y = tissue, 
+             x = age_range, 
+             fill = trunc_combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-4,4),
+                       breaks = c(-4, 0, 4), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #facet_grid(term_sex ~ study, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.ticks.x = element_blank(),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 14))
+```
+
+## non-strat tissue-specific gene enrichment
+
+```{r out.width="100%", fig.height=8}
+nsgtex %>% 
+  ggplot(aes(y = tissue, 
+             x = age_range, 
+             fill = trunc_combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-4,4),
+                       breaks = c(-4, 0, 4), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #facet_grid(term_sex ~ study, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.ticks.x = element_blank(),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 14))
+```
+
+

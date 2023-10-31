@@ -1,0 +1,392 @@
+---
+title: "Untitled"
+output: pdf_document
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(patchwork)
+library(NatParksPalettes)
+library(ggtext)
+library(RColorBrewer)
+library(magick)
+library(ggpubr)
+```
+
+```{r include=FALSE}
+rmodel_weights <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/rnaseq/model_weights_from_model_with_chosen_parameters.tsv", 
+                            delim="\t", col_names=T) %>% 
+  filter(group_type == "fine") %>%
+  select(-std_scld, -penalty, -parameters, -asinh, -n_positives, -group_type) %>% 
+  select(sex, age_group, everything())
+
+mmodel_weights <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/microarray/model_weights_from_model_with_chosen_parameters.tsv", 
+                            delim="\t", col_names=T) %>% 
+  filter(group_type == "fine") %>%
+  select(-std_scld, -penalty, -parameters, -n_positives, -group_type) %>% 
+  select(sex, age_group, everything())
+```
+
+```{r include=FALSE}
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(model_age_group = fine_ag_order, 
+                    model_age_range = factor(age_ranges, levels = age_ranges))
+```
+
+```{r include=FALSE}
+rauroc <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/rnaseq/auroc_results.tsv", delim = "\t", col_names = T) %>% 
+  dplyr::select(-parameters) %>% 
+  dplyr::rename(model_age_group = age_group) %>% 
+  filter(penalty == "elasticnet") %>% 
+  filter(std_scld == FALSE) %>% 
+  filter(asinh == TRUE) %>%
+  filter(group_type == "fine") %>%
+  dplyr::select(-asinh, -penalty, -std_scld, -group_type, -n_positives) %>% 
+  pivot_longer(c(fine_ag_order), names_to = "test_age_group", values_to = "auroc") %>% 
+  mutate(data_type = "RNAseq")
+
+mauroc <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/microarray/auroc_results.tsv", delim = "\t", col_names = T) %>% 
+  dplyr::select(-parameters) %>% 
+  dplyr::rename(model_age_group = age_group) %>% 
+  filter(penalty == "elasticnet") %>% 
+  filter(std_scld == FALSE) %>%
+  filter(group_type == "fine") %>%
+  dplyr::select(-penalty, -std_scld, -group_type, -n_positives) %>% 
+  pivot_longer(c(fine_ag_order), names_to = "test_age_group", values_to = "auroc") %>% 
+  mutate(data_type = "Microarray")
+```
+
+```{r include=FALSE}
+rauroc <- left_join(rauroc, ar_tibble, by = "model_age_group")
+mauroc <- left_join(mauroc, ar_tibble, by = "model_age_group")
+
+# add age plotting factor for test groups as well
+ar_tibble <- tibble(test_age_group = fine_ag_order, 
+                    test_age_range = factor(age_ranges, levels = rev(age_ranges)))
+
+rauroc <- left_join(rauroc, ar_tibble, by = "test_age_group")
+mauroc <- left_join(mauroc, ar_tibble, by = "test_age_group")
+
+# df with both results
+bauroc <- bind_rows(rauroc, mauroc)
+```
+
+```{r include=FALSE}
+# avg auroc across folds
+avg_rauroc <- rauroc %>% 
+  group_by(sex, model_age_group, model_age_range, test_age_group, test_age_range) %>% 
+  summarise(auROC = mean(auroc)) %>% 
+  ungroup()
+
+avg_mauroc <- mauroc %>% 
+  group_by(sex, model_age_group, model_age_range, test_age_group, test_age_range) %>% 
+  summarise(auROC = mean(auroc)) %>% 
+  ungroup()
+
+# median auroc across folds
+median_rauroc <- rauroc %>% 
+  group_by(sex, model_age_group, model_age_range, test_age_group, test_age_range) %>% 
+  summarise(median_auroc = median(auroc)) %>% 
+  ungroup()
+
+median_mauroc <- mauroc %>% 
+  group_by(sex, model_age_group, model_age_range, test_age_group, test_age_range) %>% 
+  summarise(median_auroc = median(auroc)) %>% 
+  ungroup()
+```
+
+```{r include=FALSE}
+key <- image_read("~/projects/age-sex-prediction/paper_figures/target_bordering_nearby_distant_key.png")
+ggkey <- ggplot() + background_image(key) + coord_fixed()
+```
+
+```{r include=FALSE}
+grey_palette <- rev(colorRampPalette(rev(brewer.pal(n = 7, name = "Greys")))(30))
+beta_red <-  "#CD622E"
+beta_blue <- "#4499F5"
+high_color <- "#1A3D82"
+mid_color <- "#F2F2F2"
+low_color <- "#832B0F"
+keyPalette <- c("#426737", "#75871B", "#BAB97D","#F2F2F2")
+```
+
+# male RNAseq mean auROC across folds
+```{r}
+maleRheat <- avg_rauroc %>% 
+  filter(sex == "male") %>% 
+  #mutate(text_color = ifelse(auROC > 0.6, "white", "black")) %>% 
+  ggplot(aes(y = model_age_range, x = test_age_range, fill = auROC)) +
+  geom_tile() +
+  geom_text(aes(label = round(auROC, 2)),
+            size = 2, color = "white") +
+  scale_fill_gradient(low = mid_color,
+                      high = "black",
+                      breaks = c(0, 0.25, 0.5, 0.75, 1), 
+                      labels = c(0, 0.25, 0.5, 0.75, 1),
+                      limits = c(0,1)) +
+  xlab("test age range") +
+  coord_equal() +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        text = element_text(size = 18),
+        plot.margin = margin(0, 0, 0, 5)) 
+  # guides(fill = guide_colorbar(label.position = "bottom",
+  #                              title.position = "left",
+  #                              title.vjust = 0.75,
+  #                              barwidth = 10,
+  #                              barheight = 1.5))
+```
+
+# female RNAseq mean auROC across folds
+```{r}
+femaleRheat <- avg_rauroc %>% 
+  filter(sex == "female") %>% 
+  ggplot(aes(y = model_age_range, x = test_age_range, fill = auROC)) +
+  geom_tile() +
+  geom_text(aes(label = round(auROC, 2)),
+            size = 2, color = "white") +
+  scale_fill_gradient(low = mid_color,
+                      high = "black",
+                      breaks = c(0, 0.25, 0.5, 0.75, 1), 
+                      labels = c(0, 0.25, 0.5, 0.75, 1),
+                      limits = c(0,1)) +
+  coord_equal() +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        text = element_text(size = 18),
+        plot.margin = margin(0, 0, 0, 5),
+        axis.title.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+# betas
+```{r include=FALSE}
+type_levels <- c("positive_nonzeros", "zeros", "negative_nonzeros")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = age_ranges))
+```
+
+```{r include=FALSE}
+get_beta_info <- function(df, s){
+  df <- df %>% 
+    filter(sex == s)
+  new_cols <- df %>% pull(age_group)
+  new_cols <- paste0(new_cols, c("_1", "_2", "_3"))
+  df <- df %>% 
+    dplyr::select(-age_group, -sex) %>% 
+    as.matrix()
+  
+  df <- t(df)
+  colnames(df) <- new_cols
+  n_zeros <- colSums(df == 0)
+  n_pos_nonzeros <- colSums(df > 0)
+  n_neg_nonzeros <- colSums(df < 0)
+  
+  ztbl <- tibble(group = names(n_zeros), n_zeros = n_zeros)
+  tbl <- tibble(group = names(n_pos_nonzeros), n_positive_nonzeros = n_pos_nonzeros)
+  tbl <- left_join(tbl, ztbl, by = "group")
+  ntbl <- tibble(group = names(n_neg_nonzeros), n_negative_nonzeros = n_neg_nonzeros)
+  tbl <- left_join(tbl, ntbl, by = "group")
+  tbl$group <- gsub("_1", "", tbl$group)
+  tbl$group <- gsub("_2", "", tbl$group)
+  tbl$group <- gsub("_3", "", tbl$group)
+  meds <- tbl %>% 
+    group_by(group) %>% 
+    summarise(med = median(n_positive_nonzeros))
+  tbl <- left_join(tbl, meds, by = "group")
+  tbl <- tbl %>% 
+    filter(med == n_positive_nonzeros) %>% 
+    select(-med)
+  tbl <- tbl %>% 
+    pivot_longer(n_positive_nonzeros:n_negative_nonzeros, names_to = "beta_type", 
+                 names_prefix = "n_", values_to = "n") %>% 
+    rename(age_group = group)
+  tbl <- left_join(tbl, ar_tibble, by = "age_group")
+  return(tbl)
+}
+```
+
+# female RNAseq betas
+```{r}
+rftbl <- get_beta_info(df = rmodel_weights, s = "female")
+femaleRbar <- rftbl %>% 
+    ggplot(aes(y = age_range, 
+               x = n, fill = factor(beta_type, levels = type_levels))) +
+    geom_col() +
+    scale_fill_manual(values = c(beta_blue,"lightgray", beta_red),
+                      name = "gene weight",
+                      breaks = c("negative_nonzeros", "zeros", "positive_nonzeros"),
+                      labels = c("negative", "zero", "positive")) +
+    geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+              size = 2) +
+    ylab("model age range") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_blank(),
+        axis.title = element_blank(),
+        text = element_text(size = 18),
+        plot.margin = margin(0, 0, 0, 0),
+        axis.ticks = element_blank())
+```
+
+# male RNAseq betas
+```{r}
+rmtbl <- get_beta_info(df = rmodel_weights, s = "male")
+maleRbar <- rmtbl %>% 
+  ggplot(aes(y = age_range, 
+               x = n, fill = factor(beta_type, levels = type_levels))) +
+  geom_col() +
+  scale_fill_manual(values = c(beta_blue,"lightgray", beta_red),
+                    name = "gene weight",
+                    breaks = c("negative_nonzeros", "zeros", "positive_nonzeros"),
+                    labels = c("negative", "zero", "positive")) +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            size = 2) +
+  xlab("number of genes") +
+  ylab("model age range") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_blank(),
+        axis.title = element_blank(),
+        text = element_text(size = 18),
+        plot.margin = margin(0, 0, 0, 0),
+        axis.ticks = element_blank())
+```
+
+## beta legend
+```{r}
+leg_bar <- rmtbl %>% 
+  ggplot(aes(y = age_range, 
+               x = n, fill = factor(beta_type, levels = type_levels))) +
+  geom_col() +
+  scale_fill_manual(values = c(beta_blue,"lightgray", beta_red),
+                    name = "gene weight:",
+                    breaks = c("negative_nonzeros", "zeros", "positive_nonzeros"),
+                    labels = c("negative", "zero", "positive")) +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5),
+            size = 2) +
+  xlab("number of genes") +
+  ylab("model age range") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_blank(),
+        axis.title.x = element_blank(),
+        text = element_text(size = 18),
+        plot.margin = margin(0, 0, 0, 0),
+        axis.ticks = element_blank(),
+        legend.position = "bottom") +
+  guides(fill = guide_legend(title.vjust = 1))
+
+beta_legend <- as_ggplot(get_legend(maleRbar))
+```
+
+```{r include=FALSE}
+ag_numbers <- tibble(model_age_group = fine_ag_order,
+                     model_age_number = rev(c(1:11)))
+
+bauroc <- left_join(bauroc, ag_numbers, by = "model_age_group")
+
+ag_numbers <- tibble(test_age_group = fine_ag_order,
+                     test_age_number = rev(c(1:11)))
+
+bauroc <- left_join(bauroc, ag_numbers, by = "test_age_group")
+```
+
+```{r}
+bauroc <- bauroc %>% 
+    mutate(model_test_relationship_number = abs(model_age_number - test_age_number)) %>% 
+    mutate(model_test_relationship = ifelse(model_test_relationship_number == 0, 
+                                            "target", 
+                                            ifelse(model_test_relationship_number == 1,
+                                                   "bordering",
+                                                   ifelse(model_test_relationship_number == 2,
+                                                          "nearby", "distant"))))
+
+#capitalize
+bauroc <- bauroc %>% 
+  mutate(sex = ifelse(sex == "female", "Female", "Male")) %>% 
+  mutate(data_type = ifelse(data_type == "RNAseq", "RNAseq models", "Microarray models"))
+```
+
+```{r}
+boxplot <- bauroc %>% 
+  ggplot(aes(x = sex, y = auroc, 
+             fill = factor(model_test_relationship, 
+                           levels = c("target", "bordering",
+                                      "nearby", "distant")))) +
+  geom_boxplot() +
+  scale_fill_manual(values = keyPalette) +
+  ylab("auROC") +
+  facet_grid(~factor(data_type, levels = c("RNAseq models", "Microarray models"))) +
+  theme(axis.title.x = element_blank(),
+        panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(size = 0.1, colour = "lightgray"),
+        strip.background = element_rect(fill="lightgray", color = NA),
+        legend.key = element_rect(fill = "white"),
+        text = element_text(size = 18),
+        plot.margin = margin(0, 0, 0, 0),
+        legend.position = "none",
+        strip.placement = "outside")
+```
+
+```{r}
+top <-  (femaleRbar / maleRbar) | (femaleRheat / maleRheat) 
+```
+
+```{r}
+#figure3 <- ((femaleRbar / maleRbar) | (femaleRheat / maleRheat)) / (boxplot | ggkey)
+```
+
+```{r}
+bot <- (boxplot - ggkey)
+```
+
+```{r}
+fig4 <- top / bot + plot_layout(heights = c(9,4))
+```
+
+```{r}
+#fig4 <- ((femaleRbar / maleRbar) | (femaleRheat / maleRheat)) / (boxplot - ggkey)
+```
+
+```{r}
+layout <- "
+AB
+CD
+"
+figure4top <- femaleRbar + femaleRheat + maleRbar + maleRheat + plot_layout(design = layout, guides = "collect")
+```
+
+
+```{r}
+figure4 <- figure4top / bot
+```
+
+```{r}
+y_title <- ggplot(data.frame(l = "model age group", x = 1, y = 1)) +
+      geom_text(aes(x, y, label = l), angle = 90, size = 8) + 
+      theme_void() +
+      coord_cartesian(clip = "off")
+```
+
+```{r}
+title_fig4top <- y_title - figure4top + plot_layout(widths = c(1,11))
+```
+
+
+```{r}
+ggsave("~/Desktop/figure3top.pdf", plot = title_fig4top, height = 7, width = 9)
+```
+
+```{r}
+ggsave("~/Desktop/figure3bot.pdf", plot = bot, height = 4, width = 9)
+```
+

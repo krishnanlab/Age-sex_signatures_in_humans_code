@@ -1,0 +1,5 @@
+GOBP annotations were proapagated to ancestor terms (restricting the types of evidence codes to EXP_IDA_IPI_IMP_IGI_TAS_IC) to create this file: /mnt/research/compbio/krishnanlab/data/MyGeneInfo/20201029_Entrez_Multiple-Species/Gene_Ontology/propagated_annotations/GO__propagated-annotations__Homo_sapiens__Entrez__BP__EXP_IDA_IPI_IMP_IGI_TAS_IC.tsv
+
+This file was then subset to GOBPs with 10-200 genes and written as is and as the gen-group file with only two columns
+
+

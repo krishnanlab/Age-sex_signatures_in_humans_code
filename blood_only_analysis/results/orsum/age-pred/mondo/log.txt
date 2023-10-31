@@ -1,0 +1,55 @@
+orsum 1.4
+
+gmt:	/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_gene_set_gmts/mondo.gmt
+files:	['/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_adolescent_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_child_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_infant_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_middle_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_old_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_older_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_young_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_young_child_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_adolescent_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_child_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_infant_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_middle_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_old_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_older_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_young_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_young_child_terms_by_significance.txt']
+fileAliases:	None
+outputFolder:	/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/results/orsum/age-pred/mondo
+maxRepSize:	1000000
+minTermSize:	10
+numberOfTermsToPlot:	50
+
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_adolescent_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_child_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_infant_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_middle_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_old_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_older_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_young_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_female_young_child_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_adolescent_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_child_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_infant_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_middle_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_old_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_older_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_young_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files//mondo_male_young_child_terms_by_significance.txt
+
+Initial term number (recurring terms in different lists are not merged yet, each one is counted): 16272
+
+Same terms in multiple lists are unified
+Representing term number: 904
+
+Superterms represent their less significant (worse ranked) subterms. This includes equal terms, i.e. the terms that annotate exactly the same set of genes.
+Representing term number:58
+

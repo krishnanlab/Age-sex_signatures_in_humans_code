@@ -1,0 +1,555 @@
+---
+title: "R Notebook"
+output: pdf_document
+---
+
+```{r include=FALSE}
+####################### OLD CODE #########################
+# check Figure-age-model-chr for old figure code
+```
+
+```{r include=FALSE}
+library(tidyverse)
+library(patchwork)
+library(NatParksPalettes)
+library(scales)
+library(ggridges)
+library(RColorBrewer)
+```
+
+```{r include=FALSE}
+rmodel_weights <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/rnaseq/model_weights_from_model_with_chosen_parameters.tsv", 
+                            delim="\t", col_names=T) %>% 
+  filter(group_type == "fine") %>%
+  select(-std_scld, -penalty, -parameters, -asinh, -n_positives, -group_type) %>% 
+  select(sex, age_group, everything()) %>% 
+  mutate(model_age_group = paste(age_group, c(1,2,3), sep = "_"))
+
+mmodel_weights <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/microarray/model_weights_from_model_with_chosen_parameters.tsv", 
+                            delim="\t", col_names=T) %>% 
+  filter(group_type == "fine") %>%
+  select(-std_scld, -penalty, -parameters, -n_positives, -group_type) %>% 
+  select(sex, age_group, everything()) %>% 
+  mutate(model_age_group = paste(age_group, c(1,2,3), sep = "_"))
+```
+
+```{r include=FALSE}
+rmodel_weights <- rmodel_weights %>% 
+  pivot_longer(3:18480, names_to = "gene", values_to = "weight")
+
+mmodel_weights <- mmodel_weights %>% 
+  pivot_longer(3:18480, names_to = "gene", values_to = "weight")
+```
+
+```{r include=FALSE}
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = rev(age_ranges)))
+
+gene_chr <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv") %>% 
+  select(gene, symbol, chromosome) %>% 
+  distinct() %>% 
+  mutate(gene = as.character(gene))
+
+rmodel_weights <- left_join(rmodel_weights, ar_tibble, by = "age_group")
+mmodel_weights <- left_join(mmodel_weights, ar_tibble, by = "age_group")
+
+rmodel_weights <- left_join(rmodel_weights, gene_chr, by = "gene")
+mmodel_weights <- left_join(mmodel_weights, gene_chr, by = "gene")
+```
+
+```{r include=FALSE}
+rmodel_weights <- rmodel_weights %>% 
+  mutate(beta_group = ifelse(weight > 0, "positive",
+                             ifelse(weight < 0, "negative", "zero"))) %>% 
+  mutate(beta = ifelse(weight > 0, 1,
+                             ifelse(weight < 0, -1, 0)))
+
+mmodel_weights <- mmodel_weights %>% 
+  mutate(beta_group = ifelse(weight > 0, "positive",
+                             ifelse(weight < 0, "negative", "zero"))) %>% 
+  mutate(beta = ifelse(weight > 0, 1,
+                             ifelse(weight < 0, -1, 0)))
+```
+
+```{r include=FALSE}
+rm_pos <- rmodel_weights %>% 
+  group_by(sex, age_range, gene) %>% 
+  summarise(beta_sum = sum(beta)) %>% 
+  filter(beta_sum > 1)
+
+rm_neg <- rmodel_weights %>% 
+  group_by(sex, age_range, gene) %>% 
+  summarise(beta_sum = sum(beta)) %>% 
+  filter(beta_sum < -1)
+
+mm_pos <- mmodel_weights %>% 
+  group_by(sex, age_range, gene) %>% 
+  summarise(beta_sum = sum(beta)) %>% 
+  filter(beta_sum > 1)
+
+mm_neg <- mmodel_weights %>% 
+  group_by(sex, age_range, gene) %>% 
+  summarise(beta_sum = sum(beta)) %>% 
+  filter(beta_sum < -1)
+```
+
+```{r include=FALSE}
+full_ab <- list(rmodel_weights, mmodel_weights)
+names(full_ab) <- c("RNAseq", "microarray")
+full_ab <- bind_rows(full_ab, .id = "data")
+```
+
+```{r include=FALSE}
+all_pos <- full_ab %>% 
+  group_by(sex, age_range, gene) %>% 
+  summarise(beta_sum = sum(beta)) %>% 
+  filter(beta_sum > 4) %>% 
+  ungroup
+
+all_neg <- full_ab %>% 
+  group_by(sex, age_range, gene) %>% 
+  summarise(beta_sum = sum(beta)) %>% 
+  filter(beta_sum < -4) %>% 
+  ungroup()
+```
+
+```{r include=FALSE}
+all_pos <- left_join(all_pos, gene_chr, by = "gene")
+all_neg <- left_join(all_neg, gene_chr, by = "gene")
+```
+
+```{r include=FALSE}
+fsum_pos <- all_pos %>% 
+  filter(sex == "female") %>% 
+  group_by(age_range, chromosome, .drop = F) %>% 
+  tally() 
+msum_pos <- all_pos %>% 
+  filter(sex == "male") %>% 
+  group_by(age_range, chromosome, .drop = F) %>% 
+  tally() 
+
+fsum_neg <- all_neg %>% 
+  filter(sex == "female") %>% 
+  group_by(age_range, chromosome, .drop = F) %>% 
+  tally() 
+msum_neg <- all_neg %>% 
+  filter(sex == "male") %>% 
+  group_by(age_range, chromosome, .drop = F) %>% 
+  tally() 
+```
+
+```{r include=FALSE}
+# add groups to make nice table
+fill_tibble <- tibble(age_range = rep(age_ranges, each = 24), 
+                      chromosome = rep(c("Y", "X", as.character(rev(1:22))), times = 11),
+                      n = 0)
+
+fill_fsum <- fill_tibble %>% 
+  filter(chromosome %in% c("22", "Y")) %>% 
+  filter(age_range %in% c("< 0", "[0-2]", "(2-8]", "(8-12]", "(12-20]", "(45-60]", "(60-70]")) %>% 
+  filter(!(chromosome == "22" & age_range != "< 0"))
+
+fill_msum <- fill_tibble %>% 
+  filter(chromosome %in% c("22", "Y")) %>% 
+  filter(age_range %in% c("< 0", "(12-20]", "(35-45]", "(45-60]", "(60-70]", "> 80")) %>% 
+  filter(!(chromosome == "22" & age_range != "< 0")) %>% 
+  filter(!(chromosome == "Y" & age_range == "< 0"))
+
+fill_fnsum <- fill_tibble %>% 
+  filter(chromosome %in% c("13", "Y")) %>% 
+  filter(age_range %in% c("< 0", "[0-2]", "(2-8]", "(12-20]", "(20-35]", "(35-45]", "(60-70]", "(70-80]")) %>% 
+  filter(!(chromosome == "13" & age_range %in% c("(12-20]", "(20-35]", "(35-45]", "(60-70]", "(70-80]")))
+
+fill_mnsum <- fill_tibble %>% 
+  filter(chromosome %in% c("13", "Y")) %>% 
+  filter(!age_range %in% c("(12-20]","(60-70]", "(70-80]", "> 80")) %>% 
+  filter(!(chromosome == 13 & age_range != "< 0"))
+
+fsum_pos <- bind_rows(fsum_pos, fill_fsum)
+msum_pos <- bind_rows(msum_pos, fill_msum)
+
+fsum_neg <- bind_rows(fsum_neg, fill_fnsum)
+msum_neg <- bind_rows(msum_neg, fill_mnsum)
+
+fsum_pos <- fsum_pos %>% 
+  mutate(age_range = factor(age_range, levels = rev(age_ranges)))
+msum_pos <- msum_pos %>% 
+  mutate(age_range = factor(age_range, levels = rev(age_ranges)))
+
+fsum_neg <- fsum_neg %>% 
+  mutate(age_range = factor(age_range, levels = rev(age_ranges)))
+msum_neg <- msum_neg %>% 
+  mutate(age_range = factor(age_range, levels = rev(age_ranges)))
+```
+
+
+## chromosome tables
+
+```{r}
+#htable_pal <- c("zero" = "#C4B8C4", "low" = "#9695B1", "med" = "#687098", "med_high" = "#3D4775", "high" = "#212E52")
+#ltable_pal <- c("zero" = "#FBCFA3", "low" = "#FDBB50", "med" = "#FDA215", "med_high" = "#F57C05", "high" = "#D8511D")
+```
+
+```{r}
+# figpart c
+fp_table <- fsum_pos %>% 
+  mutate(chromosome = factor(chromosome, levels = c("Y", "X", as.character(rev(1:22))))) %>% 
+  # mutate(color = ifelse(n == 0, "zero",
+  #                       ifelse(n < 3, "low",
+  #                              ifelse(n < 5, "med",
+  #                                     ifelse(n == 5, "med_high",
+  #                                            "high"))))) %>% 
+  ggplot(aes(x = age_range, y = chromosome, fill = n)) + 
+  geom_tile(color = "white", height = 0.9, width = 0.95) +
+  geom_text(aes(label = n), color = "white") +
+  xlab("age range") +
+  scale_fill_gradient(low = "#F2F2F2",
+                      high = "#832B0F") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 16),
+        legend.position="none",
+        plot.margin = margin(0,15,5,5))
+```
+
+```{r}
+# figpart d
+mp_table <- msum_pos %>% 
+  mutate(chromosome = factor(chromosome, levels = c("Y", "X", as.character(rev(1:22))))) %>% 
+  # mutate(color = ifelse(n == 0, "zero",
+  #                       ifelse(n < 3, "low",
+  #                              ifelse(n < 5, "med",
+  #                                     ifelse(n == 5, "med_high",
+  #                                            "high"))))) %>% 
+  ggplot(aes(x = age_range, y = chromosome, fill = n)) + 
+  geom_tile(color = "white", height = 0.9, width = 0.95) +
+  geom_text(aes(label = n), color = "white") +
+  xlab("age range") +
+  scale_fill_gradient(low = "#F2F2F2",
+                      high = "#832B0F") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 16),
+        legend.position="none",
+        plot.margin = margin(0,5,5,20))
+```
+
+```{r}
+# 10,625 genes in the total age-biased set (genes with positive weight 
+# in at least 5/6 RNAseq/microarray models for any age group in either sex, 
+# with the last fold required to be non-negative)
+gene_sum_all_pos <- all_pos %>% 
+  group_by(gene) %>% 
+  tally()
+
+# 6,653 / 10,625 are age-biased for only one sex/age group
+# 2,914 / 10,625 are age-biased for two sex/age groups [cumulative sum = 9,567/10,625]
+# 780 age-biased for 3 sex/age groups 
+# 220 age-biased for 4 sex/age groups
+# 47 age-biased for 5 sex/age groups
+# 7 age-biased for 6 sex/age groups
+# 1 for 7, 2 for 8, 1 for 10
+
+#### female/male versions #####
+fgene_sum_all_pos <- all_pos %>% 
+  filter(sex == "female") %>% 
+  group_by(gene) %>% 
+  tally()
+
+mgene_sum_all_pos <- all_pos %>% 
+  filter(sex == "male") %>% 
+  group_by(gene) %>% 
+  tally()
+```
+
+```{r}
+all_pos <- all_pos %>% 
+  mutate(group = paste(sex, age_range, sep = " "))
+```
+
+## triple bar plots for M/F
+
+### female
+```{r}
+# gene_sum_all_pos has gene | n, where n is
+# the number of groups the gene is age-biased in
+
+# make tibble: group | sex | age_range | total_n | unique_n | cum_two_group_n 
+# group = sex + age_range
+fpos_gene_group_sum <- all_pos %>% 
+  filter(sex == "female") %>%
+  select(group, sex, age_range, gene) %>% 
+  distinct() %>% 
+  group_by(group, sex, age_range) %>% 
+  tally() %>% 
+  rename(total_n = n) %>% 
+  ungroup()
+
+# add unique count
+fgenes_unique <- fgene_sum_all_pos %>% 
+  filter(n == 1) %>% 
+  pull(gene)
+tmp <- all_pos %>% 
+  filter(sex == "female") %>%
+  select(group, gene) %>% 
+  distinct() %>% 
+  filter(gene %in% fgenes_unique) %>% 
+  group_by(group) %>% 
+  tally() %>% 
+  rename(unique_n = n) %>% 
+  ungroup()
+
+fpos_gene_group_sum <- left_join(fpos_gene_group_sum, tmp, by = "group")
+
+# add cum_two_group_n count
+fgenes_less_than_3g <- fgene_sum_all_pos %>% 
+  filter(n < 3) %>% 
+  pull(gene)
+tmp <- all_pos %>% 
+  filter(sex == "female") %>%
+  select(group, gene) %>% 
+  distinct() %>% 
+  filter(gene %in% fgenes_less_than_3g) %>% 
+  group_by(group) %>% 
+  tally() %>% 
+  rename(cum_two_group_n = n) %>% 
+  ungroup()
+
+fpos_gene_group_sum <- left_join(fpos_gene_group_sum, tmp, by = "group")
+```
+
+```{r}
+# figpart a
+cfpbar <- fpos_gene_group_sum %>% 
+  ggplot(aes(x = age_range)) +
+  geom_col(fill = "#832B0F", aes(y = total_n)) +
+  geom_text(aes(label = total_n, y = total_n), 
+            color = "#832B0F", vjust = -0.1) +
+  geom_col(fill = "#CD622E", aes(y = cum_two_group_n)) +
+  # geom_text(aes(label = cum_two_group_n, y = cum_two_group_n), 
+  #           color = "#CD622E", vjust = -0.1) +
+  geom_col(fill = "#F2F2F2", aes(y = unique_n)) +
+  geom_text(aes(label = unique_n, y = unique_n), 
+            color = "#F2F2F2", vjust = -0.1) +
+  ggtitle("Female age-biased genes") +
+  xlab("age range") +
+  ylab("no. of genes") +
+  scale_y_continuous(limits = c(0, 1250)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        text = element_text(size = 16),
+        panel.grid.major = element_line(size = 0.2, colour = "lightgray"),
+        plot.margin = margin(5,15,0,5))
+```
+
+### male
+```{r}
+# gene_sum_all_pos has gene | n, where n is
+# the number of groups the gene is age-biased in
+
+# make tibble: group | sex | age_range | total_n | unique_n | cum_two_group_n 
+# group = sex + age_range
+mpos_gene_group_sum <- all_pos %>% 
+  filter(sex == "male") %>%
+  select(group, sex, age_range, gene) %>% 
+  distinct() %>% 
+  group_by(group, sex, age_range) %>% 
+  tally() %>% 
+  rename(total_n = n) %>% 
+  ungroup()
+
+# add unique count
+mgenes_unique <- mgene_sum_all_pos %>% 
+  filter(n == 1) %>% 
+  pull(gene)
+tmp <- all_pos %>% 
+  filter(sex == "male") %>%
+  select(group, gene) %>% 
+  distinct() %>% 
+  filter(gene %in% mgenes_unique) %>% 
+  group_by(group) %>% 
+  tally() %>% 
+  rename(unique_n = n) %>% 
+  ungroup()
+
+mpos_gene_group_sum <- left_join(mpos_gene_group_sum, tmp, by = "group")
+
+# add cum_two_group_n count
+mgenes_less_than_3g <- mgene_sum_all_pos %>% 
+  filter(n < 3) %>% 
+  pull(gene)
+tmp <- all_pos %>% 
+  filter(sex == "male") %>%
+  select(group, gene) %>% 
+  distinct() %>% 
+  filter(gene %in% mgenes_less_than_3g) %>% 
+  group_by(group) %>% 
+  tally() %>% 
+  rename(cum_two_group_n = n) %>% 
+  ungroup()
+
+mpos_gene_group_sum <- left_join(mpos_gene_group_sum, tmp, by = "group")
+```
+
+```{r}
+# figpart b
+cmpbar <- mpos_gene_group_sum %>% 
+  ggplot(aes(x = age_range)) +
+  geom_col(fill = "#832B0F", aes(y = total_n)) +
+  geom_text(aes(label = total_n, y = total_n), 
+            color = "#832B0F", vjust = -0.1) +
+  geom_col(fill = "#CD622E", aes(y = cum_two_group_n)) +
+  # geom_text(aes(label = cum_two_group_n, y = cum_two_group_n), 
+  #           color = "#CD622E", vjust = -0.1) +
+  geom_col(fill = "#F2F2F2", aes(y = unique_n)) +
+  geom_text(aes(label = unique_n, y = unique_n), 
+            color = "#F2F2F2", vjust = -0.1) +
+  ggtitle("Male age-biased genes") +
+  xlab("age range") +
+  ylab("no. of genes") +
+  coord_cartesian(clip = "off") + 
+  scale_y_continuous(limits = c(0, 1250)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        text = element_text(size = 16),
+        panel.grid.major = element_line(size = 0.2, colour = "lightgray"),
+        plot.margin = margin(5,5,0,20))
+```
+
+## high weight genes across sexes barplot
+
+```{r}
+# find number of sexes each gene is in each age group
+n_sex_tbl <- all_pos %>% 
+  select(age_range, sex, gene) %>% 
+  distinct() %>% 
+  group_by(age_range, gene) %>% 
+  tally()
+
+# create age_range | sex | gene table
+sex_tbl <- all_pos %>% 
+  select(age_range, sex, gene) %>% 
+  distinct() %>% 
+  group_by(age_range, gene) %>% 
+  mutate(sex = paste(sex, collapse = "___")) %>% 
+  distinct() %>% 
+  mutate(sex = ifelse(sex == "female___male", "Both", sex)) %>% 
+  mutate(sex = ifelse(sex == "female", "Female", sex)) %>% 
+  mutate(sex = ifelse(sex == "male", "Male", sex)) %>% 
+  ungroup()
+
+# create table for stacked bar chart: age_range | sex | n | label_y
+# n = n genes
+# label_y = text position in bar chart
+qsex_tbl <- sex_tbl %>% 
+  group_by(age_range, sex) %>% 
+  tally() %>% 
+  mutate(sex = factor(sex, levels = c("Female", "Both", "Male"))) %>% 
+  ungroup() %>% 
+  arrange(age_range, desc(sex)) %>% 
+  group_by(age_range) %>% 
+  mutate(label_y = cumsum(n)) %>% 
+  ungroup() %>%
+  mutate(label_vjust = ifelse(sex == "Male", 1, 0)) %>% 
+  mutate(adj_label_y = ifelse(sex == "Male", (label_y - 2), (label_y + 2)))
+```
+
+```{r}
+# figpart e
+hw_by_sex_bar <- qsex_tbl %>%
+  ggplot(aes(x = age_range, y = n, fill = sex)) +
+  geom_col() +
+  geom_text(aes(label = n, x = age_range, y = adj_label_y, 
+                color = sex, vjust = label_vjust), size = 3) +
+  scale_fill_manual(values = c(Both = "lightgray",
+                               Female = "#212E52",
+                               Male = "#D8511D")) +
+  scale_color_manual(values = c(Both = "lightgray",
+                                Female = "#212E52",
+                                Male = "white")) +
+  xlab("age range") +
+  ylab("no. of genes") +
+  ggtitle("Sex difference in age-biased genes") +
+  coord_cartesian(clip = "off") + 
+  theme(panel.background = element_rect(fill = NA),
+        text = element_text(size = 16),
+        legend.position = "bottom",
+        panel.grid.major = element_line(size = 0.2, colour = "lightgray"),
+        plot.title = element_text(size = 16),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.title = element_blank(),
+        plot.margin = margin(5,15,0,5)) +
+  guides(color = "none")
+```
+
+## number genes biased in particular number of age groups
+```{r}
+n_ags_per_sex <- all_pos %>% 
+  select(group, sex, gene) %>% 
+  distinct() %>% 
+  group_by(gene, sex) %>% 
+  tally() %>% 
+  rename(n_ags = n) %>% 
+  group_by(sex, n_ags) %>% 
+  tally() %>% 
+  mutate(number_ags = as.character(n_ags)) %>%
+  mutate(number_ags = factor(number_ags, levels = c("5", "4", "3", "2", "1"))) %>% 
+  mutate(sex = ifelse(sex == "female", "Female", "Male"))
+```
+
+```{r}
+# figpart f
+hw_by_ags_bar <- n_ags_per_sex %>% 
+  ggplot(aes(x = n, y = number_ags, fill = sex)) +
+  geom_col(position = position_dodge()) +
+  geom_text(aes(label = n, color = sex), hjust = 0,
+            position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c(Female = "#212E52", Male = "#D8511D")) +
+  scale_color_manual(values = c(Female = "#212E52", Male = "#D8511D")) +
+  coord_cartesian(clip = "off") + 
+  xlab("no. of genes") +
+  ylab("no. of age groups") +
+  ggtitle("Age groups per age-biased gene") +
+  theme(panel.background = element_rect(fill = NA),
+        text = element_text(size = 16),
+        legend.position = "bottom",
+        plot.title = element_text(size = 16),
+        legend.title = element_blank(),
+        panel.grid.major = element_line(size = 0.2, colour = "lightgray"),
+        plot.margin = margin(5,5,0,20))
+```
+
+## figure
+
+```{r}
+layout <- "
+AAABBB
+CCCDDD
+CCCDDD
+EEEFFF"
+
+c_high_fig <- cfpbar + cmpbar + 
+  fp_table + mp_table + 
+  hw_by_sex_bar + hw_by_ags_bar +
+  plot_layout(design = layout)
+```
+
+```{r}
+ggsave("~/Desktop/figure4.pdf", plot = c_high_fig,
+       height = 12, width = 9, dpi = 700)
+```
+
+
+
+
+
+

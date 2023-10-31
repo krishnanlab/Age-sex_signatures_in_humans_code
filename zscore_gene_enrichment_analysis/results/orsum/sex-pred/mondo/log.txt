@@ -1,0 +1,41 @@
+orsum 1.4
+
+gmt:	/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_gene_set_gmts/mondo.gmt
+files:	['/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_adolescent_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_child_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_elderly_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_fetus_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_infant_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_middle_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_old_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_older_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_young_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_young_child_terms_by_significance.txt']
+fileAliases:	None
+outputFolder:	/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/orsum/sex-pred/mondo
+maxRepSize:	1000000
+minTermSize:	10
+numberOfTermsToPlot:	50
+
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_adolescent_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_child_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_elderly_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_fetus_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_infant_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_middle_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_old_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_older_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_young_adult_terms_by_significance.txt
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/mondo_young_child_terms_by_significance.txt
+
+Initial term number (recurring terms in different lists are not merged yet, each one is counted): 9944
+
+Same terms in multiple lists are unified
+Representing term number: 904
+
+Superterms represent their less significant (worse ranked) subterms. This includes equal terms, i.e. the terms that annotate exactly the same set of genes.
+Representing term number:25
+

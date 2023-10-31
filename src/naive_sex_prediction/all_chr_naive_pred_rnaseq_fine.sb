@@ -1,0 +1,15 @@
+#!/bin/sh -login
+#SBATCH --time=06:00:00
+#SBATCH --mem=90GB
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=1
+#SBATCH --account=wang-krishnan
+
+cd $SLURM_SUBMIT_DIR
+
+source /mnt/home/john3491/.bashrc
+export PATH="/mnt/home/john3491/anaconda3/bin:$PATH"
+
+which python
+
+python naive_sex_prediction_by_age_group_all_chromosomes.py --data_type=rnaseq --group_type=fine

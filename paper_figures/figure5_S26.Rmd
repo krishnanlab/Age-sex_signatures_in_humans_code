@@ -1,0 +1,782 @@
+---
+title: "R Notebook"
+output: pdf_document
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(patchwork)
+library(NatParksPalettes)
+library(scales)
+library(ggridges)
+library(RColorBrewer)
+```
+
+```{r include=FALSE}
+# data for which terms represented by others
+rep_gobp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/orsum/sex-pred/gobp/filteredResultIDMapping.tsv")
+rep_gwas <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/orsum/sex-pred/gwas/filteredResultIDMapping.tsv")
+rep_mp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/orsum/sex-pred/mp/filteredResultIDMapping.tsv")
+rep_mondo <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/orsum/sex-pred/mondo/filteredResultIDMapping.tsv")
+
+# enrichment scores
+gobp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/gobp_enrichment.tsv")
+gwas <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/gwas_enrichment.tsv")
+mp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/mp_enrichment.tsv")
+mondo <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/mondo_enrichment.tsv")
+sctype <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/naive_sex_prediction_ranks/sctype_enrichment.tsv")
+# change one annoyingly long term and one greek letter term
+sctype <- sctype %>% 
+  mutate(term = ifelse(term == "Immune system: γδ-T cells", "Immune system: Gamma-delta T cells", term)) %>% 
+  mutate(term = ifelse(term == "Immune system: Erythroid-like and erythroid precursor cells",
+                       "Immune system: Erythroid precursor cells", term))
+
+
+# add names to gobp
+go_names <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/GOBPs/considered_GOids_GOnames.tsv")
+gobp <- gobp %>% 
+  rename(go_id = term)
+gobp <- left_join(gobp, go_names, by = "go_id")
+gobp <- gobp %>% 
+  rename(term = go_name) %>% 
+  select(age_group, term, combined_zscore, go_id) %>% 
+  filter(!is.na(term))
+
+# add names to rep_gobp
+colnames(go_names) <- c("Representative", "Representative_name")
+rep_gobp <- left_join(rep_gobp, go_names, by = "Representative")
+# add names to rep_gobp
+colnames(go_names) <- c("Represented", "Represented_name")
+rep_gobp <- left_join(rep_gobp, go_names, by = "Represented")
+rep_gobp <- rep_gobp %>% 
+  select(Representative_name, Represented_name) %>% 
+  rename(Representative = Representative_name) %>% 
+  rename(Represented = Represented_name)
+```
+
+```{r include=FALSE}
+# pull representative terms
+rep_gobp_terms <- rep_gobp %>% 
+  pull(Representative) %>% 
+  unique()
+rep_gwas_terms <- rep_gwas %>% 
+  pull(Representative) %>% 
+  unique()
+rep_mp_terms <- rep_mp %>% 
+  pull(Representative) %>% 
+  unique()
+rep_mondo_terms <- rep_mondo %>% 
+  pull(Representative) %>% 
+  unique()
+```
+
+```{r}
+# add age info for plotting, numbers for correlation purposes
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = age_ranges),
+                    rev_age_range = factor(age_ranges, levels = rev(age_ranges)),
+                    age_number = rev(c(1:11)))
+
+gobp <- left_join(gobp, ar_tibble, by = "age_group")
+gwas <- left_join(gwas, ar_tibble, by = "age_group")
+mp <- left_join(mp, ar_tibble, by = "age_group")
+mondo <- left_join(mondo, ar_tibble, by = "age_group")
+sctype <- left_join(sctype, ar_tibble, by = "age_group")
+```
+
+```{r include=FALSE}
+gobp <- gobp %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+gwas <- gwas %>%
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+mp <- mp %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+mondo <- mondo %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+sctype <- sctype %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+```
+
+```{r include=FALSE}
+# mat for correlation
+ag_mat <- as.matrix(c(1:11), ncol = 1, nrow = 11)
+
+# make into matrix of terms in cols, ags in rows
+#reorder in age order
+ag_sum_gobp <- gobp %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_gobp <- ag_sum_gobp[rev(fine_ag_order),]
+termcor_gobp <- cor(ag_mat, ag_sum_gobp, method = "spearman")
+termcor_gobp <- tibble(term = colnames(termcor_gobp), inc_cor = termcor_gobp[1,])
+
+ag_sum_gwas <- gwas %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_gwas <- ag_sum_gwas[rev(fine_ag_order),]
+termcor_gwas <- cor(ag_mat, ag_sum_gwas, method = "spearman")
+termcor_gwas <- tibble(term = colnames(termcor_gwas), inc_cor = termcor_gwas[1,])
+
+ag_sum_mp <- mp %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_mp <- ag_sum_mp[rev(fine_ag_order),]
+termcor_mp <- cor(ag_mat, ag_sum_mp, method = "spearman")
+termcor_mp <- tibble(term = colnames(termcor_mp), inc_cor = termcor_mp[1,])
+
+ag_sum_mondo <- mondo %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_mondo <- ag_sum_mondo[rev(fine_ag_order),]
+termcor_mondo <- cor(ag_mat, ag_sum_mondo, method = "spearman")
+termcor_mondo <- tibble(term = colnames(termcor_mondo), inc_cor = termcor_mondo[1,])
+
+ag_sum_sctype <- sctype %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_sctype <- ag_sum_sctype[rev(fine_ag_order),]
+termcor_sctype <- cor(ag_mat, ag_sum_sctype, method = "spearman")
+termcor_sctype <- tibble(term = colnames(termcor_sctype), inc_cor = termcor_sctype[1,])
+```
+
+```{r include=FALSE}
+gobp <- gobp %>% 
+  group_by(term) %>% 
+  mutate(female_bias_n = sum(combined_zscore > 0)) %>% 
+  ungroup()
+
+gwas <- gwas %>% 
+  group_by(term) %>% 
+  mutate(female_bias_n = sum(combined_zscore > 0)) %>% 
+  ungroup()
+
+mp <- mp %>% 
+  group_by(term) %>% 
+  mutate(female_bias_n = sum(combined_zscore > 0)) %>% 
+  ungroup()
+
+mondo <- mondo %>% 
+  group_by(term) %>% 
+  mutate(female_bias_n = sum(combined_zscore > 0)) %>% 
+  ungroup()
+
+sctype <- sctype %>% 
+  group_by(term) %>% 
+  mutate(female_bias_n = sum(combined_zscore > 0)) %>% 
+  ungroup()
+```
+
+```{r include=FALSE}
+gobp <- left_join(gobp, termcor_gobp, by = "term")
+gwas <- left_join(gwas, termcor_gwas, by = "term")
+mp <- left_join(mp, termcor_mp, by = "term")
+mondo <- left_join(mondo, termcor_mondo, by = "term")
+sctype <- left_join(sctype, termcor_sctype, by = "term")
+```
+
+```{r include=FALSE}
+info_sctype <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/sctype/sctype_gene_info.tsv") %>% 
+  mutate(term = paste(tissueType, cellName, sep = ": ")) %>% 
+  select(tissueType, term) %>% 
+  distinct()
+
+sctype <- left_join(sctype, info_sctype, by = "term")
+```
+
+## immune figure (5)
+
+```{r}
+vir_gobp_grep <- gobp %>% 
+  filter(grepl("vir", term)) %>% 
+  pull(term) %>% 
+  unique()
+
+vir_gobp_rep_terms <- rep_gobp %>% 
+  filter(Represented %in% vir_gobp_grep) %>% 
+  pull(Representative) %>% unique()
+
+vir_gobp_clust <- gobp %>% 
+  filter(term %in% vir_gobp_rep_terms) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+vir_gobp_clust_order <- hclust(dist(vir_gobp_clust, method = "euclidean"), method = "ward.D")$order
+
+vir_gobp_clust_order <- rownames(vir_gobp_clust)[vir_gobp_clust_order]
+```
+
+```{r}
+vir_gobp <- gobp %>% 
+  filter(term %in% vir_gobp_rep_terms) %>% 
+  mutate(term_set = "viral biological processes") %>% 
+  ggplot(aes(y = factor(term, levels = rev(vir_gobp_clust_order)), x = rev_age_range,
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))
+```
+
+```{r}
+imm_gobp_grep <- gobp %>% 
+  filter(grepl("immun", term)) %>% 
+  pull(term)
+tmp <- gobp %>% 
+  filter(grepl("T cell", term)) %>% 
+  pull(term)
+imm_gobp_grep <- c(imm_gobp_grep, tmp)
+tmp <- gobp %>% 
+  filter(grepl("B cell", term)) %>% 
+  pull(term)
+imm_gobp_grep <- c(imm_gobp_grep, tmp)
+imm_gobp_grep <- unique(imm_gobp_grep)
+
+imm_gobp_rep_terms <- rep_gobp %>% 
+  filter(Represented %in% imm_gobp_grep) %>% 
+  pull(Representative) %>% unique()
+
+
+imm_gobp_clust <- gobp %>% 
+  filter(term %in% imm_gobp_rep_terms) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+imm_gobp_clust_order <- hclust(dist(imm_gobp_clust, method = "euclidean"), method = "ward.D")$order
+
+imm_gobp_grep_order <- rownames(imm_gobp_clust)[imm_gobp_clust_order]
+```
+
+```{r}
+imm_gobp <- gobp %>% 
+  filter(term %in% imm_gobp_rep_terms) %>% 
+  mutate(term_set = "immune biological processes") %>% 
+  ggplot(aes(y = factor(term, levels = imm_gobp_grep_order), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))
+```
+
+```{r}
+imm_gwas_grep <- gwas %>% 
+  filter(grepl("immun", term, ignore.case = T)) %>% 
+  pull(term)
+tmp <- gwas %>% 
+  filter(grepl("T cell", term)) %>% 
+  pull(term)
+imm_gwas_grep <- c(imm_gwas_grep, tmp)
+tmp <- gwas %>% 
+  filter(grepl("B cell", term)) %>% 
+  pull(term)
+imm_gwas_grep <- c(imm_gwas_grep, tmp)
+imm_gwas_grep <- unique(imm_gwas_grep)
+
+imm_gwas_grep_order <- gwas %>% 
+  filter(term %in% imm_gwas_grep) %>% 
+  select(term, combined_zscore) %>% 
+  group_by(term) %>% 
+  summarise(mean_score = mean(combined_zscore)) %>% 
+  arrange((mean_score)) %>% 
+  pull(term)
+```
+
+```{r}
+imm_gwas <- gwas %>% 
+  filter(term %in% imm_gwas_grep) %>% 
+  mutate(term_set = "immune traits") %>% 
+  ggplot(aes(y = factor(term, levels = imm_gwas_grep_order), x = rev_age_range, 
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))
+```
+
+```{r}
+imm_mondo_grep <- mondo %>% 
+  filter(grepl("immun", term, ignore.case = T)) %>% 
+  pull(term)
+tmp <- mondo %>% 
+  filter(grepl("T cell", term)) %>% 
+  pull(term)
+imm_mondo_grep <- c(imm_mondo_grep, tmp)
+tmp <- mondo %>% 
+  filter(grepl("B cell", term)) %>% 
+  pull(term)
+imm_mondo_grep <- c(imm_mondo_grep, tmp)
+imm_mondo_grep <- unique(imm_mondo_grep)
+
+imm_mondo_grep_order <- mondo %>% 
+  filter(term %in% imm_mondo_grep) %>% 
+  select(term, combined_zscore) %>% 
+  group_by(term) %>% 
+  summarise(mean_score = mean(combined_zscore)) %>% 
+  arrange((mean_score)) %>% 
+  pull(term)
+```
+
+```{r}
+imm_mondo <- mondo %>% 
+  filter(term %in% imm_mondo_grep) %>% 
+  mutate(term_set = "immune diseases") %>% 
+  ggplot(aes(y = factor(term, levels = imm_mondo_grep_order), x = rev_age_range, 
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))  
+```
+
+```{r}
+imm_mp_grep <- mp %>% 
+  filter(grepl("immun", term, ignore.case = T)) %>% 
+  pull(term)
+tmp <- mp %>% 
+  filter(grepl("T cell", term)) %>% 
+  pull(term)
+imm_mp_grep <- c(imm_mp_grep, tmp)
+tmp <- mp %>% 
+  filter(grepl("B cell", term)) %>% 
+  pull(term)
+imm_mp_grep <- c(imm_mp_grep, tmp)
+imm_mp_grep <- unique(imm_mp_grep)
+
+imm_mp_rep_terms <- rep_mp %>% 
+  filter(Represented %in% imm_mp_grep) %>% 
+  pull(Representative) %>% unique()
+
+imm_mp_grep_order <- mp %>% 
+  filter(term %in% imm_mp_rep_terms) %>% 
+  select(term, combined_zscore) %>% 
+  group_by(term) %>% 
+  summarise(mean_score = mean(combined_zscore)) %>% 
+  arrange((mean_score)) %>% 
+  pull(term)
+```
+
+```{r}
+imm_mp <- mp %>%
+  filter(term %in% imm_mp_rep_terms) %>%
+  mutate(term_set = "phenotypes") %>% 
+  ggplot(aes(y = factor(term, levels = imm_mp_grep_order), x = rev_age_range, 
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))  
+```
+
+```{r}
+imm_sctype_clust <- sctype %>% 
+  filter(tissueType == "Immune system") %>% 
+  mutate(term = gsub("Immune system: ", "", term)) %>%
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+imm_sctype_clust_order <- hclust(dist(imm_sctype_clust, method = "euclidean"), method = "ward.D")$order
+
+imm_sctype_grep_order <- rownames(imm_sctype_clust)[imm_sctype_clust_order]
+```
+
+```{r}
+imm_sctype <- sctype %>% 
+  filter(tissueType == "Immune system") %>% 
+  mutate(term_set = "immune cell types") %>% 
+  mutate(term = gsub("Immune system: ", "", term)) %>% 
+  ggplot(aes(y = factor(term, levels = rev(imm_sctype_grep_order)), x = rev_age_range, 
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))
+```
+
+```{r}
+tis_imm_sctype_grep <- sctype %>% 
+  filter(tissueType != "Immune system") %>% 
+  filter(grepl("Lymphoid", term)) %>% 
+  pull(term)
+tmp <- sctype %>% 
+  filter(tissueType != "Immune system") %>% 
+  filter(grepl("Myeloid", term)) %>% 
+  pull(term)
+tis_imm_sctype_grep <- c(tis_imm_sctype_grep, tmp)
+tmp <- sctype %>% 
+  filter(tissueType != "Immune system") %>% 
+  filter(grepl("Kupffer", term)) %>% 
+  pull(term)
+tis_imm_sctype_grep <- c(tis_imm_sctype_grep, tmp)
+tmp <- sctype %>% 
+  filter(tissueType != "Immune system") %>% 
+  filter(grepl("Immune", term)) %>% 
+  pull(term)
+tis_imm_sctype_grep <- c(tis_imm_sctype_grep, tmp)
+tmp <- sctype %>% 
+  filter(tissueType != "Immune system") %>% 
+  filter(grepl("Antigen", term)) %>% 
+  pull(term)
+tis_imm_sctype_grep <- c(tis_imm_sctype_grep, tmp)
+tmp <- sctype %>% 
+  filter(tissueType != "Immune system") %>% 
+  filter(grepl("Antigen", term)) %>% 
+  pull(term)
+tis_imm_sctype_grep <- c(tis_imm_sctype_grep, tmp)
+tis_imm_sctype_grep <- unique(tis_imm_sctype_grep)
+
+tis_imm_sctype_grep_order <- sctype %>% 
+  filter(term %in% tis_imm_sctype_grep) %>% 
+  select(term, combined_zscore) %>% 
+  group_by(term) %>% 
+  summarise(mean_score = mean(combined_zscore)) %>% 
+  arrange((mean_score)) %>% 
+  pull(term)
+```
+
+```{r}
+tis_imm_sctype <- sctype %>% 
+  filter(term %in% tis_imm_sctype_grep) %>% 
+  mutate(term_set = "tissue-specific immune\n cell types") %>% 
+  ggplot(aes(y = factor(term, levels = tis_imm_sctype_grep_order), x = rev_age_range, 
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 22))
+```
+
+```{r}
+vertical_layout <- c(
+  area(t = 1, b = 30, l = 1, r = 1),             # imm_gobp - 29
+  area(t = 31, b = 42, l = 1, r = 1),             # vir_gobp - 11
+  area(t = 43, b = 59, l = 1, r = 1),             # imm_mondo - 18
+  area(t = 1, b = 30, l = 2, r = 2),             # imm_sctype - 28
+  area(t = 31, b = 48, l = 2, r = 2),             # tis_imm_sctype - 17
+  area(t = 50, b = 55, l = 2, r = 2),             # imm_mp - 6
+  area(t = 56, b = 60, l = 2, r = 2)              # space - 4
+)
+
+final_immune_sexbias_figure <- imm_gobp + vir_gobp + imm_mondo + 
+  imm_sctype + tis_imm_sctype + imm_mp + guide_area() +
+  plot_layout(design = vertical_layout, guides = 'collect') & theme(legend.position = 'bottom', 
+                                                                    legend.key.width = unit(0.5, 'in'),
+                                                                    legend.title = element_text(vjust = 0.9))
+```
+
+```{r}
+ggsave("~/Desktop/figure5.pdf", plot = final_immune_sexbias_figure, 
+       width = 25, height = 25, dpi = 1000)
+```
+
+## metabolism figure (S26)
+
+```{r}
+gobp$trunc_term <- gsub(" metabolic process", "", gobp$term)
+
+metab_gobp_grep <- gobp %>% 
+  filter(grepl("metab", term)) %>% 
+  pull(term) %>% 
+  unique()
+
+metab_gobp_rep_terms <- rep_gobp %>% 
+  filter(Represented %in% metab_gobp_grep) %>% 
+  pull(Representative) %>% unique()
+metab_gobp_rep_terms <- gsub(" metabolic process", "", metab_gobp_rep_terms)
+
+
+metab_gobp_clust <- gobp %>% 
+  filter(trunc_term %in% metab_gobp_rep_terms) %>% 
+  select(trunc_term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = trunc_term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+metab_gobp_clust_order <- hclust(dist(metab_gobp_clust, method = "euclidean"), method = "ward.D")$order
+
+metab_gobp_grep_order <- rownames(metab_gobp_clust)[metab_gobp_clust_order]
+```
+
+```{r}
+gobp_rep_metab_heat <- gobp %>% 
+  filter(trunc_term %in% metab_gobp_rep_terms) %>% 
+  mutate(term_set = "metabolic biological processes") %>% 
+  ggplot(aes(y = factor(trunc_term, levels = metab_gobp_grep_order), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 20))
+
+#ggsave("~/Desktop/gobp_metabolism_terms_heat.pdf", height = 25, width = 16, dpi = 700)
+```
+
+```{r}
+metab_mondo_grep <- mondo %>% 
+  filter(grepl("metab", term)) %>% 
+  pull(term) %>% 
+  unique()
+
+metab_mondo_rep_terms <- rep_mondo %>% 
+  filter(Represented %in% metab_mondo_grep) %>% 
+  pull(Representative) %>% unique()
+
+
+metab_mondo_clust <- mondo %>% 
+  filter(term %in% metab_mondo_grep) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+metab_mondo_clust_order <- hclust(dist(metab_mondo_clust, method = "euclidean"), method = "ward.D")$order
+
+metab_mondo_grep_order <- rownames(metab_mondo_clust)[metab_mondo_clust_order]
+```
+
+```{r}
+mondo_rep_metab_heat <- mondo %>% 
+  filter(term %in% metab_mondo_grep) %>% 
+  mutate(term_set = "metabolic diseases") %>% 
+  ggplot(aes(y = factor(term, levels = metab_mondo_grep_order), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 20))
+
+#ggsave("~/Desktop/mondo_metabolism_terms_heat.pdf", height = 16, width = 16, dpi = 700)
+```
+
+```{r}
+metab_mp_grep <- mp %>% 
+  filter(grepl("metab", term)) %>% 
+  pull(term) %>% 
+  unique()
+
+metab_mp_rep_terms <- rep_mp %>% 
+  filter(Represented %in% metab_mp_grep) %>% 
+  pull(Representative) %>% unique()
+
+
+metab_mp_clust <- mp %>% 
+  filter(term %in% metab_mp_grep) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+metab_mp_clust_order <- hclust(dist(metab_mp_clust, method = "euclidean"), method = "ward.D")$order
+
+metab_mp_grep_order <- rownames(metab_mp_clust)[metab_mp_clust_order]
+```
+
+```{r}
+mp_rep_metab_heat <- mp %>% 
+  filter(term %in% metab_mp_grep) %>% 
+  mutate(term_set = "metabolic phenotypes") %>% 
+  ggplot(aes(y = factor(term, levels = metab_mp_grep_order), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5), 
+                       labels = c("Male", "None", "Female"),
+                       name = "bias") +
+  #scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  facet_grid(~ term_set, scales="free", space = "free") +
+  theme(panel.background = element_rect(fill = NA),
+        strip.text = element_text(size = 22),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 20))
+
+#ggsave("~/Desktop/mp_metabolism_terms_heat.pdf", height = 16, width = 16, dpi = 700)
+```
+
+```{r}
+metab_fig_right <- mondo_rep_metab_heat / mp_rep_metab_heat + plot_layout(heights = c(3,1))
+```
+
+```{r}
+metab_fig <- gobp_rep_metab_heat - metab_fig_right +
+  plot_layout(guides = 'collect') & theme(legend.position = 'bottom')
+```
+
+```{r}
+metab_fig_layout <- "
+AAABBB
+AAACCC
+AAACCC
+AAACCC
+AAA###
+AAA###
+AAA###
+AAA###
+"
+metab_fig <- gobp_rep_metab_heat + mp_rep_metab_heat + mondo_rep_metab_heat + 
+  plot_layout(guides = 'collect', design = metab_fig_layout) & theme(legend.position = 'bottom', 
+                                                                     legend.key.width = unit(0.5, 'in'),
+                                                                     legend.title = element_text(vjust = 0.9))
+```
+
+```{r}
+ggsave("~/Desktop/figureS26.pdf", plot = metab_fig, height = 40, width = 30, dpi = 1000)
+
+#ggsave("~/Desktop/metabolism_terms_heat.pdf", plot = metab_fig, height = 22, width = 20, dpi = 700)
+
+```
+
+

@@ -1,0 +1,3 @@
+disgenet_curated.tsv was downloaded directly from disgenet and turned into a geneset file appropriate for the list ranking zscore enrichment method
+
+disgenet_full.tsv was downloaded from disgenet then filtered to remove rows with text mining evidence only (BEFREE annotations) then turned into a geneset file appropriate for the list ranking zscore enrichment method

@@ -1,0 +1,490 @@
+---
+title: ''
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(out.width="100%")
+```
+
+```{r include=FALSE}
+library(tidyverse)
+library(patchwork)
+library(NatParksPalettes)
+library(scales)
+library(ggridges)
+library(RColorBrewer)
+```
+
+```{r include=FALSE}
+# enrichment scores
+gobp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/gobp_enrichment.tsv")
+gwas <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/gwas_enrichment.tsv")
+mp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/mp_enrichment.tsv")
+mondo <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/mondo_enrichment.tsv")
+sctype <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/sctype_enrichment.tsv")
+
+# add names to gobp
+go_names <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/GOBPs/considered_GOids_GOnames.tsv")
+gobp <- gobp %>% 
+  rename(go_id = term)
+gobp <- left_join(gobp, go_names, by = "go_id")
+gobp <- gobp %>% 
+  rename(term = go_name) %>% 
+  select(sex, age_group, term, combined_zscore, go_id) %>% 
+  filter(!is.na(term))
+```
+
+```{r}
+# add age info for plotting, numbers for correlation purposes
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = age_ranges),
+                    rev_age_range = factor(age_ranges, levels = rev(age_ranges)),
+                    age_number = rev(c(1:11)))
+
+gobp <- left_join(gobp, ar_tibble, by = "age_group")
+gwas <- left_join(gwas, ar_tibble, by = "age_group")
+mp <- left_join(mp, ar_tibble, by = "age_group")
+mondo <- left_join(mondo, ar_tibble, by = "age_group")
+sctype <- left_join(sctype, ar_tibble, by = "age_group")
+```
+
+```{r}
+#separate by sex
+fgobp <- gobp %>% 
+  filter(sex == "female")
+mgobp <- gobp %>% 
+  filter(sex == "male")
+fgwas <- gwas %>% 
+  filter(sex == "female")
+mgwas <- gwas %>% 
+  filter(sex == "male")
+fmp <- mp %>% 
+  filter(sex == "female")
+mmp <- mp %>% 
+  filter(sex == "male")
+fmondo <- mondo %>% 
+  filter(sex == "female")
+mmondo <- mondo %>% 
+  filter(sex == "male")
+fsctype <- sctype %>% 
+  filter(sex == "female")
+msctype <- sctype %>% 
+  filter(sex == "male")
+```
+
+```{r include=FALSE}
+#FEMALE
+# mat for correlation
+ag_mat <- as.matrix(c(1:11), ncol = 1, nrow = 11)
+
+# make into matrix of terms in cols, ags in rows
+#reorder in age order
+ag_sum_fgobp <- fgobp %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_fgobp <- ag_sum_fgobp[rev(fine_ag_order),]
+termcor_fgobp <- cor(ag_mat, ag_sum_fgobp, method = "spearman")
+termcor_fgobp <- tibble(term = colnames(termcor_fgobp), age_cor = termcor_fgobp[1,])
+
+ag_sum_fgwas <- fgwas %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_fgwas <- ag_sum_fgwas[rev(fine_ag_order),]
+termcor_fgwas <- cor(ag_mat, ag_sum_fgwas, method = "spearman")
+termcor_fgwas <- tibble(term = colnames(termcor_fgwas), age_cor = termcor_fgwas[1,])
+
+ag_sum_fmp <- fmp %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_fmp <- ag_sum_fmp[rev(fine_ag_order),]
+termcor_fmp <- cor(ag_mat, ag_sum_fmp, method = "spearman")
+termcor_fmp <- tibble(term = colnames(termcor_fmp), age_cor = termcor_fmp[1,])
+
+ag_sum_fmondo <- fmondo %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_fmondo <- ag_sum_fmondo[rev(fine_ag_order),]
+termcor_fmondo <- cor(ag_mat, ag_sum_fmondo, method = "spearman")
+termcor_fmondo <- tibble(term = colnames(termcor_fmondo), age_cor = termcor_fmondo[1,])
+
+ag_sum_fsctype <- fsctype %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_fsctype <- ag_sum_fsctype[rev(fine_ag_order),]
+termcor_fsctype <- cor(ag_mat, ag_sum_fsctype, method = "spearman")
+termcor_fsctype <- tibble(term = colnames(termcor_fsctype), age_cor = termcor_fsctype[1,])
+```
+
+```{r include=FALSE}
+#MALE
+# mat for correlation
+ag_mat <- as.matrix(c(1:11), ncol = 1, nrow = 11)
+
+# make into matrix of terms in cols, ags in rows
+#reorder in age order
+ag_sum_mgobp <- mgobp %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_mgobp <- ag_sum_mgobp[rev(fine_ag_order),]
+termcor_mgobp <- cor(ag_mat, ag_sum_mgobp, method = "spearman")
+termcor_mgobp <- tibble(term = colnames(termcor_mgobp), age_cor = termcor_mgobp[1,])
+
+ag_sum_mgwas <- mgwas %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_mgwas <- ag_sum_mgwas[rev(fine_ag_order),]
+termcor_mgwas <- cor(ag_mat, ag_sum_mgwas, method = "spearman")
+termcor_mgwas <- tibble(term = colnames(termcor_mgwas), age_cor = termcor_mgwas[1,])
+
+ag_sum_mmp <- mmp %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_mmp <- ag_sum_mmp[rev(fine_ag_order),]
+termcor_mmp <- cor(ag_mat, ag_sum_mmp, method = "spearman")
+termcor_mmp <- tibble(term = colnames(termcor_mmp), age_cor = termcor_mmp[1,])
+
+ag_sum_mmondo <- mmondo %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_mmondo <- ag_sum_mmondo[rev(fine_ag_order),]
+termcor_mmondo <- cor(ag_mat, ag_sum_mmondo, method = "spearman")
+termcor_mmondo <- tibble(term = colnames(termcor_mmondo), age_cor = termcor_mmondo[1,])
+
+ag_sum_msctype <- msctype %>% 
+  select(age_group, term, combined_zscore) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  column_to_rownames("age_group") %>% 
+  as.matrix()
+ag_sum_msctype <- ag_sum_msctype[rev(fine_ag_order),]
+termcor_msctype <- cor(ag_mat, ag_sum_msctype, method = "spearman")
+termcor_msctype <- tibble(term = colnames(termcor_msctype), age_cor = termcor_msctype[1,])
+```
+
+```{r include=FALSE}
+fgobp <- left_join(fgobp, termcor_fgobp, by = "term")
+mgobp <- left_join(mgobp, termcor_mgobp, by = "term")
+
+fgwas <- left_join(fgwas, termcor_fgwas, by = "term")
+mgwas <- left_join(mgwas, termcor_mgwas, by = "term")
+
+fmp <- left_join(fmp, termcor_fmp, by = "term")
+mmp <- left_join(mmp, termcor_mmp, by = "term")
+
+fmondo <- left_join(fmondo, termcor_fmondo, by = "term")
+mmondo <- left_join(mmondo, termcor_mmondo, by = "term")
+
+fsctype <- left_join(fsctype, termcor_fsctype, by = "term")
+msctype <- left_join(msctype, termcor_msctype, by = "term")
+```
+
+```{r include=FALSE}
+fgobp <- fgobp %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+fgwas <- fgwas %>%
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+fmp <- fmp %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+fmondo <- fmondo %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+fsctype <- fsctype %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+
+mgobp <- mgobp %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+mgwas <- mgwas %>%
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+mmp <- mmp %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+mmondo <- mmondo %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+msctype <- msctype %>% 
+  rename(uncut_combined_zscore = combined_zscore) %>% 
+  mutate(combined_zscore = ifelse(uncut_combined_zscore > 5, 5, uncut_combined_zscore)) %>% 
+  mutate(combined_zscore = ifelse(combined_zscore < -5, -5, combined_zscore))
+```
+
+```{r}
+fgobp <- fgobp %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+fgwas <- fgwas %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+fmondo <- fmondo %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+fmp <- fmp %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+fsctype <- fsctype %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+
+mgobp <- mgobp %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+mgwas <- mgwas %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+mmondo <- mmondo %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+mmp <- mmp %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+msctype <- msctype %>% 
+  group_by(term) %>% 
+  mutate(term_range = max(combined_zscore) - min(combined_zscore)) %>% 
+  ungroup()
+```
+
+```{r include=FALSE}
+info_sctype <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/sctype/sctype_gene_info.tsv") %>% 
+  mutate(term = paste(tissueType, cellName, sep = ": ")) %>% 
+  select(tissueType, term) %>% 
+  distinct()
+
+fsctype <- left_join(fsctype, info_sctype, by = "term")
+msctype <- left_join(msctype, info_sctype, by = "term")
+```
+
+# female inc age
+
+```{r}
+age_cor_fgobp_terms <- fgobp %>% 
+  filter(age_cor > 0.8) %>% 
+  pull(term) %>% unique()
+
+age_cor_fgobp_clust <- fgobp %>% 
+  filter(term %in% age_cor_fgobp_terms) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+age_cor_fgobp_clust_order <- hclust(dist(age_cor_fgobp_clust, method = "euclidean"), method = "ward.D")$order
+
+age_cor_fgobp_term_order <- rownames(age_cor_fgobp_clust)[age_cor_fgobp_clust_order]
+```
+
+```{r}
+fi_heat <- fgobp %>% 
+  mutate(title = "Processes associated with\nincreasing age in Females") %>% 
+  filter(term %in% age_cor_fgobp_terms) %>% 
+  ggplot(aes(y = factor(term, levels = rev(age_cor_fgobp_term_order)), x = rev_age_range, 
+             fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#1A3D82",
+                       high = "#832B0F",
+                       mid = "#F2F2F2",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5)) +
+  facet_grid(~ title, scales="free", space = "free") +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 18),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 16))
+```
+
+# male inc age
+
+```{r}
+age_cor_mgobp_terms <- mgobp %>% 
+  filter(age_cor > 0.8) %>% 
+  pull(term) %>% unique()
+
+age_cor_mgobp_clust <- mgobp %>% 
+  filter(term %in% age_cor_mgobp_terms) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+age_cor_mgobp_clust_order <- hclust(dist(age_cor_mgobp_clust, method = "euclidean"), method = "ward.D")$order
+
+age_cor_mgobp_term_order <- rownames(age_cor_mgobp_clust)[age_cor_mgobp_clust_order]
+```
+
+```{r}
+mi_heat <- mgobp %>% 
+  mutate(title = "Processes associated with\nincreasing age in Males") %>% 
+  filter(term %in% age_cor_mgobp_terms) %>% 
+  ggplot(aes(y = factor(term, levels = rev(age_cor_mgobp_term_order)), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#1A3D82",
+                       high = "#832B0F",
+                       mid = "#F2F2F2",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5)) +
+  facet_grid(~ title, scales="free", space = "free") +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 18),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 16))
+```
+
+# female dec age
+
+```{r}
+age_dcor_fgobp_terms <- fgobp %>% 
+  filter(age_cor < -0.8) %>% 
+  pull(term) %>% unique()
+
+age_dcor_fgobp_clust <- fgobp %>% 
+  filter(term %in% age_dcor_fgobp_terms) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+age_dcor_fgobp_clust_order <- hclust(dist(age_dcor_fgobp_clust, method = "euclidean"), method = "ward.D")$order
+
+age_dcor_fgobp_term_order <- rownames(age_dcor_fgobp_clust)[age_dcor_fgobp_clust_order]
+```
+
+```{r}
+fd_heat <- fgobp %>% 
+  mutate(title = "Processes associated with\ndecreasing age in Females") %>% 
+  filter(term %in% age_dcor_fgobp_terms) %>% 
+  ggplot(aes(y = factor(term, levels = rev(age_dcor_fgobp_term_order)), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#1A3D82",
+                       high = "#832B0F",
+                       mid = "#F2F2F2",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5)) +
+  facet_grid(~ title, scales="free", space = "free") +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 18),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 16))
+```
+
+# male dec age
+
+```{r}
+age_dcor_mgobp_terms <- mgobp %>% 
+  filter(age_cor < -0.8) %>% 
+  pull(term) %>% unique()
+
+age_dcor_mgobp_clust <- mgobp %>% 
+  filter(term %in% age_dcor_mgobp_terms) %>% 
+  select(term, combined_zscore, age_number) %>% 
+  pivot_wider(names_from = term, values_from = combined_zscore) %>% 
+  arrange(age_number) %>% 
+  select(-age_number) %>% 
+  as.matrix() %>% t()
+  
+age_dcor_mgobp_clust_order <- hclust(dist(age_dcor_mgobp_clust, method = "euclidean"), method = "ward.D")$order
+
+age_dcor_mgobp_term_order <- rownames(age_dcor_mgobp_clust)[age_dcor_mgobp_clust_order]
+```
+
+```{r}
+md_heat <- mgobp %>% 
+  mutate(title = "Processes associated with\ndecreasing age in Males") %>% 
+  filter(term %in% age_dcor_mgobp_terms) %>% 
+  ggplot(aes(y = factor(term, levels = rev(age_dcor_mgobp_term_order)), x = rev_age_range, fill = combined_zscore)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "#1A3D82",
+                       high = "#832B0F",
+                       mid = "#F2F2F2",
+                       midpoint = 0,
+                       limits = c(-5,5),
+                       breaks = c(-5, 0, 5)) +
+  facet_grid(~ title, scales="free", space = "free") +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 50)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 18),
+        axis.title = element_blank(),
+        strip.background = element_rect(fill="lightgray"),
+        strip.text = element_text(size = 20),
+        text = element_text(size = 16))
+```
+
+# final figure
+```{r}
+layout <- "
+AB
+CD
+"
+figure6 <- fi_heat + mi_heat + fd_heat + md_heat +
+  plot_layout(guides = 'collect', design = layout) & theme(legend.position = 'bottom', 
+                                                             legend.key.width = unit(0.5, 'in'),
+                                                             legend.title = element_text(vjust = 0.9))
+```
+
+
+```{r}
+ggsave("~/Desktop/figure6.pdf", plot = figure6, height = 18, width = 17, dpi = 700)
+```
+
+
+
+

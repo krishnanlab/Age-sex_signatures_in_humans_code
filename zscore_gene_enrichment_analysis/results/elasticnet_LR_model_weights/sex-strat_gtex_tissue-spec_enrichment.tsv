@@ -1,0 +1,1167 @@
+sex	age_group	term	combined_zscore
+female	adolescent	female__Cervix Uteri	0.7562328309377998
+female	adolescent	female__Liver	-1.59412315666808
+female	adolescent	female__Nerve	0.6904896426854639
+female	adolescent	female__Ovary	-0.21892455340505387
+female	adolescent	female__Small Intestine	0.3187145126700927
+female	adolescent	female__Spleen	-1.0348884164002574
+female	adolescent	female__Uterus	0.6475748861575377
+female	adolescent	female__Adipose Tissue	0.976737485800953
+female	adolescent	female__Adrenal Gland	-0.04864310145136652
+female	adolescent	female__Breast	1.0053462748752395
+female	adolescent	female__Lung	-1.6697077826810092
+female	adolescent	female__Pancreas	0.9795937587107737
+female	adolescent	female__Skin	1.0692210573725165
+female	adolescent	female__Stomach	1.0262775187044215
+female	adolescent	female__Colon	0.8013986719537008
+female	adolescent	female__Kidney	-0.12190462341479891
+female	adolescent	female__Salivary Gland	-0.0559664931233785
+female	adolescent	female__Vagina	1.920754358007138
+female	adolescent	female__Brain	1.552935041110847
+female	adolescent	female__Fallopian Tube	-0.6372065729447208
+female	adolescent	female__Pituitary	1.9493400726226897
+female	adolescent	female__Blood Vessel	0.8981952712413149
+female	adolescent	female__Esophagus	0.8773498983359125
+female	adolescent	female__Heart	-0.5673644432581689
+female	adolescent	female__Muscle	-0.48680151878258254
+female	adolescent	female__Bladder	-0.41213228366219956
+female	adolescent	female__Blood	-0.9072488610914358
+female	adolescent	female__Thyroid	1.7318596995171252
+female	adolescent	male__Liver	-1.640800608911912
+female	adolescent	male__Nerve	0.06698059314190691
+female	adolescent	male__Small Intestine	-0.1214971525455137
+female	adolescent	male__Spleen	-0.6429801958852115
+female	adolescent	male__Testis	0.8278321515391469
+female	adolescent	male__Adipose Tissue	0.32831627175062267
+female	adolescent	male__Adrenal Gland	-0.38198299180535417
+female	adolescent	male__Breast	0.034827074989657876
+female	adolescent	male__Pancreas	0.30031782571064813
+female	adolescent	male__Skin	0.996418232051446
+female	adolescent	male__Stomach	1.0530830483214577
+female	adolescent	male__Thyroid	0.6730452094745827
+female	adolescent	male__Colon	0.5129172748629165
+female	adolescent	male__Kidney	-0.40101656488340387
+female	adolescent	male__Prostate	0.40180771210521665
+female	adolescent	male__Brain	1.4114686958059994
+female	adolescent	male__Pituitary	1.002048651161082
+female	adolescent	male__Lung	-2.1185814120926847
+female	adolescent	male__Salivary Gland	-0.2166390775475833
+female	adolescent	male__Blood Vessel	0.3959911278077622
+female	adolescent	male__Esophagus	0.8996491470574388
+female	adolescent	male__Heart	-1.2067639604742613
+female	adolescent	male__Muscle	-0.8822225578311845
+female	adolescent	male__Bladder	0.3298689365073543
+female	adolescent	male__Blood	-1.089643034000924
+female	adult	female__Cervix Uteri	0.07664372295122938
+female	adult	female__Liver	-0.8093116708203781
+female	adult	female__Nerve	0.22048624394079064
+female	adult	female__Ovary	-0.5420239804402377
+female	adult	female__Small Intestine	-2.3993659580925977
+female	adult	female__Spleen	-2.106905059533321
+female	adult	female__Uterus	0.09915214442260498
+female	adult	female__Adipose Tissue	-0.014529416285711456
+female	adult	female__Adrenal Gland	-0.8299680136586456
+female	adult	female__Breast	-0.6552342355351065
+female	adult	female__Lung	-2.3352408024977724
+female	adult	female__Pancreas	0.13946125690912403
+female	adult	female__Skin	0.10354113151345186
+female	adult	female__Stomach	-1.9083600891311054
+female	adult	female__Colon	-0.3851527851687428
+female	adult	female__Kidney	-1.5751239487589748
+female	adult	female__Salivary Gland	-0.8710147151652956
+female	adult	female__Vagina	-0.04496283179794349
+female	adult	female__Brain	0.20979632147030045
+female	adult	female__Fallopian Tube	0.63838295291756475
+female	adult	female__Pituitary	-0.6630187064705453
+female	adult	female__Blood Vessel	-0.201906436902898
+female	adult	female__Esophagus	-0.4257626602564021
+female	adult	female__Heart	0.6103566910268337
+female	adult	female__Muscle	-0.7119525647478171
+female	adult	female__Bladder	-0.23379997391231078
+female	adult	female__Blood	-2.488121447348698
+female	adult	female__Thyroid	-1.65571574944311
+female	adult	male__Liver	-0.38127709495469453
+female	adult	male__Nerve	0.6900362909163116
+female	adult	male__Small Intestine	-1.7876992992961291
+female	adult	male__Spleen	-1.1903071942522159
+female	adult	male__Testis	-0.5224328452015565
+female	adult	male__Adipose Tissue	1.139987160500569
+female	adult	male__Adrenal Gland	-0.06082399806233027
+female	adult	male__Breast	1.2052715903806026
+female	adult	male__Pancreas	1.215930780402005
+female	adult	male__Skin	0.33480438547528646
+female	adult	male__Stomach	-1.042180816289259
+female	adult	male__Thyroid	-1.3922089100240564
+female	adult	male__Colon	-0.7940639924525232
+female	adult	male__Kidney	-0.8043942338721068
+female	adult	male__Prostate	0.8332503429611697
+female	adult	male__Brain	0.6943153669483605
+female	adult	male__Pituitary	0.12828839145165435
+female	adult	male__Lung	-1.5736660775210047
+female	adult	male__Salivary Gland	0.03700496821633634
+female	adult	male__Blood Vessel	0.2834392714106536
+female	adult	male__Esophagus	-0.32797204199860613
+female	adult	male__Heart	0.08340132017261656
+female	adult	male__Muscle	-0.8955334506911747
+female	adult	male__Bladder	-0.17943418073205517
+female	adult	male__Blood	-1.890176293547128
+female	child	female__Cervix Uteri	0.7487762941173259
+female	child	female__Liver	-0.9981615132307158
+female	child	female__Nerve	0.0741107907350446
+female	child	female__Ovary	1.525584399703831
+female	child	female__Small Intestine	0.4287002439812689
+female	child	female__Spleen	1.5505314064330347
+female	child	female__Uterus	0.7768393393136067
+female	child	female__Adipose Tissue	0.5884885329814579
+female	child	female__Adrenal Gland	0.8721650957558976
+female	child	female__Breast	1.2822677122019883
+female	child	female__Lung	2.471895747847046
+female	child	female__Pancreas	-0.26566143789589874
+female	child	female__Skin	-0.32002306156095367
+female	child	female__Stomach	-0.6009092437011478
+female	child	female__Colon	0.5028173545480916
+female	child	female__Kidney	0.17604398883558858
+female	child	female__Salivary Gland	0.6286360625556929
+female	child	female__Vagina	0.5626962945098041
+female	child	female__Brain	1.4272224353762466
+female	child	female__Fallopian Tube	0.7323619062512863
+female	child	female__Pituitary	0.8836570543730218
+female	child	female__Blood Vessel	1.2556390257181784
+female	child	female__Esophagus	0.44292628653337196
+female	child	female__Heart	0.5577295628575879
+female	child	female__Muscle	0.5552631590154824
+female	child	female__Bladder	-0.27460076004457745
+female	child	female__Blood	2.1936250617129165
+female	child	female__Thyroid	-0.2737864650956463
+female	child	male__Liver	-0.6993695873543664
+female	child	male__Nerve	0.5694255831987632
+female	child	male__Small Intestine	0.5612440532211012
+female	child	male__Spleen	2.1960480552270414
+female	child	male__Testis	1.9887167871638467
+female	child	male__Adipose Tissue	1.1478267200820214
+female	child	male__Adrenal Gland	0.9785022047129098
+female	child	male__Breast	1.1718491448168036
+female	child	male__Pancreas	-0.2158498588423542
+female	child	male__Skin	-0.511400937754236
+female	child	male__Stomach	-1.0120175627838635
+female	child	male__Thyroid	0.18082795063619633
+female	child	male__Colon	0.848352440586573
+female	child	male__Kidney	0.3918695058037052
+female	child	male__Prostate	1.0593332632915926
+female	child	male__Brain	2.0705053893847105
+female	child	male__Pituitary	1.3481629139003575
+female	child	male__Lung	1.9209526095569343
+female	child	male__Salivary Gland	0.4764373599546228
+female	child	male__Blood Vessel	1.3514678183988333
+female	child	male__Esophagus	0.5420253354260124
+female	child	male__Heart	-0.013771684944797379
+female	child	male__Muscle	0.984520782335384
+female	child	male__Bladder	0.6082753314162007
+female	child	male__Blood	2.5021296040347063
+female	elderly	female__Cervix Uteri	0.20144190679686616
+female	elderly	female__Liver	0.7075127191241513
+female	elderly	female__Nerve	-0.09164794831925294
+female	elderly	female__Ovary	0.3809438493873375
+female	elderly	female__Small Intestine	0.7311643527751407
+female	elderly	female__Spleen	0.45570698263350823
+female	elderly	female__Uterus	-0.10107604638394398
+female	elderly	female__Adipose Tissue	0.8405844115056389
+female	elderly	female__Adrenal Gland	-1.3078259752573163
+female	elderly	female__Breast	0.41072545254204545
+female	elderly	female__Lung	1.0988214250793473
+female	elderly	female__Pancreas	0.9885568650218938
+female	elderly	female__Skin	1.4614228972114172
+female	elderly	female__Stomach	1.9696438390957283
+female	elderly	female__Colon	-0.11124267373552313
+female	elderly	female__Kidney	0.013217927066138014
+female	elderly	female__Salivary Gland	1.1318205282668965
+female	elderly	female__Vagina	0.955899769592735
+female	elderly	female__Brain	0.13752753107888346
+female	elderly	female__Fallopian Tube	0.21653918550223514
+female	elderly	female__Pituitary	0.33535152151370834
+female	elderly	female__Blood Vessel	0.8778893363943495
+female	elderly	female__Esophagus	1.121233000684085
+female	elderly	female__Heart	0.557871551663895
+female	elderly	female__Muscle	0.17758962361891914
+female	elderly	female__Bladder	0.44474118247331385
+female	elderly	female__Blood	0.002595638226419665
+female	elderly	female__Thyroid	1.3265667386207192
+female	elderly	male__Liver	0.6219118138863302
+female	elderly	male__Nerve	-1.018627932312104
+female	elderly	male__Small Intestine	1.42578303651885
+female	elderly	male__Spleen	0.6536095878811294
+female	elderly	male__Testis	-0.01449428008916359
+female	elderly	male__Adipose Tissue	0.90758056532940945
+female	elderly	male__Adrenal Gland	-1.656219077898779
+female	elderly	male__Breast	-0.014914345154326367
+female	elderly	male__Pancreas	0.052789138553072316
+female	elderly	male__Skin	2.349877943084498
+female	elderly	male__Stomach	1.2354468809590244
+female	elderly	male__Thyroid	0.5480390433963442
+female	elderly	male__Colon	-0.3812007808326598
+female	elderly	male__Kidney	-0.5605399618279681
+female	elderly	male__Prostate	0.6729882430235625
+female	elderly	male__Brain	-0.43811567691757647
+female	elderly	male__Pituitary	-1.343779276585125
+female	elderly	male__Lung	1.2694413262041198
+female	elderly	male__Salivary Gland	0.9720055020780168
+female	elderly	male__Blood Vessel	0.23079757463332118
+female	elderly	male__Esophagus	1.2026192327943532
+female	elderly	male__Heart	0.22838294844723947
+female	elderly	male__Muscle	0.6458413928424531
+female	elderly	male__Bladder	0.394748506596489
+female	elderly	male__Blood	0.5172967495035806
+female	fetus	female__Cervix Uteri	2.6109243363286065
+female	fetus	female__Liver	4.590018090138122
+female	fetus	female__Nerve	2.6309222606110962
+female	fetus	female__Ovary	3.8131432828334435
+female	fetus	female__Small Intestine	1.6521330490161468
+female	fetus	female__Spleen	4.536270937110239
+female	fetus	female__Uterus	1.645837649475716
+female	fetus	female__Adipose Tissue	1.8440562739620956
+female	fetus	female__Adrenal Gland	2.8870536614427618
+female	fetus	female__Breast	3.034131583831885
+female	fetus	female__Lung	6.317917498524906
+female	fetus	female__Pancreas	2.9341615833063353
+female	fetus	female__Skin	1.609504460073135
+female	fetus	female__Stomach	3.815941834941059
+female	fetus	female__Colon	1.610132741730231
+female	fetus	female__Kidney	4.494014347166957
+female	fetus	female__Salivary Gland	1.2230063371607554
+female	fetus	female__Vagina	1.400545612940463
+female	fetus	female__Brain	3.4826719762610034
+female	fetus	female__Fallopian Tube	2.3228700562192333
+female	fetus	female__Pituitary	5.057652036148688
+female	fetus	female__Blood Vessel	1.2550566854479415
+female	fetus	female__Esophagus	1.8699387655927566
+female	fetus	female__Heart	1.5162994198867898
+female	fetus	female__Muscle	0.46082310218249134
+female	fetus	female__Bladder	2.52409836445924
+female	fetus	female__Blood	6.642769488061759
+female	fetus	female__Thyroid	1.7057013564302819
+female	fetus	male__Liver	4.7002658739828815
+female	fetus	male__Nerve	3.2994688129140384
+female	fetus	male__Small Intestine	1.8355539968969006
+female	fetus	male__Spleen	5.128695968002415
+female	fetus	male__Testis	6.895311916203986
+female	fetus	male__Adipose Tissue	2.083462857313462
+female	fetus	male__Adrenal Gland	3.8171893161043458
+female	fetus	male__Breast	1.9574846489989377
+female	fetus	male__Pancreas	2.881861549563321
+female	fetus	male__Skin	2.227983289592279
+female	fetus	male__Stomach	3.389134868893216
+female	fetus	male__Thyroid	2.8773510227883667
+female	fetus	male__Colon	1.5281487559537947
+female	fetus	male__Kidney	4.098976348365639
+female	fetus	male__Prostate	2.2161344257432454
+female	fetus	male__Brain	3.469687642931822
+female	fetus	male__Pituitary	4.64175463132833
+female	fetus	male__Lung	6.7062161153114985
+female	fetus	male__Salivary Gland	1.7183952667866103
+female	fetus	male__Blood Vessel	1.2070308846925784
+female	fetus	male__Esophagus	2.216028530942914
+female	fetus	male__Heart	1.2693706865243206
+female	fetus	male__Muscle	0.23091066589344156
+female	fetus	male__Bladder	2.609675398369058
+female	fetus	male__Blood	6.551100083166222
+female	infant	female__Cervix Uteri	1.2064822662902996
+female	infant	female__Liver	0.2683291446242948
+female	infant	female__Nerve	1.2099835377285957
+female	infant	female__Ovary	1.6112395279857907
+female	infant	female__Small Intestine	3.034835122546736
+female	infant	female__Spleen	3.5195547807785386
+female	infant	female__Uterus	0.12653811577696056
+female	infant	female__Adipose Tissue	0.8872691454605859
+female	infant	female__Adrenal Gland	2.553349773055733
+female	infant	female__Breast	0.5885562969099402
+female	infant	female__Lung	1.5644310923664424
+female	infant	female__Pancreas	1.4869454480637807
+female	infant	female__Skin	-0.4273855323598326
+female	infant	female__Stomach	2.4348986914787587
+female	infant	female__Colon	3.0972603857798604
+female	infant	female__Kidney	1.2230985969404882
+female	infant	female__Salivary Gland	1.1562900925851864
+female	infant	female__Vagina	0.22919227050733298
+female	infant	female__Brain	5.011158322173285
+female	infant	female__Fallopian Tube	1.6517746192200882
+female	infant	female__Pituitary	3.2677571684702347
+female	infant	female__Blood Vessel	1.4373056370967578
+female	infant	female__Esophagus	1.0694811502817625
+female	infant	female__Heart	1.0337846858449153
+female	infant	female__Muscle	-0.17403180248964054
+female	infant	female__Bladder	0.011233315502406273
+female	infant	female__Blood	3.7901426414790107
+female	infant	female__Thyroid	1.0747429776525468
+female	infant	male__Liver	0.727013073372206
+female	infant	male__Nerve	2.5507944853205116
+female	infant	male__Small Intestine	3.0584906802075196
+female	infant	male__Spleen	3.538056994177041
+female	infant	male__Testis	3.3607117810239124
+female	infant	male__Adipose Tissue	-0.24364107003579893
+female	infant	male__Adrenal Gland	2.3706859912565674
+female	infant	male__Breast	-0.9670032243009423
+female	infant	male__Pancreas	0.8776726254818803
+female	infant	male__Skin	-0.6030402003392612
+female	infant	male__Stomach	1.897958060082464
+female	infant	male__Thyroid	1.6049483097936228
+female	infant	male__Colon	3.3410920079949182
+female	infant	male__Kidney	0.5950859339575723
+female	infant	male__Prostate	1.0617112959262034
+female	infant	male__Brain	5.2007092077977415
+female	infant	male__Pituitary	3.291407486538699
+female	infant	male__Lung	2.5698403667425285
+female	infant	male__Salivary Gland	0.96463901900572
+female	infant	male__Blood Vessel	0.9856225956314704
+female	infant	male__Esophagus	0.7270791986132158
+female	infant	male__Heart	0.9208578961895055
+female	infant	male__Muscle	-0.28442794508647323
+female	infant	male__Bladder	0.30553727546952186
+female	infant	male__Blood	3.810557361086199
+female	middle_adult	female__Cervix Uteri	-0.12905359339951675
+female	middle_adult	female__Liver	-0.2187315671642453
+female	middle_adult	female__Nerve	0.522053987495191
+female	middle_adult	female__Ovary	-0.659707514768714
+female	middle_adult	female__Small Intestine	-0.206770280146508
+female	middle_adult	female__Spleen	0.6653789744248817
+female	middle_adult	female__Uterus	0.5573503311077077
+female	middle_adult	female__Adipose Tissue	-0.8406716140963526
+female	middle_adult	female__Adrenal Gland	0.9843912820915939
+female	middle_adult	female__Breast	-1.759080021080651
+female	middle_adult	female__Lung	0.39962094667746334
+female	middle_adult	female__Pancreas	-0.36862696349217605
+female	middle_adult	female__Skin	-0.35809725086515865
+female	middle_adult	female__Stomach	-0.049094428254065174
+female	middle_adult	female__Colon	-0.9719050986040277
+female	middle_adult	female__Kidney	0.4236248929925481
+female	middle_adult	female__Salivary Gland	-0.624621067442527
+female	middle_adult	female__Vagina	-0.2648214471540148
+female	middle_adult	female__Brain	-1.301283760441502
+female	middle_adult	female__Fallopian Tube	-0.29002383427175005
+female	middle_adult	female__Pituitary	-1.7606903713378221
+female	middle_adult	female__Blood Vessel	-1.7307147207720184
+female	middle_adult	female__Esophagus	-0.1088768954600208
+female	middle_adult	female__Heart	-1.1757711256518673
+female	middle_adult	female__Muscle	0.19152572969657652
+female	middle_adult	female__Bladder	-0.7960387356569071
+female	middle_adult	female__Blood	-0.5762034765072593
+female	middle_adult	female__Thyroid	-0.655094122027624
+female	middle_adult	male__Liver	-0.08775737284305295
+female	middle_adult	male__Nerve	-0.3450754495683177
+female	middle_adult	male__Small Intestine	-0.5328652025094706
+female	middle_adult	male__Spleen	-0.229735369537838
+female	middle_adult	male__Testis	-0.8307548485898476
+female	middle_adult	male__Adipose Tissue	-0.3381139093413463
+female	middle_adult	male__Adrenal Gland	0.7204026602395481
+female	middle_adult	male__Breast	-0.7989022875553606
+female	middle_adult	male__Pancreas	-0.5003754744399017
+female	middle_adult	male__Skin	-0.5039479149114963
+female	middle_adult	male__Stomach	-0.31934462336888925
+female	middle_adult	male__Thyroid	0.1343604324158733
+female	middle_adult	male__Colon	-0.03566148134018701
+female	middle_adult	male__Kidney	0.836054386842594
+female	middle_adult	male__Prostate	-0.5273153425864865
+female	middle_adult	male__Brain	-1.2325629833673115
+female	middle_adult	male__Pituitary	-1.2586217411588594
+female	middle_adult	male__Lung	-0.3059252660694983
+female	middle_adult	male__Salivary Gland	-1.831993072244511
+female	middle_adult	male__Blood Vessel	-0.8944499444777796
+female	middle_adult	male__Esophagus	0.13999926063125098
+female	middle_adult	male__Heart	-0.3949246807542211
+female	middle_adult	male__Muscle	-0.0027778431188358217
+female	middle_adult	male__Bladder	0.20902785971274254
+female	middle_adult	male__Blood	-1.5283745762816052
+female	old_adult	female__Cervix Uteri	0.9904723860863242
+female	old_adult	female__Liver	-1.0235048521114094
+female	old_adult	female__Nerve	0.09968898667767237
+female	old_adult	female__Ovary	1.5468517695154804
+female	old_adult	female__Small Intestine	-0.21339037893151266
+female	old_adult	female__Spleen	0.09777522096047687
+female	old_adult	female__Uterus	0.5183451463784615
+female	old_adult	female__Adipose Tissue	-0.9744905895675043
+female	old_adult	female__Adrenal Gland	-0.4513714529436369
+female	old_adult	female__Breast	-1.0331651024956812
+female	old_adult	female__Lung	-0.9286645871849059
+female	old_adult	female__Pancreas	-0.6370133627641067
+female	old_adult	female__Skin	-1.4158774459543801
+female	old_adult	female__Stomach	0.026544494814599653
+female	old_adult	female__Colon	0.2639030395195095
+female	old_adult	female__Kidney	-0.10784752896539464
+female	old_adult	female__Salivary Gland	-1.069028661454966
+female	old_adult	female__Vagina	-0.22941209941119953
+female	old_adult	female__Brain	0.7921742347655213
+female	old_adult	female__Fallopian Tube	-1.709538007197588
+female	old_adult	female__Pituitary	1.4209887866929511
+female	old_adult	female__Blood Vessel	-0.2185147917937898
+female	old_adult	female__Esophagus	-0.2992497462376981
+female	old_adult	female__Heart	-0.6768455691442808
+female	old_adult	female__Muscle	0.6890152156082302
+female	old_adult	female__Bladder	0.5646965047348524
+female	old_adult	female__Blood	-0.3311809999548672
+female	old_adult	female__Thyroid	-1.0962477187060624
+female	old_adult	male__Liver	-0.4408098807425303
+female	old_adult	male__Nerve	0.6450638866669391
+female	old_adult	male__Small Intestine	0.3424519508680272
+female	old_adult	male__Spleen	-0.43484056872380317
+female	old_adult	male__Testis	0.6852504173588168
+female	old_adult	male__Adipose Tissue	-0.5651191099118034
+female	old_adult	male__Adrenal Gland	0.5282170155756193
+female	old_adult	male__Breast	-0.6234172189555472
+female	old_adult	male__Pancreas	0.07793351728012377
+female	old_adult	male__Skin	-1.9455364006017235
+female	old_adult	male__Stomach	0.705186855610923
+female	old_adult	male__Thyroid	-0.8355892163180578
+female	old_adult	male__Colon	0.4506336080083717
+female	old_adult	male__Kidney	0.287810024214986
+female	old_adult	male__Prostate	-0.6742075960186243
+female	old_adult	male__Brain	1.175320143499519
+female	old_adult	male__Pituitary	1.1559692456064865
+female	old_adult	male__Lung	-1.6991446719298213
+female	old_adult	male__Salivary Gland	-0.017122180191916293
+female	old_adult	male__Blood Vessel	-0.4619524430589997
+female	old_adult	male__Esophagus	-0.9889797373768333
+female	old_adult	male__Heart	-0.7404825990988901
+female	old_adult	male__Muscle	0.9007211946798701
+female	old_adult	male__Bladder	-0.13695564857444412
+female	old_adult	male__Blood	-0.44490765062789456
+female	older_adult	female__Cervix Uteri	-0.45966367868891905
+female	older_adult	female__Liver	2.1701487180401884
+female	older_adult	female__Nerve	0.5058705283515024
+female	older_adult	female__Ovary	-0.5047227790521217
+female	older_adult	female__Small Intestine	0.39848714907722926
+female	older_adult	female__Spleen	-0.44273820244209405
+female	older_adult	female__Uterus	-0.47746181270814875
+female	older_adult	female__Adipose Tissue	0.2347438903049229
+female	older_adult	female__Adrenal Gland	-0.4613671168799986
+female	older_adult	female__Breast	1.4972293296773782
+female	older_adult	female__Lung	0.6643416182454701
+female	older_adult	female__Pancreas	-0.35465640223928124
+female	older_adult	female__Skin	0.5205794357917894
+female	older_adult	female__Stomach	0.03672808078396677
+female	older_adult	female__Colon	0.4931180244965701
+female	older_adult	female__Kidney	0.9443008341964534
+female	older_adult	female__Salivary Gland	0.912386008211092
+female	older_adult	female__Vagina	-0.4149207745895693
+female	older_adult	female__Brain	0.40236141578361845
+female	older_adult	female__Fallopian Tube	1.000051292249529
+female	older_adult	female__Pituitary	0.6070448116687991
+female	older_adult	female__Blood Vessel	1.1800333837304837
+female	older_adult	female__Esophagus	-0.029753572358664156
+female	older_adult	female__Heart	0.7304205443268916
+female	older_adult	female__Muscle	1.0352929576657441
+female	older_adult	female__Bladder	-0.21958609809367316
+female	older_adult	female__Blood	0.9810896262883844
+female	older_adult	female__Thyroid	0.79464959193567
+female	older_adult	male__Liver	1.336500231313387
+female	older_adult	male__Nerve	0.8153028953028847
+female	older_adult	male__Small Intestine	0.295188575575639
+female	older_adult	male__Spleen	-0.6043844685845673
+female	older_adult	male__Testis	0.5380733439203085
+female	older_adult	male__Adipose Tissue	-0.2109395564664137
+female	older_adult	male__Adrenal Gland	-0.49220684957931443
+female	older_adult	male__Breast	-0.28751111659595396
+female	older_adult	male__Pancreas	-0.2659791092339662
+female	older_adult	male__Skin	0.7090256180033727
+female	older_adult	male__Stomach	-0.3661403353815312
+female	older_adult	male__Thyroid	-0.32544282946009295
+female	older_adult	male__Colon	-0.5123057567137604
+female	older_adult	male__Kidney	0.25137616374724747
+female	older_adult	male__Prostate	0.11741040526013573
+female	older_adult	male__Brain	0.06533680782808936
+female	older_adult	male__Pituitary	0.9105485587519341
+female	older_adult	male__Lung	0.9433853672948626
+female	older_adult	male__Salivary Gland	1.3034920624776636
+female	older_adult	male__Blood Vessel	0.5963839228969289
+female	older_adult	male__Esophagus	0.3108274797167225
+female	older_adult	male__Heart	0.8104667159873212
+female	older_adult	male__Muscle	1.1927358257957192
+female	older_adult	male__Bladder	-0.5476289703277682
+female	older_adult	male__Blood	0.7413839207997428
+female	young_adult	female__Cervix Uteri	0.9181900007640934
+female	young_adult	female__Liver	0.4552259517737895
+female	young_adult	female__Nerve	-0.21107275585074742
+female	young_adult	female__Ovary	0.7213016669269939
+female	young_adult	female__Small Intestine	1.254565112713193
+female	young_adult	female__Spleen	0.9833509339726451
+female	young_adult	female__Uterus	-0.10033328520731905
+female	young_adult	female__Adipose Tissue	1.6331739651884298
+female	young_adult	female__Adrenal Gland	1.0329654767266803
+female	young_adult	female__Breast	0.5034199899278029
+female	young_adult	female__Lung	1.4248671568952398
+female	young_adult	female__Pancreas	-0.01990340687517008
+female	young_adult	female__Skin	0.9592335844028095
+female	young_adult	female__Stomach	0.601193481101347
+female	young_adult	female__Colon	1.0855372888278774
+female	young_adult	female__Kidney	0.1762403170661949
+female	young_adult	female__Salivary Gland	1.5172070640757322
+female	young_adult	female__Vagina	-0.36235718186785976
+female	young_adult	female__Brain	0.7371907679832912
+female	young_adult	female__Fallopian Tube	1.0532976291551723
+female	young_adult	female__Pituitary	0.6680724994800429
+female	young_adult	female__Blood Vessel	0.9555772076244249
+female	young_adult	female__Esophagus	0.2852302917279354
+female	young_adult	female__Heart	1.090941047251588
+female	young_adult	female__Muscle	1.1874035145535602
+female	young_adult	female__Bladder	1.4278392821393122
+female	young_adult	female__Blood	0.8882224076092713
+female	young_adult	female__Thyroid	1.6051901501035282
+female	young_adult	male__Liver	0.1963068387975829
+female	young_adult	male__Nerve	0.13626210122620522
+female	young_adult	male__Small Intestine	1.2103719831186748
+female	young_adult	male__Spleen	1.3502725396318729
+female	young_adult	male__Testis	0.3345414007858086
+female	young_adult	male__Adipose Tissue	0.6094682152909375
+female	young_adult	male__Adrenal Gland	0.7023219793712846
+female	young_adult	male__Breast	0.6986890010705027
+female	young_adult	male__Pancreas	-0.20576297452202072
+female	young_adult	male__Skin	1.4318556511496177
+female	young_adult	male__Stomach	0.581406611066008
+female	young_adult	male__Thyroid	1.4835314133177413
+female	young_adult	male__Colon	1.6733049651383851
+female	young_adult	male__Kidney	-0.07730081144871909
+female	young_adult	male__Prostate	0.39653075777476726
+female	young_adult	male__Brain	0.21065311756650285
+female	young_adult	male__Pituitary	0.2776158533581791
+female	young_adult	male__Lung	1.2146286270025142
+female	young_adult	male__Salivary Gland	0.8528561402869009
+female	young_adult	male__Blood Vessel	1.1704554078397758
+female	young_adult	male__Esophagus	0.38431288447632644
+female	young_adult	male__Heart	1.4408595965153814
+female	young_adult	male__Muscle	0.9918400639009649
+female	young_adult	male__Bladder	0.19607467809185922
+female	young_adult	male__Blood	1.1055584944839285
+female	young_child	female__Cervix Uteri	-0.2448295905096355
+female	young_child	female__Liver	1.5563389229139228
+female	young_child	female__Nerve	1.673492820455598
+female	young_child	female__Ovary	0.45770045401331677
+female	young_child	female__Small Intestine	2.711432005109229
+female	young_child	female__Spleen	2.023234553059234
+female	young_child	female__Uterus	0.716755606874733
+female	young_child	female__Adipose Tissue	-0.23613489057440334
+female	young_child	female__Adrenal Gland	0.8458025807703125
+female	young_child	female__Breast	0.004477097409702734
+female	young_child	female__Lung	0.4380108564284269
+female	young_child	female__Pancreas	0.7834029796898825
+female	young_child	female__Skin	0.7042540901748937
+female	young_child	female__Stomach	1.078709481828313
+female	young_child	female__Colon	0.9525506947689942
+female	young_child	female__Kidney	1.5038318794373147
+female	young_child	female__Salivary Gland	1.2959838973934519
+female	young_child	female__Vagina	0.45262599642560847
+female	young_child	female__Brain	2.108182036230023
+female	young_child	female__Fallopian Tube	0.6185018554838563
+female	young_child	female__Pituitary	-0.2819312463931928
+female	young_child	female__Blood Vessel	0.015620379744124523
+female	young_child	female__Esophagus	1.2761253724363704
+female	young_child	female__Heart	0.8435881298999226
+female	young_child	female__Muscle	0.6960878369364395
+female	young_child	female__Bladder	0.3378903118891149
+female	young_child	female__Blood	2.7807454828738942
+female	young_child	female__Thyroid	0.34260369716839095
+female	young_child	male__Liver	1.0147476172310221
+female	young_child	male__Nerve	1.4991252966531186
+female	young_child	male__Small Intestine	1.622662396445151
+female	young_child	male__Spleen	1.4650274693419674
+female	young_child	male__Testis	0.6521652258030527
+female	young_child	male__Adipose Tissue	-1.0971832545328044
+female	young_child	male__Adrenal Gland	0.6843492212451107
+female	young_child	male__Breast	-0.7854725603222305
+female	young_child	male__Pancreas	0.19359445049197224
+female	young_child	male__Skin	0.8228388605150986
+female	young_child	male__Stomach	0.3113486874113856
+female	young_child	male__Thyroid	0.3051119605388216
+female	young_child	male__Colon	0.9663629021432413
+female	young_child	male__Kidney	0.7975786896878237
+female	young_child	male__Prostate	0.027404190209491773
+female	young_child	male__Brain	2.241591765612457
+female	young_child	male__Pituitary	0.4507715794222855
+female	young_child	male__Lung	1.0292285582734348
+female	young_child	male__Salivary Gland	0.2903305733076101
+female	young_child	male__Blood Vessel	-0.508845253743315
+female	young_child	male__Esophagus	0.34431245508647496
+female	young_child	male__Heart	0.5862580348885232
+female	young_child	male__Muscle	0.5035312894978763
+female	young_child	male__Bladder	-0.2945684623374427
+female	young_child	male__Blood	2.850438285859648
+male	adolescent	female__Cervix Uteri	1.7250667752816373
+male	adolescent	female__Liver	-0.757978777265985
+male	adolescent	female__Nerve	1.2613348524918073
+male	adolescent	female__Ovary	1.0520725354872187
+male	adolescent	female__Small Intestine	0.7806897990835863
+male	adolescent	female__Spleen	-0.1930147617560187
+male	adolescent	female__Uterus	1.0177844022498563
+male	adolescent	female__Adipose Tissue	-1.1255317042724364
+male	adolescent	female__Adrenal Gland	-0.10656235756583063
+male	adolescent	female__Breast	0.08661286817527244
+male	adolescent	female__Lung	-1.2029279870521976
+male	adolescent	female__Pancreas	-1.4634424645538677
+male	adolescent	female__Skin	-0.5797077959041437
+male	adolescent	female__Stomach	-0.6782830902955636
+male	adolescent	female__Colon	1.0491820310747302
+male	adolescent	female__Kidney	0.8871660345773004
+male	adolescent	female__Salivary Gland	-0.24418815094182933
+male	adolescent	female__Vagina	0.5875176807721924
+male	adolescent	female__Brain	0.9652978299383862
+male	adolescent	female__Fallopian Tube	0.1932077026621926
+male	adolescent	female__Pituitary	2.055815403252374
+male	adolescent	female__Blood Vessel	-0.527489811876319
+male	adolescent	female__Esophagus	0.679135681050866
+male	adolescent	female__Heart	0.0065319197999940395
+male	adolescent	female__Muscle	0.45926747780095517
+male	adolescent	female__Bladder	0.4229656331272692
+male	adolescent	female__Blood	-0.9941778526201764
+male	adolescent	female__Thyroid	0.19533521897216494
+male	adolescent	male__Liver	-0.6937463143492736
+male	adolescent	male__Nerve	1.6311742957307807
+male	adolescent	male__Small Intestine	0.7773579736491749
+male	adolescent	male__Spleen	0.40873852424274937
+male	adolescent	male__Testis	1.6682947127115049
+male	adolescent	male__Adipose Tissue	-1.1605781833674276
+male	adolescent	male__Adrenal Gland	-0.04101378955350842
+male	adolescent	male__Breast	0.6539551642788404
+male	adolescent	male__Pancreas	-0.8887322911012551
+male	adolescent	male__Skin	0.314990638937825
+male	adolescent	male__Stomach	0.4913489285630154
+male	adolescent	male__Thyroid	0.4301033534131204
+male	adolescent	male__Colon	1.320159473125389
+male	adolescent	male__Kidney	0.8337600278596188
+male	adolescent	male__Prostate	1.470132556926105
+male	adolescent	male__Brain	1.8379009608343748
+male	adolescent	male__Pituitary	2.584976841807911
+male	adolescent	male__Lung	-1.3142166838233238
+male	adolescent	male__Salivary Gland	0.30664953279212037
+male	adolescent	male__Blood Vessel	0.13536739927442656
+male	adolescent	male__Esophagus	0.6085387793344309
+male	adolescent	male__Heart	-0.6484088539481435
+male	adolescent	male__Muscle	0.6062564265025243
+male	adolescent	male__Bladder	1.188135711226413
+male	adolescent	male__Blood	-0.7777712400344075
+male	adult	female__Cervix Uteri	0.25445034185955384
+male	adult	female__Liver	0.7979283404684374
+male	adult	female__Nerve	0.4135563283679181
+male	adult	female__Ovary	-2.0799350230318643
+male	adult	female__Small Intestine	0.2887794258345755
+male	adult	female__Spleen	-1.1170301787497843
+male	adult	female__Uterus	0.343375151833407
+male	adult	female__Adipose Tissue	1.698593723986243
+male	adult	female__Adrenal Gland	0.5513836807713125
+male	adult	female__Breast	-0.38822651153478
+male	adult	female__Lung	-0.6735929037264063
+male	adult	female__Pancreas	-0.00396435229641369
+male	adult	female__Skin	1.0824633685762894
+male	adult	female__Stomach	0.3005689805537367
+male	adult	female__Colon	0.09126774368860331
+male	adult	female__Kidney	-0.05593956763732873
+male	adult	female__Salivary Gland	1.2375592745906132
+male	adult	female__Vagina	-0.010591354480318832
+male	adult	female__Brain	-0.46253914120255185
+male	adult	female__Fallopian Tube	0.5020746909430328
+male	adult	female__Pituitary	0.068410854295544
+male	adult	female__Blood Vessel	-0.4425186619651215
+male	adult	female__Esophagus	-0.7875088649884702
+male	adult	female__Heart	-0.6448985462813788
+male	adult	female__Muscle	-1.0887320933130429
+male	adult	female__Bladder	-0.4788947733021793
+male	adult	female__Blood	-1.7866326215970203
+male	adult	female__Thyroid	0.6490135211935437
+male	adult	male__Liver	1.2602836480878084
+male	adult	male__Nerve	-0.6522844162933047
+male	adult	male__Small Intestine	-0.38189028548389353
+male	adult	male__Spleen	-1.2592970937083492
+male	adult	male__Testis	0.8356305123477428
+male	adult	male__Adipose Tissue	0.6741323799662589
+male	adult	male__Adrenal Gland	1.090600096546121
+male	adult	male__Breast	0.18060054268432274
+male	adult	male__Pancreas	-0.5787561882045811
+male	adult	male__Skin	0.9499357526396011
+male	adult	male__Stomach	-0.29624886531815203
+male	adult	male__Thyroid	0.42992409391174713
+male	adult	male__Colon	-0.1441653629893311
+male	adult	male__Kidney	0.1712495839573164
+male	adult	male__Prostate	-0.017322594465117688
+male	adult	male__Brain	-0.45343894003457375
+male	adult	male__Pituitary	0.2918670352476306
+male	adult	male__Lung	-0.6987331228713122
+male	adult	male__Salivary Gland	1.307716631423782
+male	adult	male__Blood Vessel	-0.2569818043270118
+male	adult	male__Esophagus	0.15158793133902795
+male	adult	male__Heart	-0.7772053835905802
+male	adult	male__Muscle	-1.2030363700576936
+male	adult	male__Bladder	0.29729561940822075
+male	adult	male__Blood	-1.705181628415758
+male	child	female__Cervix Uteri	-0.39040897940378944
+male	child	female__Liver	-1.8861236238152421
+male	child	female__Nerve	0.022342528904217125
+male	child	female__Ovary	-0.10159808813000731
+male	child	female__Small Intestine	-0.11402795605225609
+male	child	female__Spleen	-0.6778929180320467
+male	child	female__Uterus	0.2337639698848536
+male	child	female__Adipose Tissue	-0.4661712725254514
+male	child	female__Adrenal Gland	-1.039449644147585
+male	child	female__Breast	0.3372848457085556
+male	child	female__Lung	-0.1505639053609381
+male	child	female__Pancreas	-0.05876850682957045
+male	child	female__Skin	-0.4361516037038781
+male	child	female__Stomach	1.0627685423787347
+male	child	female__Colon	1.0025315517567128
+male	child	female__Kidney	-0.24935107855451294
+male	child	female__Salivary Gland	0.056684228662762834
+male	child	female__Vagina	0.617402684135038
+male	child	female__Brain	0.14526567689868597
+male	child	female__Fallopian Tube	-1.1086890333478219
+male	child	female__Pituitary	-1.195939135318734
+male	child	female__Blood Vessel	0.20678713954402503
+male	child	female__Esophagus	0.39620173578925405
+male	child	female__Heart	-0.6376953139872109
+male	child	female__Muscle	0.04290321768215212
+male	child	female__Bladder	0.6345513954904314
+male	child	female__Blood	0.6019306822580437
+male	child	female__Thyroid	-1.5358110782848238
+male	child	male__Liver	-1.611489109479028
+male	child	male__Nerve	-0.3785106609969141
+male	child	male__Small Intestine	0.3076425608273306
+male	child	male__Spleen	-0.14167683184485494
+male	child	male__Testis	-0.696093253680894
+male	child	male__Adipose Tissue	-0.12617715908301536
+male	child	male__Adrenal Gland	-1.0973962144709384
+male	child	male__Breast	-0.39531183547126325
+male	child	male__Pancreas	0.08122187893335571
+male	child	male__Skin	-0.22325710855443323
+male	child	male__Stomach	0.6478046730946445
+male	child	male__Thyroid	-1.765483053114407
+male	child	male__Colon	1.0769031499638653
+male	child	male__Kidney	-0.20985034570999198
+male	child	male__Prostate	0.5106988120803583
+male	child	male__Brain	0.0032086598991522474
+male	child	male__Pituitary	-1.419893591862011
+male	child	male__Lung	0.3466419471486833
+male	child	male__Salivary Gland	0.3014712840707959
+male	child	male__Blood Vessel	-0.2435435654227536
+male	child	male__Esophagus	1.0495942729905055
+male	child	male__Heart	-1.2850291199145583
+male	child	male__Muscle	-0.7645329393400483
+male	child	male__Bladder	1.2509234124072142
+male	child	male__Blood	1.2927988330294133
+male	elderly	female__Cervix Uteri	-0.21768948809167266
+male	elderly	female__Liver	-0.8596593842313522
+male	elderly	female__Nerve	1.1381259046143921
+male	elderly	female__Ovary	0.2862812956320593
+male	elderly	female__Small Intestine	-0.09417876428802976
+male	elderly	female__Spleen	-0.5537406721175744
+male	elderly	female__Uterus	-0.7110854295759913
+male	elderly	female__Adipose Tissue	0.94913300567577
+male	elderly	female__Adrenal Gland	0.2352401737545623
+male	elderly	female__Breast	2.1330923838085645
+male	elderly	female__Lung	-1.3106093501048497
+male	elderly	female__Pancreas	-0.3130946361155813
+male	elderly	female__Skin	2.138266739314908
+male	elderly	female__Stomach	1.1851898415469704
+male	elderly	female__Colon	-0.5161720846471942
+male	elderly	female__Kidney	0.22770509747439446
+male	elderly	female__Salivary Gland	2.677846809029977
+male	elderly	female__Vagina	1.2681893267287316
+male	elderly	female__Brain	-0.3929681245365756
+male	elderly	female__Fallopian Tube	0.3793427475242975
+male	elderly	female__Pituitary	0.25409915628222535
+male	elderly	female__Blood Vessel	0.16644472443392483
+male	elderly	female__Esophagus	1.5086698109499115
+male	elderly	female__Heart	0.09514680297915433
+male	elderly	female__Muscle	0.3414198360378977
+male	elderly	female__Bladder	0.6148260711755945
+male	elderly	female__Blood	-1.7392238996544123
+male	elderly	female__Thyroid	-0.5105370545300014
+male	elderly	male__Liver	-0.211509432006804
+male	elderly	male__Nerve	0.6674950471520682
+male	elderly	male__Small Intestine	0.1010320253680933
+male	elderly	male__Spleen	-0.27066444513046367
+male	elderly	male__Testis	-0.7787462793581594
+male	elderly	male__Adipose Tissue	1.2031361914799605
+male	elderly	male__Adrenal Gland	0.009819306023745394
+male	elderly	male__Breast	1.3006793681287958
+male	elderly	male__Pancreas	0.04121343967655427
+male	elderly	male__Skin	1.457421459208382
+male	elderly	male__Stomach	1.217339205874778
+male	elderly	male__Thyroid	-0.6797364540251651
+male	elderly	male__Colon	-1.6424040558233006
+male	elderly	male__Kidney	1.5113259219296853
+male	elderly	male__Prostate	-0.7706705891295454
+male	elderly	male__Brain	-0.5474045079394373
+male	elderly	male__Pituitary	-0.9000113454204861
+male	elderly	male__Lung	-0.5486274898494616
+male	elderly	male__Salivary Gland	1.112349535960324
+male	elderly	male__Blood Vessel	0.6218891119348203
+male	elderly	male__Esophagus	0.23751490231097644
+male	elderly	male__Heart	0.26024790419009325
+male	elderly	male__Muscle	0.6712071967882924
+male	elderly	male__Bladder	-0.025333277615591378
+male	elderly	male__Blood	-1.445749796935146
+male	fetus	female__Cervix Uteri	1.891961373602925
+male	fetus	female__Liver	3.7654717883143483
+male	fetus	female__Nerve	0.7902150776686486
+male	fetus	female__Ovary	3.698351679067627
+male	fetus	female__Small Intestine	0.6376391846358239
+male	fetus	female__Spleen	2.390086392695021
+male	fetus	female__Uterus	0.8458420722329649
+male	fetus	female__Adipose Tissue	-0.17820954309002288
+male	fetus	female__Adrenal Gland	1.5870115606125736
+male	fetus	female__Breast	1.8170736838861319
+male	fetus	female__Lung	4.478300879214188
+male	fetus	female__Pancreas	1.99535317909145
+male	fetus	female__Skin	0.24156590181776366
+male	fetus	female__Stomach	2.1847946198302304
+male	fetus	female__Colon	0.47035526237804093
+male	fetus	female__Kidney	3.8718623161688055
+male	fetus	female__Salivary Gland	0.5934334731630899
+male	fetus	female__Vagina	0.34154962382328385
+male	fetus	female__Brain	0.9387847699357347
+male	fetus	female__Fallopian Tube	1.4363440703939767
+male	fetus	female__Pituitary	2.7769375400197513
+male	fetus	female__Blood Vessel	0.9044547842115972
+male	fetus	female__Esophagus	0.057939027753035326
+male	fetus	female__Heart	1.3235138607139778
+male	fetus	female__Muscle	-0.07282839326394305
+male	fetus	female__Bladder	1.0281892708188043
+male	fetus	female__Blood	4.975863046102279
+male	fetus	female__Thyroid	0.45074542756109803
+male	fetus	male__Liver	3.8973906177176327
+male	fetus	male__Nerve	1.7426287911889902
+male	fetus	male__Small Intestine	1.4096392014886714
+male	fetus	male__Spleen	3.2266058195260623
+male	fetus	male__Testis	4.074699760797662
+male	fetus	male__Adipose Tissue	0.5375197069111173
+male	fetus	male__Adrenal Gland	2.2596145987659115
+male	fetus	male__Breast	1.1811196406657853
+male	fetus	male__Pancreas	2.2226493568686365
+male	fetus	male__Skin	0.7782755771613085
+male	fetus	male__Stomach	2.4529215543560343
+male	fetus	male__Thyroid	1.4830742286497214
+male	fetus	male__Colon	1.1169796365969273
+male	fetus	male__Kidney	3.732285916193785
+male	fetus	male__Prostate	1.0577706656892674
+male	fetus	male__Brain	1.3300989320958758
+male	fetus	male__Pituitary	2.3252962116218057
+male	fetus	male__Lung	5.1580122991027375
+male	fetus	male__Salivary Gland	1.5277438011134867
+male	fetus	male__Blood Vessel	0.7660555638363288
+male	fetus	male__Esophagus	0.9264084677935275
+male	fetus	male__Heart	1.6385608901947726
+male	fetus	male__Muscle	-0.6424278511506898
+male	fetus	male__Bladder	1.0943891156654457
+male	fetus	male__Blood	5.2449627606714335
+male	infant	female__Cervix Uteri	1.2416526371333563
+male	infant	female__Liver	3.7519240950135466
+male	infant	female__Nerve	0.6039576796716843
+male	infant	female__Ovary	3.0195475470210345
+male	infant	female__Small Intestine	1.7664739972895303
+male	infant	female__Spleen	4.521268370805135
+male	infant	female__Uterus	0.7051012557191044
+male	infant	female__Adipose Tissue	1.2884906103646616
+male	infant	female__Adrenal Gland	3.777598862437976
+male	infant	female__Breast	1.3778914345896855
+male	infant	female__Lung	2.997248068834848
+male	infant	female__Pancreas	1.1657753773472448
+male	infant	female__Skin	0.79194026423413455
+male	infant	female__Stomach	1.3737879502410513
+male	infant	female__Colon	0.563620882328064
+male	infant	female__Kidney	1.8906415875627895
+male	infant	female__Salivary Gland	0.9892299087945625
+male	infant	female__Vagina	0.3984895361808438
+male	infant	female__Brain	3.695011724942787
+male	infant	female__Fallopian Tube	2.417760233977993
+male	infant	female__Pituitary	1.8217800643001691
+male	infant	female__Blood Vessel	1.2279325999333752
+male	infant	female__Esophagus	0.43842793024390037
+male	infant	female__Heart	4.478407001080188
+male	infant	female__Muscle	1.314812064397403
+male	infant	female__Bladder	-0.06898454281080384
+male	infant	female__Blood	6.041841246579637
+male	infant	female__Thyroid	1.0168420593711978
+male	infant	male__Liver	4.025674373821141
+male	infant	male__Nerve	1.996779147158238
+male	infant	male__Small Intestine	1.9429871801571823
+male	infant	male__Spleen	5.258794142653019
+male	infant	male__Testis	4.022810363964226
+male	infant	male__Adipose Tissue	1.0556160309326592
+male	infant	male__Adrenal Gland	4.038605704212949
+male	infant	male__Breast	0.82424846824498
+male	infant	male__Pancreas	1.01485629491226
+male	infant	male__Skin	0.6098327186234173
+male	infant	male__Stomach	0.46944706580700785
+male	infant	male__Thyroid	1.9821114776688071
+male	infant	male__Colon	0.3510657161246217
+male	infant	male__Kidney	1.5446275746853957
+male	infant	male__Prostate	1.0422716807801478
+male	infant	male__Brain	4.2730585685144655
+male	infant	male__Pituitary	2.628015410686007
+male	infant	male__Lung	5.031407433982104
+male	infant	male__Salivary Gland	1.3349670572804155
+male	infant	male__Blood Vessel	0.7958729079317397
+male	infant	male__Esophagus	0.3604631862230532
+male	infant	male__Heart	3.258421052637863
+male	infant	male__Muscle	1.0138007669976676
+male	infant	male__Bladder	0.026957582681103726
+male	infant	male__Blood	5.77110079527366
+male	middle_adult	female__Cervix Uteri	0.12842201033835215
+male	middle_adult	female__Liver	-0.7951569328723688
+male	middle_adult	female__Nerve	-0.6056238467472875
+male	middle_adult	female__Ovary	1.1285649177702568
+male	middle_adult	female__Small Intestine	-0.7190843419580539
+male	middle_adult	female__Spleen	1.2272686524119694
+male	middle_adult	female__Uterus	-0.05245703620035782
+male	middle_adult	female__Adipose Tissue	0.6778555435925765
+male	middle_adult	female__Adrenal Gland	0.679772948316157
+male	middle_adult	female__Breast	-0.2554460576303336
+male	middle_adult	female__Lung	-0.0013251713410414078
+male	middle_adult	female__Pancreas	-1.1311447010115083
+male	middle_adult	female__Skin	-0.3977508190154901
+male	middle_adult	female__Stomach	-1.1064794670193534
+male	middle_adult	female__Colon	-1.4855055802392068
+male	middle_adult	female__Kidney	-0.3357846163892231
+male	middle_adult	female__Salivary Gland	-1.3920960052716567
+male	middle_adult	female__Vagina	-0.7760227061023771
+male	middle_adult	female__Brain	0.6811828068014134
+male	middle_adult	female__Fallopian Tube	0.21945406336762546
+male	middle_adult	female__Pituitary	1.4771427748013153
+male	middle_adult	female__Blood Vessel	-0.29790467371907015
+male	middle_adult	female__Esophagus	-0.38337590671877403
+male	middle_adult	female__Heart	-1.3986201747895675
+male	middle_adult	female__Muscle	0.0663926682097358
+male	middle_adult	female__Bladder	-0.48670110624019275
+male	middle_adult	female__Blood	2.2904558108084156
+male	middle_adult	female__Thyroid	-0.495946850870725
+male	middle_adult	male__Liver	-1.4383893990043009
+male	middle_adult	male__Nerve	0.08123700930668713
+male	middle_adult	male__Small Intestine	0.4776889126805302
+male	middle_adult	male__Spleen	1.5085056970766386
+male	middle_adult	male__Testis	-0.3403893313797669
+male	middle_adult	male__Adipose Tissue	1.5032800350023212
+male	middle_adult	male__Adrenal Gland	1.0190407248897866
+male	middle_adult	male__Breast	-0.2858954940063099
+male	middle_adult	male__Pancreas	-0.2111452421155331
+male	middle_adult	male__Skin	-0.3215881220191286
+male	middle_adult	male__Stomach	-1.0533891720155253
+male	middle_adult	male__Thyroid	-0.5813702082560117
+male	middle_adult	male__Colon	-0.30118528828913826
+male	middle_adult	male__Kidney	-0.5523178643772564
+male	middle_adult	male__Prostate	-0.7950348161757405
+male	middle_adult	male__Brain	-0.03823250945126566
+male	middle_adult	male__Pituitary	0.5982980829743066
+male	middle_adult	male__Lung	-0.31900640716576195
+male	middle_adult	male__Salivary Gland	-1.7470539708303647
+male	middle_adult	male__Blood Vessel	-0.357895724158662
+male	middle_adult	male__Esophagus	-0.4307323941815647
+male	middle_adult	male__Heart	-0.7601135430943969
+male	middle_adult	male__Muscle	1.0976139868749997
+male	middle_adult	male__Bladder	0.5073435561497137
+male	middle_adult	male__Blood	2.012101791757999
+male	old_adult	female__Cervix Uteri	-1.1571675386933027
+male	old_adult	female__Liver	0.314056207295833
+male	old_adult	female__Nerve	-0.1864607235247214
+male	old_adult	female__Ovary	-1.0728649012054357
+male	old_adult	female__Small Intestine	-0.22650056295998686
+male	old_adult	female__Spleen	-0.03201968354796846
+male	old_adult	female__Uterus	0.6025751988620888
+male	old_adult	female__Adipose Tissue	1.0943818654407267
+male	old_adult	female__Adrenal Gland	-1.6296946278292612
+male	old_adult	female__Breast	0.11359771928745323
+male	old_adult	female__Lung	0.11677590407409626
+male	old_adult	female__Pancreas	0.6504083523294205
+male	old_adult	female__Skin	0.046035788154247546
+male	old_adult	female__Stomach	-0.3288772956403126
+male	old_adult	female__Colon	0.14696253433881395
+male	old_adult	female__Kidney	-0.17756327127929408
+male	old_adult	female__Salivary Gland	-1.4269644835161972
+male	old_adult	female__Vagina	0.14798119131471882
+male	old_adult	female__Brain	-0.1554930675342168
+male	old_adult	female__Fallopian Tube	-1.851171076283768
+male	old_adult	female__Pituitary	-0.49298766714092446
+male	old_adult	female__Blood Vessel	-0.5035089316433626
+male	old_adult	female__Esophagus	1.3572198531740347
+male	old_adult	female__Heart	-0.12320657310189644
+male	old_adult	female__Muscle	2.2623263505813664
+male	old_adult	female__Bladder	0.29822226741156815
+male	old_adult	female__Blood	0.40579718735141296
+male	old_adult	female__Thyroid	-0.2989136052676502
+male	old_adult	male__Liver	0.1905432682054416
+male	old_adult	male__Nerve	-1.6270950290448014
+male	old_adult	male__Small Intestine	-0.37179167112187805
+male	old_adult	male__Spleen	-0.38580345898535684
+male	old_adult	male__Testis	-1.0655871141812232
+male	old_adult	male__Adipose Tissue	-0.663236415326602
+male	old_adult	male__Adrenal Gland	-0.6689673640189148
+male	old_adult	male__Breast	0.22305904417182335
+male	old_adult	male__Pancreas	1.278678977983234
+male	old_adult	male__Skin	0.06530813367193479
+male	old_adult	male__Stomach	0.51786971624985
+male	old_adult	male__Thyroid	-0.9667123602606853
+male	old_adult	male__Colon	-0.17112523305329497
+male	old_adult	male__Kidney	-0.04466119683020651
+male	old_adult	male__Prostate	1.2555245656851843
+male	old_adult	male__Brain	-0.8923653927844092
+male	old_adult	male__Pituitary	-0.6521969031549116
+male	old_adult	male__Lung	0.48368757829930137
+male	old_adult	male__Salivary Gland	-0.7040529960018161
+male	old_adult	male__Blood Vessel	-0.9557034938125173
+male	old_adult	male__Esophagus	1.3967005088167368
+male	old_adult	male__Heart	-0.27241865767496
+male	old_adult	male__Muscle	1.5489388774354742
+male	old_adult	male__Bladder	0.3589150315449586
+male	old_adult	male__Blood	0.0963500313942557
+male	older_adult	female__Cervix Uteri	0.7884297686781143
+male	older_adult	female__Liver	1.2392201641295117
+male	older_adult	female__Nerve	-0.02485299434965539
+male	older_adult	female__Ovary	-0.9476953968631406
+male	older_adult	female__Small Intestine	-0.23512892896768298
+male	older_adult	female__Spleen	-0.47161936738256116
+male	older_adult	female__Uterus	-0.017640705018756676
+male	older_adult	female__Adipose Tissue	0.2010680391009725
+male	older_adult	female__Adrenal Gland	-1.3010442503011403
+male	older_adult	female__Breast	-0.9072926184893783
+male	older_adult	female__Lung	0.42389258131315155
+male	older_adult	female__Pancreas	-1.0750909457722917
+male	older_adult	female__Skin	0.838870621288894
+male	older_adult	female__Stomach	-0.5923472698191641
+male	older_adult	female__Colon	1.379765973562911
+male	older_adult	female__Kidney	0.23002311290038202
+male	older_adult	female__Salivary Gland	-0.12350696706553166
+male	older_adult	female__Vagina	0.36533096499915485
+male	older_adult	female__Brain	0.9933507631656578
+male	older_adult	female__Fallopian Tube	-0.2777375122038823
+male	older_adult	female__Pituitary	-0.6674887239411362
+male	older_adult	female__Blood Vessel	0.3271262512035085
+male	older_adult	female__Esophagus	-0.9402136883494072
+male	older_adult	female__Heart	0.55302759414704
+male	older_adult	female__Muscle	0.4434738080786159
+male	older_adult	female__Bladder	0.5311221849981849
+male	older_adult	female__Blood	-0.7975527137474451
+male	older_adult	female__Thyroid	0.3670051043220372
+male	older_adult	male__Liver	1.310337954623383
+male	older_adult	male__Nerve	0.1591824227133894
+male	older_adult	male__Small Intestine	0.26666987643981027
+male	older_adult	male__Spleen	-1.0333672557709999
+male	older_adult	male__Testis	0.0343404975220493
+male	older_adult	male__Adipose Tissue	0.1761147605982053
+male	older_adult	male__Adrenal Gland	-1.6882333522654187
+male	older_adult	male__Breast	0.5634437358868106
+male	older_adult	male__Pancreas	-1.1411357902736863
+male	older_adult	male__Skin	0.3577975241800184
+male	older_adult	male__Stomach	-1.5185321464981365
+male	older_adult	male__Thyroid	0.29843164090558777
+male	older_adult	male__Colon	1.3581290958586252
+male	older_adult	male__Kidney	0.289703230990215
+male	older_adult	male__Prostate	-0.0011021922634925983
+male	older_adult	male__Brain	1.195974512489253
+male	older_adult	male__Pituitary	-0.07325705511370866
+male	older_adult	male__Lung	0.1715629189364131
+male	older_adult	male__Salivary Gland	0.41014208678411557
+male	older_adult	male__Blood Vessel	0.5222492497690411
+male	older_adult	male__Esophagus	-0.6528574758649973
+male	older_adult	male__Heart	0.8504539440146103
+male	older_adult	male__Muscle	0.5065522131958183
+male	older_adult	male__Bladder	-0.9173362080927683
+male	older_adult	male__Blood	-0.8405780075743283
+male	young_adult	female__Cervix Uteri	0.2189292294165561
+male	young_adult	female__Liver	-0.23795305825599117
+male	young_adult	female__Nerve	0.057319905452787125
+male	young_adult	female__Ovary	0.9739119134562567
+male	young_adult	female__Small Intestine	-0.002430625537718835
+male	young_adult	female__Spleen	-0.053904863649562845
+male	young_adult	female__Uterus	-0.4712001022956824
+male	young_adult	female__Adipose Tissue	-0.5054798204345693
+male	young_adult	female__Adrenal Gland	0.8359224871709712
+male	young_adult	female__Breast	-0.7850956274309349
+male	young_adult	female__Lung	1.2036251239234712
+male	young_adult	female__Pancreas	1.6215979146899022
+male	young_adult	female__Skin	0.37857466046995797
+male	young_adult	female__Stomach	1.261725651276667
+male	young_adult	female__Colon	0.6106342614654255
+male	young_adult	female__Kidney	0.20639755508975696
+male	young_adult	female__Salivary Gland	0.9075139162609268
+male	young_adult	female__Vagina	1.185966753246679
+male	young_adult	female__Brain	0.11386709348488565
+male	young_adult	female__Fallopian Tube	1.881889938686912
+male	young_adult	female__Pituitary	-0.5083216097230444
+male	young_adult	female__Blood Vessel	-0.2923823978729734
+male	young_adult	female__Esophagus	1.044562386534826
+male	young_adult	female__Heart	1.4418438992554907
+male	young_adult	female__Muscle	-0.857871235321089
+male	young_adult	female__Bladder	2.553573529039372
+male	young_adult	female__Blood	-1.209924965487441
+male	young_adult	female__Thyroid	1.0620738919986215
+male	young_adult	male__Liver	-0.23296815988202352
+male	young_adult	male__Nerve	-0.04897543005848407
+male	young_adult	male__Small Intestine	-0.07499118128001579
+male	young_adult	male__Spleen	0.7727377723926987
+male	young_adult	male__Testis	0.43123189974880444
+male	young_adult	male__Adipose Tissue	0.4059093032070011
+male	young_adult	male__Adrenal Gland	0.6430812713498234
+male	young_adult	male__Breast	-0.01859986371337673
+male	young_adult	male__Pancreas	0.9663198063424988
+male	young_adult	male__Skin	1.2077497698113195
+male	young_adult	male__Stomach	1.367006015747096
+male	young_adult	male__Thyroid	0.34896654508229685
+male	young_adult	male__Colon	0.21125303270453297
+male	young_adult	male__Kidney	-0.25450832341872504
+male	young_adult	male__Prostate	-0.4933310933564499
+male	young_adult	male__Brain	-0.05280684774998338
+male	young_adult	male__Pituitary	-0.6387772036548259
+male	young_adult	male__Lung	1.4600274669123443
+male	young_adult	male__Salivary Gland	0.44639044627058394
+male	young_adult	male__Blood Vessel	0.3063336855593039
+male	young_adult	male__Esophagus	1.2513400505240246
+male	young_adult	male__Heart	2.085242790478005
+male	young_adult	male__Muscle	-0.6434643761398006
+male	young_adult	male__Bladder	0.14087352593531746
+male	young_adult	male__Blood	-0.5291066965492365
+male	young_child	female__Cervix Uteri	0.09752976140970736
+male	young_child	female__Liver	-0.3797338747011351
+male	young_child	female__Nerve	1.508708848655651
+male	young_child	female__Ovary	0.12405266225814846
+male	young_child	female__Small Intestine	2.6073561794862417
+male	young_child	female__Spleen	3.346520407841984
+male	young_child	female__Uterus	0.7428199433100348
+male	young_child	female__Adipose Tissue	2.282667565389418
+male	young_child	female__Adrenal Gland	0.7347749724522051
+male	young_child	female__Breast	0.7312266341252379
+male	young_child	female__Lung	2.554968164315254
+male	young_child	female__Pancreas	0.9448970669942048
+male	young_child	female__Skin	-0.5991088379716893
+male	young_child	female__Stomach	0.10179949422538985
+male	young_child	female__Colon	0.08853613454506255
+male	young_child	female__Kidney	0.4590673147057724
+male	young_child	female__Salivary Gland	0.36731061233766027
+male	young_child	female__Vagina	-1.1134231513506805
+male	young_child	female__Brain	1.8516159064573952
+male	young_child	female__Fallopian Tube	0.7934702773205503
+male	young_child	female__Pituitary	0.642110265301388
+male	young_child	female__Blood Vessel	0.7718556009544795
+male	young_child	female__Esophagus	-0.15655531356312333
+male	young_child	female__Heart	-0.20022987939132672
+male	young_child	female__Muscle	-1.009434599376081
+male	young_child	female__Bladder	-0.21166780089080783
+male	young_child	female__Blood	4.071281451092078
+male	young_child	female__Thyroid	1.654068235420867
+male	young_child	male__Liver	-1.0694921108149904
+male	young_child	male__Nerve	1.5453997533487163
+male	young_child	male__Small Intestine	1.2020536302000313
+male	young_child	male__Spleen	2.730913657512895
+male	young_child	male__Testis	1.4113063218011317
+male	young_child	male__Adipose Tissue	2.451915367105633
+male	young_child	male__Adrenal Gland	0.37028762301917084
+male	young_child	male__Breast	0.26107738660143676
+male	young_child	male__Pancreas	0.2013201051673027
+male	young_child	male__Skin	-1.3501112236839254
+male	young_child	male__Stomach	-0.008458312835723151
+male	young_child	male__Thyroid	2.2608841628877014
+male	young_child	male__Colon	0.7507827534734126
+male	young_child	male__Kidney	-0.2661712068818993
+male	young_child	male__Prostate	-0.6015699015477821
+male	young_child	male__Brain	1.8755571252619765
+male	young_child	male__Pituitary	1.8263104149476317
+male	young_child	male__Lung	1.9948906087702822
+male	young_child	male__Salivary Gland	-0.31726455786863444
+male	young_child	male__Blood Vessel	1.0372242761313646
+male	young_child	male__Esophagus	-0.725510970387645
+male	young_child	male__Heart	-0.11021356523373503
+male	young_child	male__Muscle	-0.5048576600605679
+male	young_child	male__Bladder	-0.7175731091207601
+male	young_child	male__Blood	3.5759852450132827

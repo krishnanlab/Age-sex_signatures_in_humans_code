@@ -1,0 +1,227 @@
+go_id	go_name	gene_count
+GO:0046068	cGMP metabolic process	9
+GO:2001138	regulation of phospholipid transport	8
+GO:2001140	positive regulation of phospholipid transport	7
+GO:1904468	NA	10
+GO:0033622	integrin activation	6
+GO:0006910	phagocytosis, recognition	6
+GO:0007168	receptor guanylyl cyclase signaling pathway	7
+GO:0070857	regulation of bile acid biosynthetic process	9
+GO:1904251	regulation of bile acid metabolic process	10
+GO:0071073	positive regulation of phospholipid biosynthetic process	6
+GO:1903727	positive regulation of phospholipid metabolic process	9
+GO:0034405	response to fluid shear stress	13
+GO:0071498	cellular response to fluid shear stress	9
+GO:0071499	cellular response to laminar fluid shear stress	6
+GO:0006000	fructose metabolic process	9
+GO:0019682	glyceraldehyde-3-phosphate metabolic process	7
+GO:1901978	positive regulation of cell cycle checkpoint	8
+GO:0090232	positive regulation of spindle checkpoint	7
+GO:0090267	positive regulation of mitotic cell cycle spindle assembly checkpoint	7
+GO:0045947	negative regulation of translational initiation	9
+GO:1901569	fatty acid derivative catabolic process	9
+GO:0018198	peptidyl-cysteine modification	18
+GO:0019370	leukotriene biosynthetic process	10
+GO:0097340	inhibition of cysteine-type endopeptidase activity	6
+GO:0097341	zymogen inhibition	6
+GO:0060547	negative regulation of necrotic cell death	10
+GO:0060546	negative regulation of necroptotic process	9
+GO:0062099	negative regulation of programmed necrotic cell death	9
+GO:0006702	androgen biosynthetic process	8
+GO:0035987	endodermal cell differentiation	10
+GO:1901503	ether biosynthetic process	8
+GO:0097384	cellular lipid biosynthetic process	7
+GO:0008611	ether lipid biosynthetic process	7
+GO:0046504	glycerol ether biosynthetic process	7
+GO:0007520	myoblast fusion	8
+GO:0006152	purine nucleoside catabolic process	7
+GO:0046130	purine ribonucleoside catabolic process	7
+GO:0015701	bicarbonate transport	34
+GO:1900078	positive regulation of cellular response to insulin stimulus	8
+GO:1905144	response to acetylcholine	11
+GO:0095500	acetylcholine receptor signaling pathway	10
+GO:1905145	cellular response to acetylcholine	10
+GO:0051952	regulation of amine transport	20
+GO:0086067	AV node cell to bundle of His cell communication	7
+GO:0086016	AV node cell action potential	6
+GO:0086027	AV node cell to bundle of His cell signaling	6
+GO:0071294	cellular response to zinc ion	6
+GO:0042116	macrophage activation	15
+GO:1905330	regulation of morphogenesis of an epithelium	14
+GO:1902473	regulation of protein localization to synapse	10
+GO:0033032	regulation of myeloid cell apoptotic process	9
+GO:1903818	positive regulation of voltage-gated potassium channel activity	9
+GO:2000394	positive regulation of lamellipodium morphogenesis	6
+GO:0006012	galactose metabolic process	9
+GO:0019388	galactose catabolic process	6
+GO:0045576	mast cell activation	7
+GO:0045662	negative regulation of myoblast differentiation	10
+GO:0098810	neurotransmitter reuptake	9
+GO:0015872	dopamine transport	8
+GO:0051937	catecholamine transport	8
+GO:0033145	positive regulation of intracellular steroid hormone receptor signaling pathway	8
+GO:0051580	regulation of neurotransmitter uptake	10
+GO:0051584	regulation of dopamine uptake involved in synaptic transmission	8
+GO:0051940	regulation of catecholamine uptake involved in synaptic transmission	8
+GO:0032328	alanine transport	9
+GO:0045654	positive regulation of megakaryocyte differentiation	8
+GO:0050710	negative regulation of cytokine secretion	7
+GO:1900115	extracellular regulation of signal transduction	6
+GO:1900116	extracellular negative regulation of signal transduction	6
+GO:1905603	regulation of blood-brain barrier permeability	6
+GO:0033363	secretory granule organization	7
+GO:2000048	negative regulation of cell-cell adhesion mediated by cadherin	9
+GO:0042098	T cell proliferation	9
+GO:0045980	negative regulation of nucleotide metabolic process	10
+GO:0010866	regulation of triglyceride biosynthetic process	7
+GO:0070584	mitochondrion morphogenesis	9
+GO:0036376	sodium ion export across plasma membrane	7
+GO:0044058	regulation of digestive system process	11
+GO:0010820	positive regulation of T cell chemotaxis	10
+GO:0050869	negative regulation of B cell activation	10
+GO:0046131	pyrimidine ribonucleoside metabolic process	6
+GO:0046133	pyrimidine ribonucleoside catabolic process	6
+GO:0010155	regulation of proton transport	9
+GO:0010940	positive regulation of necrotic cell death	7
+GO:0071526	semaphorin-plexin signaling pathway	7
+GO:0006983	ER overload response	7
+GO:0062009	secondary palate development	9
+GO:1905939	regulation of gonad development	6
+GO:2000739	regulation of mesenchymal stem cell differentiation	6
+GO:0001867	complement activation, lectin pathway	9
+GO:0032352	positive regulation of hormone metabolic process	8
+GO:0043252	sodium-independent organic anion transport	12
+GO:0010839	negative regulation of keratinocyte proliferation	9
+GO:1903651	positive regulation of cytoplasmic transport	9
+GO:2000643	positive regulation of early endosome to late endosome transport	7
+GO:0044793	negative regulation by host of viral process	10
+GO:0052428	modulation by host of symbiont molecular function	7
+GO:0044359	modulation of molecular function in other organism	8
+GO:0052205	modulation of molecular function in other organism involved in symbiotic interaction	8
+GO:0042634	regulation of hair cycle	11
+GO:0002200	somatic diversification of immune receptors	10
+GO:0017145	stem cell division	6
+GO:0061351	neural precursor cell proliferation	9
+GO:0042723	thiamine-containing compound metabolic process	6
+GO:0050806	positive regulation of synaptic transmission	8
+GO:0006054	N-acetylneuraminate metabolic process	7
+GO:0010792	DNA double-strand break processing involved in repair via single-strand annealing	6
+GO:0045002	double-strand break repair via single-strand annealing	6
+GO:0046348	amino sugar catabolic process	8
+GO:0000266	mitochondrial fission	8
+GO:0085020	protein K6-linked ubiquitination	7
+GO:0050433	regulation of catecholamine secretion	10
+GO:2000738	positive regulation of stem cell differentiation	9
+GO:0051953	negative regulation of amine transport	8
+GO:0006878	cellular copper ion homeostasis	6
+GO:0055070	copper ion homeostasis	8
+GO:0008272	sulfate transport	8
+GO:0042118	endothelial cell activation	7
+GO:0042436	indole-containing compound catabolic process	9
+GO:0006569	tryptophan catabolic process	9
+GO:0006568	tryptophan metabolic process	9
+GO:0046218	indolalkylamine catabolic process	9
+GO:0050849	negative regulation of calcium-mediated signaling	10
+GO:0070885	negative regulation of calcineurin-NFAT signaling cascade	8
+GO:0106057	negative regulation of calcineurin-mediated signaling	8
+GO:2000535	regulation of entry of bacterium into host cell	7
+GO:0032353	negative regulation of hormone biosynthetic process	8
+GO:0036289	peptidyl-serine autophosphorylation	7
+GO:1905065	positive regulation of vascular associated smooth muscle cell differentiation	7
+GO:0032645	regulation of granulocyte macrophage colony-stimulating factor production	12
+GO:0032725	positive regulation of granulocyte macrophage colony-stimulating factor production	10
+GO:0003214	cardiac left ventricle morphogenesis	6
+GO:0001649	osteoblast differentiation	10
+GO:0010870	NA	7
+GO:0070170	regulation of tooth mineralization	6
+GO:0038155	interleukin-23-mediated signaling pathway	9
+GO:0070431	nucleotide-binding oligomerization domain containing 2 signaling pathway	7
+GO:0010637	negative regulation of mitochondrial fusion	7
+GO:0014896	muscle hypertrophy	6
+GO:2001057	reactive nitrogen species metabolic process	12
+GO:0006809	nitric oxide biosynthetic process	8
+GO:0046209	nitric oxide metabolic process	9
+GO:0071545	inositol phosphate catabolic process	6
+GO:2001135	regulation of endocytic recycling	7
+GO:0070528	protein kinase C signaling	10
+GO:0001919	regulation of receptor recycling	14
+GO:0031639	plasminogen activation	9
+GO:0001945	lymph vessel development	9
+GO:0060041	retina development in camera-type eye	9
+GO:0010573	vascular endothelial growth factor production	7
+GO:0035507	regulation of myosin-light-chain-phosphatase activity	7
+GO:0006896	Golgi to vacuole transport	9
+GO:0090160	Golgi to lysosome transport	9
+GO:0051974	negative regulation of telomerase activity	10
+GO:1903332	regulation of protein folding	6
+GO:0035710	CD4-positive, alpha-beta T cell activation	8
+GO:1900424	regulation of defense response to bacterium	11
+GO:0001946	lymphangiogenesis	6
+GO:0036303	lymph vessel morphogenesis	7
+GO:2001225	regulation of chloride transport	6
+GO:0010232	vascular transport	7
+GO:0150104	transport across blood-brain barrier	7
+GO:0010829	negative regulation of glucose transmembrane transport	9
+GO:0046325	negative regulation of glucose import	7
+GO:2000480	negative regulation of cAMP-dependent protein kinase activity	6
+GO:0002827	positive regulation of T-helper 1 type immune response	8
+GO:0007422	peripheral nervous system development	17
+GO:0051133	regulation of NK T cell activation	8
+GO:0051135	positive regulation of NK T cell activation	7
+GO:0001776	leukocyte homeostasis	7
+GO:1904749	regulation of protein localization to nucleolus	7
+GO:0006904	vesicle docking involved in exocytosis	7
+GO:0030948	negative regulation of vascular endothelial growth factor receptor signaling pathway	6
+GO:0016098	monoterpenoid metabolic process	6
+GO:1902260	negative regulation of delayed rectifier potassium channel activity	7
+GO:1903817	negative regulation of voltage-gated potassium channel activity	10
+GO:0042984	regulation of amyloid precursor protein biosynthetic process	7
+GO:1900225	regulation of NLRP3 inflammasome complex assembly	9
+GO:0018410	C-terminal protein amino acid modification	6
+GO:0051965	positive regulation of synapse assembly	7
+GO:0042535	NA	13
+GO:0042738	exogenous drug catabolic process	10
+GO:1903358	regulation of Golgi organization	16
+GO:0006577	amino-acid betaine metabolic process	9
+GO:0031953	negative regulation of protein autophosphorylation	7
+GO:1901317	regulation of flagellated sperm motility	9
+GO:0003353	positive regulation of cilium movement	6
+GO:1902093	positive regulation of flagellated sperm motility	6
+GO:2000155	positive regulation of cilium-dependent cell motility	6
+GO:0030224	monocyte differentiation	7
+GO:1903131	mononuclear cell differentiation	7
+GO:0006971	hypotonic response	7
+GO:0071476	cellular hypotonic response	6
+GO:1903059	regulation of protein lipidation	6
+GO:1903978	regulation of microglial cell activation	6
+GO:0008299	isoprenoid biosynthetic process	10
+GO:0045191	regulation of isotype switching	9
+GO:0045830	positive regulation of isotype switching	8
+GO:0060135	maternal process involved in female pregnancy	8
+GO:0042219	cellular modified amino acid catabolic process	9
+GO:2000508	regulation of dendritic cell chemotaxis	6
+GO:2000510	positive regulation of dendritic cell chemotaxis	6
+GO:0046323	glucose import	8
+GO:1901388	regulation of transforming growth factor beta activation	6
+GO:0032656	regulation of interleukin-13 production	11
+GO:0032674	regulation of interleukin-5 production	9
+GO:0060998	regulation of dendritic spine development	8
+GO:0045541	negative regulation of cholesterol biosynthetic process	6
+GO:0090206	negative regulation of cholesterol metabolic process	6
+GO:0106119	negative regulation of sterol biosynthetic process	6
+GO:0031644	regulation of nervous system process	22
+GO:0045717	negative regulation of fatty acid biosynthetic process	10
+GO:0007158	neuron cell-cell adhesion	10
+GO:0034379	very-low-density lipoprotein particle assembly	10
+GO:0006264	mitochondrial DNA replication	7
+GO:0006390	mitochondrial transcription	9
+GO:0010896	regulation of triglyceride catabolic process	6
+GO:1904837	beta-catenin-TCF complex assembly	29
+GO:2001044	regulation of integrin-mediated signaling pathway	8
+GO:0006285	base-excision repair, AP site formation	10
+GO:0009223	pyrimidine deoxyribonucleotide catabolic process	10
+GO:0045008	depyrimidination	8
+GO:0008228	opsonization	6
+GO:2000737	negative regulation of stem cell differentiation	9
+GO:0071711	basement membrane organization	6
+GO:1900029	positive regulation of ruffle assembly	6

@@ -1,0 +1,476 @@
+---
+title: "blood experiment sizes and test data"
+author: "Kayla Johnson"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r packages, include=FALSE}
+library(tidyverse)
+```
+
+```{r data, include=FALSE}
+rl <- read_tsv("~/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/refine.bio_blood_samples.tsv") %>% 
+  select(experiment, run, sex, fine_age_group)
+ml <- read_tsv("~/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/gpl570_blood_samples.tsv") %>% 
+  select(gse, gsm, sex, fine_age_group) %>% 
+  dplyr::rename(experiment = gse) %>% 
+  dplyr::rename(run = gsm)
+```
+
+```{r include=FALSE}
+srl <- rl %>% 
+  group_by(experiment, sex, fine_age_group) %>% 
+  tally()
+
+sml <- ml %>% 
+  group_by(experiment, sex, fine_age_group) %>% 
+  tally()
+```
+
+```{r}
+fine_ag_order <- c("fetus", "infant", "young_child",
+                   "child", "adolescent", "young_adult",
+                   "adult", "middle_adult", "older_adult",
+                   "old_adult", "elderly")
+```
+
+```{r}
+rl %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "female") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "female rnaseq") +
+  theme_minimal()
+```
+
+```{r}
+rl %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "male") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "male rnaseq") +
+  theme_minimal()
+```
+
+```{r}
+ml %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "female") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "female microarray") +
+  theme_minimal()
+```
+
+```{r}
+ml %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "male") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "male microarray") +
+  theme_minimal()
+```
+
+```{r}
+srl %>% 
+  filter(n > 2) %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "female") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "female rnaseq > 2") +
+  theme_minimal()
+```
+
+```{r}
+srl %>% 
+  filter(n > 2) %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "male") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "male rnaseq > 2") +
+  theme_minimal()
+```
+
+```{r}
+sml %>% 
+  filter(n > 2) %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "female") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "female microarray > 2") +
+  theme_minimal()
+```
+
+```{r}
+sml %>% 
+  filter(n > 4) %>% 
+  select(experiment, sex, fine_age_group) %>% 
+  distinct() %>% 
+  filter(sex == "male") %>% 
+  group_by(fine_age_group) %>% 
+  tally() %>% 
+  ggplot(aes(y = factor(fine_age_group, levels = fine_ag_order), x = n)) +
+  geom_col() +
+  geom_text(aes(label = n), hjust = 0) +
+  labs(title = "male microarray > 2") +
+  theme_minimal()
+```
+
+```{r}
+t3fr <- srl %>% 
+  filter(!fine_age_group %in% c("fetus", "elderly")) %>% 
+  filter(sex == "female") %>% 
+  ungroup() %>% 
+  arrange(desc(n)) %>% 
+  group_by(fine_age_group) %>%
+  dplyr::slice(1:3) %>% 
+  ungroup()
+
+t3mr <- srl %>% 
+  filter(!fine_age_group %in% c("fetus", "elderly")) %>% 
+  filter(sex == "male") %>% 
+  ungroup() %>% 
+  arrange(desc(n)) %>% 
+  group_by(fine_age_group) %>%
+  dplyr::slice(1:3) %>% 
+  ungroup()
+
+t3fm <- sml %>% 
+  filter(!fine_age_group %in% c("fetus", "elderly")) %>% 
+  filter(sex == "female") %>% 
+  ungroup() %>% 
+  arrange(desc(n)) %>% 
+  group_by(fine_age_group) %>%
+  dplyr::slice(1:3) %>% 
+  ungroup()
+
+t3mm <- sml %>% 
+  filter(!fine_age_group %in% c("fetus", "elderly")) %>% 
+  filter(sex == "male") %>% 
+  ungroup() %>% 
+  arrange(desc(n)) %>% 
+  group_by(fine_age_group) %>%
+  dplyr::slice(1:3) %>% 
+  ungroup()
+```
+
+```{r}
+# t3mm %>% 
+#   group_by(experiment) %>% 
+#   summarise(n = n(), age_groups = paste(fine_age_group, collapse = ", ")) %>%
+#   ungroup %>% 
+#   arrange(desc(n))
+```
+
+```{r}
+t3fr$fold <- 0
+# add proper fold
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP150872",
+                                      1, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP158491",
+                                      2, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP192714",
+                                      1, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP032775",
+                                      2, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP098758",
+                                      2, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP136057",
+                                      3, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP136102",
+                                      3, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP155483",
+                                      3, fold))
+
+# singles
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP116272",
+                                      2, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP071965",
+                                      3, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP081605",
+                                      3, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP171051",
+                                      1, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP053274",
+                                      2, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "ERP111116",
+                                      1, fold))
+t3fr <- t3fr %>% mutate(fold = ifelse(experiment == "SRP045500",
+                                      3, fold))
+```
+
+```{r}
+t3fr %>% group_by(experiment) %>% summarise(mf = mean(fold))
+```
+
+```{r}
+t3fr %>% group_by(fine_age_group) %>% summarise(sum = sum(fold))
+```
+
+```{r}
+t3mr$fold <- 0
+# add proper fold
+# due to conflict, 4th biggest middle_adult project (SRP126583) used for fold 3
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP192714",
+                                      1, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP098758",
+                                      1, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP126691",
+                                      2, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP032775",
+                                      2, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP089814",
+                                      2, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP126583",
+                                      3, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP136057",
+                                      3, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP155483",
+                                      1, fold))
+
+# singles
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP116272",
+                                      2, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP071965",
+                                      3, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP081605",
+                                      3, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP171051",
+                                      2, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "ERP111116",
+                                      2, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP045500",
+                                      3, fold))
+t3mr <- t3mr %>% mutate(fold = ifelse(experiment == "SRP131037",
+                                      3, fold))
+```
+
+```{r}
+t3mr %>% group_by(experiment) %>% summarise(mf = mean(fold))
+```
+
+```{r}
+# middle_adult will be one off bc of conflict/using 4th largest proj
+t3mr %>% group_by(fine_age_group) %>% summarise(sum = sum(fold))
+```
+
+```{r}
+t3fm$fold <- 0
+# add proper fold
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE37069",
+                                      1, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE36809",
+                                      2, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE39088",
+                                      3, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE16028",
+                                      1, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE19069",
+                                      2, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE26440",
+                                      2, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE35571",
+                                      3, fold))
+
+# singles
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE14844",
+                                      2, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE19475",
+                                      1, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE32962",
+                                      3, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE21545",
+                                      1, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE35935",
+                                      3, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE23293",
+                                      3, fold))
+t3fm <- t3fm %>% mutate(fold = ifelse(experiment == "GSE26378",
+                                      3, fold))
+```
+
+```{r}
+t3fm %>% group_by(experiment) %>% summarise(mf = mean(fold))
+```
+
+```{r}
+t3fm %>% group_by(fine_age_group) %>% summarise(sum = sum(fold))
+```
+
+```{r}
+t3mm$fold <- 0
+# add proper fold
+# due to conflict, 4th biggest adolescent project (SRP126583) used for fold 3
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE37069",
+                                      1, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE36809",
+                                      2, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE18123",
+                                      3, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE21545",
+                                      1, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE25507",
+                                      2, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE35571",
+                                      1, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE35935",
+                                      2, fold))
+
+# singles
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE46449",
+                                      3, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE26378",
+                                      1, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE26440",
+                                      2, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE19475",
+                                      3, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE28842",
+                                      3, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE19069",
+                                      3, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE29111",
+                                      3, fold))
+t3mm <- t3mm %>% mutate(fold = ifelse(experiment == "GSE11375",
+                                      3, fold))
+```
+
+```{r}
+t3mm %>% group_by(experiment) %>% summarise(mf = mean(fold))
+```
+
+```{r}
+# adolescent will be two off bc of conflict/using 4th largest proj
+t3mm %>% group_by(fine_age_group) %>% summarise(sum = sum(fold))
+```
+
+
+```{r}
+#female rnaseq
+fr1 <- t3fr %>% 
+  filter(fold == 1) %>% 
+  pull(experiment)
+fr2 <- t3fr %>% 
+  filter(fold == 2) %>% 
+  pull(experiment)
+fr3 <- t3fr %>% 
+  filter(fold == 3) %>% 
+  pull(experiment)
+
+#male rnaseq
+mr1 <- t3mr %>% 
+  filter(fold == 1) %>% 
+  pull(experiment)
+mr2 <- t3mr %>% 
+  filter(fold == 2) %>% 
+  pull(experiment)
+mr3 <- t3mr %>% 
+  filter(fold == 3) %>% 
+  pull(experiment)
+
+#female microarray
+fm1 <- t3fm %>% 
+  filter(fold == 1) %>% 
+  pull(experiment)
+fm2 <- t3fm %>% 
+  filter(fold == 2) %>% 
+  pull(experiment)
+fm3 <- t3fm %>% 
+  filter(fold == 3) %>% 
+  pull(experiment)
+
+#male microarray
+mm1 <- t3mm %>% 
+  filter(fold == 1) %>% 
+  pull(experiment)
+mm2 <- t3mm %>% 
+  filter(fold == 2) %>% 
+  pull(experiment)
+mm3 <- t3mm %>% 
+  filter(fold == 3) %>% 
+  pull(experiment)
+```
+
+```{r}
+#female rnaseq
+fr_folds <- rl %>% 
+  filter(sex == "female") %>% 
+  mutate(fold = ifelse(experiment %in% fr1, 1,
+                       ifelse(experiment %in% fr2, 2,
+                              ifelse(experiment %in% fr3, 3, 4))))
+#male rnaseq
+mr_folds <- rl %>% 
+  filter(sex == "male") %>% 
+  mutate(fold = ifelse(experiment %in% mr1, 1,
+                       ifelse(experiment %in% mr2, 2,
+                              ifelse(experiment %in% mr3, 3, 4))))
+#female microarray
+fm_folds <- ml %>% 
+  filter(sex == "female") %>% 
+  mutate(fold = ifelse(experiment %in% fm1, 1,
+                       ifelse(experiment %in% fm2, 2,
+                              ifelse(experiment %in% fm3, 3, 4))))
+#male microarray
+mm_folds <- ml %>% 
+  filter(sex == "male") %>% 
+  mutate(fold = ifelse(experiment %in% mm1, 1,
+                       ifelse(experiment %in% mm2, 2,
+                              ifelse(experiment %in% mm3, 3, 4))))
+```
+
+```{r}
+write_dir <- "~/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/"
+
+rfolds <- bind_rows(fr_folds, mr_folds)
+rfolds %>% 
+  rename(age_group = fine_age_group) %>% 
+  write_tsv(paste0(write_dir, "refine.bio_blood_folds.tsv"),
+            col_names = T)
+
+mfolds <- bind_rows(fm_folds, mm_folds)
+mfolds %>% 
+  rename(age_group = fine_age_group) %>% 
+  write_tsv(paste0(write_dir, "gpl570_blood_folds.tsv"),
+            col_names = T)
+```
+
+
+

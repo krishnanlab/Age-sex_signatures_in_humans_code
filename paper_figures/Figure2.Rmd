@@ -1,0 +1,397 @@
+---
+title: "Figure2"
+author: "Kayla Johnson"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+```{r include=FALSE}
+library(tidyverse)
+library(patchwork)
+library(NatParksPalettes)
+library(scales)
+library(ggridges)
+library(RColorBrewer)
+library(gridExtra)
+library(grid)
+```
+
+```{r include=FALSE}
+full_rs <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv")
+
+full_ms <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/microarray_unsigned_balanced_accuracy_info_file.tsv")
+full_ms <- full_ms %>% mutate(cutoff = as.character(cutoff))
+
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = rev(age_ranges)))
+
+full_rs <- left_join(full_rs, ar_tibble, by = "age_group")
+full_ms <- left_join(full_ms, ar_tibble, by = "age_group")
+```
+
+```{r include=FALSE}
+zexp <- read_tsv("../../z-scored_expression/RNAseq-microarray_selectXY_genes_zscored_expression.tsv")
+rcutoffs <- read_tsv("../../results/naive_sex_prediction/rnaseq/fine_age_groups/final_gene_cut_data_all_chromosomes.tsv", 
+                     col_types = cols(.default = "d", age_group = "c", higher_sex = "c")) %>% 
+  filter(!is.na(cutoff))
+mcutoffs <- read_tsv("../../results/naive_sex_prediction/microarray/fine_age_groups/final_gene_cut_data_all_chromosomes.tsv", 
+                     col_types = cols(.default = "d", age_group = "c", higher_sex = "c"))
+rcutoffs$data <- "RNAseq"
+mcutoffs$data <- "Microarray"
+
+cutoffs <- bind_rows(rcutoffs, mcutoffs)
+genes <- zexp$gene %>% unique()
+cutoffs <- cutoffs %>% filter(gene %in% genes)
+
+# natparks.pals("Acadia")
+# female color, male color
+# c("#6E769D", "#FDA719")
+palette <- c("#4C5684", "#FD8D05")
+```
+
+```{r include=FALSE}
+gene_symbol_map <- tibble(gene = c(6192, 8284, 8287, 8653, 246126, 
+                                   9086, 7503, 64595, 7404, 7544, 
+                                   9383, 22829, 5616, 83869, 9087, 
+                                   90665, 6736, 246119, 159119),
+                          gene_symbol = c("RPS4Y1", "KDM5D", "USP9Y", "DDX3Y", "TXLNGY",
+                                          "EIF1AY", "Xist", "TTTY15", "UTY", "ZFY",
+                                          "TSIX", "NLGN4Y", "PRKY", "TTTY14", "TMSB4Y",
+                                          "TBL1Y", "SRY", "TTTY10", "HSFY2"))
+```
+
+```{r include=FALSE}
+cutoffs <- left_join(cutoffs, gene_symbol_map, by = "gene")
+zexp <- left_join(zexp, gene_symbol_map, by = "gene")
+```
+
+# A - Expression distributions
+```{r}
+codf <- zexp %>% 
+  filter(age_group == "fetus") %>% 
+  filter(gene == 8284) %>% 
+  filter(data == "RNAseq") %>% 
+  mutate(sex = ifelse(sex == "female", "Female", "Male"))
+co <- cutoffs %>% 
+  filter(age_group == "fetus") %>% 
+  filter(gene == 8284) %>% 
+  filter(data == "RNAseq") %>% 
+  pull(cutoff) %>% unique()
+ba <- cutoffs %>% 
+  filter(age_group == "fetus") %>% 
+  filter(gene == 8284) %>% 
+  filter(data == "RNAseq") %>%
+  pull(balanced_accuracy) %>% unique()
+
+fetus_RNAseq_KDM5D_hist <- codf %>% 
+  ggplot(aes(x = exp_zscore, fill = sex)) +
+  geom_histogram(alpha = 0.7, position ="identity") +
+  scale_fill_manual(values = palette) +
+  geom_vline(xintercept = co, linetype = "dashed", size = 1) +
+  annotate("text", x= co + 0.2, label=as.character(round(co,2)), y=70, size = 8) +
+  annotate("text", x= 1.8, label="KDM5D", y=75, size = 8) +
+  #annotate("text", x= 2, label=as.character(round(ba,2)), y=70) +
+  scale_y_continuous(limits = c(0,80)) +
+  ylab("sample count") +
+  xlab("expression zscore") +
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(linewidth = 0.2, colour = "lightgray"),
+        text = element_text(size = 24),
+        plot.margin = margin(5,5,0,0)) +
+  guides(fill = guide_legend(title = "sex:"))
+```
+
+```{r}
+codf <- zexp %>% 
+  filter(age_group == "adult") %>% 
+  filter(gene == 7503) %>% 
+  filter(data == "microarray") %>% 
+  mutate(sex = ifelse(sex == "female", "Female", "Male"))
+co <- cutoffs %>% 
+  filter(age_group == "adult") %>% 
+  filter(gene == 7503) %>% 
+  filter(data == "Microarray") %>% 
+  pull(cutoff) %>% unique()
+ba <- cutoffs %>% 
+  filter(age_group == "adult") %>% 
+  filter(gene == 7503) %>% 
+  filter(data == "Microarray") %>%
+  pull(balanced_accuracy) %>% unique()
+
+adult_microarray_Xist_hist <- codf %>% 
+  ggplot(aes(x = exp_zscore, fill = sex)) +
+  geom_histogram(alpha = 0.7, position ="identity") +
+  scale_fill_manual(values = palette) +
+  geom_vline(xintercept = co, linetype = "dashed", size = 1) +
+  annotate("text", x= co + 0.2, label=as.character(round(co,2)), y=375, size = 8) +
+  annotate("text", x= 1.8, label="Xist", y=400, size = 8) +
+  #annotate("text", x= 2, label=as.character(round(ba,2)), y=375) +
+  ylab("sample count") +
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(linewidth = 0.2, colour = "lightgray"),
+        text = element_text(size = 24),
+        axis.title.x = element_blank(),
+        plot.margin = margin(5,5,0,0)) +
+  guides(fill = guide_legend(title = "sex:"))
+```
+
+## RNAseq + microarray genes over 0.8 heatmap
+```{r include=FALSE}
+full_sb <- list(full_rs, full_ms)
+names(full_sb) <- c("RNAseq", "Microarray")
+full_sb <- bind_rows(full_sb, .id = "data")
+
+rs_sb_genes <- full_rs %>% 
+  filter(balanced_accuracy >= 0.8) %>% 
+  pull(symbol) %>% 
+  unique()
+ms_sb_genes <- full_ms %>% 
+  filter(balanced_accuracy >= 0.8) %>% 
+  pull(symbol) %>% 
+  unique()
+
+# genes over 0.8 at least once in either data type
+sb_genes <- c(rs_sb_genes, ms_sb_genes) %>% unique()
+
+# create balanced accuracy column if female considered higher for
+# coloring of heatmaps
+# create factor of age range + data type (levels both directions for plotting)
+full_sb <- full_sb %>% 
+  mutate(fhigh_ba = ifelse(higher_sex == "female", balanced_accuracy, 1-balanced_accuracy)) %>%
+  mutate(dar = paste(data, age_range, sep = " ")) %>% 
+  mutate(dar = factor(dar, levels = c(paste("RNAseq", age_ranges, sep = " "),
+                                      paste("microarray", age_ranges, sep = " ")))) %>%
+  mutate(rev_dar = paste(data, age_range, sep = " ")) %>% 
+  mutate(rev_dar = factor(rev_dar, levels = c(paste("RNAseq", rev(age_ranges), sep = " "),
+                                              paste("microarray", rev(age_ranges), sep = " "))))
+
+# table to order genes for sex bias
+sb_gene_info <- full_sb %>% 
+  filter(symbol %in% sb_genes) %>% 
+  select(symbol, higher_sex, dar, balanced_accuracy) %>% 
+  distinct() %>% 
+  select(-dar) %>% 
+  mutate(higher_sex = ifelse(higher_sex == "male", 0, 1)) %>% 
+  group_by(symbol) %>% 
+  summarise(overall_gene_bias = sum(higher_sex), avg_gene_ba = mean(balanced_accuracy)) %>% 
+  mutate(overall_gene_bias = ifelse(overall_gene_bias > 11, "female", "male"))
+
+gene_sb_order <- sb_gene_info %>% 
+  filter(overall_gene_bias != "female") %>% 
+  arrange((avg_gene_ba)) %>% 
+  pull(symbol)
+gene_sb_order <- c(gene_sb_order, "TSIX", "XIST")
+
+full_sb <- left_join(full_sb, sb_gene_info, by = "symbol")
+```
+
+```{r include=FALSE}
+full_sb <- full_sb %>% 
+  mutate(overall_gene_bias = ifelse(overall_gene_bias == "female", "Female",
+                                    ifelse(overall_gene_bias == "male", "Male", "none")))
+```
+
+```{r}
+sb_heatmap <- full_sb %>% 
+  filter(symbol %in% sb_genes) %>% 
+  ggplot(aes(y = factor(symbol, levels = gene_sb_order), x = age_range, fill = fhigh_ba)) +
+  geom_tile() +
+  geom_text(aes(label = round(balanced_accuracy, 2)),
+            size = 6, color = "lightgray") +
+  scale_fill_gradient2(low = "#D8511D",
+                       high = "#212E52",
+                       mid = "#F9ECE8",
+                       midpoint = 0.5,
+                       limits = c(0,1),
+                       breaks = c(0, 0.5, 1), 
+                       labels = c("Male", "None", "Female")) +
+  facet_grid(overall_gene_bias ~ data, scales='free', space="free") +
+  ylab("gene symbol") +
+  xlab("age range") +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_rect(fill="lightgray", color = NA),
+        text = element_text(size = 24),
+        strip.text = element_text(size = 14, face = "bold"),
+        legend.position="bottom") +
+  guides(fill = guide_colorbar(title = "bias",
+                               label.position = "bottom",
+                               title.position = "left",
+                               title.vjust = 1,
+                               barwidth = 10,
+                               barheight = 1.5))
+```
+
+## barplot
+
+```{r include=FALSE}
+full_rs <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv")
+
+full_ms <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/microarray_unsigned_balanced_accuracy_info_file.tsv")
+full_ms <- full_ms %>% mutate(cutoff = as.character(cutoff))
+
+fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
+                   "young_adult", "adolescent", "child", "young_child", "infant", "fetus")
+age_ranges <- c("> 80", "(70-80]", "(60-70]", "(45-60]", "(35-45]", 
+                "(20-35]", "(12-20]", "(8-12]", "(2-8]", "[0-2]", "< 0")
+
+ar_tibble <- tibble(age_group = fine_ag_order, 
+                    age_range = factor(age_ranges, levels = age_ranges),
+                    rev_age_range = factor(age_ranges, levels = rev(age_ranges)))
+
+full_rs <- left_join(full_rs, ar_tibble, by = "age_group")
+full_ms <- left_join(full_ms, ar_tibble, by = "age_group")
+```
+
+```{r include=FALSE}
+full_sb <- list(full_rs, full_ms)
+names(full_sb) <- c("RNAseq", "microarray")
+full_sb <- bind_rows(full_sb, .id = "data")
+
+no_higher_sex_genes <- full_sb %>% filter(higher_sex == "none") %>% pull(gene) %>% unique()
+
+bias_agreement <- full_sb %>% 
+  filter(!gene %in% no_higher_sex_genes) %>% 
+  group_by(age_group, gene) %>% 
+  summarise(c = sum(higher_sex == "female")) %>% 
+  ungroup() %>% 
+  mutate(bias = ifelse(c == 0, "male",
+                       ifelse(c == 2, "female", "disagreement"))) %>% 
+  select(-c)
+
+# over_agreement <- full_sb %>% 
+#   group_by(age_group, gene) %>% 
+#   summarise(c = sum(balanced_accuracy >= 0.60)) %>% 
+#   ungroup() %>% 
+#   mutate(over_ba = ifelse(c == 2, T, F))
+
+# create balanced accuracy column if female considered higher for
+# coloring of heatmaps
+# create factor of age range + data type (levels both directions for plotting)
+full_sb <- full_sb %>% 
+  mutate(fhigh_ba = ifelse(higher_sex == "female", balanced_accuracy, 1-balanced_accuracy)) %>%
+  mutate(chromosome = factor(chromosome, levels = c("Y", "X", as.character(rev(1:22))))) %>% 
+  mutate(symbol = ifelse(is.na(symbol), paste0("loc_", gene), symbol))
+
+# join with bias agreement info 
+full_sb <- left_join(full_sb, bias_agreement, c("age_group", "gene"))
+#full_sb <- left_join(full_sb, over_agreement, c("age_group", "gene"))
+
+# define
+sex_chr <- c("X", "Y")
+
+# just put something for symbol
+```
+
+```{r}
+highest_genes <- full_sb %>% 
+  filter(balanced_accuracy >= 0.8) %>% 
+  pull(gene) %>% 
+  unique()
+sb65 <- full_sb %>% 
+  filter(bias != "disagreement") %>% 
+  filter(balanced_accuracy >= 0.65) %>% 
+  select(data, age_group, age_range, rev_age_range, higher_sex, bias, chromosome, gene, symbol)
+
+sb60 <- full_sb %>% 
+  filter(bias != "disagreement") %>% 
+  filter(balanced_accuracy >= 0.60) %>% 
+  select(data, age_group, age_range, rev_age_range, higher_sex, bias, chromosome, gene, symbol)
+```
+
+```{r}
+ffull_sb65 <- sb65 %>% 
+  select(-data) %>% 
+  distinct() %>% 
+  filter(bias == "female") %>% 
+  group_by(rev_age_range) %>% 
+  tally()
+
+fxy_sb65 <- sb65 %>% 
+  select(-data) %>% 
+  distinct() %>% 
+  filter(bias == "female") %>% 
+  filter(chromosome == "X") %>% 
+  group_by(rev_age_range) %>% 
+  tally()
+```
+
+```{r}
+fbar <- ggplot(data = ffull_sb65, aes(x = rev_age_range, y = n)) +
+  geom_col(fill = "#212E52") +
+  geom_col(data = fxy_sb65, aes(x = rev_age_range, y = n), fill = "#9695B1") +
+  geom_text(data = ffull_sb65, aes(label = n), color = "#212E52", vjust = -0.1, size = 8) +
+  geom_text(data = fxy_sb65, aes(label = n), color = "#9695B1", vjust = -0.1, size = 8) +
+  annotate("text", x= 8.5, label="Female-biased genes", y=75, size = 8) +
+  xlab("age range") +
+  ylab("no. of genes") +
+  scale_y_continuous(limits = c(0, 80)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        text = element_text(size = 24),
+        panel.grid.major = element_line(size = 0.2, colour = "lightgray"),
+        plot.margin = margin(5,5,0,5))
+```
+
+```{r}
+mfull_sb65 <- sb65 %>% 
+  select(-data) %>% 
+  distinct() %>% 
+  filter(bias == "male") %>% 
+  group_by(rev_age_range) %>% 
+  tally()
+
+mxy_sb65 <- sb65 %>% 
+  select(-data) %>% 
+  distinct() %>% 
+  filter(bias == "male") %>% 
+  filter(chromosome %in% c("X", "Y")) %>% 
+  group_by(rev_age_range) %>% 
+  tally()
+```
+
+```{r}
+mbar <- ggplot(data = mfull_sb65, aes(x = rev_age_range, y = n)) +
+  geom_col(fill = "#D8511D") +
+  geom_col(data = mxy_sb65, aes(x = rev_age_range, y = n), fill = "#FDBB50") +
+  xlab("age range") +
+  ylab("no. of genes") +
+  annotate("text", x= 8.5, label="Male-biased genes", y=75, size = 8) +
+  geom_text(aes(label = n), color = "#D8511D", vjust = -0.1, size = 8) +
+  geom_text(data = mxy_sb65, aes(label = n), color = "#FDBB50", vjust = -0.1, size = 8) +
+  scale_y_continuous(limits = c(0, 80)) +
+  theme(panel.background = element_rect(fill = NA),
+        axis.text.x = element_text(angle = 45, vjust = 0.5),
+        text = element_text(size = 24),
+        panel.grid.major = element_line(size = 0.2, colour = "lightgray"),
+        plot.margin = margin(5,5,0,5))
+```
+
+## Figure
+
+```{r}
+topleft_figure2 <- (adult_microarray_Xist_hist / fetus_RNAseq_KDM5D_hist)  + 
+  plot_layout(guides = "collect") & theme(legend.position = 'bottom', legend.title = element_text(vjust = 1))
+```
+
+```{r}
+topright_figure2 <- (fbar / mbar)
+```
+
+```{r}
+figure2 <- (topleft_figure2 - topright_figure2) / sb_heatmap + plot_layout(heights = c(2,3)) & theme(plot.margin = margin(20,10,10,10))
+```
+
+```{r}
+ggsave("~/Desktop/figure2.pdf", plot = figure2, height = 18, width = 15, dpi = 700)
+```
+

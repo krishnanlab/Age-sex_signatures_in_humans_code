@@ -1,0 +1,57 @@
+---
+title: "disgenet curated enrichment"
+author: "Kayla Johnson"
+date: '2022-06-14'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
+library(kableExtra)
+library(UpSetR)
+library(tidyverse)
+library(RColorBrewer)
+library(pheatmap)
+library(colorspace)
+```
+
+```{r include=FALSE}
+# read enrichment results
+mwdisc <- read_tsv("../../results/elasticnet_LR_model_weights/disgenetC_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+# line to make palette with colorspace gui
+# choose_palette(pal = diverging_hcl, n = 7L, parent = NULL, gui = "tcltk")
+
+brbg <- brewer.pal(11, "BrBG")
+brbg_palette <- c(colorRampPalette(c(brbg[1], brbg[6]))(21),
+    colorRampPalette(c(brbg[6], brbg[11]))(21)[-1])
+
+# dark colors hex codes blue "#1c4587ff"/ orange "#783f04ff"
+#blue/orange using on slides for M/F
+fm_palette <- c("#6fa8dcff", "#e69138ff")
+
+# order of age groups
+fine_ag_order <- c("fetus", "infant", "young_child", "child", 
+                                   "adolescent", "young_adult", "adult", 
+                                   "middle_adult", "older_adult", "old_adult", "elderly")
+
+age_ranges <- c("< 0", "[0-2]", "(2-8]", "(8-12]", "(12-20]", 
+                "(20-35]", "(35-45]", "(45-60]", "(60-70]", "(70-80]", "> 80")
+
+ar_tibble <- tibble(age_group = fine_ag_order, age_range = age_ranges, ag_number = c(1:11))
+
+# add age range col to mwdisc
+mwdisc <- left_join(mwdisc, ar_tibble, by = "age_group")
+
+mwdisc <- mwdisc %>% filter(abs(zscore) > 3)
+```
+
+```{r}
+
+```
+
+

@@ -1,0 +1,4146 @@
+tissueType	cellName	symbol	gene
+Immune system	Pro-B cells	CD27	939
+Immune system	Pro-B cells	IGD	NA
+Immune system	Pro-B cells	CD24	100133941
+Immune system	Pro-B cells	PTPRC	5788
+Immune system	Pro-B cells	PAX5	5079
+Immune system	Pro-B cells	CD24	100133941
+Immune system	Pro-B cells	CD38	952
+Immune system	Pro-B cells	CD79A	973
+Immune system	Pro-B cells	DNTT	1791
+Immune system	Pro-B cells	C10ORF10	NA
+Immune system	Pro-B cells	VPREB1	7441
+Immune system	Pro-B cells	ARPP21	10777
+Immune system	Pro-B cells	CD99	4267
+Immune system	Pro-B cells	IGLL1	3543
+Immune system	Pro-B cells	CD9	928
+Immune system	Pro-B cells	CD79B	974
+Immune system	Pro-B cells	TCL1A	8115
+Immune system	Pro-B cells	IGLL5	NA
+Immune system	Pro-B cells	HLA-DQA1	3117
+Immune system	Pro-B cells	HLA-DQB1	3119
+Immune system	Pro-B cells	VPREB3	29802
+Immune system	Pro-B cells	IGLL5	NA
+Immune system	Pre-B cells	CD19	930
+Immune system	Pre-B cells	CD27	939
+Immune system	Pre-B cells	IGD	NA
+Immune system	Pre-B cells	CD24	100133941
+Immune system	Pre-B cells	PTPRC	5788
+Immune system	Pre-B cells	PAX5	5079
+Immune system	Pre-B cells	CD24	100133941
+Immune system	Pre-B cells	CD38	952
+Immune system	Pre-B cells	CD79A	973
+Immune system	Pre-B cells	NSMCE1	197370
+Immune system	Pre-B cells	PCDH9	5101
+Immune system	Pre-B cells	ACSM3	6296
+Immune system	Pre-B cells	CCDC191	57577
+Immune system	Pre-B cells	TCL1A	8115
+Immune system	Pre-B cells	CD79B	974
+Immune system	Pre-B cells	TCL1A	8115
+Immune system	Pre-B cells	IGLL5	NA
+Immune system	Pre-B cells	HLA-DQA1	3117
+Immune system	Pre-B cells	HLA-DQB1	3119
+Immune system	Pre-B cells	VPREB3	29802
+Immune system	Pre-B cells	IGLL5	NA
+Immune system	Naive B cells	CD19	930
+Immune system	Naive B cells	IGD	NA
+Immune system	Naive B cells	CD38	952
+Immune system	Naive B cells	CD24	100133941
+Immune system	Naive B cells	CD20	NA
+Immune system	Naive B cells	MS4A1	931
+Immune system	Naive B cells	PTPRC	5788
+Immune system	Naive B cells	PAX5	5079
+Immune system	Naive B cells	CD24	100133941
+Immune system	Naive B cells	CD38	952
+Immune system	Naive B cells	CD79A	973
+Immune system	Naive B cells	JCHAIN	3512
+Immune system	Naive B cells	SSR4	6748
+Immune system	Naive B cells	FKBP11	51303
+Immune system	Naive B cells	SEC11C	90701
+Immune system	Naive B cells	DERL3	91319
+Immune system	Naive B cells	PRDX4	10549
+Immune system	Naive B cells	IGLL5	NA
+Immune system	Naive B cells	CD79B	974
+Immune system	Naive B cells	TCL1A	8115
+Immune system	Naive B cells	IGLL5	NA
+Immune system	Naive B cells	HLA-DQA1	3117
+Immune system	Naive B cells	HLA-DQB1	3119
+Immune system	Naive B cells	CD138	NA
+Immune system	Naive B cells	CD38	952
+Immune system	Naive B cells	VPREB3	29802
+Immune system	Naive B cells	IGLL5	NA
+Immune system	Memory B cells	CD19	930
+Immune system	Memory B cells	CD27	939
+Immune system	Memory B cells	IGD	NA
+Immune system	Memory B cells	CD38	952
+Immune system	Memory B cells	CD24	100133941
+Immune system	Memory B cells	CD20	NA
+Immune system	Memory B cells	MS4A1	931
+Immune system	Memory B cells	PTPRC	5788
+Immune system	Memory B cells	PAX5	5079
+Immune system	Memory B cells	CD24	100133941
+Immune system	Memory B cells	CD38	952
+Immune system	Memory B cells	CD79A	973
+Immune system	Memory B cells	JCHAIN	3512
+Immune system	Memory B cells	SSR4	6748
+Immune system	Memory B cells	FKBP11	51303
+Immune system	Memory B cells	SEC11C	90701
+Immune system	Memory B cells	DERL3	91319
+Immune system	Memory B cells	PRDX4	10549
+Immune system	Memory B cells	IGLL5	NA
+Immune system	Memory B cells	CD79B	974
+Immune system	Memory B cells	TCL1A	8115
+Immune system	Memory B cells	IGLL5	NA
+Immune system	Memory B cells	HLA-DQA1	3117
+Immune system	Memory B cells	HLA-DQB1	3119
+Immune system	Memory B cells	CD138	NA
+Immune system	Memory B cells	CD38	952
+Immune system	Memory B cells	CD27	939
+Immune system	Memory B cells	VPREB3	29802
+Immune system	Memory B cells	IGLL5	NA
+Immune system	Plasma B cells	CD27	939
+Immune system	Plasma B cells	IGD	NA
+Immune system	Plasma B cells	CD38	952
+Immune system	Plasma B cells	CD24	100133941
+Immune system	Plasma B cells	CD20	NA
+Immune system	Plasma B cells	MS4A1	931
+Immune system	Plasma B cells	PTPRC	5788
+Immune system	Plasma B cells	PAX5	5079
+Immune system	Plasma B cells	CD24	100133941
+Immune system	Plasma B cells	CD38	952
+Immune system	Plasma B cells	CD79A	973
+Immune system	Plasma B cells	JCHAIN	3512
+Immune system	Plasma B cells	SSR4	6748
+Immune system	Plasma B cells	FKBP11	51303
+Immune system	Plasma B cells	SEC11C	90701
+Immune system	Plasma B cells	DERL3	91319
+Immune system	Plasma B cells	PRDX4	10549
+Immune system	Plasma B cells	IGLL5	NA
+Immune system	Plasma B cells	CD79B	974
+Immune system	Plasma B cells	TCL1A	8115
+Immune system	Plasma B cells	IGLL5	NA
+Immune system	Plasma B cells	HLA-DQA1	3117
+Immune system	Plasma B cells	HLA-DQB1	3119
+Immune system	Plasma B cells	CD138	NA
+Immune system	Plasma B cells	CD38	952
+Immune system	Plasma B cells	VPREB3	29802
+Immune system	Plasma B cells	IGLL5	NA
+Immune system	Naive CD8+ T cells	CD8	NA
+Immune system	Naive CD8+ T cells	CD2	914
+Immune system	Naive CD8+ T cells	CD3D	915
+Immune system	Naive CD8+ T cells	CD3E	916
+Immune system	Naive CD8+ T cells	CD3G	917
+Immune system	Naive CD8+ T cells	CD3Z	NA
+Immune system	Naive CD8+ T cells	CD45RA	NA
+Immune system	Naive CD8+ T cells	CD62L	NA
+Immune system	Naive CD8+ T cells	CD27	939
+Immune system	Naive CD8+ T cells	CD127	NA
+Immune system	Naive CD8+ T cells	FOXP3	50943
+Immune system	Naive CD8+ T cells	CCR7	1236
+Immune system	Naive CD8+ T cells	CD45	NA
+Immune system	Naive CD8+ T cells	CD8A	925
+Immune system	Naive CD8+ T cells	CD8B	926
+Immune system	Naive CD8+ T cells	CCR6	1235
+Immune system	Naive CD8+ T cells	CD11B	NA
+Immune system	Naive CD8+ T cells	CD30	NA
+Immune system	Naive CD8+ T cells	CD6	923
+Immune system	Naive CD8+ T cells	CTLA4	1493
+Immune system	Naive CD8+ T cells	IL2RA	3559
+Immune system	Naive CD8+ T cells	GZMB	3002
+Immune system	Naive CD8+ T cells	PTPRC	5788
+Immune system	Naive CD8+ T cells	SELL	6402
+Immune system	Naive CD8+ T cells	CCR7	1236
+Immune system	Naive CD8+ T cells	GNLY	10578
+Immune system	Naive CD8+ T cells	TRAC	NA
+Immune system	Naive CD8+ T cells	LTB	4050
+Immune system	Naive CD8+ T cells	CD52	1043
+Immune system	Naive CD8+ T cells	TRBC2	NA
+Immune system	Naive CD8+ T cells	SHISA5	51246
+Immune system	Naive CD8+ T cells	LCK	3932
+Immune system	Naive CD8+ T cells	THY1	7070
+Immune system	Naive CD8+ T cells	DAPL1	92196
+Immune system	Naive CD4+ T cells	CD4	920
+Immune system	Naive CD4+ T cells	CD2	914
+Immune system	Naive CD4+ T cells	CD3D	915
+Immune system	Naive CD4+ T cells	CD3E	916
+Immune system	Naive CD4+ T cells	CD3G	917
+Immune system	Naive CD4+ T cells	CD3Z	NA
+Immune system	Naive CD4+ T cells	CD45RA	NA
+Immune system	Naive CD4+ T cells	CD62L	NA
+Immune system	Naive CD4+ T cells	CD27	939
+Immune system	Naive CD4+ T cells	CD127	NA
+Immune system	Naive CD4+ T cells	FOXP3	50943
+Immune system	Naive CD4+ T cells	CCR7	1236
+Immune system	Naive CD4+ T cells	CD45	NA
+Immune system	Naive CD4+ T cells	CCR6	1235
+Immune system	Naive CD4+ T cells	CD11B	NA
+Immune system	Naive CD4+ T cells	CD30	NA
+Immune system	Naive CD4+ T cells	CD6	923
+Immune system	Naive CD4+ T cells	CTLA4	1493
+Immune system	Naive CD4+ T cells	IL2RA	3559
+Immune system	Naive CD4+ T cells	GZMB	3002
+Immune system	Naive CD4+ T cells	PTPRC	5788
+Immune system	Naive CD4+ T cells	SELL	6402
+Immune system	Naive CD4+ T cells	CCR7	1236
+Immune system	Naive CD4+ T cells	TRAC	NA
+Immune system	Naive CD4+ T cells	LTB	4050
+Immune system	Naive CD4+ T cells	CD52	1043
+Immune system	Naive CD4+ T cells	TRBC2	NA
+Immune system	Naive CD4+ T cells	SHISA5	51246
+Immune system	Naive CD4+ T cells	LCK	3932
+Immune system	Naive CD4+ T cells	THY1	7070
+Immune system	Naive CD4+ T cells	DAPL1	92196
+Immune system	Memory CD8+ T cells	CD8	NA
+Immune system	Memory CD8+ T cells	CD2	914
+Immune system	Memory CD8+ T cells	CD3D	915
+Immune system	Memory CD8+ T cells	CD3E	916
+Immune system	Memory CD8+ T cells	CD3G	917
+Immune system	Memory CD8+ T cells	CD3Z	NA
+Immune system	Memory CD8+ T cells	CD25	NA
+Immune system	Memory CD8+ T cells	CD45RA	NA
+Immune system	Memory CD8+ T cells	CD62L	NA
+Immune system	Memory CD8+ T cells	CD27	939
+Immune system	Memory CD8+ T cells	CD127	NA
+Immune system	Memory CD8+ T cells	FOXP3	50943
+Immune system	Memory CD8+ T cells	CCR7	1236
+Immune system	Memory CD8+ T cells	CD45	NA
+Immune system	Memory CD8+ T cells	CD8A	925
+Immune system	Memory CD8+ T cells	CD8B	926
+Immune system	Memory CD8+ T cells	CCR6	1235
+Immune system	Memory CD8+ T cells	CD11B	NA
+Immune system	Memory CD8+ T cells	CD30	NA
+Immune system	Memory CD8+ T cells	CD45RO	NA
+Immune system	Memory CD8+ T cells	CD6	923
+Immune system	Memory CD8+ T cells	CTLA4	1493
+Immune system	Memory CD8+ T cells	IL2RA	3559
+Immune system	Memory CD8+ T cells	GZMB	3002
+Immune system	Memory CD8+ T cells	SELL	6402
+Immune system	Memory CD8+ T cells	CCR7	1236
+Immune system	Memory CD8+ T cells	GNLY	10578
+Immune system	Memory CD8+ T cells	S100A4	6275
+Immune system	Memory CD8+ T cells	TRAC	NA
+Immune system	Memory CD8+ T cells	LTB	4050
+Immune system	Memory CD8+ T cells	CD52	1043
+Immune system	Memory CD8+ T cells	TRBC2	NA
+Immune system	Memory CD8+ T cells	SHISA5	51246
+Immune system	Memory CD8+ T cells	LCK	3932
+Immune system	Memory CD8+ T cells	THY1	7070
+Immune system	Memory CD8+ T cells	DAPL1	92196
+Immune system	Memory CD4+ T cells	CD4	920
+Immune system	Memory CD4+ T cells	CD2	914
+Immune system	Memory CD4+ T cells	CD3D	915
+Immune system	Memory CD4+ T cells	CD3E	916
+Immune system	Memory CD4+ T cells	CD3G	917
+Immune system	Memory CD4+ T cells	CD3Z	NA
+Immune system	Memory CD4+ T cells	CD25	NA
+Immune system	Memory CD4+ T cells	CD45RA	NA
+Immune system	Memory CD4+ T cells	CD62L	NA
+Immune system	Memory CD4+ T cells	CD27	939
+Immune system	Memory CD4+ T cells	CD127	NA
+Immune system	Memory CD4+ T cells	FOXP3	50943
+Immune system	Memory CD4+ T cells	CCR7	1236
+Immune system	Memory CD4+ T cells	CD45	NA
+Immune system	Memory CD4+ T cells	CCR6	1235
+Immune system	Memory CD4+ T cells	CD11B	NA
+Immune system	Memory CD4+ T cells	CD30	NA
+Immune system	Memory CD4+ T cells	CD45RO	NA
+Immune system	Memory CD4+ T cells	CD6	923
+Immune system	Memory CD4+ T cells	CTLA4	1493
+Immune system	Memory CD4+ T cells	IL2RA	3559
+Immune system	Memory CD4+ T cells	GZMB	3002
+Immune system	Memory CD4+ T cells	SELL	6402
+Immune system	Memory CD4+ T cells	CCR7	1236
+Immune system	Memory CD4+ T cells	S100A4	6275
+Immune system	Memory CD4+ T cells	TRAC	NA
+Immune system	Memory CD4+ T cells	LTB	4050
+Immune system	Memory CD4+ T cells	CD52	1043
+Immune system	Memory CD4+ T cells	TRBC2	NA
+Immune system	Memory CD4+ T cells	SHISA5	51246
+Immune system	Memory CD4+ T cells	LCK	3932
+Immune system	Memory CD4+ T cells	THY1	7070
+Immune system	Memory CD4+ T cells	DAPL1	92196
+Immune system	Effector CD8+ T cells	CD8	NA
+Immune system	Effector CD8+ T cells	CD2	914
+Immune system	Effector CD8+ T cells	CD3D	915
+Immune system	Effector CD8+ T cells	CD3E	916
+Immune system	Effector CD8+ T cells	CD3G	917
+Immune system	Effector CD8+ T cells	CD3Z	NA
+Immune system	Effector CD8+ T cells	CD25	NA
+Immune system	Effector CD8+ T cells	CD45RA	NA
+Immune system	Effector CD8+ T cells	CD62L	NA
+Immune system	Effector CD8+ T cells	CD27	939
+Immune system	Effector CD8+ T cells	CD127	NA
+Immune system	Effector CD8+ T cells	FOXP3	50943
+Immune system	Effector CD8+ T cells	CCR7	1236
+Immune system	Effector CD8+ T cells	CD45	NA
+Immune system	Effector CD8+ T cells	CD8A	925
+Immune system	Effector CD8+ T cells	CD8B	926
+Immune system	Effector CD8+ T cells	CCR6	1235
+Immune system	Effector CD8+ T cells	CD11B	NA
+Immune system	Effector CD8+ T cells	CD30	NA
+Immune system	Effector CD8+ T cells	CD6	923
+Immune system	Effector CD8+ T cells	CTLA4	1493
+Immune system	Effector CD8+ T cells	IL2RA	3559
+Immune system	Effector CD8+ T cells	GZMB	3002
+Immune system	Effector CD8+ T cells	PTPRC	5788
+Immune system	Effector CD8+ T cells	GNLY	10578
+Immune system	Effector CD8+ T cells	TRAC	NA
+Immune system	Effector CD8+ T cells	LTB	4050
+Immune system	Effector CD8+ T cells	CD52	1043
+Immune system	Effector CD8+ T cells	TRBC2	NA
+Immune system	Effector CD8+ T cells	SHISA5	51246
+Immune system	Effector CD8+ T cells	LCK	3932
+Immune system	Effector CD8+ T cells	THY1	7070
+Immune system	Effector CD8+ T cells	DAPL1	92196
+Immune system	Effector CD4+ T cells	CD4	920
+Immune system	Effector CD4+ T cells	CD2	914
+Immune system	Effector CD4+ T cells	CD3D	915
+Immune system	Effector CD4+ T cells	CD3E	916
+Immune system	Effector CD4+ T cells	CD3G	917
+Immune system	Effector CD4+ T cells	CD3Z	NA
+Immune system	Effector CD4+ T cells	CD25	NA
+Immune system	Effector CD4+ T cells	CD45RA	NA
+Immune system	Effector CD4+ T cells	CD62L	NA
+Immune system	Effector CD4+ T cells	CD27	939
+Immune system	Effector CD4+ T cells	CD127	NA
+Immune system	Effector CD4+ T cells	FOXP3	50943
+Immune system	Effector CD4+ T cells	CCR7	1236
+Immune system	Effector CD4+ T cells	CD45	NA
+Immune system	Effector CD4+ T cells	CCR6	1235
+Immune system	Effector CD4+ T cells	CD11B	NA
+Immune system	Effector CD4+ T cells	CD30	NA
+Immune system	Effector CD4+ T cells	CD6	923
+Immune system	Effector CD4+ T cells	CTLA4	1493
+Immune system	Effector CD4+ T cells	IL2RA	3559
+Immune system	Effector CD4+ T cells	GZMB	3002
+Immune system	Effector CD4+ T cells	PTPRC	5788
+Immune system	Effector CD4+ T cells	TRAC	NA
+Immune system	Effector CD4+ T cells	LTB	4050
+Immune system	Effector CD4+ T cells	CD52	1043
+Immune system	Effector CD4+ T cells	TRBC2	NA
+Immune system	Effector CD4+ T cells	SHISA5	51246
+Immune system	Effector CD4+ T cells	LCK	3932
+Immune system	Effector CD4+ T cells	THY1	7070
+Immune system	Effector CD4+ T cells	DAPL1	92196
+Immune system	γδ-T cells	CD2	914
+Immune system	γδ-T cells	CD3D	915
+Immune system	γδ-T cells	CD3E	916
+Immune system	γδ-T cells	CD3G	917
+Immune system	γδ-T cells	CD3Z	NA
+Immune system	γδ-T cells	CD25	NA
+Immune system	γδ-T cells	CD45RA	NA
+Immune system	γδ-T cells	CD62L	NA
+Immune system	γδ-T cells	CD27	939
+Immune system	γδ-T cells	CD127	NA
+Immune system	γδ-T cells	FOXP3	50943
+Immune system	γδ-T cells	CCR7	1236
+Immune system	γδ-T cells	CD45	NA
+Immune system	γδ-T cells	CCR6	1235
+Immune system	γδ-T cells	CD11B	NA
+Immune system	γδ-T cells	CD30	NA
+Immune system	γδ-T cells	CD6	923
+Immune system	γδ-T cells	CTLA4	1493
+Immune system	γδ-T cells	IL2RA	3559
+Immune system	γδ-T cells	GZMB	3002
+Immune system	γδ-T cells	PTPRC	5788
+Immune system	γδ-T cells	TRDV2	NA
+Immune system	γδ-T cells	TRGV9	NA
+Immune system	γδ-T cells	TRGC1	NA
+Immune system	γδ-T cells	TRAC	NA
+Immune system	γδ-T cells	LTB	4050
+Immune system	γδ-T cells	CD52	1043
+Immune system	γδ-T cells	TRBC2	NA
+Immune system	γδ-T cells	SHISA5	51246
+Immune system	γδ-T cells	LCK	3932
+Immune system	γδ-T cells	THY1	7070
+Immune system	γδ-T cells	DAPL1	92196
+Immune system	Platelets	CD41	NA
+Immune system	Platelets	CD42B	NA
+Immune system	Platelets	CD61	NA
+Immune system	Platelets	CD31	NA
+Immune system	Platelets	PPBP	5473
+Immune system	Platelets	PF4	5196
+Immune system	Platelets	GNG11	2791
+Immune system	Platelets	SDPR	NA
+Immune system	Platelets	CLU	1191
+Immune system	Platelets	CD41	NA
+Immune system	Platelets	CD110	NA
+Immune system	CD8+ NKT-like cells	CD8	NA
+Immune system	CD8+ NKT-like cells	CD56	NA
+Immune system	CD8+ NKT-like cells	CD2	914
+Immune system	CD8+ NKT-like cells	CD16	NA
+Immune system	CD8+ NKT-like cells	CD94	NA
+Immune system	CD8+ NKT-like cells	CD3D	915
+Immune system	CD8+ NKT-like cells	CD3E	916
+Immune system	CD8+ NKT-like cells	CD3G	917
+Immune system	CD8+ NKT-like cells	CD3Z	NA
+Immune system	CD8+ NKT-like cells	NKP46	NA
+Immune system	CD8+ NKT-like cells	CD11B	NA
+Immune system	CD8+ NKT-like cells	CD161	NA
+Immune system	CD8+ NKT-like cells	CD314	NA
+Immune system	CD8+ NKT-like cells	CD69	969
+Immune system	CD8+ NKT-like cells	NKG7	4818
+Immune system	CD8+ NKT-like cells	CD122	NA
+Immune system	CD8+ NKT-like cells	NKG2D	NA
+Immune system	CD8+ NKT-like cells	GZMB	3002
+Immune system	CD8+ NKT-like cells	GZMA	3001
+Immune system	CD8+ NKT-like cells	GZMM	3004
+Immune system	CD8+ NKT-like cells	GNLY	10578
+Immune system	CD8+ NKT-like cells	COX6A2	1339
+Immune system	CD8+ NKT-like cells	ZMAT4	79698
+Immune system	CD8+ NKT-like cells	KIR2DL4	3805
+Immune system	CD4+ NKT-like cells	CD4	920
+Immune system	CD4+ NKT-like cells	CD56	NA
+Immune system	CD4+ NKT-like cells	CD2	914
+Immune system	CD4+ NKT-like cells	CD16	NA
+Immune system	CD4+ NKT-like cells	CD94	NA
+Immune system	CD4+ NKT-like cells	CD3D	915
+Immune system	CD4+ NKT-like cells	CD3E	916
+Immune system	CD4+ NKT-like cells	CD3G	917
+Immune system	CD4+ NKT-like cells	CD3Z	NA
+Immune system	CD4+ NKT-like cells	NKP46	NA
+Immune system	CD4+ NKT-like cells	CD11B	NA
+Immune system	CD4+ NKT-like cells	CD161	NA
+Immune system	CD4+ NKT-like cells	CD314	NA
+Immune system	CD4+ NKT-like cells	CD69	969
+Immune system	CD4+ NKT-like cells	NKG7	4818
+Immune system	CD4+ NKT-like cells	CD122	NA
+Immune system	CD4+ NKT-like cells	NKG2D	NA
+Immune system	CD4+ NKT-like cells	GZMB	3002
+Immune system	CD4+ NKT-like cells	GZMA	3001
+Immune system	CD4+ NKT-like cells	GZMM	3004
+Immune system	CD4+ NKT-like cells	COX6A2	1339
+Immune system	CD4+ NKT-like cells	ZMAT4	79698
+Immune system	CD4+ NKT-like cells	KIR2DL4	3805
+Immune system	Natural killer  cells	CD56	NA
+Immune system	Natural killer  cells	CD2	914
+Immune system	Natural killer  cells	CD16	NA
+Immune system	Natural killer  cells	CD94	NA
+Immune system	Natural killer  cells	NKP46	NA
+Immune system	Natural killer  cells	CD11B	NA
+Immune system	Natural killer  cells	CD161	NA
+Immune system	Natural killer  cells	CD314	NA
+Immune system	Natural killer  cells	CD69	969
+Immune system	Natural killer  cells	NKG7	4818
+Immune system	Natural killer  cells	CD122	NA
+Immune system	Natural killer  cells	NKG2D	NA
+Immune system	Natural killer  cells	GZMB	3002
+Immune system	Natural killer  cells	GZMA	3001
+Immune system	Natural killer  cells	GZMM	3004
+Immune system	Natural killer  cells	FCGR3A	NA
+Immune system	Natural killer  cells	GNLY	10578
+Immune system	Natural killer  cells	COX6A2	1339
+Immune system	Natural killer  cells	ZMAT4	79698
+Immune system	Natural killer  cells	KIR2DL4	3805
+Immune system	Natural killer  cells	NKG7	4818
+Immune system	Eosinophils	CD11B	NA
+Immune system	Eosinophils	CD193	NA
+Immune system	Eosinophils	CD123	NA
+Immune system	Eosinophils	CD125	NA
+Immune system	Eosinophils	CD15	NA
+Immune system	Eosinophils	SIGLEC8	27181
+Immune system	Eosinophils	CLC	1178
+Immune system	Eosinophils	GATA1	2623
+Immune system	Eosinophils	CEBPE	1053
+Immune system	Eosinophils	SEMG1	6406
+Immune system	Eosinophils	ALOX15	246
+Immune system	Eosinophils	CCL23	6368
+Immune system	Eosinophils	PRSS41	NA
+Immune system	Eosinophils	PRSS33	260429
+Immune system	Eosinophils	THBS4	7060
+Immune system	Eosinophils	FOXI1	2299
+Immune system	Neutrophils	CD66B	NA
+Immune system	Neutrophils	CD11B	NA
+Immune system	Neutrophils	CD15	NA
+Immune system	Neutrophils	CD16	NA
+Immune system	Neutrophils	CXCL8	3576
+Immune system	Neutrophils	FCGR3B	2215
+Immune system	Neutrophils	MNDA	4332
+Immune system	Neutrophils	CXCR2	3579
+Immune system	Neutrophils	MPO	4353
+Immune system	Neutrophils	ELANE	1991
+Immune system	Neutrophils	PRTN3	5657
+Immune system	Neutrophils	MPO	4353
+Immune system	Neutrophils	AZU1	566
+Immune system	Neutrophils	LYZ	4069
+Immune system	Neutrophils	S100A8	6279
+Immune system	Neutrophils	S100A9	6280
+Immune system	Neutrophils	PI3	5266
+Immune system	Neutrophils	CHI3L1	1116
+Immune system	Neutrophils	ANXA3	306
+Immune system	Neutrophils	CXCL1	2919
+Immune system	Neutrophils	TGM3	7053
+Immune system	Neutrophils	BTNL3	10917
+Immune system	Neutrophils	C4BPA	722
+Immune system	Neutrophils	MMP9	4318
+Immune system	Neutrophils	CD24	100133941
+Immune system	Neutrophils	BPI	671
+Immune system	Neutrophils	LTF	4057
+Immune system	Neutrophils	GCA	25801
+Immune system	Neutrophils	CAMP	820
+Immune system	Neutrophils	NGP	NA
+Immune system	Neutrophils	CHIL3	NA
+Immune system	Neutrophils	LTF	4057
+Immune system	Basophils	CD63	967
+Immune system	Basophils	CD203C	NA
+Immune system	Basophils	CD123	NA
+Immune system	Basophils	CLC	1178
+Immune system	Basophils	MS4A3	932
+Immune system	Basophils	TCN1	6947
+Immune system	Basophils	CPA3	1359
+Immune system	Basophils	HDC	3067
+Immune system	Basophils	GATA2	2624
+Immune system	Basophils	MS4A2	2206
+Immune system	Basophils	IL4	3565
+Immune system	Basophils	GCSAML	148823
+Immune system	Basophils	GATA2	2624
+Immune system	Basophils	TPSAB1	7177
+Immune system	Mast cells	CD117	NA
+Immune system	Mast cells	CD203C	NA
+Immune system	Mast cells	CD25	NA
+Immune system	Mast cells	KIT	3815
+Immune system	Mast cells	SLC18A2	6571
+Immune system	Mast cells	CD33	945
+Immune system	Mast cells	CD32	NA
+Immune system	Mast cells	FCER1A	2205
+Immune system	Mast cells	TPSD1	23430
+Immune system	Mast cells	HPGDS	27306
+Immune system	Classical Monocytes	CD14	929
+Immune system	Classical Monocytes	CD11B	NA
+Immune system	Classical Monocytes	CD68	968
+Immune system	Classical Monocytes	HLA-DR	NA
+Immune system	Classical Monocytes	CD33	945
+Immune system	Classical Monocytes	CD11C	NA
+Immune system	Classical Monocytes	CD123	NA
+Immune system	Classical Monocytes	CD15	NA
+Immune system	Classical Monocytes	CD3D	915
+Immune system	Classical Monocytes	CD3E	916
+Immune system	Classical Monocytes	CD3G	917
+Immune system	Classical Monocytes	CD3Z	NA
+Immune system	Classical Monocytes	CD66B	NA
+Immune system	Classical Monocytes	VCAN	1462
+Immune system	Classical Monocytes	S100A12	6283
+Immune system	Classical Monocytes	CXCL8	3576
+Immune system	Classical Monocytes	S100A8	6279
+Immune system	Classical Monocytes	S100A9	6280
+Immune system	Classical Monocytes	LYZ	4069
+Immune system	Classical Monocytes	CST3	1471
+Immune system	Classical Monocytes	ELANE1	NA
+Immune system	Non-classical monocytes	CD14	929
+Immune system	Non-classical monocytes	CD16	NA
+Immune system	Non-classical monocytes	CD11B	NA
+Immune system	Non-classical monocytes	CD68	968
+Immune system	Non-classical monocytes	HLA-DR	NA
+Immune system	Non-classical monocytes	CD33	945
+Immune system	Non-classical monocytes	CD11C	NA
+Immune system	Non-classical monocytes	CD123	NA
+Immune system	Non-classical monocytes	CD15	NA
+Immune system	Non-classical monocytes	CD3D	915
+Immune system	Non-classical monocytes	CD3E	916
+Immune system	Non-classical monocytes	CD3G	917
+Immune system	Non-classical monocytes	CD3Z	NA
+Immune system	Non-classical monocytes	CD66B	NA
+Immune system	Non-classical monocytes	FCGR3A	NA
+Immune system	Non-classical monocytes	CDKN1C	1028
+Immune system	Non-classical monocytes	LST1	7940
+Immune system	Non-classical monocytes	FCER1G	2207
+Immune system	Non-classical monocytes	MS4A7	58475
+Immune system	Non-classical monocytes	RHOC	389
+Immune system	Non-classical monocytes	S100A8	6279
+Immune system	Non-classical monocytes	S100A9	6280
+Immune system	Non-classical monocytes	CST3	1471
+Immune system	Non-classical monocytes	C1QC	714
+Immune system	Non-classical monocytes	ELANE1	NA
+Immune system	Intermediate monocytes	CD14	929
+Immune system	Intermediate monocytes	CD16	NA
+Immune system	Intermediate monocytes	CD11B	NA
+Immune system	Intermediate monocytes	CD68	968
+Immune system	Intermediate monocytes	HLA-DR	NA
+Immune system	Intermediate monocytes	CD33	945
+Immune system	Intermediate monocytes	CD11C	NA
+Immune system	Intermediate monocytes	CD123	NA
+Immune system	Intermediate monocytes	CD15	NA
+Immune system	Intermediate monocytes	CD3D	915
+Immune system	Intermediate monocytes	CD3E	916
+Immune system	Intermediate monocytes	CD3G	917
+Immune system	Intermediate monocytes	CD3Z	NA
+Immune system	Intermediate monocytes	CD66B	NA
+Immune system	Intermediate monocytes	IL1B	3553
+Immune system	Intermediate monocytes	S100A8	6279
+Immune system	Intermediate monocytes	S100A9	6280
+Immune system	Intermediate monocytes	CST3	1471
+Immune system	Intermediate monocytes	C1QC	714
+Immune system	Intermediate monocytes	ELANE1	NA
+Immune system	Macrophages	CD68	968
+Immune system	Macrophages	CD163	9332
+Immune system	Macrophages	CD14	929
+Immune system	Macrophages	CD11B	NA
+Immune system	Macrophages	CD206	NA
+Immune system	Macrophages	CD80	941
+Immune system	Macrophages	CD86	942
+Immune system	Macrophages	CD16	NA
+Immune system	Macrophages	CD64	NA
+Immune system	Macrophages	CCL18	6362
+Immune system	Macrophages	CD115	NA
+Immune system	Macrophages	CD11C	NA
+Immune system	Macrophages	CD32	NA
+Immune system	Macrophages	HLA-DR	NA
+Immune system	Macrophages	MRC1	4360
+Immune system	Macrophages	MSR1	4481
+Immune system	Macrophages	GCA	25801
+Immune system	Macrophages	PF4	5196
+Immune system	Megakaryocyte	CD61	NA
+Immune system	Megakaryocyte	CD41	NA
+Immune system	Megakaryocyte	CD42B	NA
+Immune system	Megakaryocyte	CD41A	NA
+Immune system	Megakaryocyte	CD42A	NA
+Immune system	Megakaryocyte	CXCR4	7852
+Immune system	Megakaryocyte	CD110	NA
+Immune system	Endothelial	PECAM1	5175
+Immune system	Endothelial	CD34	947
+Immune system	Endothelial	KDR	3791
+Immune system	Endothelial	CDH5	1003
+Immune system	Endothelial	PROM1	8842
+Immune system	Endothelial	PDPN	10630
+Immune system	Endothelial	TEK	7010
+Immune system	Endothelial	FLT1	2321
+Immune system	Endothelial	VCAM1	7412
+Immune system	Endothelial	PTPRC	5788
+Immune system	Endothelial	VWF	7450
+Immune system	Endothelial	ENG	2022
+Immune system	Endothelial	MCAM	4162
+Immune system	Endothelial	ICAM1	3383
+Immune system	Endothelial	FLT4	2324
+Immune system	Endothelial	SELE	6401
+Immune system	Erythroid-like and erythroid precursor cells	PTPRC	5788
+Immune system	Erythroid-like and erythroid precursor cells	GYPA	2993
+Immune system	Erythroid-like and erythroid precursor cells	RUVBL1	8607
+Immune system	Erythroid-like and erythroid precursor cells	TFRC	7037
+Immune system	Erythroid-like and erythroid precursor cells	FOLR1	2348
+Immune system	Erythroid-like and erythroid precursor cells	CD36	948
+Immune system	Erythroid-like and erythroid precursor cells	ITGA4	3676
+Immune system	Erythroid-like and erythroid precursor cells	HBB	3043
+Immune system	Erythroid-like and erythroid precursor cells	CD235A	NA
+Immune system	Erythroid-like and erythroid precursor cells	HBD	3045
+Immune system	Erythroid-like and erythroid precursor cells	CA1	759
+Immune system	HSC/MPP cells	CD105	NA
+Immune system	HSC/MPP cells	CD34	947
+Immune system	HSC/MPP cells	CD44	960
+Immune system	HSC/MPP cells	CD73	NA
+Immune system	HSC/MPP cells	CD45	NA
+Immune system	HSC/MPP cells	CD29	NA
+Immune system	HSC/MPP cells	STRO-1	NA
+Immune system	HSC/MPP cells	NANOG	NA
+Immune system	HSC/MPP cells	SOX2	6657
+Immune system	HSC/MPP cells	CD133	NA
+Immune system	HSC/MPP cells	CD166	NA
+Immune system	HSC/MPP cells	CD146	NA
+Immune system	HSC/MPP cells	CD31	NA
+Immune system	HSC/MPP cells	NESTIN	NA
+Immune system	HSC/MPP cells	OCT4	NA
+Immune system	HSC/MPP cells	CD117	NA
+Immune system	HSC/MPP cells	KDR	3791
+Immune system	HSC/MPP cells	CXCL8	3576
+Immune system	HSC/MPP cells	AVP	551
+Immune system	HSC/MPP cells	CRHBP	1393
+Immune system	HSC/MPP cells	ALDH1A1	216
+Immune system	HSC/MPP cells	CD49	NA
+Immune system	HSC/MPP cells	CD90	NA
+Immune system	HSC/MPP cells	CD69	969
+Immune system	HSC/MPP cells	CD24	100133941
+Immune system	HSC/MPP cells	CD38	952
+Immune system	HSC/MPP cells	CD45RA	NA
+Immune system	HSC/MPP cells	KERATIN-19	NA
+Immune system	HSC/MPP cells	ASPM	259266
+Immune system	HSC/MPP cells	CD10	NA
+Immune system	HSC/MPP cells	CD123	NA
+Immune system	HSC/MPP cells	ABCG2	9429
+Immune system	HSC/MPP cells	CD135	NA
+Immune system	HSC/MPP cells	CD49F	NA
+Immune system	HSC/MPP cells	EPCAM	4072
+Immune system	HSC/MPP cells	KERATIN-7	NA
+Immune system	HSC/MPP cells	SCA-1	NA
+Immune system	HSC/MPP cells	CD14	929
+Immune system	HSC/MPP cells	CD150	NA
+Immune system	HSC/MPP cells	CD271	NA
+Immune system	HSC/MPP cells	HLA-DR	NA
+Immune system	Progenitor cells	CD105	NA
+Immune system	Progenitor cells	CD34	947
+Immune system	Progenitor cells	CD44	960
+Immune system	Progenitor cells	CD73	NA
+Immune system	Progenitor cells	CD45	NA
+Immune system	Progenitor cells	CD29	NA
+Immune system	Progenitor cells	STRO-1	NA
+Immune system	Progenitor cells	NANOG	NA
+Immune system	Progenitor cells	SOX2	6657
+Immune system	Progenitor cells	CD133	NA
+Immune system	Progenitor cells	CD166	NA
+Immune system	Progenitor cells	CD146	NA
+Immune system	Progenitor cells	CD31	NA
+Immune system	Progenitor cells	NESTIN	NA
+Immune system	Progenitor cells	OCT4	NA
+Immune system	Progenitor cells	CD117	NA
+Immune system	Progenitor cells	KDR	3791
+Immune system	Progenitor cells	AVP	551
+Immune system	Progenitor cells	CRHBP	1393
+Immune system	Progenitor cells	ALDH1A1	216
+Immune system	Progenitor cells	STMN1	3925
+Immune system	Progenitor cells	CD38	952
+Immune system	Progenitor cells	PTPRC	5788
+Immune system	Progenitor cells	CD135	NA
+Immune system	Myeloid Dendritic cells	ITGAX	3687
+Immune system	Myeloid Dendritic cells	CD83	9308
+Immune system	Myeloid Dendritic cells	CD1C	911
+Immune system	Myeloid Dendritic cells	NRP1	8829
+Immune system	Myeloid Dendritic cells	CLEC4C	170482
+Immune system	Myeloid Dendritic cells	CD86	942
+Immune system	Myeloid Dendritic cells	IL3RA	3563
+Immune system	Myeloid Dendritic cells	CD80	941
+Immune system	Myeloid Dendritic cells	CD1A	909
+Immune system	Myeloid Dendritic cells	ITGAX	3687
+Immune system	Myeloid Dendritic cells	CD40	958
+Immune system	Myeloid Dendritic cells	HLA-DQA1	3117
+Immune system	Myeloid Dendritic cells	CD11C	NA
+Immune system	Myeloid Dendritic cells	HLA-DR	NA
+Immune system	Myeloid Dendritic cells	HLA-DPB1	3115
+Immune system	Myeloid Dendritic cells	HLA-DPA1	3113
+Immune system	Myeloid Dendritic cells	CLEC10A	10462
+Immune system	Myeloid Dendritic cells	CST3	1471
+Immune system	Myeloid Dendritic cells	GPR31	2853
+Immune system	Myeloid Dendritic cells	ODF3L1	161753
+Immune system	Myeloid Dendritic cells	PRB2	NA
+Immune system	Myeloid Dendritic cells	CD207	50489
+Immune system	Myeloid Dendritic cells	ARSE	NA
+Immune system	Myeloid Dendritic cells	CLEC141	NA
+Immune system	Myeloid Dendritic cells	MRC	NA
+Immune system	Myeloid Dendritic cells	EBLN1	NA
+Immune system	Myeloid Dendritic cells	CRIP3	401262
+Immune system	Plasmacytoid Dendritic cells	ITGAX	3687
+Immune system	Plasmacytoid Dendritic cells	CD83	9308
+Immune system	Plasmacytoid Dendritic cells	CD1C	911
+Immune system	Plasmacytoid Dendritic cells	NRP1	8829
+Immune system	Plasmacytoid Dendritic cells	CLEC4C	170482
+Immune system	Plasmacytoid Dendritic cells	CD86	942
+Immune system	Plasmacytoid Dendritic cells	IL3RA	3563
+Immune system	Plasmacytoid Dendritic cells	CD80	941
+Immune system	Plasmacytoid Dendritic cells	CD1A	909
+Immune system	Plasmacytoid Dendritic cells	ITGAX	3687
+Immune system	Plasmacytoid Dendritic cells	CD40	958
+Immune system	Plasmacytoid Dendritic cells	HLA-DQA1	3117
+Immune system	Plasmacytoid Dendritic cells	CD11C	NA
+Immune system	Plasmacytoid Dendritic cells	HLA-DR	NA
+Immune system	Plasmacytoid Dendritic cells	HLA-DPB1	3115
+Immune system	Plasmacytoid Dendritic cells	HLA-DPA1	3113
+Immune system	Plasmacytoid Dendritic cells	CLEC10A	10462
+Immune system	Plasmacytoid Dendritic cells	CST3	1471
+Immune system	Plasmacytoid Dendritic cells	TPM2	7169
+Immune system	Plasmacytoid Dendritic cells	LRRC26	NA
+Immune system	Plasmacytoid Dendritic cells	ASIP	434
+Immune system	Plasmacytoid Dendritic cells	GPM6B	2824
+Immune system	Plasmacytoid Dendritic cells	KRT5	3852
+Immune system	Plasmacytoid Dendritic cells	NTM	50863
+Immune system	Plasmacytoid Dendritic cells	SCT	6343
+Immune system	Plasmacytoid Dendritic cells	SHD	56961
+Immune system	Plasmacytoid Dendritic cells	KCNA5	3741
+Immune system	Plasmacytoid Dendritic cells	SCARA5	286133
+Immune system	Plasmacytoid Dendritic cells	EPHA2	1969
+Immune system	Plasmacytoid Dendritic cells	MYMX	101929726
+Immune system	Granulocytes	CD203C	NA
+Immune system	Granulocytes	CD15	NA
+Immune system	Granulocytes	CD11B	NA
+Immune system	Granulocytes	CD63	967
+Immune system	Granulocytes	CD66B	NA
+Immune system	Granulocytes	CD123	NA
+Immune system	Granulocytes	CD16	NA
+Immune system	Granulocytes	CD33	945
+Immune system	Granulocytes	CD117	NA
+Immune system	Granulocytes	CD45	NA
+Immune system	Granulocytes	FC-EPSILON RI-ALPHA	NA
+Immune system	Granulocytes	CD125	NA
+Immune system	Granulocytes	CD13	NA
+Immune system	Granulocytes	CD14	929
+Immune system	Granulocytes	CD25	NA
+Immune system	Granulocytes	CD44	960
+Immune system	Granulocytes	CD69	969
+Immune system	Granulocytes	CD9	928
+Immune system	Granulocytes	HLA-DR	NA
+Immune system	Granulocytes	CCR3	1232
+Immune system	Granulocytes	CD116	NA
+Immune system	Granulocytes	CD11C	NA
+Immune system	Granulocytes	CD193	NA
+Immune system	Granulocytes	CD24	100133941
+Immune system	Granulocytes	CD32	NA
+Immune system	Granulocytes	CD43	NA
+Immune system	Granulocytes	CXCL8	3576
+Immune system	Granulocytes	FCGR3B	2215
+Immune system	Granulocytes	MNDA	4332
+Immune system	Granulocytes	SIGLEC8	27181
+Immune system	Granulocytes	AZU1	566
+Immune system	Granulocytes	MPO	4353
+Immune system	Granulocytes	CTSG	1511
+Immune system	Granulocytes	LYZ	4069
+Immune system	ISG expressing immune cells	IFIT1	3434
+Immune system	ISG expressing immune cells	IFIT2	3433
+Immune system	ISG expressing immune cells	IFIT3	3437
+Immune system	ISG expressing immune cells	IFIT5	24138
+Immune system	ISG expressing immune cells	ISG15	9636
+Immune system	ISG expressing immune cells	CCL3	NA
+Immune system	ISG expressing immune cells	CCL4	6351
+Immune system	ISG expressing immune cells	CCL3L3	NA
+Immune system	ISG expressing immune cells	RSAD2	91543
+Immune system	ISG expressing immune cells	OASL	8638
+Immune system	ISG expressing immune cells	CXCL10	3627
+Immune system	ISG expressing immune cells	IFI15	NA
+Immune system	ISG expressing immune cells	ISG20	3669
+Pancreas	Acinar cells	CTRB1	NA
+Pancreas	Acinar cells	KLK1	3816
+Pancreas	Acinar cells	RBPJL	11317
+Pancreas	Acinar cells	PTF1A	NA
+Pancreas	Acinar cells	CELA3A	10136
+Pancreas	Acinar cells	PRSS1	5644
+Pancreas	Acinar cells	SPINK1	6690
+Pancreas	Acinar cells	ZG16	653808
+Pancreas	Acinar cells	CEL	1056
+Pancreas	Acinar cells	CELA2A	63036
+Pancreas	Acinar cells	CPB1	1360
+Pancreas	Acinar cells	CELA1	1990
+Pancreas	Acinar cells	RNASE1	6035
+Pancreas	Acinar cells	AMY2B	280
+Pancreas	Acinar cells	CPA2	1358
+Pancreas	Acinar cells	CPA1	1357
+Pancreas	Acinar cells	CELA3B	23436
+Pancreas	Acinar cells	PNLIP	5406
+Pancreas	Acinar cells	CTRB2	440387
+Pancreas	Acinar cells	PLA2G1B	5319
+Pancreas	Acinar cells	PRSS2	NA
+Pancreas	Acinar cells	CLPS	1208
+Pancreas	Acinar cells	REG1A	5967
+Pancreas	Acinar cells	SYCN	342898
+Pancreas	Acinar cells	PNLIPRP1	5407
+Pancreas	Acinar cells	CTRC	11330
+Pancreas	Acinar cells	REG3A	5068
+Pancreas	Acinar cells	PRSS3	5646
+Pancreas	Acinar cells	REG1B	5968
+Pancreas	Acinar cells	CFB	629
+Pancreas	Acinar cells	GDF15	9518
+Pancreas	Acinar cells	MUC1	4582
+Pancreas	Acinar cells	C15orf48	84419
+Pancreas	Acinar cells	AKR1C3	8644
+Pancreas	Acinar cells	OLFM4	10562
+Pancreas	Acinar cells	GSTA1	2938
+Pancreas	Acinar cells	LGALS2	3957
+Pancreas	Acinar cells	PDZK1IP1	10158
+Pancreas	Acinar cells	RARRES2	5919
+Pancreas	Acinar cells	CXCL17	284340
+Pancreas	Acinar cells	GSTA2	NA
+Pancreas	Acinar cells	ANPEP	290
+Pancreas	Acinar cells	LYZ	4069
+Pancreas	Acinar cells	ANGPTL4	51129
+Pancreas	Acinar cells	ALDOB	229
+Pancreas	Alpha cells	GCG	2641
+Pancreas	Alpha cells	TTR	7276
+Pancreas	Alpha cells	ARX	170302
+Pancreas	Alpha cells	POU3F4	5456
+Pancreas	Alpha cells	NKX2-2	4821
+Pancreas	Alpha cells	RESP18	NA
+Pancreas	Alpha cells	PYY	5697
+Pancreas	Alpha cells	PCSK2	5126
+Pancreas	Alpha cells	SLC38A5	92745
+Pancreas	Alpha cells	TM4SF4	7104
+Pancreas	Alpha cells	CRYBA2	1412
+Pancreas	Alpha cells	NKX6-1	4825
+Pancreas	Alpha cells	KCNK16	83795
+Pancreas	Alpha cells	PCSK1	5122
+Pancreas	Alpha cells	PRRG2	5639
+Pancreas	Alpha cells	IRX2	153572
+Pancreas	Alpha cells	ALDH1A1	216
+Pancreas	Alpha cells	PEMT	10400
+Pancreas	Alpha cells	CHGA	1113
+Pancreas	Alpha cells	SMIM24	284422
+Pancreas	Alpha cells	F10	2159
+Pancreas	Alpha cells	SCGN	10590
+Pancreas	Alpha cells	SLC30A8	169026
+Pancreas	Alpha cells	SH3GL2	6456
+Pancreas	Alpha cells	SCGB2A1	4246
+Pancreas	Alpha cells	FAP	2191
+Pancreas	Alpha cells	DPP4	1803
+Pancreas	Alpha cells	MAFB	9935
+Pancreas	Alpha cells	PAX6	5080
+Pancreas	Alpha cells	NEUROD1	4760
+Pancreas	Alpha cells	PLCE1	51196
+Pancreas	Alpha cells	GC	2638
+Pancreas	Alpha cells	KLHL41	10324
+Pancreas	Alpha cells	FEV	54738
+Pancreas	Alpha cells	PTGER3	5733
+Pancreas	Alpha cells	RFX6	222546
+Pancreas	Alpha cells	SMARCA1	6594
+Pancreas	Alpha cells	PGR	5241
+Pancreas	Alpha cells	LDB2	9079
+Pancreas	Alpha cells	IRX1	79192
+Pancreas	Alpha cells	UCP2	7351
+Pancreas	Beta cells	FXYD2	NA
+Pancreas	Beta cells	PDX1	3651
+Pancreas	Beta cells	INS	3630
+Pancreas	Beta cells	GCGR	2642
+Pancreas	Beta cells	JPH3	57338
+Pancreas	Beta cells	CD40	958
+Pancreas	Beta cells	HAMP	57817
+Pancreas	Beta cells	EZH1	2145
+Pancreas	Beta cells	NTRK1	4914
+Pancreas	Beta cells	SLC2A2	6514
+Pancreas	Beta cells	NKX6-2	NA
+Pancreas	Beta cells	NPY	4852
+Pancreas	Beta cells	RIMS1	22999
+Pancreas	Beta cells	MAFA	NA
+Pancreas	Beta cells	EFNA5	1946
+Pancreas	Beta cells	LMX1A	4009
+Pancreas	Beta cells	NKX2-2	4821
+Pancreas	Beta cells	NKX6-1	4825
+Pancreas	Beta cells	PAX4	5078
+Pancreas	Beta cells	IAPP	3375
+Pancreas	Beta cells	PCSK2	5126
+Pancreas	Beta cells	G6PC2	57818
+Pancreas	Beta cells	SLC30A8	169026
+Pancreas	Beta cells	PCSK1	5122
+Pancreas	Beta cells	GJD2	57369
+Pancreas	Beta cells	SCGN	10590
+Pancreas	Beta cells	IGF2	NA
+Pancreas	Beta cells	SYT13	57586
+Pancreas	Beta cells	FFAR2	2867
+Pancreas	Beta cells	NPTX2	4885
+Pancreas	Beta cells	PFKFB2	5208
+Pancreas	Beta cells	EDARADD	128178
+Pancreas	Beta cells	HOPX	84525
+Pancreas	Beta cells	SH3GL2	6456
+Pancreas	Beta cells	ADCYAP1	116
+Pancreas	Beta cells	SCGB2A1	4246
+Pancreas	Beta cells	CASR	846
+Pancreas	Beta cells	MAFB	9935
+Pancreas	Beta cells	PAX6	5080
+Pancreas	Beta cells	NEUROD1	4760
+Pancreas	Beta cells	ISL1	3670
+Pancreas	Beta cells	TGFBR3	7049
+Pancreas	Beta cells	SMAD9	4093
+Pancreas	Beta cells	SIX3	6496
+Pancreas	Beta cells	SIX2	10736
+Pancreas	Beta cells	BMP5	653
+Pancreas	Beta cells	PIR	8544
+Pancreas	Delta cells	SST	6750
+Pancreas	Delta cells	PDX1	3651
+Pancreas	Delta cells	FFAR4	338557
+Pancreas	Delta cells	PCSK9	255738
+Pancreas	Delta cells	RBP4	5950
+Pancreas	Delta cells	PAX4	5078
+Pancreas	Delta cells	RESP18	NA
+Pancreas	Delta cells	HHEX	3087
+Pancreas	Delta cells	ISL1	3670
+Pancreas	Delta cells	SCGN	10590
+Pancreas	Delta cells	KCNK16	83795
+Pancreas	Delta cells	IAPP	3375
+Pancreas	Delta cells	FXYD2	NA
+Pancreas	Delta cells	NPTX2	4885
+Pancreas	Delta cells	GPC5-AS1	NA
+Pancreas	Delta cells	UCP2	7351
+Pancreas	Delta cells	LEPR	3953
+Pancreas	Delta cells	BAIAP3	8938
+Pancreas	Delta cells	MS4A8	83661
+Pancreas	Delta cells	CASR	846
+Pancreas	Delta cells	BCHE	590
+Pancreas	Delta cells	GABRB3	2562
+Pancreas	Delta cells	UNC5B	219699
+Pancreas	Delta cells	EDN3	1908
+Pancreas	Delta cells	PRG4	10216
+Pancreas	Delta cells	FRZB	2487
+Pancreas	Delta cells	PCSK1	5122
+Pancreas	Delta cells	GABRG2	2566
+Pancreas	Delta cells	POU3F1	5453
+Pancreas	Delta cells	BHLHE41	79365
+Pancreas	Delta cells	EHF	26298
+Pancreas	Delta cells	LCORL	254251
+Pancreas	Delta cells	ETV1	2115
+Pancreas	Ductal cells	CFTR	1080
+Pancreas	Ductal cells	HNF1B	6928
+Pancreas	Ductal cells	KRT20	54474
+Pancreas	Ductal cells	MUC1	4582
+Pancreas	Ductal cells	ONECUT1	3175
+Pancreas	Ductal cells	AMBP	259
+Pancreas	Ductal cells	HHEX	3087
+Pancreas	Ductal cells	ANXA4	307
+Pancreas	Ductal cells	SPP1	6696
+Pancreas	Ductal cells	PDX1	3651
+Pancreas	Ductal cells	CFB	629
+Pancreas	Ductal cells	GDF15	9518
+Pancreas	Ductal cells	AKR1C3	8644
+Pancreas	Ductal cells	MMP7	4316
+Pancreas	Ductal cells	DEFB1	1672
+Pancreas	Ductal cells	SERPING1	710
+Pancreas	Ductal cells	TSPAN8	7103
+Pancreas	Ductal cells	CLDN10	9071
+Pancreas	Ductal cells	SLPI	6590
+Pancreas	Ductal cells	SERPINA5	5104
+Pancreas	Ductal cells	PIGR	5284
+Pancreas	Ductal cells	CLDN1	9076
+Pancreas	Ductal cells	LGALS4	3960
+Pancreas	Ductal cells	PERP	64065
+Pancreas	Ductal cells	PDLIM3	27295
+Pancreas	Ductal cells	WFDC2	10406
+Pancreas	Ductal cells	AQP1	358
+Pancreas	Ductal cells	ALDH1A3	220
+Pancreas	Ductal cells	KRT19	3880
+Pancreas	Ductal cells	TFF1	7031
+Pancreas	Ductal cells	TFF2	7032
+Pancreas	Endothelial cells	PECAM1	5175
+Pancreas	Endothelial cells	CD34	947
+Pancreas	Endothelial cells	MCAM	4162
+Pancreas	Endothelial cells	CDH5	1003
+Pancreas	Endothelial cells	VWF	7450
+Pancreas	Endothelial cells	ENG	2022
+Pancreas	Endothelial cells	KDR	3791
+Pancreas	Endothelial cells	PDPN	10630
+Pancreas	Endothelial cells	SELE	6401
+Pancreas	Endothelial cells	A2M	2
+Pancreas	Epsilon cells	GHRL	51738
+Pancreas	Epsilon cells	ANXA13	312
+Pancreas	Epsilon cells	PHGR1	644844
+Pancreas	Epsilon cells	BMP4	652
+Pancreas	Epsilon cells	HMGCS2	3158
+Pancreas	Epsilon cells	TM4SF5	9032
+Pancreas	Epsilon cells	OLFML3	56944
+Pancreas	Epsilon cells	ASGR1	432
+Pancreas	Epsilon cells	COX6A2	1339
+Pancreas	Epsilon cells	NPY1R	4886
+Pancreas	Epsilon cells	SLC7A9	11136
+Pancreas	Epsilon cells	BHMT	635
+Pancreas	Epsilon cells	OPRK1	4986
+Pancreas	Epsilon cells	PTGER4	5734
+Pancreas	Epsilon cells	ITGA4	3676
+Pancreas	Epsilon cells	EYA4	2070
+Pancreas	Epsilon cells	XYLB	9942
+Pancreas	Epsilon cells	ELOVL2	54898
+Pancreas	Epsilon cells	AFF3	3899
+Pancreas	Epsilon cells	CORIN	10699
+Pancreas	Epsilon cells	MYO1A	4640
+Pancreas	Epsilon cells	HRH2	3274
+Pancreas	Epsilon cells	SLC6A16	28968
+Pancreas	Epsilon cells	PCSK6	5046
+Pancreas	Epsilon cells	ADAMTS6	11174
+Pancreas	Epsilon cells	COL22A1	169044
+Pancreas	Epsilon cells	FAM124A	220108
+Pancreas	Epsilon cells	COL12A1	1303
+Pancreas	Epsilon cells	CD109	135228
+Pancreas	Epsilon cells	THSD4	79875
+Pancreas	Epsilon cells	ARX	170302
+Pancreas	Gamma (PP) cells	PPY	5539
+Pancreas	Gamma (PP) cells	SCGN	10590
+Pancreas	Gamma (PP) cells	FXYD2	NA
+Pancreas	Gamma (PP) cells	SCGB2A1	4246
+Pancreas	Gamma (PP) cells	GPC5-AS1	NA
+Pancreas	Gamma (PP) cells	CMTM8	152189
+Pancreas	Gamma (PP) cells	ARX	170302
+Pancreas	Gamma (PP) cells	ETV1	2115
+Pancreas	Gamma (PP) cells	PXK	54899
+Pancreas	Gamma (PP) cells	SERTM1	400120
+Pancreas	Gamma (PP) cells	SLITRK6	84189
+Pancreas	Gamma (PP) cells	SEMA3E	9723
+Pancreas	Gamma (PP) cells	APOBEC2	10930
+Pancreas	Gamma (PP) cells	ABCC9	10060
+Pancreas	Gamma (PP) cells	NEUROD1	4760
+Pancreas	Gamma (PP) cells	PAX6	5080
+Pancreas	Gamma (PP) cells	ISL1	3670
+Pancreas	Gamma (PP) cells	CARTPT	9607
+Pancreas	Gamma (PP) cells	THSD7A	221981
+Pancreas	Gamma (PP) cells	AQP3	360
+Pancreas	Gamma (PP) cells	ENTPD2	954
+Pancreas	Gamma (PP) cells	PTGFR	5737
+Pancreas	Gamma (PP) cells	CHN2	1124
+Pancreas	Gamma (PP) cells	EGR3	1960
+Pancreas	Gamma (PP) cells	LMO3	55885
+Pancreas	Gamma (PP) cells	MEIS1	4211
+Pancreas	Gamma (PP) cells	ZNF503	84858
+Pancreas	Immune system cells	MS4A1	931
+Pancreas	Immune system cells	CD19	930
+Pancreas	Immune system cells	CD4	920
+Pancreas	Immune system cells	CD8A	925
+Pancreas	Immune system cells	CD7	924
+Pancreas	Immune system cells	CTLA4	1493
+Pancreas	Immune system cells	CD27	939
+Pancreas	Immune system cells	CCR7	1236
+Pancreas	Immune system cells	CYTIP	9595
+Pancreas	Immune system cells	IGHD	NA
+Pancreas	Immune system cells	CD38	952
+Pancreas	Immune system cells	IL2RA	3559
+Pancreas	Immune system cells	ISG20	3669
+Pancreas	Immune system cells	SELL	6402
+Pancreas	Immune system cells	IL7R	3575
+Pancreas	Immune system cells	FOXP3	50943
+Pancreas	Immune system cells	IGKC	NA
+Pancreas	Immune system cells	IGLC3	NA
+Pancreas	Immune system cells	IGLC2	NA
+Pancreas	Immune system cells	CD79A	973
+Pancreas	Immune system cells	CD68	968
+Pancreas	Immune system cells	CD163	9332
+Pancreas	Immune system cells	CD14	929
+Pancreas	Immune system cells	ITGAM	3684
+Pancreas	Immune system cells	MRC1	4360
+Pancreas	Immune system cells	MS4A7	58475
+Pancreas	Immune system cells	CD3D	915
+Pancreas	Immune system cells	CD3E	916
+Pancreas	Immune system cells	CD3G	917
+Pancreas	Mast cells	KIT	3815
+Pancreas	Mast cells	ENPP3	5169
+Pancreas	Mast cells	IL2RA	3559
+Pancreas	Mast cells	ISG20	3669
+Pancreas	Mast cells	SLC18A2	6571
+Pancreas	Mast cells	CD9	928
+Pancreas	Mast cells	FCER1A	2205
+Pancreas	Mast cells	TPSB2	NA
+Pancreas	Mast cells	FCER2	2208
+Pancreas	Mesenchymal cells	ITGB1	NA
+Pancreas	Mesenchymal cells	NT5E	4907
+Pancreas	Mesenchymal cells	THY1	7070
+Pancreas	Mesenchymal cells	ENG	2022
+Pancreas	Mesenchymal cells	KIT	3815
+Pancreas	Mesenchymal cells	ALCAM	214
+Pancreas	Pancreatic progenitor cells	ONECUT1	3175
+Pancreas	Pancreatic progenitor cells	PDX1	3651
+Pancreas	Pancreatic progenitor cells	PTF1A	NA
+Pancreas	Pancreatic progenitor cells	CXCR4	7852
+Pancreas	Pancreatic progenitor cells	ISL1	3670
+Pancreas	Pancreatic progenitor cells	NKX2-2	4821
+Pancreas	Pancreatic progenitor cells	EPAS1	2034
+Pancreas	Pancreatic progenitor cells	ARX	170302
+Pancreas	Pancreatic progenitor cells	NEUROG3	50674
+Pancreas	Pancreatic progenitor cells	SOX9	6662
+Pancreas	Pancreatic progenitor cells	RPL23A	NA
+Pancreas	Pancreatic progenitor cells	CTNNB1	1499
+Pancreas	Pancreatic progenitor cells	YAP1	10413
+Pancreas	Pancreatic progenitor cells	RGS16	6004
+Pancreas	Pancreatic progenitor cells	MFNG	4242
+Pancreas	Pancreatic stellate cells	TIMP1	7076
+Pancreas	Pancreatic stellate cells	RGS5	8490
+Pancreas	Pancreatic stellate cells	SPON2	10417
+Pancreas	Pancreatic stellate cells	GEM	2669
+Pancreas	Pancreatic stellate cells	DYNLT1	6993
+Pancreas	Pancreatic stellate cells	PDGFRB	5159
+Pancreas	Pancreatic stellate cells	KRT10	3858
+Pancreas	Pancreatic stellate cells	CYGB	114757
+Pancreas	Pancreatic stellate cells	CCN2	1490
+Pancreas	Pancreatic stellate cells	MMP14	4323
+Pancreas	Pancreatic stellate cells	NDUFA4L2	56901
+Pancreas	Pancreatic stellate cells	PDGFRA	5156
+Pancreas	Pancreatic stellate cells	INHBA	3624
+Pancreas	Pancreatic stellate cells	TGFB1	7040
+Pancreas	Peri-islet Schwann cells	MPZ	4359
+Pancreas	Peri-islet Schwann cells	EGFL8	NA
+Pancreas	Peri-islet Schwann cells	GFRA1	2674
+Pancreas	Peri-islet Schwann cells	OLFML2A	169611
+Pancreas	Peri-islet Schwann cells	GULP1	51454
+Pancreas	Peri-islet Schwann cells	SLITRK6	84189
+Pancreas	Peri-islet Schwann cells	VGLL3	389136
+Pancreas	Peri-islet Schwann cells	GFRA3	2676
+Pancreas	Peri-islet Schwann cells	INSC	387755
+Pancreas	Peri-islet Schwann cells	SLITRK2	84631
+Pancreas	Peri-islet Schwann cells	FIGN	55137
+Pancreas	Peri-islet Schwann cells	LRRTM1	347730
+Pancreas	Peri-islet Schwann cells	SEMA3B	7869
+Pancreas	Peri-islet Schwann cells	NGFR	4804
+Pancreas	Peri-islet Schwann cells	PNLIPRP1	5407
+Pancreas	Peri-islet Schwann cells	GFRA2	2675
+Liver	Cholangiocytes	SSTR2	6752
+Liver	Cholangiocytes	SLC4A2	6522
+Liver	Cholangiocytes	KRT7	3855
+Liver	Cholangiocytes	KCNN2	3781
+Liver	Cholangiocytes	ITGB4	3691
+Liver	Cholangiocytes	GGT6	124975
+Liver	Cholangiocytes	CFTR	1080
+Liver	Cholangiocytes	AQP4	361
+Liver	Cholangiocytes	AQP1	358
+Liver	Cholangiocytes	PIGR	5284
+Liver	Cholangiocytes	GGT1	NA
+Liver	Cholangiocytes	JAG1	182
+Liver	Cholangiocytes	GPBAR1	151306
+Liver	Cholangiocytes	GGT7	2686
+Liver	Cholangiocytes	KRT19	3880
+Liver	Cholangiocytes	ONECUT2	9480
+Liver	Cholangiocytes	ALPL	249
+Liver	Cholangiocytes	HNF1B	6928
+Liver	Cholangiocytes	ALB	213
+Liver	Cholangiocytes	AGR2	10551
+Liver	Cholangiocytes	TFF3	7033
+Liver	Cholangiocytes	TFF1	7031
+Liver	Cholangiocytes	SOX9	6662
+Liver	Cholangiocytes	EPCAM	4072
+Liver	Cholangiocytes	CLDN4	1364
+Liver	Cholangiocytes	MMP7	4316
+Liver	Cholangiocytes	TFF2	7032
+Liver	Cholangiocytes	SCGB3A1	92304
+Liver	Cholangiocytes	FXYD2	NA
+Liver	Cholangiocytes	DEFB1	1672
+Liver	Cholangiocytes	CD24	100133941
+Liver	Cholangiocytes	LCN2	3934
+Liver	Cholangiocytes	CXCL1	2919
+Liver	Cholangiocytes	CXCL6	6372
+Liver	Cholangiocytes	LGALS2	3957
+Liver	Cholangiocytes	TACSTD2	4070
+Liver	Cholangiocytes	ELF3	1999
+Liver	Cholangiocytes	SPP1	6696
+Liver	Cholangiocytes	MUC5B	727897
+Liver	Cholangiocytes	LGALS4	3960
+Liver	Cholangiocytes	KRT8	NA
+Liver	Endothelial cell	FLT1	2321
+Liver	Endothelial cell	APPBP2	10513
+Liver	Endothelial cell	ARGLU1	55082
+Liver	Endothelial cell	ATP10D	57205
+Liver	Endothelial cell	BNIP1	662
+Liver	Endothelial cell	BST2	684
+Liver	Endothelial cell	BTNL9	153579
+Liver	Endothelial cell	C11orf96	387763
+Liver	Endothelial cell	CCDC85B	11007
+Liver	Endothelial cell	CCL14	NA
+Liver	Endothelial cell	CD4	920
+Liver	Endothelial cell	CDC73	79577
+Liver	Endothelial cell	CDKL1	8814
+Liver	Endothelial cell	CHD4	1108
+Liver	Endothelial cell	CLEC1B	51266
+Liver	Endothelial cell	CLEC2B	9976
+Liver	Endothelial cell	CLEC4G	339390
+Liver	Endothelial cell	CLEC4M	10332
+Liver	Endothelial cell	CRBN	51185
+Liver	Endothelial cell	CRHBP	1393
+Liver	Endothelial cell	CTSL	1514
+Liver	Endothelial cell	DCLRE1C	64421
+Liver	Endothelial cell	DIPK2A	205428
+Liver	Endothelial cell	DLC1	10395
+Liver	Endothelial cell	DLG1	1739
+Liver	Endothelial cell	DLK1	8788
+Liver	Endothelial cell	DNASE1L3	1776
+Liver	Endothelial cell	DOCK1	1793
+Liver	Endothelial cell	DUSP5	1847
+Liver	Endothelial cell	EFNB2	1948
+Liver	Endothelial cell	ENG	2022
+Liver	Endothelial cell	F8	2157
+Liver	Endothelial cell	FCN2	2220
+Liver	Endothelial cell	FCN3	8547
+Liver	Endothelial cell	FILIP1	27145
+Liver	Endothelial cell	FOSB	2354
+Liver	Endothelial cell	FXYD6	53826
+Liver	Endothelial cell	GBP4	115361
+Liver	Endothelial cell	GGA2	23062
+Liver	Endothelial cell	GNG11	2791
+Liver	Endothelial cell	HES1	3280
+Liver	Endothelial cell	HYI	81888
+Liver	Endothelial cell	IL1R1	3554
+Liver	Endothelial cell	IL33	90865
+Liver	Endothelial cell	KDR	3791
+Liver	Endothelial cell	KIF1B	23095
+Liver	Endothelial cell	KLHL28	54813
+Liver	Endothelial cell	LDB2	9079
+Liver	Endothelial cell	MCAM	4162
+Liver	Endothelial cell	MCM3AP	8888
+Liver	Endothelial cell	MEF2C	4208
+Liver	Endothelial cell	MFN1	55669
+Liver	Endothelial cell	MGAT5	4249
+Liver	Endothelial cell	MPZL3	196264
+Liver	Endothelial cell	MRC1	4360
+Liver	Endothelial cell	OIT3	170392
+Liver	Endothelial cell	PIK3C2A	5286
+Liver	Endothelial cell	PPWD1	23398
+Liver	Endothelial cell	PTPRC	5788
+Liver	Endothelial cell	RASGEF1B	153020
+Liver	Endothelial cell	RASGRP3	25780
+Liver	Endothelial cell	RELN	5649
+Liver	Endothelial cell	RIN2	54453
+Liver	Endothelial cell	SECISBP2L	9728
+Liver	Endothelial cell	STAB1	23166
+Liver	Endothelial cell	STRN3	29966
+Liver	Endothelial cell	TCF12	6938
+Liver	Endothelial cell	TEX264	51368
+Liver	Endothelial cell	TFRC	7037
+Liver	Endothelial cell	TRAPPC11	60684
+Liver	Endothelial cell	TSPAN7	7102
+Liver	Endothelial cell	USP48	84196
+Liver	Endothelial cell	VWF	7450
+Liver	Endothelial cell	ZNF286B	NA
+Liver	Endothelial cell	STAB2	55576
+Liver	Endothelial cell	CD34	947
+Liver	Endothelial cell	PECAM1	5175
+Liver	Hematopoietic cell	CD34	947
+Liver	Hematopoietic cell	PTPRC	5788
+Liver	Hepatic stellate cells	CYGB	114757
+Liver	Hepatic stellate cells	PPARG	5468
+Liver	Hepatic stellate cells	PDGFRA	5156
+Liver	Hepatic stellate cells	RGS5	8490
+Liver	Hepatic stellate cells	PPARA	5465
+Liver	Hepatic stellate cells	FOXF1	2294
+Liver	Hepatic stellate cells	ALB	213
+Liver	Hepatic stellate cells	NR1H4	9971
+Liver	Hepatic stellate cells	CCN2	1490
+Liver	Hepatic stellate cells	SEMA7A	8482
+Liver	Hepatic stellate cells	WT1	7490
+Liver	Hepatic stellate cells	FGF10	2255
+Liver	Hepatic stellate cells	GFAP	2670
+Liver	Hepatic stellate cells	NGFR	4804
+Liver	Hepatic stellate cells	VEGFA	7422
+Liver	Hepatic stellate cells	ACTA2	59
+Liver	Hepatic stellate cells	MYB	4602
+Liver	Hepatic stellate cells	DES	1674
+Liver	Hepatic stellate cells	FAP	2191
+Liver	Hepatic stellate cells	SLC8A1	6546
+Liver	Hepatic stellate cells	RELN	5649
+Liver	Hepatic stellate cells	SYP	6855
+Liver	Hepatic stellate cells	VCL	7414
+Liver	Hepatic stellate cells	TIMP1	7076
+Liver	Hepatic stellate cells	COL1A1	1277
+Liver	Hepatic stellate cells	TAGLN	6876
+Liver	Hepatic stellate cells	COL1A2	1278
+Liver	Hepatic stellate cells	COL3A1	1281
+Liver	Hepatic stellate cells	SPARC	6678
+Liver	Hepatic stellate cells	RBP1	5947
+Liver	Hepatic stellate cells	DCN	1634
+Liver	Hepatic stellate cells	MYL9	10398
+Liver	Hepatic stellate cells	TPM2	7169
+Liver	Hepatic stellate cells	MEG3	55384
+Liver	Hepatic stellate cells	BGN	633
+Liver	Hepatic stellate cells	IGFBP7	3490
+Liver	Hepatic stellate cells	IGFBP3	3486
+Liver	Hepatic stellate cells	CCN1	3491
+Liver	Hepatic stellate cells	OLFML3	56944
+Liver	Hepatic stellate cells	IGFBP6	3489
+Liver	Hepatic stellate cells	CCL2	6347
+Liver	Hepatic stellate cells	COLEC11	78989
+Liver	Hepatic stellate cells	HGF	3082
+Liver	Hepatoblasts	AFP	174
+Liver	Hepatoblasts	ALB	213
+Liver	Hepatoblasts	CEBPA	1050
+Liver	Hepatoblasts	KRT14	3861
+Liver	Hepatoblasts	DLK1	8788
+Liver	Hepatoblasts	CDH1	999
+Liver	Hepatoblasts	FOXM1	2305
+Liver	Hepatoblasts	GGT1	NA
+Liver	Hepatoblasts	HNF4A	3172
+Liver	Hepatoblasts	PROX1	5629
+Liver	Hepatoblasts	MAP2K4	6416
+Liver	Hepatoblasts	SMAD5	4090
+Liver	Hepatoblasts	KRT18	NA
+Liver	Hepatoblasts	KRT8	NA
+Liver	Hepatoblasts	HNF1B	6928
+Liver	Hepatoblasts	HHEX	3087
+Liver	Hepatoblasts	MET	4233
+Liver	Hepatocytes	AFP	174
+Liver	Hepatocytes	HNF4A	3172
+Liver	Hepatocytes	KRT8	NA
+Liver	Hepatocytes	ALB	213
+Liver	Hepatocytes	KRT18	NA
+Liver	Hepatocytes	FOSL1	8061
+Liver	Hepatocytes	EPPK1	83481
+Liver	Hepatocytes	UCP2	7351
+Liver	Hepatocytes	GCK	2645
+Liver	Hepatocytes	LRP5	4041
+Liver	Hepatocytes	SLC10A1	6554
+Liver	Hepatocytes	NOS2	4843
+Liver	Hepatocytes	ATP7B	540
+Liver	Hepatocytes	GJB2	2706
+Liver	Hepatocytes	FGFR4	2264
+Liver	Hepatocytes	PROX1	5629
+Liver	Hepatocytes	CRP	1401
+Liver	Hepatocytes	SLC2A2	6514
+Liver	Hepatocytes	TFR2	7036
+Liver	Hepatocytes	KIF13B	23303
+Liver	Hepatocytes	LIPC	3990
+Liver	Hepatocytes	VDR	7421
+Liver	Hepatocytes	ASGR1	432
+Liver	Hepatocytes	ARG1	383
+Liver	Hepatocytes	G6PC	NA
+Liver	Hepatocytes	OTC	5009
+Liver	Hepatocytes	SERPINA1	5265
+Liver	Hepatocytes	ZHX2	22882
+Liver	Hepatocytes	HHEX	3087
+Liver	Hepatocytes	FOXA3	3171
+Liver	Hepatocytes	FOXA2	3170
+Liver	Hepatocytes	FOXA1	3169
+Liver	Hepatocytes	CYP2E1	1571
+Liver	Hepatocytes	CYP1A2	1544
+Liver	Hepatocytes	CEBPA	1050
+Liver	Hepatocytes	CDH1	999
+Liver	Hepatocytes	GPC3	2719
+Liver	Hepatocytes	AHR	196
+Liver	Hepatocytes	CPS1	1373
+Liver	Hepatocytes	GLS2	27165
+Liver	Hepatocytes	PCK1	5105
+Liver	Hepatocytes	TAT	6898
+Liver	Hepatocytes	WT1	7490
+Liver	Hepatocytes	PRRG4	79056
+Liver	Hepatocytes	SULT1A1	6817
+Liver	Hepatocytes	APOH	350
+Liver	Hepatocytes	CTNNB1	1499
+Liver	Hepatocytes	ABCC3	8714
+Liver	Hepatocytes	FGB	2244
+Liver	Hepatocytes	AQP3	360
+Liver	Hepatocytes	PLSCR1	5359
+Liver	Hepatocytes	FGA	2243
+Liver	Hepatocytes	APOB	338
+Liver	Hepatocytes	ANG	283
+Liver	Hepatocytes	ANXA13	312
+Liver	Hepatocytes	SAT2	112483
+Liver	Hepatocytes	SFRP5	6425
+Liver	Hepatocytes	A1CF	29974
+Liver	Hepatocytes	APOA1	335
+Liver	Hepatocytes	BNIP3	664
+Liver	Hepatocytes	FGL1	2267
+Liver	Hepatocytes	PAH	5053
+Liver	Hepatocytes	SERPINA6	866
+Liver	Hepatocytes	APOA2	336
+Liver	Hepatocytes	AZGP1	563
+Liver	Hepatocytes	FGG	2266
+Liver	Hepatocytes	APOC3	345
+Liver	Hepatocytes	DEFB1	1672
+Liver	Hepatocytes	TM4SF4	7104
+Liver	Hepatocytes	GC	2638
+Liver	Hepatocytes	AMBP	259
+Liver	Hepatocytes	ORM1	5004
+Liver	Hepatocytes	TTR	7276
+Liver	Hepatocytes	HAL	3034
+Liver	Hepatocytes	ASS1	445
+Liver	Hepatocytes	SCD	6319
+Liver	Hepatocytes	HMGCS1	3157
+Liver	Hepatocytes	ACSS2	55902
+Liver	Hepatocytes	TM7SF2	7108
+Liver	Hepatocytes	SEC16B	89866
+Liver	Hepatocytes	SLBP	7884
+Liver	Hepatocytes	RND3	390
+Liver	Hepatocytes	BCHE	590
+Liver	Hepatocytes	GHR	2690
+Liver	Hepatocytes	ALDH6A1	4329
+Liver	Hepatocytes	MASP2	10747
+Liver	Hepatocytes	AKR1C1	1645
+Liver	Hepatocytes	HAMP	57817
+Liver	Hepatocytes	GLUL	2752
+Liver	Hepatocytes	ACLY	47
+Liver	Hepatocytes	ASL	435
+Liver	Hepatocytes	TMEM97	27346
+Liver	Hepatocytes	CP	1356
+Liver	Hepatocytes	SLPI	6590
+Liver	Hepatocytes	ACAT2	39
+Liver	Hepatocytes	TM4SF5	9032
+Liver	Hepatocytes	MSMO1	6307
+Liver	Hepatocytes	LEPR	3953
+Liver	Hepatocytes	RCAN1	1827
+Liver	Hepatocytes	AR	367
+Liver	Hepatocytes	RPP25L	138716
+Liver	Hepatocytes	HSD11B1	3290
+Liver	Hepatocytes	APOM	55937
+Liver	Hepatocytes	TKFC	26007
+Liver	Hepatocytes	G0S2	50486
+Liver	Hepatocytes	PON3	5446
+Liver	Hepatocytes	C1orf53	388722
+Liver	Hepatocytes	TTC36	143941
+Liver	Hepatocytes	FST	10468
+Liver	Hepatocytes	MCC	4163
+Liver	Hepatocytes	AQP9	366
+Liver	Hepatocytes	GSTA2	NA
+Liver	Hepatocytes	NNT	23530
+Liver	Hepatocytes	SAA4	NA
+Liver	Hepatocytes	MRPS18C	51023
+Liver	Hepatocytes	OCIAD1	54940
+Liver	Hepatocytes	APOA5	116519
+Liver	Hepatocytes	ENTPD5	957
+Liver	Hepatocytes	C4B	NA
+Liver	Hepatocytes	EID2	163126
+Liver	Hepatocytes	TP53INP2	58476
+Liver	Hepatocytes	ATIC	471
+Liver	Hepatocytes	SERPINH1	871
+Liver	Hepatocytes	SAMD5	389432
+Liver	Hepatocytes	GRB14	2888
+Liver	Hepatocytes	CD3G	917
+Liver	Hepatocytes	RHOB	388
+Liver	Hepatocytes	EPB41L4B	54566
+Liver	Hepatocytes	GPAT4	137964
+Liver	Hepatocytes	SPTBN1	6711
+Liver	Hepatocytes	SDC2	6383
+Liver	Hepatocytes	PHLDA1	22822
+Liver	Hepatocytes	WTAP	9589
+Liver	Hepatocytes	ACADM	34
+Liver	Immune system cells	CD19	930
+Liver	Immune system cells	MS4A1	931
+Liver	Immune system cells	IL2RA	3559
+Liver	Immune system cells	PTPRC	5788
+Liver	Immune system cells	CD4	920
+Liver	Immune system cells	CD8A	925
+Liver	Immune system cells	CD3D	915
+Liver	Immune system cells	CD3E	916
+Liver	Immune system cells	CD3G	917
+Liver	Immune system cells	CD11C	NA
+Liver	Immune system cells	CD14	929
+Liver	Immune system cells	CD16	NA
+Liver	Immune system cells	CD56	NA
+Liver	Immune system cells	CD16	NA
+Liver	Immune system cells	CD42B	NA
+Liver	Immune system cells	CD7	924
+Liver	Immune system cells	CD8	NA
+Liver	Immune system cells	IGD	NA
+Liver	Immune system cells	CD38	952
+Liver	Immune system cells	CD24	100133941
+Liver	Immune system cells	CD20	NA
+Liver	Immune system cells	CD14	929
+Liver	Immune system cells	CD16	NA
+Liver	Immune system cells	HLA-DR	NA
+Liver	Immune system cells	CD11B	NA
+Liver	Immune system cells	CD11C	NA
+Liver	Immune system cells	CD123	NA
+Liver	Immune system cells	CD15	NA
+Liver	Immune system cells	CD33	945
+Liver	Immune system cells	CD66B	NA
+Liver	Immune system cells	CD38	952
+Liver	Immune system cells	CD27	939
+Liver	Immune system cells	CD94	NA
+Liver	Immune system cells	CD45	NA
+Liver	Kupffer cells	CD14	929
+Liver	Kupffer cells	CD68	968
+Liver	Kupffer cells	TNF	7124
+Liver	Kupffer cells	LYZ	4069
+Liver	Kupffer cells	MPO	4353
+Liver	Kupffer cells	VSIG4	11326
+Liver	Kupffer cells	PROK2	60675
+Liver	Kupffer cells	STARD5	80765
+Liver	Kupffer cells	MSR1	4481
+Liver	Kupffer cells	PPARA	5465
+Liver	Kupffer cells	TREM1	54210
+Liver	Kupffer cells	SLC11A1	6556
+Liver	Kupffer cells	MMP13	4322
+Liver	Kupffer cells	VDR	7421
+Liver	Kupffer cells	CHIT1	1118
+Liver	Kupffer cells	OSM	5008
+Liver	Kupffer cells	PPARD	5467
+Liver	Kupffer cells	CLEC4F	165530
+Liver	Kupffer cells	ADGRE1	2015
+Liver	Kupffer cells	IL1B	3553
+Liver	Kupffer cells	SLC40A1	30061
+Liver	Kupffer cells	G6PD	2539
+Liver	Kupffer cells	TIMD4	91937
+Liver	Kupffer cells	MNDA	4332
+Liver	Kupffer cells	SLC15A3	51296
+Liver	Kupffer cells	DNASE1L3	1776
+Liver	Kupffer cells	MARCO	8685
+Liver	Kupffer cells	HFE	3077
+Liver	Kupffer cells	CD38	952
+Liver	Kupffer cells	CD163	9332
+Liver	Kupffer cells	CCR5	1234
+Liver	Kupffer cells	CLEC1B	51266
+Liver	Kupffer cells	CLEC4G	339390
+Liver	Kupffer cells	GPIHBP1	338328
+Liver	Kupffer cells	FOLR2	2350
+Liver	Kupffer cells	PLTP	5360
+Liver	Kupffer cells	FTL	2512
+Liver	Kupffer cells	IRF7	3665
+Liver	Kupffer cells	SPIC	121599
+Liver	Kupffer cells	CSF1R	1436
+Liver	Kupffer cells	C1QC	714
+Liver	Kupffer cells	C1QA	712
+Liver	Kupffer cells	C1QB	713
+Liver	Kupffer cells	CLEC4E	26253
+Liver	Liver progenitor cell	KRT7	3855
+Liver	Liver progenitor cell	KRT19	3880
+Liver	Mast cells	KIT	3815
+Liver	Mast cells	ENPP3	5169
+Liver	Mast cells	IL2RA	3559
+Liver	Mast cells	ISG20	3669
+Liver	Mast cells	SLC18A2	6571
+Liver	Mast cells	CD9	928
+Liver	Mast cells	FCER1A	2205
+Liver	Mast cells	TPSB2	NA
+Liver	Mast cells	FCER2	2208
+Liver	Mesenchymal stem cell	CD44	960
+Liver	Mesenchymal stem cell	ENG	2022
+Liver	Mesenchymal stem cell	NT5E	4907
+Liver	Mesenchymal stem cell	ITGB1	NA
+Liver	Mesenchymal stem cell	THY1	7070
+Liver	Monocytes	FCGR3A	NA
+Liver	Monocytes	FCGR3B	2215
+Liver	Monocytes	CD14	929
+Liver	Monocytes	ELANE1	NA
+Eye	Muller cells	APOE	348
+Eye	Muller cells	GLUL	2752
+Eye	Muller cells	RLBP1	6017
+Eye	Muller cells	ABCA8A	NA
+Eye	Muller cells	VIM	7431
+Eye	Muller cells	ALDH1A1	216
+Eye	Muller cells	RLBP1	6017
+Eye	Muller cells	GLUL	2752
+Eye	Muller cells	PAX6	5080
+Eye	Muller cells	CA8	767
+Eye	Muller cells	EDN2	1907
+Eye	Muller cells	KCNJ2	3759
+Eye	Muller cells	PRSS56	NA
+Eye	Muller cells	RGR	5995
+Eye	Muller cells	APOE	348
+Eye	Muller cells	AQP4	361
+Eye	Astrocytes	PRDX6	9588
+Eye	Astrocytes	SLC1A3	6507
+Eye	Astrocytes	PAX2	5076
+Eye	Astrocytes	RLBP1	6017
+Eye	Astrocytes	GFAP	2670
+Eye	Astrocytes	S100B	6285
+Eye	Retinal ganglion cells	BMP4	652
+Eye	Retinal ganglion cells	GRIA4	2893
+Eye	Retinal ganglion cells	GRM3	2913
+Eye	Retinal ganglion cells	KCNJ2	3759
+Eye	Retinal ganglion cells	MED1	5469
+Eye	Retinal ganglion cells	NMT	NA
+Eye	Retinal ganglion cells	POU6F2	11281
+Eye	Retinal ganglion cells	ZIC2	7546
+Eye	Retinal ganglion cells	SLC17A6	57084
+Eye	Retinal ganglion cells	PAX6	5080
+Eye	Retinal ganglion cells	THY1	7070
+Eye	Retinal ganglion cells	NEFL	4747
+Eye	Retinal ganglion cells	POU4F2	5458
+Eye	Retinal ganglion cells	SNCG	6623
+Eye	Retinal ganglion cells	NRN1	51299
+Eye	Retinal ganglion cells	CERKL	NA
+Eye	Retinal progenitor cells	PAX6	5080
+Eye	Retinal progenitor cells	CALB2	794
+Eye	Retinal progenitor cells	SIX6	4990
+Eye	Retinal progenitor cells	RHO	6010
+Eye	Retinal progenitor cells	SIX3	6496
+Eye	Retinal progenitor cells	NEFH	4744
+Eye	Retinal progenitor cells	LGR5	8549
+Eye	Retinal progenitor cells	SAG	6295
+Eye	Retinal progenitor cells	RAX	30062
+Eye	Retinal progenitor cells	NOTCH1	4851
+Eye	Retinal progenitor cells	HES1	3280
+Eye	Retinal progenitor cells	MSI1	4440
+Eye	Retinal progenitor cells	SOX9	6662
+Eye	Retinal progenitor cells	KIT	3815
+Eye	Retinal progenitor cells	PDGFRA	5156
+Eye	Retinal progenitor cells	OG9X	NA
+Eye	Retinal progenitor cells	SFRP2	6423
+Eye	Retinal progenitor cells	FGF15	NA
+Eye	Rod bipolar cells	PRKCA	5578
+Eye	Rod bipolar cells	PCP4	5121
+Eye	Rod bipolar cells	RCVRN	5957
+Eye	Rod bipolar cells	SLC1A2	6506
+Eye	Rod bipolar cells	CAR8	NA
+Eye	Rod bipolar cells	SEBOX	645832
+Eye	Rod bipolar cells	VSX2	NA
+Eye	Rod bipolar cells	OTX2	5015
+Eye	Rod bipolar cells	GRM3	2913
+Eye	Rod bipolar cells	KCNA4	3739
+Eye	Rod bipolar cells	KCNMA1	3778
+Eye	Rod bipolar cells	RORB	6096
+Eye	Rod bipolar cells	CABP5	56344
+Eye	Rod bipolar cells	OG9X	NA
+Eye	Rod bipolar cells	VSTM2B	NA
+Eye	Rod bipolar cells	 CASP7	NA
+Eye	Rod bipolar cells	 RPA1	NA
+Eye	Rod bipolar cells	GABRA1	2554
+Eye	Rod bipolar cells	LHX4	89884
+Eye	Cone bipolar cells	PCP4	5121
+Eye	Cone bipolar cells	RCVRN	5957
+Eye	Cone bipolar cells	SLC1A2	6506
+Eye	Cone bipolar cells	CAR8	NA
+Eye	Cone bipolar cells	SCGN	10590
+Eye	Cone bipolar cells	VSX2	NA
+Eye	Cone bipolar cells	OTX2	5015
+Eye	Cone bipolar cells	MIP	4284
+Eye	Cone bipolar cells	GNAS	2778
+Eye	Cone bipolar cells	ISL1	3670
+Eye	Cone bipolar cells	SLC1A7	6512
+Eye	Cone bipolar cells	GJD2	57369
+Eye	Cone bipolar cells	GNB3	2784
+Eye	Cone bipolar cells	GRIA4	2893
+Eye	Cone bipolar cells	TJP2	9414
+Eye	Cone bipolar cells	LRIT2	NA
+Eye	Cone bipolar cells	CABP5	56344
+Eye	Cone bipolar cells	SCGN	10590
+Eye	Cone bipolar cells	VSX1	30813
+Eye	Cone bipolar cells	GABRA1	2554
+Eye	Cone bipolar cells	LHX4	89884
+Eye	Cone bipolar cells	LHX3	8022
+Eye	GABAergic amacrine cells	PAX6	5080
+Eye	GABAergic amacrine cells	TFAP2A	7020
+Eye	GABAergic amacrine cells	GAD2	2572
+Eye	GABAergic amacrine cells	FUT4	2526
+Eye	GABAergic amacrine cells	CALB2	794
+Eye	GABAergic amacrine cells	PVALB	5816
+Eye	GABAergic amacrine cells	PCP4	5121
+Eye	GABAergic amacrine cells	VIP	7432
+Eye	GABAergic amacrine cells	THY1	7070
+Eye	GABAergic amacrine cells	STX1A	6804
+Eye	GABAergic amacrine cells	MIP	4284
+Eye	GABAergic amacrine cells	 GNAS	NA
+Eye	GABAergic amacrine cells	 ISL1	NA
+Eye	GABAergic amacrine cells	GAD1	2571
+Eye	GABAergic amacrine cells	ZEB2	9839
+Eye	GABAergic amacrine cells	TJP2	9414
+Eye	GABAergic amacrine cells	SEMA3D	223117
+Eye	GABAergic amacrine cells	POU6F2	11281
+Eye	GABAergic amacrine cells	KCNMA1	3778
+Eye	GABAergic amacrine cells	KCNA4	3739
+Eye	GABAergic amacrine cells	GRM3	2913
+Eye	GABAergic amacrine cells	GJD2	57369
+Eye	GABAergic amacrine cells	FRMPD2	NA
+Eye	GABAergic amacrine cells	PROX1	5629
+Eye	GABAergic amacrine cells	NR4A2	4929
+Eye	GABAergic amacrine cells	NGN2	NA
+Eye	GABAergic amacrine cells	C1QL2	NA
+Eye	GABAergic amacrine cells	RELN	5649
+Eye	Rod photoreceptor cells	RHO	6010
+Eye	Rod photoreceptor cells	PDC	5132
+Eye	Rod photoreceptor cells	NRL	4901
+Eye	Rod photoreceptor cells	ROM1	6094
+Eye	Rod photoreceptor cells	CRX	1406
+Eye	Rod photoreceptor cells	ARR3	407
+Eye	Rod photoreceptor cells	CABP4	57010
+Eye	Rod photoreceptor cells	CACNA1D	776
+Eye	Rod photoreceptor cells	DYNLRB2	83657
+Eye	Rod photoreceptor cells	EDN2	1907
+Eye	Rod photoreceptor cells	FRMPD2	NA
+Eye	Rod photoreceptor cells	GJD2	57369
+Eye	Rod photoreceptor cells	KCNQ5	56479
+Eye	Rod photoreceptor cells	KCNA4	3739
+Eye	Rod photoreceptor cells	LRIT1	26103
+Eye	Rod photoreceptor cells	LRIT2	NA
+Eye	Rod photoreceptor cells	MAF	4094
+Eye	Rod photoreceptor cells	MED1	5469
+Eye	Rod photoreceptor cells	RORB	6096
+Eye	Rod photoreceptor cells	RP1L1	94137
+Eye	Rod photoreceptor cells	TSPAN10	83882
+Eye	Rod photoreceptor cells	TTC8	123016
+Eye	Rod photoreceptor cells	GCAP2	NA
+Eye	Rod photoreceptor cells	SAMD7 	NA
+Eye	Rod photoreceptor cells	CERKL 	NA
+Eye	Rod photoreceptor cells	SAMD11	148398
+Eye	Rod photoreceptor cells	SLC24A1	9187
+Eye	Rod photoreceptor cells	RP1	6101
+Eye	Rod photoreceptor cells	PDE6B	5158
+Eye	Cone photoreceptor cells	ARR3	407
+Eye	Cone photoreceptor cells	OPN1SW	611
+Eye	Cone photoreceptor cells	NRL	4901
+Eye	Cone photoreceptor cells	ROM1	6094
+Eye	Cone photoreceptor cells	CRX	1406
+Eye	Cone photoreceptor cells	ARR3	407
+Eye	Cone photoreceptor cells	OPN1LW	NA
+Eye	Cone photoreceptor cells	OPN1MW	NA
+Eye	Cone photoreceptor cells	CABP4	57010
+Eye	Cone photoreceptor cells	CACNA1D	776
+Eye	Cone photoreceptor cells	EDN2	1907
+Eye	Cone photoreceptor cells	GJD2	57369
+Eye	Cone photoreceptor cells	GNB3	2784
+Eye	Cone photoreceptor cells	KCNQ5	56479
+Eye	Cone photoreceptor cells	LRIT1	26103
+Eye	Cone photoreceptor cells	MED1	5469
+Eye	Cone photoreceptor cells	RP1L1	94137
+Eye	Cone photoreceptor cells	THRB	7068
+Eye	Cone photoreceptor cells	TSPAN10	83882
+Eye	Cone photoreceptor cells	TTC8	123016
+Eye	Cone photoreceptor cells	OPMW	NA
+Eye	Cone photoreceptor cells	SLC24A1	9187
+Eye	Cone photoreceptor cells	RP1	6101
+Eye	Cone photoreceptor cells	PDE6B	5158
+Eye	Microglial cells	P2RY12	64805
+Eye	Microglial cells	ITGAM	3684
+Eye	Microglial cells	CD40	958
+Eye	Microglial cells	PTPRC	5788
+Eye	Microglial cells	CD68	968
+Eye	Microglial cells	AIF1	199
+Eye	Microglial cells	CX3CR1	1524
+Eye	Microglial cells	TMEM119	338773
+Eye	Microglial cells	ADGRE1	2015
+Eye	Microglial cells	C1QA	712
+Eye	Microglial cells	NOS2	4843
+Eye	Microglial cells	TNF	7124
+Eye	Microglial cells	ISYNA1	51477
+Eye	Microglial cells	CCL4	6351
+Eye	Microglial cells	ADORA3	140
+Eye	Microglial cells	ADRB2	154
+Eye	Microglial cells	BHLHE41	79365
+Eye	Microglial cells	BIN1	274
+Eye	Microglial cells	KLF2	10365
+Eye	Microglial cells	NAV3	89795
+Eye	Microglial cells	RHOB	388
+Eye	Microglial cells	SALL1	6299
+Eye	Microglial cells	SIGLEC8	27181
+Eye	Microglial cells	SLC1A3	6507
+Eye	Microglial cells	SPRY1	10252
+Eye	Microglial cells	TAL1	6886
+Eye	Microglial cells	CX3CR1	1524
+Eye	Microglial cells	CX3CL1	6376
+Eye	Horizontal cells	RCVRN	5957
+Eye	Horizontal cells	PROX1	5629
+Eye	Horizontal cells	NTRK1	4914
+Eye	Horizontal cells	LHX1	3975
+Eye	Horizontal cells	LIM2	3982
+Eye	Horizontal cells	CALB2	794
+Eye	Horizontal cells	CALB1	793
+Eye	Horizontal cells	LIM1	NA
+Eye	Horizontal cells	DLG2	1740
+Eye	Horizontal cells	TFAP2B	7021
+Eye	Horizontal cells	ZEB2	9839
+Eye	Horizontal cells	LIM1	NA
+Eye	Synapses	SYP	6855
+Eye	Synapses	DLG4	1742
+Eye	Synapses	HOMER1	9456
+Eye	Synapses	SLC32A1	140679
+Eye	Retinal pigment epithelial cells	EZR	7430
+Eye	Retinal pigment epithelial cells	RPE65	6121
+Eye	Retinal pigment epithelial cells	BEST1	7439
+Eye	Retinal pigment epithelial cells	ANO2	57101
+Eye	Retinal pigment epithelial cells	BMP2	650
+Eye	Retinal pigment epithelial cells	BMP4	652
+Eye	Retinal pigment epithelial cells	CLU	1191
+Eye	Retinal pigment epithelial cells	EFEMP1	2202
+Eye	Retinal pigment epithelial cells	IL4	3565
+Eye	Retinal pigment epithelial cells	KCNJ5	3762
+Eye	Retinal pigment epithelial cells	MED1	5469
+Eye	Retinal pigment epithelial cells	RDH5	NA
+Eye	Retinal pigment epithelial cells	RGR	5995
+Eye	Retinal pigment epithelial cells	SBSPON	157869
+Eye	Retinal pigment epithelial cells	TGFBR1	7046
+Eye	Retinal pigment epithelial cells	TMEM98	26022
+Eye	Retinal pigment epithelial cells	TTC8	123016
+Eye	Retinal pigment epithelial cells	TRAF1	7185
+Eye	Retinal pigment epithelial cells	CERKL	NA
+Eye	Cornea epithelial cells	KRT3	3850
+Eye	Cornea epithelial cells	KLF6	1316
+Eye	Immune cells	CD25	NA
+Eye	Immune cells	CD69	969
+Eye	Immune cells	CD4	920
+Eye	Immune cells	CD3	NA
+Eye	Immune cells	ITGAM	3684
+Eye	Immune cells	C1QA	712
+Eye	Immune cells	FCER1G	2207
+Eye	Immune cells	CD19	930
+Eye	Immune cells	CD20	NA
+Eye	Immune cells	TRAC	NA
+Eye	Immune cells	LTB	4050
+Eye	Immune cells	CD52	1043
+Eye	Immune cells	TRBC2	NA
+Eye	Fibroblasts	PAX6	5080
+Eye	Fibroblasts	COL1A1	1277
+Eye	Fibroblasts	TGFB1	7040
+Eye	Fibroblasts	ACTA2	59
+Eye	Fibroblasts	ICAM1	3383
+Eye	Fibroblasts	FBLN1	2192
+Eye	Fibroblasts	CRHBP	1393
+Eye	Fibroblasts	FN1	2335
+Eye	Fibroblasts	PDGFRA	5156
+Eye	Endothelial cells	PECAM1	5175
+Eye	Endothelial cells	VWF	7450
+Eye	Endothelial cells	CDH5	1003
+Eye	Endothelial cells	BMP2	650
+Eye	Endothelial cells	BMP4	652
+Eye	Endothelial cells	CD34	947
+Eye	Endothelial cells	CD55	1604
+Eye	Endothelial cells	FLT1	2321
+Eye	Endothelial cells	MED1	5469
+Eye	Endothelial cells	TGFBR1	7046
+Eye	Endothelial cells	TMEM98	26022
+Eye	Endothelial cells	TNFSF12	8742
+Eye	Endothelial cells	CD93	22918
+Eye	Endothelial cells	SLCO1A4	NA
+Eye	Endothelial cells	CLDN5	7122
+Eye	Endothelial cells	ICAM1	3383
+Eye	Endothelial cells	GNG11	2791
+Eye	Pericytes	KCNJ8	3764
+Eye	Pericytes	 RGS5	NA
+Eye	Pericytes	 DLK1	NA
+Eye	Pericytes	  ABCC9	NA
+Eye	Pericytes	SUR2B	NA
+Eye	Pericytes	DLK1	8788
+Eye	Pericytes	VCAM1	7412
+Eye	Extracellular matrix cells	ANTXR2	118429
+Eye	Extracellular matrix cells	COL10A1	1300
+Eye	Extracellular matrix cells	EFEMP1	2202
+Eye	Extracellular matrix cells	LAMA2	3908
+Eye	Extracellular matrix cells	SNTB1	6641
+Eye	Extracellular matrix cells	TCF7L2	6934
+Eye	Extracellular matrix cells	TGFBR1	7046
+Eye	Extracellular matrix cells	TMEM98	26022
+Eye	Extracellular matrix cells	VIPR2	7434
+Eye	Extracellular matrix cells	ZIC2	7546
+Eye	Glycinergic amacrine cells	PAX6	5080
+Eye	Glycinergic amacrine cells	TFAP2A	7020
+Eye	Glycinergic amacrine cells	FUT4	2526
+Eye	Glycinergic amacrine cells	CALB2	794
+Eye	Glycinergic amacrine cells	PVALB	5816
+Eye	Glycinergic amacrine cells	SLC6A9	6536
+Eye	Glycinergic amacrine cells	PCP4	5121
+Eye	Glycinergic amacrine cells	VIP	7432
+Eye	Glycinergic amacrine cells	THY1	7070
+Eye	Glycinergic amacrine cells	STX1A	6804
+Eye	Glycinergic amacrine cells	MIP	4284
+Eye	Glycinergic amacrine cells	 GNAS	NA
+Eye	Glycinergic amacrine cells	ZEB2	9839
+Eye	Glycinergic amacrine cells	TJP2	9414
+Eye	Glycinergic amacrine cells	SEMA3D	223117
+Eye	Glycinergic amacrine cells	POU6F2	11281
+Eye	Glycinergic amacrine cells	KCNMA1	3778
+Eye	Glycinergic amacrine cells	KCNA4	3739
+Eye	Glycinergic amacrine cells	GRM3	2913
+Eye	Glycinergic amacrine cells	GJD2	57369
+Eye	Glycinergic amacrine cells	FRMPD2	NA
+Eye	Glycinergic amacrine cells	PROX1	5629
+Eye	Glycinergic amacrine cells	GLYT1	NA
+Eye	Glycinergic amacrine cells	TGFB2	7042
+Eye	Glycinergic amacrine cells	BE996002	NA
+Eye	Glycinergic amacrine cells	CAMKV	79012
+Eye	Glycinergic amacrine cells	TCF4	6925
+Eye	Glycinergic amacrine cells	EFNA5	1946
+Eye	Glycinergic amacrine cells	DAB1	1600
+Eye	Glycinergic amacrine cells	SLC6A9	6536
+Eye	Cholinergic GABAergic amacrine cells	PAX6	5080
+Eye	Cholinergic GABAergic amacrine cells	TFAP2A	7020
+Eye	Cholinergic GABAergic amacrine cells	GAD2	2572
+Eye	Cholinergic GABAergic amacrine cells	FUT4	2526
+Eye	Cholinergic GABAergic amacrine cells	CALB2	794
+Eye	Cholinergic GABAergic amacrine cells	PVALB	5816
+Eye	Cholinergic GABAergic amacrine cells	PCP4	5121
+Eye	Cholinergic GABAergic amacrine cells	VIP	7432
+Eye	Cholinergic GABAergic amacrine cells	THY1	7070
+Eye	Cholinergic GABAergic amacrine cells	STX1A	6804
+Eye	Cholinergic GABAergic amacrine cells	MIP	4284
+Eye	Cholinergic GABAergic amacrine cells	 GNAS	NA
+Eye	Cholinergic GABAergic amacrine cells	 ISL1	NA
+Eye	Cholinergic GABAergic amacrine cells	GAD1	2571
+Eye	Cholinergic GABAergic amacrine cells	ZEB2	9839
+Eye	Cholinergic GABAergic amacrine cells	TJP2	9414
+Eye	Cholinergic GABAergic amacrine cells	SEMA3D	223117
+Eye	Cholinergic GABAergic amacrine cells	POU6F2	11281
+Eye	Cholinergic GABAergic amacrine cells	KCNMA1	3778
+Eye	Cholinergic GABAergic amacrine cells	KCNA4	3739
+Eye	Cholinergic GABAergic amacrine cells	GRM3	2913
+Eye	Cholinergic GABAergic amacrine cells	GJD2	57369
+Eye	Cholinergic GABAergic amacrine cells	FRMPD2	NA
+Eye	Cholinergic GABAergic amacrine cells	PROX1	5629
+Eye	Cholinergic GABAergic amacrine cells	NR4A2	4929
+Eye	Cholinergic GABAergic amacrine cells	NGN2	NA
+Eye	Cholinergic GABAergic amacrine cells	C1QL2	NA
+Eye	Cholinergic GABAergic amacrine cells	RELN	5649
+Eye	Cholinergic GABAergic amacrine cells	VACHT	NA
+Eye	Cholinergic GABAergic amacrine cells	TAC1	6863
+Eye	Cholinergic GABAergic amacrine cells	SCUBE2	57758
+Eye	Cholinergic GABAergic amacrine cells	CPNE4	131034
+Eye	Cholinergic GABAergic amacrine cells	SOX2	6657
+Eye	Cholinergic GABAergic amacrine cells	SLIT	NA
+Eye	Cholinergic GABAergic amacrine cells	SCGN	10590
+Eye	Tachykinin GABAergic amacrine cells	PAX6	5080
+Eye	Tachykinin GABAergic amacrine cells	TFAP2A	7020
+Eye	Tachykinin GABAergic amacrine cells	GAD2	2572
+Eye	Tachykinin GABAergic amacrine cells	FUT4	2526
+Eye	Tachykinin GABAergic amacrine cells	CALB2	794
+Eye	Tachykinin GABAergic amacrine cells	PVALB	5816
+Eye	Tachykinin GABAergic amacrine cells	PCP4	5121
+Eye	Tachykinin GABAergic amacrine cells	VIP	7432
+Eye	Tachykinin GABAergic amacrine cells	THY1	7070
+Eye	Tachykinin GABAergic amacrine cells	STX1A	6804
+Eye	Tachykinin GABAergic amacrine cells	MIP	4284
+Eye	Tachykinin GABAergic amacrine cells	 GNAS	NA
+Eye	Tachykinin GABAergic amacrine cells	 ISL1	NA
+Eye	Tachykinin GABAergic amacrine cells	GAD1	2571
+Eye	Tachykinin GABAergic amacrine cells	ZEB2	9839
+Eye	Tachykinin GABAergic amacrine cells	TJP2	9414
+Eye	Tachykinin GABAergic amacrine cells	SEMA3D	223117
+Eye	Tachykinin GABAergic amacrine cells	POU6F2	11281
+Eye	Tachykinin GABAergic amacrine cells	KCNMA1	3778
+Eye	Tachykinin GABAergic amacrine cells	KCNA4	3739
+Eye	Tachykinin GABAergic amacrine cells	GRM3	2913
+Eye	Tachykinin GABAergic amacrine cells	GJD2	57369
+Eye	Tachykinin GABAergic amacrine cells	FRMPD2	NA
+Eye	Tachykinin GABAergic amacrine cells	PROX1	5629
+Eye	Tachykinin GABAergic amacrine cells	NR4A2	4929
+Eye	Tachykinin GABAergic amacrine cells	NGN2	NA
+Eye	Tachykinin GABAergic amacrine cells	C1QL2	NA
+Eye	Tachykinin GABAergic amacrine cells	RELN	5649
+Eye	Tachykinin GABAergic amacrine cells	ZPF58	NA
+Eye	Tachykinin GABAergic amacrine cells	CDH4	1002
+Eye	Tachykinin GABAergic amacrine cells	GRIK4	2900
+Eye	Tachykinin GABAergic amacrine cells	GRM8	2918
+Eye	Tachykinin GABAergic amacrine cells	SLIT2	9353
+Eye	Tachykinin GABAergic amacrine cells	SCGN	10590
+Eye	Starburst amacrine cells	PAX6	5080
+Eye	Starburst amacrine cells	TFAP2A	7020
+Eye	Starburst amacrine cells	FUT4	2526
+Eye	Starburst amacrine cells	CALB2	794
+Eye	Starburst amacrine cells	PVALB	5816
+Eye	Starburst amacrine cells	PCP4	5121
+Eye	Starburst amacrine cells	VIP	7432
+Eye	Starburst amacrine cells	THY1	7070
+Eye	Starburst amacrine cells	STX1A	6804
+Eye	Starburst amacrine cells	MIP	4284
+Eye	Starburst amacrine cells	 GNAS	NA
+Eye	Starburst amacrine cells	ZEB2	9839
+Eye	Starburst amacrine cells	TJP2	9414
+Eye	Starburst amacrine cells	SEMA3D	223117
+Eye	Starburst amacrine cells	POU6F2	11281
+Eye	Starburst amacrine cells	KCNMA1	3778
+Eye	Starburst amacrine cells	KCNA4	3739
+Eye	Starburst amacrine cells	GRM3	2913
+Eye	Starburst amacrine cells	GJD2	57369
+Eye	Starburst amacrine cells	FRMPD2	NA
+Eye	Starburst amacrine cells	PROX1	5629
+Eye	Starburst amacrine cells	GAD1	2571
+Eye	Starburst amacrine cells	CHAT	1103
+Eye	Starburst amacrine cells	SLC5A7	60482
+Kidney	Cancer stem cells	EPCAM	4072
+Kidney	Immune cells	CD19	930
+Kidney	Immune cells	IGHA2	NA
+Kidney	Immune cells	IGHG3	NA
+Kidney	Immune cells	IGHM	NA
+Kidney	Immune cells	IGKC	NA
+Kidney	Immune cells	JCHAIN	3512
+Kidney	Immune cells	CD40	958
+Kidney	Immune cells	CD79A	973
+Kidney	Immune cells	CPNE5	57699
+Kidney	Immune cells	FCRL5	83416
+Kidney	Immune cells	HLA-DRA	3122
+Kidney	Immune cells	IGHA1	NA
+Kidney	Immune cells	IGHG1	NA
+Kidney	Immune cells	IGHG2	NA
+Kidney	Immune cells	IGKV1-12	NA
+Kidney	Immune cells	IGLC2	NA
+Kidney	Immune cells	IGLC3	NA
+Kidney	Immune cells	IGLC7	NA
+Kidney	Immune cells	IGLL5	NA
+Kidney	Immune cells	MS4A1	931
+Kidney	Immune cells	MZB1	51237
+Kidney	Immune cells	PKHD1L1	93035
+Kidney	Immune cells	PNOC	5368
+Kidney	Immune cells	POU2AF1	5450
+Kidney	Immune cells	TNFRSF13C	115650
+Kidney	Immune cells	CD3D	915
+Kidney	Immune cells	TRAC	NA
+Kidney	Immune cells	IL7R	3575
+Kidney	Immune cells	CD3E	916
+Kidney	Immune cells	CD8A	925
+Kidney	Immune cells	TRBC2	NA
+Kidney	Immune cells	CD52	1043
+Kidney	Immune cells	FCGR3A	NA
+Kidney	Immune cells	IL32	9235
+Kidney	Immune cells	KLRD1	3824
+Kidney	Immune cells	CD68	968
+Kidney	Immune cells	CXCL8	3576
+Kidney	Immune cells	FCGR3B	2215
+Kidney	Immune cells	MNDA	4332
+Kidney	Immune cells	KIT	3815
+Kidney	Immune cells	PTGS2	5743
+Kidney	Immune cells	SLC18A2	6571
+Kidney	Immune cells	TRAC	NA
+Kidney	Immune cells	LTB	4050
+Kidney	Immune cells	CD52	1043
+Kidney	Immune cells	TRBC2	NA
+Kidney	Immune cells	SHISA5	51246
+Kidney	α-intercalated cells (Collecting duct system)	FOXI1	2299
+Kidney	α-intercalated cells (Collecting duct system)	OXGR1	27199
+Kidney	α-intercalated cells (Collecting duct system)	ATP6V1G3	127124
+Kidney	α-intercalated cells (Collecting duct system)	AQP6	363
+Kidney	α-intercalated cells (Collecting duct system)	CA2	760
+Kidney	α-intercalated cells (Collecting duct system)	NR1I4	NA
+Kidney	α-intercalated cells (Collecting duct system)	SLC4A1	6521
+Kidney	α-intercalated cells (Collecting duct system)	RHCG	51458
+Kidney	α-intercalated cells (Collecting duct system)	ATP6V1B1	525
+Kidney	α-intercalated cells (Collecting duct system)	AVPR1A	552
+Kidney	α-intercalated cells (Collecting duct system)	P2RY14	9934
+Kidney	α-intercalated cells (Collecting duct system)	FXYD2	NA
+Kidney	α-intercalated cells (Collecting duct system)	TMEM213	155006
+Kidney	α-intercalated cells (Collecting duct system)	CA2	760
+Kidney	α-intercalated cells (Collecting duct system)	DMRT2	10655
+Kidney	β-intercalated cells (Collecting duct system)	FOXI1	2299
+Kidney	β-intercalated cells (Collecting duct system)	OXGR1	27199
+Kidney	β-intercalated cells (Collecting duct system)	ATP6V1G3	127124
+Kidney	β-intercalated cells (Collecting duct system)	SLC26A4	5172
+Kidney	β-intercalated cells (Collecting duct system)	CA2	760
+Kidney	β-intercalated cells (Collecting duct system)	NR1I4	NA
+Kidney	β-intercalated cells (Collecting duct system)	RHCG	51458
+Kidney	β-intercalated cells (Collecting duct system)	ATP6V1B1	525
+Kidney	β-intercalated cells (Collecting duct system)	AVPR1A	552
+Kidney	β-intercalated cells (Collecting duct system)	INSRR	3645
+Kidney	β-intercalated cells (Collecting duct system)	FXYD2	NA
+Kidney	β-intercalated cells (Collecting duct system)	TMEM213	155006
+Kidney	β-intercalated cells (Collecting duct system)	CA2	760
+Kidney	β-intercalated cells (Collecting duct system)	AP1S3	130340
+Kidney	Loop of Henle cells	UMOD	7369
+Kidney	Loop of Henle cells	AQP1	358
+Kidney	Loop of Henle cells	IRX1	79192
+Kidney	Loop of Henle cells	IRX2	153572
+Kidney	Loop of Henle cells	IRX3	79191
+Kidney	Loop of Henle cells	MECOM	2122
+Kidney	Loop of Henle cells	POU3F3	5455
+Kidney	Loop of Henle cells	TBC1D4	9882
+Kidney	Loop of Henle cells	SLC12A1	6557
+Kidney	Loop of Henle cells	DEFB1	1672
+Kidney	Loop of Henle cells	GEM	2669
+Kidney	Loop of Henle cells	RGS5	8490
+Kidney	Loop of Henle cells	CYP4B1	1580
+Kidney	Loop of Henle cells	DRAM1	55332
+Kidney	Loop of Henle cells	NEK6	10783
+Kidney	Loop of Henle cells	CDKN1C	1028
+Kidney	Loop of Henle cells	CALCRL	10203
+Kidney	Loop of Henle cells	CLCNKA	NA
+Kidney	Loop of Henle cells	CRYAB	1410
+Kidney	Loop of Henle cells	SPP1	6696
+Kidney	Loop of Henle cells	PPP1R1B	84152
+Kidney	Loop of Henle cells	LRRC66	339977
+Kidney	Loop of Henle cells	IGF1	3479
+Kidney	Loop of Henle cells	CLDN1	9076
+Kidney	Loop of Henle cells	CLDN10	9071
+Kidney	Mesangial cells	PDGFRB	5159
+Kidney	Mesangial cells	PDGFB	5155
+Kidney	Mesangial cells	LAMA4	3910
+Kidney	Mesangial cells	ITGA8	8516
+Kidney	Mesangial cells	LGALS1	3956
+Kidney	Mesangial cells	ARID5B	84159
+Kidney	Mesangial cells	CCR7	1236
+Kidney	Mesangial cells	FN1	2335
+Kidney	Mesangial cells	GATA3	2625
+Kidney	Mesangial cells	PAWR	5074
+Kidney	Mesangial cells	SERPINE2	5270
+Kidney	Mesangial cells	TBX18	9096
+Kidney	Mesangial cells	TEK	7010
+Kidney	Mesangial cells	THY1	7070
+Kidney	Mesangial cells	REN	5972
+Kidney	Mesangial cells	ZEB2	9839
+Kidney	Podocytes	NPHS1	4868
+Kidney	Podocytes	NPHS2	7827
+Kidney	Podocytes	EZR	7430
+Kidney	Podocytes	TDRD5	163589
+Kidney	Podocytes	SEMA3G	56920
+Kidney	Podocytes	SEMA5A	9037
+Kidney	Podocytes	SEMA3E	9723
+Kidney	Podocytes	PLA2R1	22925
+Kidney	Podocytes	COL4A4	1286
+Kidney	Podocytes	ARHGAP24	83478
+Kidney	Podocytes	WT1	7490
+Kidney	Podocytes	COL4A3	1285
+Kidney	Podocytes	RHPN1	114822
+Kidney	Podocytes	MAFB	9935
+Kidney	Podocytes	PODXL	5420
+Kidney	Podocytes	CLIC5	53405
+Kidney	Podocytes	CD2AP	23607
+Kidney	Podocytes	NOTCH2	4853
+Kidney	Principal cells (Collecting duct system)	KCNE1	NA
+Kidney	Principal cells (Collecting duct system)	APELA	100506013
+Kidney	Principal cells (Collecting duct system)	AQP2	359
+Kidney	Principal cells (Collecting duct system)	AQP3	360
+Kidney	Principal cells (Collecting duct system)	GATA3	2625
+Kidney	Principal cells (Collecting duct system)	ELF5	2001
+Kidney	Principal cells (Collecting duct system)	STC1	6781
+Kidney	Principal cells (Collecting duct system)	TBX3	6926
+Kidney	Principal cells (Collecting duct system)	CLDN4	1364
+Kidney	Principal cells (Collecting duct system)	KCNJ1	3758
+Kidney	Principal cells (Collecting duct system)	AVPR2	554
+Kidney	Principal cells (Collecting duct system)	FXYD4	53828
+Kidney	Principal cells (Collecting duct system)	HSD11B2	3291
+Kidney	Principal cells (Collecting duct system)	SCNN1G	6340
+Kidney	Inner Medullary cells (Collecting duct system)	S100A4	6275
+Kidney	Inner Medullary cells (Collecting duct system)	PLEKHB1	58473
+Kidney	Inner Medullary cells (Collecting duct system)	ALDH1A3	220
+Kidney	Inner Medullary cells (Collecting duct system)	TM6SF1	53346
+Kidney	Inner Medullary cells (Collecting duct system)	SLC14A2	8170
+Kidney	Proximal tubule cells	FXYD2	NA
+Kidney	Proximal tubule cells	ATP1B1	481
+Kidney	Proximal tubule cells	SLC3A1	6519
+Kidney	Proximal tubule cells	CUBN	8029
+Kidney	Proximal tubule cells	PDZK1	NA
+Kidney	Proximal tubule cells	LRP2	4036
+Kidney	Proximal tubule cells	POU3F3	5455
+Kidney	Proximal tubule cells	AGXT2	64902
+Kidney	Proximal tubule cells	GSTA2	NA
+Kidney	Proximal tubule cells	CYP2E1	1571
+Kidney	Proximal tubule cells	CRYL1	51084
+Kidney	Proximal tubule cells	GLYAT	10249
+Kidney	Proximal tubule cells	SORD	NA
+Kidney	Proximal tubule cells	UPB1	51733
+Kidney	Proximal tubule cells	SOD3	6649
+Kidney	Proximal tubule cells	HNF4A	3172
+Kidney	Proximal tubule cells	CDKN3	1033
+Kidney	Proximal tubule cells	NAPSA	9476
+Kidney	Proximal tubule cells	SLC7A13	157724
+Kidney	Proximal tubule cells	SLC17A3	10786
+Kidney	Proximal tubule cells	HGD	3081
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	SIX2	10736
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	ITGA8	8516
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	NR2F2	7026
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	EYA1	2138
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	MEIS2	4212
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	CITED1	4435
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	MUC1	4582
+Kidney	Cap mesenchyme cells (Mesenchymal cells)	NOTCH2	4853
+Kidney	Endothelial cells	TGFBR2	7048
+Kidney	Endothelial cells	NOTCH4	4855
+Kidney	Endothelial cells	ADGRL4	64123
+Kidney	Endothelial cells	EMCN	51705
+Kidney	Endothelial cells	ENG	2022
+Kidney	Endothelial cells	PECAM1	5175
+Kidney	Endothelial cells	PLAC8	51316
+Kidney	Endothelial cells	PLVAP	83483
+Kidney	Endothelial cells	TEK	7010
+Kidney	Endothelial cells	KDR	3791
+Kidney	Endothelial cells	VWF	7450
+Kidney	Endothelial cells	MMRN1	22915
+Kidney	Endothelial cells	CD93	22918
+Kidney	Stromal cells	MEIS1	4211
+Kidney	Stromal cells	TCF21	6943
+Kidney	Stromal cells	COL1A2	1278
+Kidney	Stromal cells	COL3A1	1281
+Kidney	Stromal cells	TNC	3371
+Kidney	Stromal cells	COL6A3	1293
+Kidney	Stromal cells	LGALS1	3956
+Kidney	Juxtaglomerular cells	REN	5972
+Kidney	Juxtaglomerular cells	CRIP1	1396
+Kidney	Renal interstitium (Mesenchymal cells)	SFRP1	6422
+Kidney	Renal interstitium (Mesenchymal cells)	MEIS1	4211
+Kidney	Renal interstitium (Mesenchymal cells)	PDGFRA	5156
+Kidney	Renal interstitium (Mesenchymal cells)	C7	730
+Kidney	Renal interstitium (Mesenchymal cells)	MGP	4256
+Kidney	Connecting tubule cells	CALB1	793
+Kidney	Connecting tubule cells	TRPV5	56302
+Kidney	Connecting tubule cells	FXYD2	NA
+Kidney	Connecting tubule cells	ATP6V1B1	525
+Kidney	Connecting tubule cells	SLC8A1	6546
+Kidney	Distal tubule cells	KLK1	3816
+Kidney	Distal tubule cells	KCNJ1	3758
+Kidney	Distal tubule cells	KL	9365
+Kidney	Distal tubule cells	EGF	1950
+Kidney	Distal tubule cells	TMEM213	155006
+Kidney	Distal tubule cells	TMEM52B	120939
+Kidney	Distal tubule cells	SOSTDC1	25928
+Kidney	Distal tubule cells	SLC12A3	6559
+Kidney	Distal tubule cells	EMX1	2016
+Kidney	Distal tubule cells	CLDN3	1365
+Kidney	Distal tubule cells	CLDN8	9073
+Kidney	Distal tubule cells	UMOD	7369
+Kidney	Distal tubule cells	PCOLCE	5118
+Kidney	Distal tubule cells	CDC42EP3	10602
+Kidney	Distal tubule cells	CLCNKB	1188
+Kidney	Distal tubule cells	FXYD2	NA
+Kidney	Distal tubule cells	POU3F3	5455
+Kidney	Hematopoietic cells	CORO1A	11151
+Kidney	Hematopoietic cells	MNDA	4332
+Kidney	Hematopoietic cells	SRGN	5552
+Kidney	Hematopoietic cells	HLA-DPA1	3113
+Kidney	Hematopoietic cells	LST1	7940
+Kidney	Ureteric Bud cells	GFRA1	2674
+Kidney	Ureteric Bud cells	RET	5979
+Kidney	Ureteric Bud cells	WNT9B	7484
+Kidney	Ureteric Bud cells	CLDN6	9074
+Kidney	Ureteric Bud cells	LAMA1	284217
+Kidney	Ureteric Bud cells	NMU	10874
+Kidney	Ureteric Bud cells	WNT11 	NA
+Kidney	Ureteric Bud cells	ETV4	2118
+Kidney	Ureteric Bud cells	 WNT7B	NA
+Kidney	Renal Vesicle cells	NCAM1	4684
+Kidney	Renal Vesicle cells	EMX2	2018
+Kidney	Renal Vesicle cells	LHX1	3975
+Kidney	Renal Vesicle cells	BMP2	650
+Kidney	Renal Vesicle cells	DKK1	22943
+Kidney	Renal Vesicle cells	DLL1	28514
+Kidney	Renal Vesicle cells	GREB1	9687
+Kidney	Renal Vesicle cells	PAPSS2	9060
+Kidney	Renal Vesicle cells	PCSK9	255738
+Kidney	Renal Vesicle cells	POU3F3	5455
+Kidney	Renal Vesicle cells	TMEM100	55273
+Kidney	Renal Vesicle cells	WT1	7490
+Kidney	Cancer stem cells	EPCAM	4072
+Brain	Astrocytes	GFAP	2670
+Brain	Astrocytes	SLC1A3	6507
+Brain	Astrocytes	SLC1A2	6506
+Brain	Astrocytes	GLUL	2752
+Brain	Astrocytes	S100B	6285
+Brain	Astrocytes	ALDH1L1	10840
+Brain	Astrocytes	AQP4	361
+Brain	Astrocytes	IGFBP3	3486
+Brain	Astrocytes	ATP13A4	84239
+Brain	Astrocytes	CBS	NA
+Brain	Astrocytes	SOX9	6662
+Brain	Astrocytes	CD40	958
+Brain	Astrocytes	CD80	941
+Brain	Astrocytes	CD86	942
+Brain	Astrocytes	C5AR1	728
+Brain	Cholinergic neurons	CHAT	1103
+Brain	Cholinergic neurons	SLC18A3	6572
+Brain	Cholinergic neurons	ACHE	43
+Brain	Dopaminergic neurons	TH	7054
+Brain	Dopaminergic neurons	SLC6A3	6531
+Brain	Dopaminergic neurons	FOXA2	3170
+Brain	Dopaminergic neurons	KCNJ6	3763
+Brain	Dopaminergic neurons	NR4A2	4929
+Brain	Dopaminergic neurons	LMX1B	4010
+Brain	Dopaminergic neurons	DBH	1621
+Brain	Dopaminergic neurons	SLC6A2	6530
+Brain	Dopaminergic neurons	PPP1R1B	84152
+Brain	Endothelial cells	PECAM1	5175
+Brain	Endothelial cells	VWF	7450
+Brain	Endothelial cells	A2M	2
+Brain	Endothelial cells	APOLD1	81575
+Brain	Endothelial cells	FLT1	2321
+Brain	Endothelial cells	TM4SF1	4071
+Brain	Endothelial cells	CD34	947
+Brain	Endothelial cells	MCAM	4162
+Brain	Endothelial cells	ENG	2022
+Brain	Endothelial cells	PTPRC	5788
+Brain	Endothelial cells	VCAM1	7412
+Brain	Endothelial cells	CDH5	1003
+Brain	GABAergic neurons	SLC6A1	6529
+Brain	GABAergic neurons	GABBR1	2550
+Brain	GABAergic neurons	GABBR2	9568
+Brain	GABAergic neurons	GAD2	2572
+Brain	GABAergic neurons	GAD1	2571
+Brain	GABAergic neurons	SLC32A1	140679
+Brain	Glutamatergic neurons	SLC17A7	57030
+Brain	Glutamatergic neurons	SLC17A6	57084
+Brain	Glutamatergic neurons	GRIN1	2902
+Brain	Glutamatergic neurons	GRIN2B	2904
+Brain	Glutamatergic neurons	GLS	2744
+Brain	Glutamatergic neurons	GLUL	2752
+Brain	Glutamatergic neurons	GRIN2A	2903
+Brain	Immature neurons	DCX	1641
+Brain	Immature neurons	NEUROD1	4760
+Brain	Immature neurons	TBR1	10716
+Brain	Immature neurons	STMN1	3925
+Brain	Immature neurons	NCAM1	4684
+Brain	Immature neurons	TUBB3	10381
+Brain	Immune system cells	MS4A1	931
+Brain	Immune system cells	CCR6	1235
+Brain	Immune system cells	CXCR3	2833
+Brain	Immune system cells	CD4	920
+Brain	Immune system cells	IL2RA	3559
+Brain	Immune system cells	ISG20	3669
+Brain	Immune system cells	TNFRSF8	943
+Brain	Immune system cells	TRAC	NA
+Brain	Immune system cells	LTB	4050
+Brain	Immune system cells	CD52	1043
+Brain	Mature neurons	RBFOX3	146713
+Brain	Mature neurons	MAP2	4133
+Brain	Mature neurons	SYP	6855
+Brain	Mature neurons	DLG4	1742
+Brain	Mature neurons	TUBB3	10381
+Brain	Mature neurons	MAPT	4137
+Brain	Mature neurons	INA	9118
+Brain	Mature neurons	GAP43	2596
+Brain	Mature neurons	NRP1	8829
+Brain	Microglial cells	P2RY12	64805
+Brain	Microglial cells	ITGAM	3684
+Brain	Microglial cells	CD40	958
+Brain	Microglial cells	PTPRC	5788
+Brain	Microglial cells	CD68	968
+Brain	Microglial cells	AIF1	199
+Brain	Microglial cells	CX3CR1	1524
+Brain	Microglial cells	TMEM119	338773
+Brain	Microglial cells	ADGRE1	2015
+Brain	Microglial cells	C1QA	712
+Brain	Microglial cells	NOS2	4843
+Brain	Microglial cells	TNF	7124
+Brain	Microglial cells	ISYNA1	51477
+Brain	Microglial cells	CCL4	6351
+Brain	Microglial cells	ADORA3	140
+Brain	Microglial cells	ADRB2	154
+Brain	Microglial cells	BHLHE41	79365
+Brain	Microglial cells	BIN1	274
+Brain	Microglial cells	KLF2	10365
+Brain	Microglial cells	NAV3	89795
+Brain	Microglial cells	RHOB	388
+Brain	Microglial cells	SALL1	6299
+Brain	Microglial cells	SIGLEC8	27181
+Brain	Microglial cells	SLC1A3	6507
+Brain	Microglial cells	SPRY1	10252
+Brain	Microglial cells	TAL1	6886
+Brain	Myelinating Schwann cells	SOX10	6663
+Brain	Myelinating Schwann cells	EGR2	1959
+Brain	Myelinating Schwann cells	MBP	4155
+Brain	Myelinating Schwann cells	MPZ	4359
+Brain	Neural Progenitor cells	CSPG4	1464
+Brain	Neural Progenitor cells	RNF5	NA
+Brain	Neural Progenitor cells	EOMES	8320
+Brain	Neural Progenitor cells	SOX2	6657
+Brain	Neural Progenitor cells	SOX1	6656
+Brain	Neural Progenitor cells	NES	10763
+Brain	Neural Progenitor cells	PAX3	5077
+Brain	Neural Progenitor cells	PAX6	5080
+Brain	Neural Progenitor cells	OTX2	5015
+Brain	Neural Progenitor cells	CNTNAP1	8506
+Brain	Neural Progenitor cells	ASCL1	429
+Brain	Neural Progenitor cells	SMARCA4	6597
+Brain	Neural Progenitor cells	MSI1	4440
+Brain	Neural Progenitor cells	MSI2	124540
+Brain	Neural stem cells	SOX2	6657
+Brain	Neural stem cells	PROM1	8842
+Brain	Neural stem cells	NES	10763
+Brain	Neural stem cells	SOX9	6662
+Brain	Neuroblasts	NEUROD1	4760
+Brain	Neuroblasts	DCX	1641
+Brain	Neuroblasts	DLX2	1746
+Brain	Neuroblasts	PROX1	5629
+Brain	Neuroblasts	EOMES	8320
+Brain	Neuroblasts	TUBB3	10381
+Brain	Neuroepithelial cells	NES	10763
+Brain	Neuroepithelial cells	SOX2	6657
+Brain	Neuroepithelial cells	NOTCH1	4851
+Brain	Neuroepithelial cells	HES1	3280
+Brain	Neuroepithelial cells	HES3	NA
+Brain	Neuroepithelial cells	CDH1	999
+Brain	Neuroepithelial cells	OCLN	NA
+Brain	Neuroepithelial cells	SOX10	6663
+Brain	Non myelinating Schwann cells	SOX10	6663
+Brain	Non myelinating Schwann cells	GAP43	2596
+Brain	Non myelinating Schwann cells	NCAM1	4684
+Brain	Non myelinating Schwann cells	NGFR	4804
+Brain	Oligodendrocyte precursor cells	LHFPL3	375612
+Brain	Oligodendrocyte precursor cells	MEGF11	84465
+Brain	Oligodendrocyte precursor cells	PCDH15	65217
+Brain	Oligodendrocyte precursor cells	PDGFRA	5156
+Brain	Oligodendrocyte precursor cells	CSPG4	1464
+Brain	Oligodendrocyte precursor cells	RNF5	NA
+Brain	Oligodendrocytes	OLIG1	116448
+Brain	Oligodendrocytes	OLIG2	10215
+Brain	Oligodendrocytes	OLIG3	167826
+Brain	Oligodendrocytes	CLDN11	5010
+Brain	Oligodendrocytes	MBP	4155
+Brain	Oligodendrocytes	MOG	4340
+Brain	Oligodendrocytes	MAG	4099
+Brain	Oligodendrocytes	GALC	2581
+Brain	Oligodendrocytes	CNP	1267
+Brain	Oligodendrocytes	SOX10	6663
+Brain	Oligodendrocytes	FA2H	79152
+Brain	Oligodendrocytes	UGT8	7368
+Brain	Radial glial cells	VIM	7431
+Brain	Radial glial cells	NES	10763
+Brain	Radial glial cells	PAX6	5080
+Brain	Radial glial cells	HES1	3280
+Brain	Radial glial cells	HES5	388585
+Brain	Radial glial cells	GFAP	2670
+Brain	Radial glial cells	SLC1A3	6507
+Brain	Radial glial cells	FABP7	2173
+Brain	Radial glial cells	TNC	3371
+Brain	Radial glial cells	CDH2	1000
+Brain	Radial glial cells	SOX2	6657
+Brain	Schwann precursor cells	SOX10	6663
+Brain	Schwann precursor cells	GAP43	2596
+Brain	Schwann precursor cells	FABP7	2173
+Brain	Schwann precursor cells	MPZ	4359
+Brain	Schwann precursor cells	DHH	50846
+Brain	Schwann precursor cells	NGFR	4804
+Brain	Serotonergic neurons	TPH1	7166
+Brain	Serotonergic neurons	SLC6A4	6532
+Brain	Serotonergic neurons	FEV	54738
+Brain	Serotonergic neurons	HTR1A	3350
+Brain	Serotonergic neurons	HTR1B	3351
+Brain	Tanycytes	GPR50	9248
+Brain	Tanycytes	COL23A1	91522
+Lung	Airway epithelial cells	ADH7	131
+Lung	Airway epithelial cells	AQP1	358
+Lung	Airway epithelial cells	CDH1	999
+Lung	Airway epithelial cells	SEC14L3	266629
+Lung	Airway goblet cells	AGR2	10551
+Lung	Airway goblet cells	AQP5	362
+Lung	Airway goblet cells	CEACAM1	634
+Lung	Airway goblet cells	DMBT1	1755
+Lung	Airway goblet cells	DUSP4	1846
+Lung	Airway goblet cells	FXYD3	5349
+Lung	Airway goblet cells	GALNT5	11227
+Lung	Airway goblet cells	GALNT6	11226
+Lung	Airway goblet cells	GGH	8836
+Lung	Airway goblet cells	GOLPH3	64083
+Lung	Airway goblet cells	GP2	2813
+Lung	Airway goblet cells	IL19	29949
+Lung	Airway goblet cells	LIPF	8513
+Lung	Airway goblet cells	LTF	4057
+Lung	Airway goblet cells	LYNX1	66004
+Lung	Airway goblet cells	MSLN	10232
+Lung	Airway goblet cells	MUC16	94025
+Lung	Airway goblet cells	MUC4	4585
+Lung	Airway goblet cells	MUC5B	727897
+Lung	Airway goblet cells	NOS2	4843
+Lung	Airway goblet cells	PIGR	5284
+Lung	Airway goblet cells	QSOX1	5768
+Lung	Airway goblet cells	SCGB3A1	92304
+Lung	Airway goblet cells	SEC23B	10483
+Lung	Airway goblet cells	SPDEF	25803
+Lung	Airway goblet cells	TFF2	7032
+Lung	Mesothelial cells	C2	717
+Lung	Mesothelial cells	CALB2	794
+Lung	Mesothelial cells	CD44	960
+Lung	Mesothelial cells	CDH1	999
+Lung	Mesothelial cells	DES	1674
+Lung	Mesothelial cells	EFEMP1	2202
+Lung	Mesothelial cells	EPCAM	4072
+Lung	Mesothelial cells	GSTA3	2940
+Lung	Mesothelial cells	KRT5	3852
+Lung	Mesothelial cells	KRT7	3855
+Lung	Mesothelial cells	KRT72	140807
+Lung	Mesothelial cells	LGALS7	NA
+Lung	Mesothelial cells	LRRN4	164312
+Lung	Mesothelial cells	ME1	4199
+Lung	Mesothelial cells	ME2	4200
+Lung	Mesothelial cells	MSLN	10232
+Lung	Mesothelial cells	MUC16	94025
+Lung	Mesothelial cells	OSR1	130497
+Lung	Mesothelial cells	RSPO1	284654
+Lung	Mesothelial cells	THBD	7056
+Lung	Mesothelial cells	UPK3B	NA
+Lung	Mesothelial cells	WT1	7490
+Lung	Fibroblasts	COL3A1	1281
+Lung	Fibroblasts	COL5A2	1290
+Lung	Fibroblasts	DPT	1805
+Lung	Fibroblasts	FN1	2335
+Lung	Fibroblasts	GSN	2934
+Lung	Fibroblasts	LRP1	4035
+Lung	Fibroblasts	PDGFRA	5156
+Lung	Fibroblasts	TCF21	6943
+Lung	Basal cells (Airway progenitor cells)	ABI3BP	25890
+Lung	Basal cells (Airway progenitor cells)	AQP3	360
+Lung	Basal cells (Airway progenitor cells)	DAPL1	92196
+Lung	Basal cells (Airway progenitor cells)	GSTM2	NA
+Lung	Basal cells (Airway progenitor cells)	HPGD	3248
+Lung	Basal cells (Airway progenitor cells)	ICAM1	3383
+Lung	Basal cells (Airway progenitor cells)	KRT14	3861
+Lung	Basal cells (Airway progenitor cells)	KRT15	3866
+Lung	Basal cells (Airway progenitor cells)	KRT5	3852
+Lung	Basal cells (Airway progenitor cells)	PHLDA3	23612
+Lung	Basal cells (Airway progenitor cells)	RPS18	NA
+Lung	Basal cells (Airway progenitor cells)	SDC1	6382
+Lung	Alveolar macrophages	ABCG1	9619
+Lung	Alveolar macrophages	CCL3	NA
+Lung	Alveolar macrophages	CD36	948
+Lung	Alveolar macrophages	CLEC7A	64581
+Lung	Alveolar macrophages	CSF2RB	1439
+Lung	Alveolar macrophages	CXCL2	2920
+Lung	Alveolar macrophages	G0S2	50486
+Lung	Alveolar macrophages	GAL	51083
+Lung	Alveolar macrophages	GDA	9615
+Lung	Alveolar macrophages	GNGT2	2793
+Lung	Alveolar macrophages	GPNMB	10457
+Lung	Alveolar macrophages	IL18	3606
+Lung	Alveolar macrophages	IL1B	3553
+Lung	Alveolar macrophages	ITGAX	3687
+Lung	Alveolar macrophages	KLHDC4	54758
+Lung	Alveolar macrophages	MARCO	8685
+Lung	Alveolar macrophages	MCEMP1	199675
+Lung	Alveolar macrophages	MPP1	4354
+Lung	Alveolar macrophages	MRC1	4360
+Lung	Alveolar macrophages	OLR1	4973
+Lung	Alveolar macrophages	PLET1	NA
+Lung	Alveolar macrophages	S100A4	6275
+Lung	Alveolar macrophages	TLR2	7097
+Lung	Alveolar macrophages	TNFAIP2	7127
+Lung	Alveolar macrophages	TRIM25	7706
+Lung	Ciliated cells	APPL2	55198
+Lung	Ciliated cells	ATP5MD	NA
+Lung	Ciliated cells	CCDC153	283152
+Lung	Ciliated cells	CCDC17	149483
+Lung	Ciliated cells	CCDC181	57821
+Lung	Ciliated cells	CCDC39	339829
+Lung	Ciliated cells	CYP2S1	29785
+Lung	Ciliated cells	FAM161A	84140
+Lung	Ciliated cells	FOXJ1	2302
+Lung	Ciliated cells	LRRC23	10233
+Lung	Ciliated cells	ODF3B	440836
+Lung	Ciliated cells	SCGB1A1	7356
+Lung	Ciliated cells	SEC14L3	266629
+Lung	Ciliated cells	SNTN	132203
+Lung	Ciliated cells	STK11	6794
+Lung	Ciliated cells	TMEM212	389177
+Lung	Ciliated cells	TSPAN19	NA
+Lung	Ciliated cells	TUBB4B	10383
+Lung	Clara cells	AHR	196
+Lung	Clara cells	ALDH1A1	216
+Lung	Clara cells	BPIFA1	51297
+Lung	Clara cells	CTSE	1510
+Lung	Clara cells	CYP2E1	1571
+Lung	Clara cells	CYP4B1	1580
+Lung	Clara cells	ERN1	2081
+Lung	Clara cells	FOXM1	2305
+Lung	Clara cells	LEPR	3953
+Lung	Clara cells	MUC1	4582
+Lung	Clara cells	MUC4	4585
+Lung	Clara cells	MUC5B	727897
+Lung	Clara cells	RAB3D	9545
+Lung	Clara cells	SCGB1A1	7356
+Lung	Clara cells	SCGB3A1	92304
+Lung	Clara cells	SCGB3A2	117156
+Lung	Clara cells	SFTPA1	NA
+Lung	Clara cells	SFTPC	6440
+Lung	Clara cells	SFTPD	6441
+Lung	Clara cells	SYT2	127833
+Lung	Immune system cells	ADGRE1	2015
+Lung	Immune system cells	ARG1	383
+Lung	Immune system cells	BIRC5	332
+Lung	Immune system cells	CCL17	6361
+Lung	Immune system cells	CCL18	6362
+Lung	Immune system cells	CD14	929
+Lung	Immune system cells	CD163	9332
+Lung	Immune system cells	CD19	930
+Lung	Immune system cells	CD22	933
+Lung	Immune system cells	CD3D	915
+Lung	Immune system cells	CD3E	916
+Lung	Immune system cells	CD3G	917
+Lung	Immune system cells	CD4	920
+Lung	Immune system cells	CD44	960
+Lung	Immune system cells	CD5	921
+Lung	Immune system cells	CD68	968
+Lung	Immune system cells	CD74	972
+Lung	Immune system cells	CD80	941
+Lung	Immune system cells	CD83	9308
+Lung	Immune system cells	CD86	942
+Lung	Immune system cells	CD8A	925
+Lung	Immune system cells	CD8B	926
+Lung	Immune system cells	CDCA3	83461
+Lung	Immune system cells	CDK1	983
+Lung	Immune system cells	CEBPE	1053
+Lung	Immune system cells	CR2	1380
+Lung	Immune system cells	CSF1R	1436
+Lung	Immune system cells	EAF2	55840
+Lung	Immune system cells	FCER2	2208
+Lung	Immune system cells	FCGR3A	NA
+Lung	Immune system cells	FLT3	2322
+Lung	Immune system cells	GIMAP3P	NA
+Lung	Immune system cells	HLA-DRA	3122
+Lung	Immune system cells	HMMR	3161
+Lung	Immune system cells	IGHM	NA
+Lung	Immune system cells	IL2RA	3559
+Lung	Immune system cells	ITGAE	3682
+Lung	Immune system cells	ITGAM	3684
+Lung	Immune system cells	ITGAX	3687
+Lung	Immune system cells	LAX1	54900
+Lung	Immune system cells	MS4A14	84689
+Lung	Immune system cells	MZB1	51237
+Lung	Immune system cells	NRP1	8829
+Lung	Immune system cells	NUSAP1	51203
+Lung	Immune system cells	PAX5	5079
+Lung	Immune system cells	PRG2	5553
+Lung	Immune system cells	PTPRC	5788
+Lung	Immune system cells	SLPI	6590
+Lung	Immune system cells	THBD	7056
+Lung	Immune system cells	TNFRSF17	608
+Lung	Immune system cells	TRBC1	NA
+Lung	Immune system cells	XCR1	2829
+Lung	Endothelial cell	CD34	947
+Lung	Endothelial cell	EGFL7	51162
+Lung	Endothelial cell	EMCN	51705
+Lung	Endothelial cell	ESAM	90952
+Lung	Endothelial cell	FLT1	2321
+Lung	Endothelial cell	KDR	3791
+Lung	Endothelial cell	MCAM	4162
+Lung	Endothelial cell	PECAM1	5175
+Lung	Endothelial cell	RAMP2	10266
+Lung	Endothelial cell	TEK	7010
+Lung	Endothelial cell	VWF	7450
+Lung	Epithelial cells	ANPEP	290
+Lung	Epithelial cells	EPCAM	4072
+Lung	Epithelial cells	IL10	3586
+Lung	Epithelial cells	IL6R	3570
+Lung	Ionocytes	CFTR	1080
+Lung	Ionocytes	CLCNKB	1188
+Lung	Ionocytes	FOXI1	2299
+Lung	Ionocytes	KCNMA1	3778
+Lung	Ionocytes	SCGB1A1	7356
+Lung	Ionocytes	SLC12A2	6558
+Lung	Ionocytes	TFCP2L1	29842
+Lung	Pulmonary alveolar type I cells	AGER	177
+Lung	Pulmonary alveolar type I cells	AKAP5	9495
+Lung	Pulmonary alveolar type I cells	AQP3	360
+Lung	Pulmonary alveolar type I cells	AQP5	362
+Lung	Pulmonary alveolar type I cells	CCN2	1490
+Lung	Pulmonary alveolar type I cells	CLDN18	51208
+Lung	Pulmonary alveolar type I cells	CLIC5	53405
+Lung	Pulmonary alveolar type I cells	COL4A3	1285
+Lung	Pulmonary alveolar type I cells	COL4A4	1286
+Lung	Pulmonary alveolar type I cells	CRLF1	9244
+Lung	Pulmonary alveolar type I cells	CYP4B1	1580
+Lung	Pulmonary alveolar type I cells	EGFL6	25975
+Lung	Pulmonary alveolar type I cells	EMP2	2013
+Lung	Pulmonary alveolar type I cells	FSTL3	10272
+Lung	Pulmonary alveolar type I cells	GPRC5A	9052
+Lung	Pulmonary alveolar type I cells	HOPX	84525
+Lung	Pulmonary alveolar type I cells	ICAM1	3383
+Lung	Pulmonary alveolar type I cells	IGFBP6	3489
+Lung	Pulmonary alveolar type I cells	KRT7	3855
+Lung	Pulmonary alveolar type I cells	MEX3B	84206
+Lung	Pulmonary alveolar type I cells	MMP11	4320
+Lung	Pulmonary alveolar type I cells	P2RX7	5027
+Lung	Pulmonary alveolar type I cells	PDPN	10630
+Lung	Pulmonary alveolar type I cells	PXDC1	221749
+Lung	Pulmonary alveolar type I cells	RTKN2	219790
+Lung	Pulmonary alveolar type I cells	SCNN1A	6337
+Lung	Pulmonary alveolar type I cells	SCNN1B	6338
+Lung	Pulmonary alveolar type I cells	SCNN1G	6340
+Lung	Pulmonary alveolar type I cells	SEC14L3	266629
+Lung	Pulmonary alveolar type I cells	SEMA3B	7869
+Lung	Pulmonary alveolar type I cells	SEMA3E	9723
+Lung	Pulmonary alveolar type I cells	SMARCA1	6594
+Lung	Pulmonary alveolar type I cells	VEGFA	7422
+Lung	Pulmonary alveolar type II cells	ABCA3	21
+Lung	Pulmonary alveolar type II cells	ADGRF5	221395
+Lung	Pulmonary alveolar type II cells	AGER	177
+Lung	Pulmonary alveolar type II cells	CD36	948
+Lung	Pulmonary alveolar type II cells	CD3G	917
+Lung	Pulmonary alveolar type II cells	CEBPA	1050
+Lung	Pulmonary alveolar type II cells	CLDN18	51208
+Lung	Pulmonary alveolar type II cells	CRLF1	9244
+Lung	Pulmonary alveolar type II cells	CTNND1	NA
+Lung	Pulmonary alveolar type II cells	CXCL2	2920
+Lung	Pulmonary alveolar type II cells	CXCR2	3579
+Lung	Pulmonary alveolar type II cells	DDX3Y	8653
+Lung	Pulmonary alveolar type II cells	EGFL6	25975
+Lung	Pulmonary alveolar type II cells	ETV5	2119
+Lung	Pulmonary alveolar type II cells	GRK2	156
+Lung	Pulmonary alveolar type II cells	IL1B	3553
+Lung	Pulmonary alveolar type II cells	INMT	11185
+Lung	Pulmonary alveolar type II cells	IRX1	79192
+Lung	Pulmonary alveolar type II cells	LAMP3	27074
+Lung	Pulmonary alveolar type II cells	LPCAT1	79888
+Lung	Pulmonary alveolar type II cells	LRG1	116844
+Lung	Pulmonary alveolar type II cells	MUC1	4582
+Lung	Pulmonary alveolar type II cells	NAPSA	9476
+Lung	Pulmonary alveolar type II cells	NKX2-1	7080
+Lung	Pulmonary alveolar type II cells	NRN1	51299
+Lung	Pulmonary alveolar type II cells	PGC	5225
+Lung	Pulmonary alveolar type II cells	PIGR	5284
+Lung	Pulmonary alveolar type II cells	PPBP	5473
+Lung	Pulmonary alveolar type II cells	PPP1R14C	81706
+Lung	Pulmonary alveolar type II cells	RUNX3	864
+Lung	Pulmonary alveolar type II cells	S100G	795
+Lung	Pulmonary alveolar type II cells	SDC1	6382
+Lung	Pulmonary alveolar type II cells	SFTA2	389376
+Lung	Pulmonary alveolar type II cells	SFTPA1	NA
+Lung	Pulmonary alveolar type II cells	SFTPB	6439
+Lung	Pulmonary alveolar type II cells	SFTPC	6440
+Lung	Pulmonary alveolar type II cells	SFTPD	6441
+Lung	Pulmonary alveolar type II cells	SLC34A2	10568
+Lung	Pulmonary alveolar type II cells	SOAT1	6646
+Lung	Secretory cell	MUC5B	727897
+Lung	Secretory cell	PIGR	5284
+Lung	Secretory cell	SCGB1A1	7356
+Adrenal	CSH1_CSH2 positive cells	CGB	NA
+Adrenal	CSH1_CSH2 positive cells	GH2	2689
+Adrenal	CSH1_CSH2 positive cells	PSG5	5673
+Adrenal	CSH1_CSH2 positive cells	CGA	1081
+Adrenal	CSH1_CSH2 positive cells	CSH1	1442
+Adrenal	CSH1_CSH2 positive cells	ERVW-1	30816
+Adrenal	CSH1_CSH2 positive cells	CSH2	1443
+Adrenal	CSH1_CSH2 positive cells	PSG7	NA
+Adrenal	CSH1_CSH2 positive cells	PSG11	5680
+Adrenal	CSH1_CSH2 positive cells	HSD3B1	3283
+Adrenal	CSH1_CSH2 positive cells	PSG9	5678
+Adrenal	CSH1_CSH2 positive cells	PSG1	5669
+Adrenal	CSH1_CSH2 positive cells	PSG6	NA
+Adrenal	CSH1_CSH2 positive cells	PLAC4	191585
+Adrenal	CSH1_CSH2 positive cells	PSG4	5672
+Adrenal	Megakaryocytes	C15ORF54	NA
+Adrenal	Megakaryocytes	GP9	2815
+Adrenal	Megakaryocytes	PF4	5196
+Adrenal	Megakaryocytes	PPBP	5473
+Adrenal	Megakaryocytes	GP1BA	2811
+Adrenal	Megakaryocytes	MEGT1	NA
+Adrenal	Megakaryocytes	LY6G6F	259215
+Adrenal	Megakaryocytes	GP6	51206
+Adrenal	Megakaryocytes	ITGA2B	3674
+Adrenal	Megakaryocytes	C6ORF25	NA
+Adrenal	Megakaryocytes	ALOX12	239
+Adrenal	Megakaryocytes	FCER1A	2205
+Adrenal	Megakaryocytes	ELOVL7	79993
+Adrenal	Megakaryocytes	NRGN	4900
+Adrenal	Megakaryocytes	RP11-930O11.1	NA
+Adrenal	Schwann cells	WNT16	51384
+Adrenal	Schwann cells	MPZ	4359
+Adrenal	Schwann cells	FOXD3	27022
+Adrenal	Schwann cells	SOX10	6663
+Adrenal	Schwann cells	CDH19	28513
+Adrenal	Schwann cells	GPR17	2840
+Adrenal	Schwann cells	PMP2	5375
+Adrenal	Schwann cells	COL20A1	57642
+Adrenal	Schwann cells	INSC	387755
+Adrenal	Schwann cells	RP4-792G4.2	NA
+Adrenal	Schwann cells	TTYH1	57348
+Adrenal	Schwann cells	SOX2	6657
+Adrenal	Schwann cells	LAMP5	24141
+Adrenal	Schwann cells	OLFML2A	169611
+Adrenal	Schwann cells	ATP1A2	477
+Adrenal	Myeloid cells	MS4A14	84689
+Adrenal	Myeloid cells	LILRA1	11024
+Adrenal	Myeloid cells	RP11-554D14.6	NA
+Adrenal	Myeloid cells	AC007040.8	NA
+Adrenal	Myeloid cells	MS4A7	58475
+Adrenal	Myeloid cells	RP11-489O18.1	NA
+Adrenal	Myeloid cells	CLEC10A	10462
+Adrenal	Myeloid cells	MS4A4A	51338
+Adrenal	Myeloid cells	RN7SL138P	NA
+Adrenal	Myeloid cells	CD163	9332
+Adrenal	Myeloid cells	CD14	929
+Adrenal	Myeloid cells	SIGLEC1	6614
+Adrenal	Myeloid cells	VSIG4	11326
+Adrenal	Myeloid cells	CLEC7A	64581
+Adrenal	Myeloid cells	LILRA2	11027
+Adrenal	Sympathoblasts	NPAS4	266743
+Adrenal	Sympathoblasts	SLC24A2	25769
+Adrenal	Sympathoblasts	RP11-542G1.2	NA
+Adrenal	Sympathoblasts	PENK	5179
+Adrenal	Sympathoblasts	LINC00890	NA
+Adrenal	Sympathoblasts	KLK4	9622
+Adrenal	Sympathoblasts	RP11-17A4.2	NA
+Adrenal	Sympathoblasts	RP5-1096J16.1	NA
+Adrenal	Sympathoblasts	C18ORF42	NA
+Adrenal	Sympathoblasts	TTC40	NA
+Adrenal	Sympathoblasts	ARC	23237
+Adrenal	Sympathoblasts	FAM19A3	NA
+Adrenal	Sympathoblasts	VWA5B1	127731
+Adrenal	Sympathoblasts	PPP1R17	10842
+Adrenal	Sympathoblasts	RP4-718N17.2	NA
+Adrenal	Erythroblasts	TPSAB1	7177
+Adrenal	Erythroblasts	CTD-2008P7.9	NA
+Adrenal	Erythroblasts	RP11-85G21.3	NA
+Adrenal	Erythroblasts	CTSE	1510
+Adrenal	Erythroblasts	CTA-392E5.1	NA
+Adrenal	Erythroblasts	EIF5AP2	NA
+Adrenal	Erythroblasts	CTA-363E6.6	NA
+Adrenal	Erythroblasts	C17orf99	100141515
+Adrenal	Erythroblasts	SLC4A1	6521
+Adrenal	Erythroblasts	TRIM10	10107
+Adrenal	Erythroblasts	MIR144	NA
+Adrenal	Erythroblasts	ART4	420
+Adrenal	Erythroblasts	AHSP	51327
+Adrenal	Erythroblasts	GYPA	2993
+Adrenal	Erythroblasts	HBM	3042
+Adrenal	Stromal cells	MIR1245A	NA
+Adrenal	Stromal cells	NPY5R	4889
+Adrenal	Stromal cells	RP11-60A8.1	NA
+Adrenal	Stromal cells	RP11-254F19.2	NA
+Adrenal	Stromal cells	RP11-494K3.2	NA
+Adrenal	Stromal cells	RP11-758M4.4	NA
+Adrenal	Stromal cells	RP11-142A23.1	NA
+Adrenal	Stromal cells	RP11-752L20.5	NA
+Adrenal	Stromal cells	OSR1	130497
+Adrenal	Stromal cells	RP11-867G23.13	NA
+Adrenal	Stromal cells	SULT1E1	6783
+Adrenal	Stromal cells	HHIP	64399
+Adrenal	Stromal cells	MGP	4256
+Adrenal	Stromal cells	PRELP	5549
+Adrenal	Stromal cells	TWIST2	117581
+Adrenal	Vascular endothelial cells	CCL23	6368
+Adrenal	Vascular endothelial cells	FGF23	8074
+Adrenal	Vascular endothelial cells	SMIM9	NA
+Adrenal	Vascular endothelial cells	RP13-1016M1.2	NA
+Adrenal	Vascular endothelial cells	RP11-100L22.1	NA
+Adrenal	Vascular endothelial cells	RP11-327L3.3	NA
+Adrenal	Vascular endothelial cells	RP1-149A16.12	NA
+Adrenal	Vascular endothelial cells	GPR182	11318
+Adrenal	Vascular endothelial cells	DLL4	54567
+Adrenal	Vascular endothelial cells	GALNT15	117248
+Adrenal	Vascular endothelial cells	CALCRL	10203
+Adrenal	Vascular endothelial cells	CD300LG	146894
+Adrenal	Vascular endothelial cells	FLT4	2324
+Adrenal	Vascular endothelial cells	FCN3	8547
+Adrenal	Vascular endothelial cells	GPIHBP1	338328
+Adrenal	Chromaffin cells	NRG1-IT3	NA
+Adrenal	Chromaffin cells	RNU6-457P	NA
+Adrenal	Chromaffin cells	LINC00594	NA
+Adrenal	Chromaffin cells	AC018643.4	NA
+Adrenal	Chromaffin cells	RP11-159N11.3	NA
+Adrenal	Chromaffin cells	CTC-537E7.1	NA
+Adrenal	Chromaffin cells	Y_RNA	NA
+Adrenal	Chromaffin cells	SNOU13	NA
+Adrenal	Chromaffin cells	CTD-2006K23.2	NA
+Adrenal	Chromaffin cells	RP5-955M13.4	NA
+Adrenal	Chromaffin cells	INSRR	3645
+Adrenal	Chromaffin cells	KCNK10	54207
+Adrenal	Chromaffin cells	PHEX-AS1	100873942
+Adrenal	Chromaffin cells	RP11-958J22.1	NA
+Adrenal	Chromaffin cells	FLJ30594	NA
+Adrenal	Lymphoid cells	GZMH	2999
+Adrenal	Lymphoid cells	XCL1	6375
+Adrenal	Lymphoid cells	KLRC3	3823
+Adrenal	Lymphoid cells	RP11-94L15.2	NA
+Adrenal	Lymphoid cells	GZMA	3001
+Adrenal	Lymphoid cells	IL2RB	3560
+Adrenal	Lymphoid cells	TRAT1	50852
+Adrenal	Lymphoid cells	SH2D1A	4068
+Adrenal	Lymphoid cells	DTHD1	401124
+Adrenal	Lymphoid cells	CD3E	916
+Adrenal	Lymphoid cells	ZNF831	128611
+Adrenal	Lymphoid cells	GNLY	10578
+Adrenal	Lymphoid cells	PRF1	5551
+Adrenal	Lymphoid cells	IGHD	NA
+Adrenal	Lymphoid cells	THEMIS	387357
+Adrenal	Adrenocortical cells	RP1-145M24.1	NA
+Adrenal	Adrenocortical cells	RP11-238I10.1	NA
+Adrenal	Adrenocortical cells	AC005392.13	NA
+Adrenal	Adrenocortical cells	RP11-316I3.2	NA
+Adrenal	Adrenocortical cells	RP11-501O2.4	NA
+Adrenal	Adrenocortical cells	SDIM1	NA
+Adrenal	Adrenocortical cells	RP11-258O13.1	NA
+Adrenal	Adrenocortical cells	AJ006998.2	NA
+Adrenal	Adrenocortical cells	CTD-2517O10.5	NA
+Adrenal	Adrenocortical cells	RNU6-944P	NA
+Adrenal	Adrenocortical cells	CTB-43E15.4	NA
+Adrenal	Adrenocortical cells	RP11-34F13.3	NA
+Adrenal	Adrenocortical cells	RP11-536K7.5	NA
+Adrenal	Adrenocortical cells	RP11-183M13.1	NA
+Adrenal	Adrenocortical cells	RNU6-56P	NA
+Adrenal	SLC26A4_PAEP positive cells	IL1A	3552
+Adrenal	SLC26A4_PAEP positive cells	SLC26A4	5172
+Adrenal	SLC26A4_PAEP positive cells	SNX25P1	NA
+Adrenal	SLC26A4_PAEP positive cells	VMO1	284013
+Adrenal	SLC26A4_PAEP positive cells	CTD-2210P15.2	NA
+Adrenal	SLC26A4_PAEP positive cells	CTC-360P9.4	NA
+Adrenal	SLC26A4_PAEP positive cells	ULK4P1	NA
+Adrenal	SLC26A4_PAEP positive cells	SNORA14A	NA
+Adrenal	SLC26A4_PAEP positive cells	RNU6-518P	NA
+Adrenal	SLC26A4_PAEP positive cells	RP11-431N15.2	NA
+Adrenal	SLC26A4_PAEP positive cells	RP11-26J3.3	NA
+Adrenal	SLC26A4_PAEP positive cells	RP11-378A12.1	NA
+Adrenal	SLC26A4_PAEP positive cells	SPINK8	NA
+Adrenal	SLC26A4_PAEP positive cells	HSD3B2	3284
+Adrenal	SLC26A4_PAEP positive cells	KIRREL-IT1	NA
+Heart	Megakaryocytes	MEGT1	NA
+Heart	Megakaryocytes	LY6G6F	259215
+Heart	Megakaryocytes	TUBB1	81027
+Heart	Megakaryocytes	PPBP	5473
+Heart	Megakaryocytes	PF4	5196
+Heart	Megakaryocytes	GP9	2815
+Heart	Megakaryocytes	TPSB2	NA
+Heart	Megakaryocytes	HBD	3045
+Heart	Megakaryocytes	AC137932.6	NA
+Heart	Megakaryocytes	ITGA2B	3674
+Heart	Megakaryocytes	GP1BA	2811
+Heart	Megakaryocytes	CLEC1B	51266
+Heart	Megakaryocytes	PTCRA	171558
+Heart	Megakaryocytes	BEND2	139105
+Heart	Megakaryocytes	RP11-179A10.1	NA
+Heart	Epicardial fat cells	RP11-89M22.3	NA
+Heart	Epicardial fat cells	CTD-3012A18.1	NA
+Heart	Epicardial fat cells	PRG4	10216
+Heart	Epicardial fat cells	KRT7	3855
+Heart	Epicardial fat cells	SPRR2F	NA
+Heart	Epicardial fat cells	KLK11	11012
+Heart	Epicardial fat cells	MKRN9P	NA
+Heart	Epicardial fat cells	UPK1B	7348
+Heart	Epicardial fat cells	EPGN	NA
+Heart	Epicardial fat cells	NPHS1	4868
+Heart	Epicardial fat cells	ITLN1	55600
+Heart	Epicardial fat cells	LRRN4	164312
+Heart	Epicardial fat cells	CST6	1474
+Heart	Epicardial fat cells	GSDMA	NA
+Heart	Epicardial fat cells	RAET1E	135250
+Heart	Lymphatic endothelial cells	GPR182	11318
+Heart	Lymphatic endothelial cells	GPR97	NA
+Heart	Lymphatic endothelial cells	STAB2	55576
+Heart	Lymphatic endothelial cells	HOXD9	3235
+Heart	Lymphatic endothelial cells	TBX1	6899
+Heart	Lymphatic endothelial cells	CCL21	6366
+Heart	Lymphatic endothelial cells	HOXD10	3236
+Heart	Lymphatic endothelial cells	TSPEAR	54084
+Heart	Lymphatic endothelial cells	ABCA4	24
+Heart	Lymphatic endothelial cells	PGM5-AS1	572558
+Heart	Lymphatic endothelial cells	TFF3	7033
+Heart	Lymphatic endothelial cells	LINC00636	285205
+Heart	Lymphatic endothelial cells	RP11-341G23.4	NA
+Heart	Lymphatic endothelial cells	HOXD4	3233
+Heart	Lymphatic endothelial cells	RP11-451M19.3	NA
+Heart	Schwann cells	GFRA3	2676
+Heart	Schwann cells	SOX10	6663
+Heart	Schwann cells	MPZ	4359
+Heart	Schwann cells	LINC00466	NA
+Heart	Schwann cells	COL20A1	57642
+Heart	Schwann cells	MIA	NA
+Heart	Schwann cells	ASPA	443
+Heart	Schwann cells	ERBB3	2065
+Heart	Schwann cells	TFAP2A	7020
+Heart	Schwann cells	INSC	387755
+Heart	Schwann cells	ARTN	9048
+Heart	Schwann cells	PMP2	5375
+Heart	Schwann cells	S100B	6285
+Heart	Schwann cells	FOXD3	27022
+Heart	Schwann cells	AP000797.3	NA
+Heart	Lymphoid cells	GZMB	3002
+Heart	Lymphoid cells	FCRL2	79368
+Heart	Lymphoid cells	KLRC2	NA
+Heart	Lymphoid cells	XCL1	6375
+Heart	Lymphoid cells	LINC00861	NA
+Heart	Lymphoid cells	PRF1	5551
+Heart	Lymphoid cells	CD3G	917
+Heart	Lymphoid cells	SH2D1B	117157
+Heart	Lymphoid cells	ANTXRLP1	NA
+Heart	Lymphoid cells	VPREB3	29802
+Heart	Lymphoid cells	SH2D1A	4068
+Heart	Lymphoid cells	CRTAM	56253
+Heart	Lymphoid cells	CXCR6	10663
+Heart	Lymphoid cells	RP11-94L15.2	NA
+Heart	Lymphoid cells	GZMK	3003
+Heart	Myeloid cells	XCR1	2829
+Heart	Myeloid cells	TMPRSS4-AS1	NA
+Heart	Myeloid cells	TIMD4	91937
+Heart	Myeloid cells	PRTN3	5657
+Heart	Myeloid cells	MMP9	4318
+Heart	Myeloid cells	CD86	942
+Heart	Myeloid cells	CLEC5A	23601
+Heart	Myeloid cells	SIGLEC1	6614
+Heart	Myeloid cells	CLEC7A	64581
+Heart	Myeloid cells	C1QC	714
+Heart	Myeloid cells	P2RY13	53829
+Heart	Myeloid cells	FCN1	2219
+Heart	Myeloid cells	CSTA	1475
+Heart	Myeloid cells	CD300LF	146722
+Heart	Myeloid cells	MS4A6A	64231
+Heart	Endocardial cells	ANGPTL5	NA
+Heart	Endocardial cells	APCDD1L	164284
+Heart	Endocardial cells	NPPC	4880
+Heart	Endocardial cells	SLC6A4	6532
+Heart	Endocardial cells	SALL1	6299
+Heart	Endocardial cells	LEPR	3953
+Heart	Endocardial cells	C3orf36	80111
+Heart	Endocardial cells	AC004562.1	NA
+Heart	Endocardial cells	FAM3D	131177
+Heart	Endocardial cells	HAPLN1	1404
+Heart	Endocardial cells	APCDD1	147495
+Heart	Endocardial cells	LYPD2	NA
+Heart	Endocardial cells	FOXC1	2296
+Heart	Endocardial cells	MPZL2	10205
+Heart	Endocardial cells	RP11-849I19.1	NA
+Heart	Vascular endothelial cells	ESM1	11082
+Heart	Vascular endothelial cells	SLC9C1	NA
+Heart	Vascular endothelial cells	OPN5	221391
+Heart	Vascular endothelial cells	QRFPR	84109
+Heart	Vascular endothelial cells	MIR4454	NA
+Heart	Vascular endothelial cells	AC007743.1	NA
+Heart	Vascular endothelial cells	PKD1L1	168507
+Heart	Vascular endothelial cells	TM4SF18	116441
+Heart	Vascular endothelial cells	APLNR	187
+Heart	Vascular endothelial cells	CLRN1-AS1	NA
+Heart	Vascular endothelial cells	CD300LG	146894
+Heart	Vascular endothelial cells	C1QTNF9	338872
+Heart	Vascular endothelial cells	AC019100.3	NA
+Heart	Vascular endothelial cells	MADCAM1	8174
+Heart	Vascular endothelial cells	RP11-298O21.5	NA
+Heart	Stromal cells	RP11-60A8.1	NA
+Heart	Stromal cells	SCARA5	286133
+Heart	Stromal cells	DPT	1805
+Heart	Stromal cells	CILP	8483
+Heart	Stromal cells	ZCCHC5	NA
+Heart	Stromal cells	AGTR2	186
+Heart	Stromal cells	MFAP5	8076
+Heart	Stromal cells	RP11-71N10.1	NA
+Heart	Stromal cells	LUM	4060
+Heart	Stromal cells	ABCA10	NA
+Heart	Stromal cells	RP11-31K23.2	NA
+Heart	Stromal cells	CCL11	6356
+Heart	Stromal cells	NRK	203447
+Heart	Stromal cells	PDGFRA	5156
+Heart	Stromal cells	LPAR4	2846
+Heart	Smooth muscle cells	PDE4C	5143
+Heart	Smooth muscle cells	RP11-112H10.4	NA
+Heart	Smooth muscle cells	RP11-598F7.5	NA
+Heart	Smooth muscle cells	RP11-626H12.1	NA
+Heart	Smooth muscle cells	HCG22	285834
+Heart	Smooth muscle cells	CTD-3064M3.3	NA
+Heart	Smooth muscle cells	RP11-231I13.2	NA
+Heart	Smooth muscle cells	GPR20	2843
+Heart	Smooth muscle cells	RP11-267N12.1	NA
+Heart	Smooth muscle cells	OR51E1	143503
+Heart	Smooth muscle cells	THBS4	7060
+Heart	Smooth muscle cells	MIR143HG	NA
+Heart	Smooth muscle cells	PDGFRB	5159
+Heart	Smooth muscle cells	AOC3	8639
+Heart	Smooth muscle cells	ENPEP	2028
+Heart	SATB2_LRRC7 positive cells	NEUROD2	4761
+Heart	SATB2_LRRC7 positive cells	FEZF2	55079
+Heart	SATB2_LRRC7 positive cells	NEUROD6	63974
+Heart	SATB2_LRRC7 positive cells	TBR1	10716
+Heart	SATB2_LRRC7 positive cells	MPPED1	758
+Heart	SATB2_LRRC7 positive cells	SATB2	23314
+Heart	SATB2_LRRC7 positive cells	FOXG1	2290
+Heart	SATB2_LRRC7 positive cells	PCDH11Y	83259
+Heart	SATB2_LRRC7 positive cells	CAMKV	79012
+Heart	SATB2_LRRC7 positive cells	BHLHE22	27319
+Heart	SATB2_LRRC7 positive cells	SLIT1	6585
+Heart	SATB2_LRRC7 positive cells	C14ORF23	NA
+Heart	SATB2_LRRC7 positive cells	RP11-562L8.1	NA
+Heart	SATB2_LRRC7 positive cells	LINC00966	NA
+Heart	SATB2_LRRC7 positive cells	DRAXIN	374946
+Heart	Erythroblasts	RP5-857K21.7	NA
+Heart	Erythroblasts	CENPW	387103
+Heart	Erythroblasts	SLC46A1	113235
+Heart	Erythroblasts	GSPT2	23708
+Heart	Erythroblasts	RHCE	6006
+Heart	Erythroblasts	SLC7A11	23657
+Heart	Erythroblasts	P2RX6	9127
+Heart	Erythroblasts	SKA1	220134
+Heart	Erythroblasts	FARSA	2193
+Heart	Erythroblasts	ZNF90	7643
+Heart	Erythroblasts	TMCC2	9911
+Heart	Erythroblasts	RP11-225B17.2	NA
+Heart	Erythroblasts	TMEM161A	54929
+Heart	Erythroblasts	ZNF583	147949
+Heart	Erythroblasts	ENPP4	22875
+Heart	Visceral neurons	GATA3-AS1	399717
+Heart	Visceral neurons	GAL	51083
+Heart	Visceral neurons	CHRNA3	1136
+Heart	Visceral neurons	PRPH	5630
+Heart	Visceral neurons	PHOX2A	401
+Heart	Visceral neurons	GALR1	2587
+Heart	Visceral neurons	NXPH1	30010
+Heart	Visceral neurons	TMC3	NA
+Heart	Visceral neurons	DDC	1644
+Heart	Visceral neurons	SST	6750
+Heart	Visceral neurons	OPRM1	4988
+Heart	Visceral neurons	PIRT	644139
+Heart	Visceral neurons	NECAB2	54550
+Heart	Visceral neurons	ECEL1	9427
+Heart	Visceral neurons	SLC10A4	201780
+Heart	Cardiomyocytes	RP11-439H8.4	NA
+Heart	Cardiomyocytes	RNA5SP327	NA
+Heart	Cardiomyocytes	CTD-2552K11.2	NA
+Heart	Cardiomyocytes	Y_RNA	NA
+Heart	Cardiomyocytes	AC018464.3	NA
+Heart	Cardiomyocytes	HHATL	57467
+Heart	Cardiomyocytes	BMP10	27302
+Heart	Cardiomyocytes	RP11-461A8.4	NA
+Heart	Cardiomyocytes	UGT2B4	7363
+Heart	Cardiomyocytes	PRSS42	NA
+Heart	Cardiomyocytes	WI2-1896O14.1	NA
+Heart	Cardiomyocytes	FABP2	2169
+Heart	Cardiomyocytes	EPN3	55040
+Heart	Cardiomyocytes	RP11-406O23.2	NA
+Heart	Cardiomyocytes	AC009878.2	NA
+Heart	ELF3_AGBL2 positive cells	C1ORF194	NA
+Heart	ELF3_AGBL2 positive cells	ZMYND10	51364
+Heart	ELF3_AGBL2 positive cells	MS4A8	83661
+Heart	ELF3_AGBL2 positive cells	IL20RA	53832
+Heart	ELF3_AGBL2 positive cells	ELF3	1999
+Heart	ELF3_AGBL2 positive cells	SCGB3A2	117156
+Heart	ELF3_AGBL2 positive cells	EFCAB1	NA
+Heart	ELF3_AGBL2 positive cells	SFTPB	6439
+Heart	ELF3_AGBL2 positive cells	WDR65	NA
+Heart	ELF3_AGBL2 positive cells	CP	1356
+Heart	ELF3_AGBL2 positive cells	PIH1D2	120379
+Heart	ELF3_AGBL2 positive cells	AGBL2	79841
+Heart	ELF3_AGBL2 positive cells	SFTPC	6440
+Heart	ELF3_AGBL2 positive cells	DNAH9	1770
+Heart	ELF3_AGBL2 positive cells	MUC1	4582
+Heart	CLC_IL5RA positive cells	FAM209A	200232
+Heart	CLC_IL5RA positive cells	CERKL	NA
+Heart	CLC_IL5RA positive cells	CLC	1178
+Heart	CLC_IL5RA positive cells	PRG2	5553
+Heart	CLC_IL5RA positive cells	MS4A3	932
+Heart	CLC_IL5RA positive cells	IL5RA	3568
+Heart	CLC_IL5RA positive cells	ZC2HC1C	79696
+Heart	CLC_IL5RA positive cells	CTD-2620I22.1	NA
+Heart	CLC_IL5RA positive cells	CTD-3032H12.2	NA
+Heart	CLC_IL5RA positive cells	RP11-252E2.1	NA
+Heart	CLC_IL5RA positive cells	AC011524.1	NA
+Heart	CLC_IL5RA positive cells	S100A1	6271
+Heart	CLC_IL5RA positive cells	Y_RNA	NA
+Heart	CLC_IL5RA positive cells	LINC00407	NA
+Heart	CLC_IL5RA positive cells	RP11-516C1.1	NA
+Intestine	Erythroblasts	AHSP	51327
+Intestine	Erythroblasts	SPTA1	6708
+Intestine	Erythroblasts	HBG2	3048
+Intestine	Erythroblasts	HBA2	NA
+Intestine	Erythroblasts	HBM	3042
+Intestine	Erythroblasts	HBG1	NA
+Intestine	Erythroblasts	HBA1	NA
+Intestine	Erythroblasts	SLC4A1	6521
+Intestine	Erythroblasts	HBB	3043
+Intestine	Erythroblasts	GYPA	2993
+Intestine	Erythroblasts	HEMGN	55363
+Intestine	Erythroblasts	HBZ	NA
+Intestine	Erythroblasts	ALAS2	212
+Intestine	Erythroblasts	MIR144	NA
+Intestine	Erythroblasts	MYL4	4635
+Intestine	Chromaffin cells	ARX	170302
+Intestine	Chromaffin cells	NKX2-2	4821
+Intestine	Chromaffin cells	CCK	885
+Intestine	Chromaffin cells	CRYBA2	1412
+Intestine	Chromaffin cells	NEUROD1	4760
+Intestine	Chromaffin cells	FEV	54738
+Intestine	Chromaffin cells	MLN	4295
+Intestine	Chromaffin cells	ASIC5	51802
+Intestine	Chromaffin cells	ONECUT3	390874
+Intestine	Chromaffin cells	SST	6750
+Intestine	Chromaffin cells	RP11-788H18.1	NA
+Intestine	Chromaffin cells	PAX4	5078
+Intestine	Chromaffin cells	KCNH6	81033
+Intestine	Chromaffin cells	SSTR5	6755
+Intestine	Chromaffin cells	PCSK1	5122
+Intestine	Smooth muscle cells	ACTG2	72
+Intestine	Smooth muscle cells	GREM2	64388
+Intestine	Smooth muscle cells	CNN1	1264
+Intestine	Smooth muscle cells	RP11-467I20.6	NA
+Intestine	Smooth muscle cells	WIF1	11197
+Intestine	Smooth muscle cells	TACR2	6865
+Intestine	Smooth muscle cells	OVCH2	NA
+Intestine	Smooth muscle cells	FRMD6-AS2	145438
+Intestine	Smooth muscle cells	DES	1674
+Intestine	Smooth muscle cells	MYH11	4629
+Intestine	Smooth muscle cells	RP11-626H12.1	NA
+Intestine	Smooth muscle cells	ANO1	55107
+Intestine	Smooth muscle cells	CHRDL2	25884
+Intestine	Smooth muscle cells	TAGLN	6876
+Intestine	Smooth muscle cells	FBXL22	283807
+Intestine	Myeloid cells	VSIG4	11326
+Intestine	Myeloid cells	RPL32P1	NA
+Intestine	Myeloid cells	CD207	50489
+Intestine	Myeloid cells	AP000439.1	NA
+Intestine	Myeloid cells	HCAR3	NA
+Intestine	Myeloid cells	C5ORF20	NA
+Intestine	Myeloid cells	AC010492.4	NA
+Intestine	Myeloid cells	P2RY13	53829
+Intestine	Myeloid cells	LILRB2	10288
+Intestine	Myeloid cells	LILRB5	10990
+Intestine	Myeloid cells	IL1B	3553
+Intestine	Myeloid cells	C1QB	713
+Intestine	Myeloid cells	CD163	9332
+Intestine	Myeloid cells	C1QC	714
+Intestine	Myeloid cells	DNASE1L3	1776
+Intestine	Lymphoid cells	IL17A	3605
+Intestine	Lymphoid cells	ICOS	29851
+Intestine	Lymphoid cells	SH2D1A	4068
+Intestine	Lymphoid cells	GZMK	3003
+Intestine	Lymphoid cells	RP11-553L6.2	NA
+Intestine	Lymphoid cells	TRGC1	NA
+Intestine	Lymphoid cells	RP11-104L21.3	NA
+Intestine	Lymphoid cells	TRDC	NA
+Intestine	Lymphoid cells	GZMA	3001
+Intestine	Lymphoid cells	VPREB1	7441
+Intestine	Lymphoid cells	CCR4	1233
+Intestine	Lymphoid cells	LTA	4049
+Intestine	Lymphoid cells	NCR2	9436
+Intestine	Lymphoid cells	CD247	919
+Intestine	Lymphoid cells	RP11-94L15.2	NA
+Intestine	Intestinal epithelial cells	UNC5CL	222643
+Intestine	Intestinal epithelial cells	C1ORF177	NA
+Intestine	Intestinal epithelial cells	TRIM31	11074
+Intestine	Intestinal epithelial cells	LINC00955	NA
+Intestine	Intestinal epithelial cells	RP3-417L20.4	NA
+Intestine	Intestinal epithelial cells	HMGN1P20	NA
+Intestine	Intestinal epithelial cells	ALPI	248
+Intestine	Intestinal epithelial cells	RP11-395B7.2	NA
+Intestine	Intestinal epithelial cells	EGFR-AS1	NA
+Intestine	Intestinal epithelial cells	RP11-462G2.1	NA
+Intestine	Intestinal epithelial cells	DEFB1	1672
+Intestine	Intestinal epithelial cells	CA7	766
+Intestine	Intestinal epithelial cells	RP11-468N14.13	NA
+Intestine	Intestinal epithelial cells	ARL14	80117
+Intestine	Intestinal epithelial cells	AC024592.9	NA
+Intestine	ENS glia	SERPINA3	12
+Intestine	ENS glia	RLBP1	6017
+Intestine	ENS glia	GPR12	2835
+Intestine	ENS glia	RP4-792G4.2	NA
+Intestine	ENS glia	CDH19	28513
+Intestine	ENS glia	COL20A1	57642
+Intestine	ENS glia	SOX10	6663
+Intestine	ENS glia	PLP1	5354
+Intestine	ENS glia	SOX2	6657
+Intestine	ENS glia	FOXD3	27022
+Intestine	ENS glia	MPZ	4359
+Intestine	ENS glia	BCAN	63827
+Intestine	ENS glia	TFAP2A	7020
+Intestine	ENS glia	SOX2-OT	347689
+Intestine	ENS glia	PTPRZ1	5803
+Intestine	ENS neurons	PDIA2	64714
+Intestine	ENS neurons	RP11-672L10.2	NA
+Intestine	ENS neurons	GRP	2922
+Intestine	ENS neurons	DRGX	NA
+Intestine	ENS neurons	GCGR	2642
+Intestine	ENS neurons	SLC18A3	6572
+Intestine	ENS neurons	PHOX2A	401
+Intestine	ENS neurons	HECW1-IT1	NA
+Intestine	ENS neurons	RP11-202H2.1	NA
+Intestine	ENS neurons	IQCJ	NA
+Intestine	ENS neurons	STMN4	81551
+Intestine	ENS neurons	TTC9B	148014
+Intestine	ENS neurons	GAL	51083
+Intestine	ENS neurons	CEND1	51286
+Intestine	ENS neurons	NEFL	4747
+Intestine	Vascular endothelial cells	SOX17	64321
+Intestine	Vascular endothelial cells	GPIHBP1	338328
+Intestine	Vascular endothelial cells	PRND	23627
+Intestine	Vascular endothelial cells	CLEC3B	7123
+Intestine	Vascular endothelial cells	FLT1	2321
+Intestine	Vascular endothelial cells	MMRN2	79812
+Intestine	Vascular endothelial cells	BTNL9	153579
+Intestine	Vascular endothelial cells	APLNR	187
+Intestine	Vascular endothelial cells	LHX6	26468
+Intestine	Vascular endothelial cells	NOTCH4	4855
+Intestine	Vascular endothelial cells	RP11-3K16.2	NA
+Intestine	Vascular endothelial cells	ESAM	90952
+Intestine	Vascular endothelial cells	RP11-328D5.1	NA
+Intestine	Vascular endothelial cells	ESM1	11082
+Intestine	Vascular endothelial cells	GJA5	2702
+Intestine	Stromal cells	RP11-13P5.2	NA
+Intestine	Stromal cells	MSC	9242
+Intestine	Stromal cells	RP1-283K11.3	NA
+Intestine	Stromal cells	RP5-1077H22.1	NA
+Intestine	Stromal cells	CTD-2541J13.1	NA
+Intestine	Stromal cells	AC002511.2	NA
+Intestine	Stromal cells	AC002511.3	NA
+Intestine	Stromal cells	MMP27	64066
+Intestine	Stromal cells	CTD-2334D19.1	NA
+Intestine	Stromal cells	CXCL14	9547
+Intestine	Stromal cells	FZD10	11211
+Intestine	Stromal cells	PDGFRA	5156
+Intestine	Stromal cells	AC003090.1	NA
+Intestine	Stromal cells	RP1-288H2.4	NA
+Intestine	Stromal cells	ITGA11	22801
+Intestine	Mesothelial cells	AP000705.7	NA
+Intestine	Mesothelial cells	HAS1	3036
+Intestine	Mesothelial cells	TNNT1	7138
+Intestine	Mesothelial cells	BNC1	646
+Intestine	Mesothelial cells	DSC3	1825
+Intestine	Mesothelial cells	WT1	7490
+Intestine	Mesothelial cells	WNT10A	80326
+Intestine	Mesothelial cells	C21orf62	56245
+Intestine	Mesothelial cells	PTPRQ	NA
+Intestine	Mesothelial cells	CEMP1	752014
+Intestine	Mesothelial cells	C3	718
+Intestine	Mesothelial cells	CRB2	286204
+Intestine	Mesothelial cells	KLK11	11012
+Intestine	Mesothelial cells	PHYHIP	9796
+Intestine	Mesothelial cells	TGM1	7051
+Intestine	Lymphatic endothelial cells	RP11-474N8.5	NA
+Intestine	Lymphatic endothelial cells	TBX1	6899
+Intestine	Lymphatic endothelial cells	STAB2	55576
+Intestine	Lymphatic endothelial cells	CCL21	6366
+Intestine	Lymphatic endothelial cells	LINC00636	285205
+Intestine	Lymphatic endothelial cells	TSPEAR	54084
+Intestine	Lymphatic endothelial cells	ART5	116969
+Intestine	Lymphatic endothelial cells	CTC-236F12.4	NA
+Intestine	Lymphatic endothelial cells	GPR1	NA
+Intestine	Lymphatic endothelial cells	RP11-322E11.5	NA
+Intestine	Lymphatic endothelial cells	MPP7	143098
+Intestine	Lymphatic endothelial cells	Y_RNA	NA
+Intestine	Lymphatic endothelial cells	ABCA4	24
+Intestine	Lymphatic endothelial cells	PLIN5	440503
+Intestine	Lymphatic endothelial cells	TP63	8626
+Muscle	Megakaryocytes	PF4	5196
+Muscle	Megakaryocytes	ITGA2B	3674
+Muscle	Megakaryocytes	LIPH	200879
+Muscle	Megakaryocytes	ELOVL7	79993
+Muscle	Megakaryocytes	GP6	51206
+Muscle	Megakaryocytes	ITGB3	3690
+Muscle	Megakaryocytes	PTGS1	5742
+Muscle	Megakaryocytes	RP11-480G7.1	NA
+Muscle	Megakaryocytes	RP11-170N16.2	NA
+Muscle	Megakaryocytes	C3ORF55	NA
+Muscle	Megakaryocytes	RP4-655J12.4	NA
+Muscle	Megakaryocytes	TUBB1	81027
+Muscle	Megakaryocytes	DCLRE1A	9937
+Muscle	Megakaryocytes	TMEM40	55287
+Muscle	Megakaryocytes	GNAZ	2781
+Muscle	Schwann cells	UGT8	7368
+Muscle	Schwann cells	POU3F1	5453
+Muscle	Schwann cells	PMP2	5375
+Muscle	Schwann cells	GFRA3	2676
+Muscle	Schwann cells	KCNC2	3747
+Muscle	Schwann cells	MPZ	4359
+Muscle	Schwann cells	SOX10	6663
+Muscle	Schwann cells	PTPRZ1	5803
+Muscle	Schwann cells	COL20A1	57642
+Muscle	Schwann cells	LINC01037	NA
+Muscle	Schwann cells	BCAN	63827
+Muscle	Schwann cells	C2orf72	257407
+Muscle	Schwann cells	C10orf82	143379
+Muscle	Schwann cells	RP11-946L20.2	NA
+Muscle	Schwann cells	MAG	4099
+Muscle	Lymphatic endothelial cells	NTS	4922
+Muscle	Lymphatic endothelial cells	TFF3	7033
+Muscle	Lymphatic endothelial cells	CCL21	6366
+Muscle	Lymphatic endothelial cells	STAB2	55576
+Muscle	Lymphatic endothelial cells	PTX3	5806
+Muscle	Lymphatic endothelial cells	PCLO	27445
+Muscle	Lymphatic endothelial cells	IL7	3574
+Muscle	Lymphatic endothelial cells	P4HA3	283208
+Muscle	Lymphatic endothelial cells	C6orf141	135398
+Muscle	Lymphatic endothelial cells	PIK3C2G	5288
+Muscle	Lymphatic endothelial cells	ASGR2	433
+Muscle	Lymphatic endothelial cells	ANKRD36BP2	645784
+Muscle	Lymphatic endothelial cells	NALCN	259232
+Muscle	Lymphatic endothelial cells	FAM26F	NA
+Muscle	Lymphatic endothelial cells	NHLRC1	NA
+Muscle	Erythroblasts	RHAG	6005
+Muscle	Erythroblasts	GYPA	2993
+Muscle	Erythroblasts	AHSP	51327
+Muscle	Erythroblasts	GYPB	2994
+Muscle	Erythroblasts	HBZ	NA
+Muscle	Erythroblasts	ALAS2	212
+Muscle	Erythroblasts	SLC4A1	6521
+Muscle	Erythroblasts	SLC14A1	6563
+Muscle	Erythroblasts	EIF5AP2	NA
+Muscle	Erythroblasts	HBM	3042
+Muscle	Erythroblasts	HBA1	NA
+Muscle	Erythroblasts	EPB42	2038
+Muscle	Erythroblasts	RP11-57H12.2	NA
+Muscle	Erythroblasts	ALS2CR12	NA
+Muscle	Erythroblasts	SLC25A37	51312
+Muscle	Skeletal muscle cells	RP11-755O11.2	NA
+Muscle	Skeletal muscle cells	ASB15	142685
+Muscle	Skeletal muscle cells	RP11-456H18.2	NA
+Muscle	Skeletal muscle cells	RPL7P3	NA
+Muscle	Skeletal muscle cells	PVALB	5816
+Muscle	Skeletal muscle cells	RN7SL365P	NA
+Muscle	Skeletal muscle cells	RP11-432J24.5	NA
+Muscle	Skeletal muscle cells	C8ORF22	NA
+Muscle	Skeletal muscle cells	ASB10	136371
+Muscle	Skeletal muscle cells	RP5-921G16.2	NA
+Muscle	Skeletal muscle cells	CLDN9	9080
+Muscle	Skeletal muscle cells	RP5-1039K5.13	NA
+Muscle	Skeletal muscle cells	AC137723.5	NA
+Muscle	Skeletal muscle cells	RP11-255G21.1	NA
+Muscle	Skeletal muscle cells	AC093063.2	NA
+Muscle	Stromal cells	WSCD2	9671
+Muscle	Stromal cells	C13ORF45	NA
+Muscle	Stromal cells	LINC00645	100505967
+Muscle	Stromal cells	RP1-300G12.2	NA
+Muscle	Stromal cells	RP11-217C7.1	NA
+Muscle	Stromal cells	RP11-332E3.2	NA
+Muscle	Stromal cells	RP11-473E2.4	NA
+Muscle	Stromal cells	CTD-2555C10.3	NA
+Muscle	Stromal cells	RP11-342A23.1	NA
+Muscle	Stromal cells	WNT10B	7480
+Muscle	Stromal cells	ACKR4	NA
+Muscle	Stromal cells	DIO3	1735
+Muscle	Stromal cells	CCDC129	NA
+Muscle	Stromal cells	ZCCHC5	NA
+Muscle	Stromal cells	RP11-38H17.1	NA
+Muscle	Satellite cells	AC004014.3	NA
+Muscle	Satellite cells	MYEOV	26579
+Muscle	Satellite cells	TACR3	6870
+Muscle	Satellite cells	GDPD4	NA
+Muscle	Satellite cells	USP44	84101
+Muscle	Satellite cells	RGR	5995
+Muscle	Satellite cells	RP11-320P7.2	NA
+Muscle	Satellite cells	FAM132B	NA
+Muscle	Satellite cells	GPR123	NA
+Muscle	Satellite cells	CTB-175P5.4	NA
+Muscle	Satellite cells	ENPP7P10	NA
+Muscle	Satellite cells	CHRDL2	25884
+Muscle	Satellite cells	PAX7	5081
+Muscle	Satellite cells	RP11-706J10.1	NA
+Muscle	Satellite cells	MAPK15	225689
+Muscle	Vascular endothelial cells	MIR4454	NA
+Muscle	Vascular endothelial cells	SLC5A4	6527
+Muscle	Vascular endothelial cells	AL118508.1	NA
+Muscle	Vascular endothelial cells	CA4	762
+Muscle	Vascular endothelial cells	RP11-206M11.7	NA
+Muscle	Vascular endothelial cells	PRSS51	NA
+Muscle	Vascular endothelial cells	NOS3	4846
+Muscle	Vascular endothelial cells	GRIN2A	2903
+Muscle	Vascular endothelial cells	GFRAL	NA
+Muscle	Vascular endothelial cells	CD300LG	146894
+Muscle	Vascular endothelial cells	MADCAM1	8174
+Muscle	Vascular endothelial cells	RP11-327L3.3	NA
+Muscle	Vascular endothelial cells	C1QTNF9	338872
+Muscle	Vascular endothelial cells	ANO2	57101
+Muscle	Vascular endothelial cells	AP001597.1	NA
+Muscle	Smooth muscle cells	OR51E2	81285
+Muscle	Smooth muscle cells	AC131025.8	NA
+Muscle	Smooth muscle cells	ADORA2B	136
+Muscle	Smooth muscle cells	MYH11	4629
+Muscle	Smooth muscle cells	SLC38A11	151258
+Muscle	Smooth muscle cells	MIR143HG	NA
+Muscle	Smooth muscle cells	MIR145	NA
+Muscle	Smooth muscle cells	RP11-1101K5.1	NA
+Muscle	Smooth muscle cells	P2RX3	5024
+Muscle	Smooth muscle cells	GPR176	11245
+Muscle	Smooth muscle cells	ANO1	55107
+Muscle	Smooth muscle cells	OR51E1	143503
+Muscle	Smooth muscle cells	CORIN	10699
+Muscle	Smooth muscle cells	CACNA1C-IT3	NA
+Muscle	Smooth muscle cells	TMC4	147798
+Muscle	Myeloid cells	FCN1	2219
+Muscle	Myeloid cells	MS4A4E	NA
+Muscle	Myeloid cells	TMPRSS4-AS1	NA
+Muscle	Myeloid cells	CD86	942
+Muscle	Myeloid cells	FLT3	2322
+Muscle	Myeloid cells	P2RY13	53829
+Muscle	Myeloid cells	IL10RA	3587
+Muscle	Myeloid cells	FOLR2	2350
+Muscle	Myeloid cells	MNDA	4332
+Muscle	Myeloid cells	HLA-DQB1	3119
+Muscle	Myeloid cells	MS4A4A	51338
+Muscle	Myeloid cells	AMICA1	NA
+Muscle	Myeloid cells	CYTH4	27128
+Muscle	Myeloid cells	MS4A6A	64231
+Muscle	Myeloid cells	CFP	5199
+Muscle	Lymphoid cells	IL7R	3575
+Muscle	Lymphoid cells	CD8A	925
+Muscle	Lymphoid cells	NKG7	4818
+Muscle	Lymphoid cells	CD247	919
+Muscle	Lymphoid cells	NCR1	9437
+Muscle	Lymphoid cells	RP11-61O1.1	NA
+Muscle	Lymphoid cells	TRAC	NA
+Muscle	Lymphoid cells	CD3E	916
+Muscle	Lymphoid cells	ITK	3702
+Muscle	Lymphoid cells	CD2	914
+Muscle	Lymphoid cells	MATK	4145
+Muscle	Lymphoid cells	RP11-444A22.1	NA
+Muscle	Lymphoid cells	SYTL1	84958
+Muscle	Lymphoid cells	IL2RB	3560
+Muscle	Lymphoid cells	GZMA	3001
+Placenta	PAEP_MECOM positive cells	RP11-98L5.2	NA
+Placenta	PAEP_MECOM positive cells	AC104654.1	NA
+Placenta	PAEP_MECOM positive cells	PAEP	5047
+Placenta	PAEP_MECOM positive cells	RP11-274B18.4	NA
+Placenta	PAEP_MECOM positive cells	PIGR	5284
+Placenta	PAEP_MECOM positive cells	TSPAN1	10103
+Placenta	PAEP_MECOM positive cells	AC012593.1	NA
+Placenta	PAEP_MECOM positive cells	RP11-510D19.1	NA
+Placenta	PAEP_MECOM positive cells	POU5F1	NA
+Placenta	PAEP_MECOM positive cells	UGT2B7	NA
+Placenta	PAEP_MECOM positive cells	DEFB1	1672
+Placenta	PAEP_MECOM positive cells	RP11-697E22.2	NA
+Placenta	PAEP_MECOM positive cells	SLC18A2	6571
+Placenta	PAEP_MECOM positive cells	PAX8	7849
+Placenta	PAEP_MECOM positive cells	SLPI	6590
+Placenta	AFP_ALB positive cells	SLC2A2	6514
+Placenta	AFP_ALB positive cells	ALB	213
+Placenta	AFP_ALB positive cells	APOB	338
+Placenta	AFP_ALB positive cells	AFP	174
+Placenta	AFP_ALB positive cells	ITIH2	3698
+Placenta	AFP_ALB positive cells	F2	2147
+Placenta	AFP_ALB positive cells	MAT1A	4143
+Placenta	AFP_ALB positive cells	APOC3	345
+Placenta	AFP_ALB positive cells	SERPINC1	462
+Placenta	AFP_ALB positive cells	FABP1	2168
+Placenta	AFP_ALB positive cells	APOA2	336
+Placenta	AFP_ALB positive cells	AHSG	197
+Placenta	AFP_ALB positive cells	SERPINA10	51156
+Placenta	AFP_ALB positive cells	SLC38A3	10991
+Placenta	AFP_ALB positive cells	SERPINA4	5267
+Placenta	Extravillous trophoblasts	AC022596.6	NA
+Placenta	Extravillous trophoblasts	GKN1	56287
+Placenta	Extravillous trophoblasts	CILP2	148113
+Placenta	Extravillous trophoblasts	LINC00330	144817
+Placenta	Extravillous trophoblasts	PDE6H	5149
+Placenta	Extravillous trophoblasts	PRG2	5553
+Placenta	Extravillous trophoblasts	RP11-872D17.8	NA
+Placenta	Extravillous trophoblasts	HLA-G	3135
+Placenta	Extravillous trophoblasts	ASCL2	430
+Placenta	Extravillous trophoblasts	NOTUM	147111
+Placenta	Extravillous trophoblasts	AC006262.5	NA
+Placenta	Extravillous trophoblasts	DAW1	164781
+Placenta	Extravillous trophoblasts	NOG	9241
+Placenta	Extravillous trophoblasts	TAC3	6866
+Placenta	Extravillous trophoblasts	RP11-420L9.4	NA
+Placenta	Lymphoid cells	IGJ	NA
+Placenta	Lymphoid cells	IGHM	NA
+Placenta	Lymphoid cells	KLRC3	3823
+Placenta	Lymphoid cells	GZMH	2999
+Placenta	Lymphoid cells	PTGDR	5729
+Placenta	Lymphoid cells	IGHGP	NA
+Placenta	Lymphoid cells	IKZF3	22806
+Placenta	Lymphoid cells	IFNG-AS1	NA
+Placenta	Lymphoid cells	TIGIT	201633
+Placenta	Lymphoid cells	KLRC2	NA
+Placenta	Lymphoid cells	LCK	3932
+Placenta	Lymphoid cells	ANKRD36BP2	645784
+Placenta	Lymphoid cells	TNFRSF18	8784
+Placenta	Lymphoid cells	IGHG3	NA
+Placenta	Lymphoid cells	LINC00861	NA
+Placenta	Trophoblast giant cells	CCK	885
+Placenta	Trophoblast giant cells	CTA-833B7.2	NA
+Placenta	Trophoblast giant cells	PSG1	5669
+Placenta	Trophoblast giant cells	CGB	NA
+Placenta	Trophoblast giant cells	CSH2	1443
+Placenta	Trophoblast giant cells	PSG6	NA
+Placenta	Trophoblast giant cells	KISS1	3814
+Placenta	Trophoblast giant cells	INHBA	3624
+Placenta	Trophoblast giant cells	GH2	2689
+Placenta	Trophoblast giant cells	PSG9	5678
+Placenta	Trophoblast giant cells	CRH	1392
+Placenta	Trophoblast giant cells	PSG8	NA
+Placenta	Trophoblast giant cells	RP11-76E12.1	NA
+Placenta	Trophoblast giant cells	PSG4	5672
+Placenta	Trophoblast giant cells	TREML3P	NA
+Placenta	Smooth muscle cells	RP11-162G9.1	NA
+Placenta	Smooth muscle cells	FAM162B	221303
+Placenta	Smooth muscle cells	WNT3A	NA
+Placenta	Smooth muscle cells	AFF2	2334
+Placenta	Smooth muscle cells	CDH19	28513
+Placenta	Smooth muscle cells	SCN11A	11280
+Placenta	Smooth muscle cells	GPR20	2843
+Placenta	Smooth muscle cells	COX4I2	84701
+Placenta	Smooth muscle cells	AGTR1	185
+Placenta	Smooth muscle cells	ADAMTS20	80070
+Placenta	Smooth muscle cells	RP11-123O22.1	NA
+Placenta	Smooth muscle cells	HIGD1B	51751
+Placenta	Smooth muscle cells	AC020571.3	NA
+Placenta	Smooth muscle cells	COLEC10	10584
+Placenta	Smooth muscle cells	KCNK17	89822
+Placenta	IGFBP1_DKK1 positive cells	RP3-404K8.2	NA
+Placenta	IGFBP1_DKK1 positive cells	RP11-486P11.1	NA
+Placenta	IGFBP1_DKK1 positive cells	FOXL2	668
+Placenta	IGFBP1_DKK1 positive cells	WT1	7490
+Placenta	IGFBP1_DKK1 positive cells	RP11-171A24.3	NA
+Placenta	IGFBP1_DKK1 positive cells	SCARA5	286133
+Placenta	IGFBP1_DKK1 positive cells	LRRN4CL	221091
+Placenta	IGFBP1_DKK1 positive cells	S100A3	6274
+Placenta	IGFBP1_DKK1 positive cells	WT1-AS	NA
+Placenta	IGFBP1_DKK1 positive cells	PRL	5617
+Placenta	IGFBP1_DKK1 positive cells	WNT4	54361
+Placenta	IGFBP1_DKK1 positive cells	AC012065.7	NA
+Placenta	IGFBP1_DKK1 positive cells	APOD	347
+Placenta	IGFBP1_DKK1 positive cells	BRINP2	57795
+Placenta	IGFBP1_DKK1 positive cells	RORB	6096
+Placenta	Stromal cells	AP006285.6	NA
+Placenta	Stromal cells	AC002451.1	NA
+Placenta	Stromal cells	RP11-99L13.2	NA
+Placenta	Stromal cells	RP1-79C4.4	NA
+Placenta	Stromal cells	MMP23B	NA
+Placenta	Stromal cells	RP11-248N22.2	NA
+Placenta	Stromal cells	LA16C-380H5.4	NA
+Placenta	Stromal cells	MIR218-1	NA
+Placenta	Stromal cells	C8ORF87	NA
+Placenta	Stromal cells	SNORD113	NA
+Placenta	Stromal cells	RP11-74M11.2	NA
+Placenta	Stromal cells	HSD3BP2	NA
+Placenta	Stromal cells	AP001605.4	NA
+Placenta	Stromal cells	LINC00314	246705
+Placenta	Stromal cells	AC007394.3	NA
+Placenta	Vascular endothelial cells	RP11-1028N23.4	NA
+Placenta	Vascular endothelial cells	RP11-297H3.3	NA
+Placenta	Vascular endothelial cells	AC007743.1	NA
+Placenta	Vascular endothelial cells	RP11-327L3.3	NA
+Placenta	Vascular endothelial cells	CD34	947
+Placenta	Vascular endothelial cells	ARHGEF15	22899
+Placenta	Vascular endothelial cells	CXORF36	NA
+Placenta	Vascular endothelial cells	LRRC36	55282
+Placenta	Vascular endothelial cells	SOX7	83595
+Placenta	Vascular endothelial cells	RP11-328D5.1	NA
+Placenta	Vascular endothelial cells	NTS	4922
+Placenta	Vascular endothelial cells	CDRT1	NA
+Placenta	Vascular endothelial cells	LINC01049	NA
+Placenta	Vascular endothelial cells	ROBO4	54538
+Placenta	Vascular endothelial cells	HS3ST3A1	9955
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	CTD-2050E21.1	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	POTEKP	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-344B2.3	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-366M4.3	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-2A4.4	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-483F11.7	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	FTLP14	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-718G2.5	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-18D7.3	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	CLCA2	9635
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	KB-1440D3.13	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	CTBP2P8	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	RP11-359P18.1	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	HSPD1P6	NA
+Placenta	Syncytiotrophoblasts and villous cytotrophoblasts	AC124861.1	NA
+Placenta	Myeloid cells	SIGLEC10	89790
+Placenta	Myeloid cells	RP11-1143G9.4	NA
+Placenta	Myeloid cells	LYZ	4069
+Placenta	Myeloid cells	ADAMDEC1	27299
+Placenta	Myeloid cells	LILRB2	10288
+Placenta	Myeloid cells	HLA-DRB5	NA
+Placenta	Myeloid cells	SDS	10993
+Placenta	Myeloid cells	HLA-DOA	3111
+Placenta	Myeloid cells	SIGLEC1	6614
+Placenta	Myeloid cells	MMP9	4318
+Placenta	Myeloid cells	LILRB4	11006
+Placenta	Myeloid cells	C1QB	713
+Placenta	Myeloid cells	TLR2	7097
+Placenta	Myeloid cells	TLR7	51284
+Placenta	Myeloid cells	S100A8	6279
+Placenta	Megakaryocytes	EGF	1950
+Placenta	Megakaryocytes	TUBB1	81027
+Placenta	Megakaryocytes	PPBP	5473
+Placenta	Megakaryocytes	ITGA2B	3674
+Placenta	Megakaryocytes	RP11-930O11.1	NA
+Placenta	Megakaryocytes	RP11-152K4.2	NA
+Placenta	Megakaryocytes	LINC00989	NA
+Placenta	Megakaryocytes	PF4	5196
+Placenta	Megakaryocytes	C6ORF25	NA
+Placenta	Megakaryocytes	LINC00534	NA
+Placenta	Megakaryocytes	PKHD1L1	93035
+Placenta	Megakaryocytes	NRGN	4900
+Placenta	Megakaryocytes	DNM3	26052
+Placenta	Megakaryocytes	RP11-466L17.1	NA
+Placenta	Megakaryocytes	RP11-142C4.6	NA
+Spleen	AFP_ALB positive cells	SERPINA6	866
+Spleen	AFP_ALB positive cells	PLG	5340
+Spleen	AFP_ALB positive cells	AMBP	259
+Spleen	AFP_ALB positive cells	SERPINC1	462
+Spleen	AFP_ALB positive cells	BHMT2	23743
+Spleen	AFP_ALB positive cells	LBP	3929
+Spleen	AFP_ALB positive cells	PRAP1	118471
+Spleen	AFP_ALB positive cells	APOB	338
+Spleen	AFP_ALB positive cells	SERPINA1	5265
+Spleen	AFP_ALB positive cells	FGB	2244
+Spleen	AFP_ALB positive cells	VTN	7448
+Spleen	AFP_ALB positive cells	SLC2A2	6514
+Spleen	AFP_ALB positive cells	FGG	2266
+Spleen	AFP_ALB positive cells	MT1G	4495
+Spleen	AFP_ALB positive cells	ITIH1	3697
+Spleen	Lymphoid cells	RN7SL337P	NA
+Spleen	Lymphoid cells	KLRC4-KLRK1	NA
+Spleen	Lymphoid cells	RP11-553L6.2	NA
+Spleen	Lymphoid cells	RP11-861A13.4	NA
+Spleen	Lymphoid cells	RP11-38J22.6	NA
+Spleen	Lymphoid cells	ZNF860	NA
+Spleen	Lymphoid cells	RP11-693J15.5	NA
+Spleen	Lymphoid cells	RP11-61O1.1	NA
+Spleen	Lymphoid cells	FCRL3	115352
+Spleen	Lymphoid cells	CTD-2215E18.1	NA
+Spleen	Lymphoid cells	RP5-1028K7.2	NA
+Spleen	Lymphoid cells	IKZF3	22806
+Spleen	Lymphoid cells	LINC00861	NA
+Spleen	Lymphoid cells	IL9RP3	NA
+Spleen	Lymphoid cells	VAV3-AS1	NA
+Spleen	Myeloid cells	CLEC9A	NA
+Spleen	Myeloid cells	RP11-489O18.1	NA
+Spleen	Myeloid cells	RP3-522P13.3	NA
+Spleen	Myeloid cells	RP11-807H22.7	NA
+Spleen	Myeloid cells	RP11-1080G15.1	NA
+Spleen	Myeloid cells	FCN1	2219
+Spleen	Myeloid cells	EMR4P	NA
+Spleen	Myeloid cells	TMPRSS4-AS1	NA
+Spleen	Myeloid cells	RP11-157G21.2	NA
+Spleen	Myeloid cells	CSF2RA	1438
+Spleen	Myeloid cells	OSCAR	126014
+Spleen	Myeloid cells	RP3-522D1.1	NA
+Spleen	Myeloid cells	CD163L1	283316
+Spleen	Myeloid cells	RUFY4	NA
+Spleen	Myeloid cells	DLEU7-AS1	NA
+Spleen	Vascular endothelial cells	RP11-189E14.5	NA
+Spleen	Vascular endothelial cells	ODF3L2	284451
+Spleen	Vascular endothelial cells	RP4-765C7.2	NA
+Spleen	Vascular endothelial cells	AC019100.3	NA
+Spleen	Vascular endothelial cells	RP11-172F10.1	NA
+Spleen	Vascular endothelial cells	CTD-2207L17.2	NA
+Spleen	Vascular endothelial cells	RP1-154K9.2	NA
+Spleen	Vascular endothelial cells	AC010084.1	NA
+Spleen	Vascular endothelial cells	SLC5A4	6527
+Spleen	Vascular endothelial cells	OR5G5P	NA
+Spleen	Vascular endothelial cells	HOXD3	3232
+Spleen	Vascular endothelial cells	SNTG1	54212
+Spleen	Vascular endothelial cells	EEF1A1P31	NA
+Spleen	Vascular endothelial cells	ADAMTSL1	92949
+Spleen	Vascular endothelial cells	MYRIP	25924
+Spleen	Stromal cells	CTD-2270F17.1	NA
+Spleen	Stromal cells	ENPP7P4	NA
+Spleen	Stromal cells	AC105053.3	NA
+Spleen	Stromal cells	RP11-388K12.1	NA
+Spleen	Stromal cells	SCTR	6344
+Spleen	Stromal cells	KBTBD11-OT1	NA
+Spleen	Stromal cells	ADRA1B	147
+Spleen	Stromal cells	NPM1P10	NA
+Spleen	Stromal cells	NPY5R	4889
+Spleen	Stromal cells	TPH2	121278
+Spleen	Stromal cells	CTC-535M15.2	NA
+Spleen	Stromal cells	MIR143HG	NA
+Spleen	Stromal cells	KLHL29	114818
+Spleen	Stromal cells	AC023481.1	NA
+Spleen	Stromal cells	CADPS	8618
+Spleen	STC2_TLX1 positive cells	CAMK2N2	94032
+Spleen	STC2_TLX1 positive cells	CLVS2	134829
+Spleen	STC2_TLX1 positive cells	RP11-384O8.1	NA
+Spleen	STC2_TLX1 positive cells	FBXL16	146330
+Spleen	STC2_TLX1 positive cells	GABRG2	2566
+Spleen	STC2_TLX1 positive cells	HRK	8739
+Spleen	STC2_TLX1 positive cells	EBF3	253738
+Spleen	STC2_TLX1 positive cells	TRH	7200
+Spleen	STC2_TLX1 positive cells	AC018730.1	NA
+Spleen	STC2_TLX1 positive cells	CTD-3193O13.9	NA
+Spleen	STC2_TLX1 positive cells	CPLX2	10814
+Spleen	STC2_TLX1 positive cells	ATP1A3	478
+Spleen	STC2_TLX1 positive cells	TMEM119	338773
+Spleen	STC2_TLX1 positive cells	IFI27L2	83982
+Spleen	STC2_TLX1 positive cells	PET117	100303755
+Spleen	Megakaryocytes	RAB27B	5874
+Spleen	Megakaryocytes	RP11-556I14.2	NA
+Spleen	Megakaryocytes	EGF	1950
+Spleen	Megakaryocytes	GP6	51206
+Spleen	Megakaryocytes	RP11-930O11.1	NA
+Spleen	Megakaryocytes	LINC00989	NA
+Spleen	Megakaryocytes	SELP	6403
+Spleen	Megakaryocytes	GP1BA	2811
+Spleen	Megakaryocytes	HPSE	10855
+Spleen	Megakaryocytes	RP11-152K4.2	NA
+Spleen	Megakaryocytes	LINC00504	NA
+Spleen	Megakaryocytes	MMRN1	22915
+Spleen	Megakaryocytes	ITGB3	3690
+Spleen	Megakaryocytes	ELOVL7	79993
+Spleen	Megakaryocytes	LY6G6F	259215
+Spleen	Mesothelial cells	QRFPR	84109
+Spleen	Mesothelial cells	SLPI	6590
+Spleen	Mesothelial cells	LHX9	56956
+Spleen	Mesothelial cells	PLA2G2A	5320
+Spleen	Mesothelial cells	CGN	57530
+Spleen	Mesothelial cells	NPHS1	4868
+Spleen	Mesothelial cells	KRT5	3852
+Spleen	Mesothelial cells	LRRN4	164312
+Spleen	Mesothelial cells	KLK11	11012
+Spleen	Mesothelial cells	OLR1	4973
+Spleen	Mesothelial cells	PTPRQ	NA
+Spleen	Mesothelial cells	COL8A1	NA
+Spleen	Mesothelial cells	PDZK1IP1	10158
+Spleen	Mesothelial cells	HAS1	3036
+Spleen	Mesothelial cells	SFRP2	6423
+Spleen	Erythroblasts	HDC	3067
+Spleen	Erythroblasts	PRSS57	NA
+Spleen	Erythroblasts	EIF5AP2	NA
+Spleen	Erythroblasts	PPAPDC1A	NA
+Spleen	Erythroblasts	MTL5	NA
+Spleen	Erythroblasts	CTA-392E5.1	NA
+Spleen	Erythroblasts	ACSBG1	23205
+Spleen	Erythroblasts	RP5-964N17.1	NA
+Spleen	Erythroblasts	GYPA	2993
+Spleen	Erythroblasts	SLC25A21	89874
+Spleen	Erythroblasts	RP11-146I2.1	NA
+Spleen	Erythroblasts	MIR144	NA
+Spleen	Erythroblasts	SLC2A14	NA
+Spleen	Erythroblasts	CTA-363E6.6	NA
+Spleen	Erythroblasts	SLC4A1	6521
+Stomach	Neuroendocrine cells	SLC18A1	6570
+Stomach	Neuroendocrine cells	GHRL	51738
+Stomach	Neuroendocrine cells	GAST	2520
+Stomach	Neuroendocrine cells	FEV	54738
+Stomach	Neuroendocrine cells	NKX2-2	4821
+Stomach	Neuroendocrine cells	CRYBA2	1412
+Stomach	Neuroendocrine cells	MBOAT4	NA
+Stomach	Neuroendocrine cells	CDK5R2	8941
+Stomach	Neuroendocrine cells	RFX6	222546
+Stomach	Neuroendocrine cells	HAP1	9001
+Stomach	Neuroendocrine cells	RP11-82C23.2	NA
+Stomach	Neuroendocrine cells	RBPJL	11317
+Stomach	Neuroendocrine cells	PTF1A	NA
+Stomach	Neuroendocrine cells	PAX6	5080
+Stomach	Neuroendocrine cells	CACNA1A	773
+Stomach	Erythroblasts	KLF1	10661
+Stomach	Erythroblasts	SLC4A1	6521
+Stomach	Erythroblasts	HBM	3042
+Stomach	Erythroblasts	NFE2	4778
+Stomach	Erythroblasts	HBZ	NA
+Stomach	Erythroblasts	GYPB	2994
+Stomach	Erythroblasts	HBG2	3048
+Stomach	Erythroblasts	HBB	3043
+Stomach	Erythroblasts	ALAS2	212
+Stomach	Erythroblasts	SPTA1	6708
+Stomach	Erythroblasts	HBA1	NA
+Stomach	Erythroblasts	HEMGN	55363
+Stomach	Erythroblasts	RNF224	NA
+Stomach	Erythroblasts	HBG1	NA
+Stomach	Erythroblasts	HBA2	NA
+Stomach	Ciliated epithelial cells	CCDC37	NA
+Stomach	Ciliated epithelial cells	C11ORF88	NA
+Stomach	Ciliated epithelial cells	FAM216B	144809
+Stomach	Ciliated epithelial cells	LDLRAD1	NA
+Stomach	Ciliated epithelial cells	TUBA4B	80086
+Stomach	Ciliated epithelial cells	KIF19	124602
+Stomach	Ciliated epithelial cells	DYDC2	84332
+Stomach	Ciliated epithelial cells	ANKRD66	NA
+Stomach	Ciliated epithelial cells	C9ORF117	NA
+Stomach	Ciliated epithelial cells	C10orf67	256815
+Stomach	Ciliated epithelial cells	AC013264.2	NA
+Stomach	Ciliated epithelial cells	LRRC71	149499
+Stomach	Ciliated epithelial cells	CAPSL	133690
+Stomach	Ciliated epithelial cells	TSPAN19	NA
+Stomach	Ciliated epithelial cells	STOML3	161003
+Stomach	Squamous epithelial cells	KRT6B	3854
+Stomach	Squamous epithelial cells	CAPNS2	84290
+Stomach	Squamous epithelial cells	KRT6C	286887
+Stomach	Squamous epithelial cells	FGFBP1	9982
+Stomach	Squamous epithelial cells	KRT6A	3853
+Stomach	Squamous epithelial cells	KRT17	3872
+Stomach	Squamous epithelial cells	ADH7	131
+Stomach	Squamous epithelial cells	SERPINB10	5273
+Stomach	Squamous epithelial cells	KRT16	3868
+Stomach	Squamous epithelial cells	S100A3	6274
+Stomach	Squamous epithelial cells	CLCA2	9635
+Stomach	Squamous epithelial cells	LY6D	8581
+Stomach	Squamous epithelial cells	KRT4	3851
+Stomach	Squamous epithelial cells	AC019349.5	NA
+Stomach	Squamous epithelial cells	GPR87	53836
+Stomach	Parietal and chief cells	RP11-467I20.6	NA
+Stomach	Parietal and chief cells	ETNPPL	64850
+Stomach	Parietal and chief cells	ATP4B	496
+Stomach	Parietal and chief cells	FGB	2244
+Stomach	Parietal and chief cells	FGA	2243
+Stomach	Parietal and chief cells	SIGLEC11	114132
+Stomach	Parietal and chief cells	FRMD1	79981
+Stomach	Parietal and chief cells	TRIM50	135892
+Stomach	Parietal and chief cells	ALB	213
+Stomach	Parietal and chief cells	ATP4A	495
+Stomach	Parietal and chief cells	ANGPTL3	27329
+Stomach	Parietal and chief cells	MFSD4	NA
+Stomach	Parietal and chief cells	APOBEC2	10930
+Stomach	Parietal and chief cells	CKM	1158
+Stomach	Parietal and chief cells	PAQR5	54852
+Stomach	MUC13_DMBT1 positive cells	ISX	91464
+Stomach	MUC13_DMBT1 positive cells	GUCA2B	2981
+Stomach	MUC13_DMBT1 positive cells	ENPP7	339221
+Stomach	MUC13_DMBT1 positive cells	MIR194-2	NA
+Stomach	MUC13_DMBT1 positive cells	BTNL3	10917
+Stomach	MUC13_DMBT1 positive cells	TM4SF20	79853
+Stomach	MUC13_DMBT1 positive cells	SI	6476
+Stomach	MUC13_DMBT1 positive cells	SLC17A4	10050
+Stomach	MUC13_DMBT1 positive cells	ALDOB	229
+Stomach	MUC13_DMBT1 positive cells	CDX1	1044
+Stomach	MUC13_DMBT1 positive cells	DMBT1	1755
+Stomach	MUC13_DMBT1 positive cells	CHP2	63928
+Stomach	MUC13_DMBT1 positive cells	KRT20	54474
+Stomach	MUC13_DMBT1 positive cells	SLC5A12	159963
+Stomach	MUC13_DMBT1 positive cells	ADRA2A	150
+Stomach	Myeloid cells	C1QC	714
+Stomach	Myeloid cells	HLA-DQB1	3119
+Stomach	Myeloid cells	MS4A6A	64231
+Stomach	Myeloid cells	CD14	929
+Stomach	Myeloid cells	C1QB	713
+Stomach	Myeloid cells	CD163L1	283316
+Stomach	Myeloid cells	IGSF6	10261
+Stomach	Myeloid cells	CCDC26	NA
+Stomach	Myeloid cells	C1QA	712
+Stomach	Myeloid cells	NCF2	4688
+Stomach	Myeloid cells	HLA-DRB1	3123
+Stomach	Myeloid cells	HLA-DRB5	NA
+Stomach	Myeloid cells	CLEC7A	64581
+Stomach	Myeloid cells	MS4A7	58475
+Stomach	Myeloid cells	HLA-DPA1	3113
+Stomach	Goblet cells	UGT2B15	7366
+Stomach	Goblet cells	IL17C	27189
+Stomach	Goblet cells	GKN2	200504
+Stomach	Goblet cells	SLC22A8	9376
+Stomach	Goblet cells	CXCL5	6374
+Stomach	Goblet cells	CSF3	1440
+Stomach	Goblet cells	TFF2	7032
+Stomach	Goblet cells	A4GNT	51146
+Stomach	Goblet cells	FBP2	8789
+Stomach	Goblet cells	FGF20	26281
+Stomach	Goblet cells	MUC6	4588
+Stomach	Goblet cells	GKN1	56287
+Stomach	Goblet cells	CXCL1	2919
+Stomach	Goblet cells	MUC5AC	4586
+Stomach	Goblet cells	CA9	768
+Stomach	Stromal cells	AC002511.2	NA
+Stomach	Stromal cells	PTGER1	5731
+Stomach	Stromal cells	OSR2	116039
+Stomach	Stromal cells	AC003090.1	NA
+Stomach	Stromal cells	ACTG2	72
+Stomach	Stromal cells	INHBA	3624
+Stomach	Stromal cells	HSPB6	126393
+Stomach	Stromal cells	AC131025.8	NA
+Stomach	Stromal cells	SHISA3	152573
+Stomach	Stromal cells	DPT	1805
+Stomach	Stromal cells	TRPA1	8989
+Stomach	Stromal cells	ACTA2	59
+Stomach	Stromal cells	TWIST2	117581
+Stomach	Stromal cells	CXCL14	9547
+Stomach	Stromal cells	GLIS1	148979
+Stomach	ENS neurons	PRPH	5630
+Stomach	ENS neurons	STMN2	11075
+Stomach	ENS neurons	ATP1A3	478
+Stomach	ENS neurons	KCNIP4	80333
+Stomach	ENS neurons	NKAIN1	79570
+Stomach	ENS neurons	INA	9118
+Stomach	ENS neurons	GAP43	2596
+Stomach	ENS neurons	ATCAY	85300
+Stomach	ENS neurons	CNGB1	1258
+Stomach	ENS neurons	TCEAL5	NA
+Stomach	ENS neurons	STAC	6769
+Stomach	ENS neurons	DCX	1641
+Stomach	ENS neurons	RP11-457K10.1	NA
+Stomach	ENS neurons	FAM163A	148753
+Stomach	ENS neurons	CNTN5	53942
+Stomach	ENS glia	SOX10	6663
+Stomach	ENS glia	MPZ	4359
+Stomach	ENS glia	ATP1A2	477
+Stomach	ENS glia	BAI1	NA
+Stomach	ENS glia	PLP1	5354
+Stomach	ENS glia	CDH19	28513
+Stomach	ENS glia	COL20A1	57642
+Stomach	ENS glia	ELOVL2	54898
+Stomach	ENS glia	NOV	NA
+Stomach	ENS glia	PRIMA1	145270
+Stomach	ENS glia	RP11-308N19.1	NA
+Stomach	ENS glia	SLC35F1	222553
+Stomach	ENS glia	LGI4	163175
+Stomach	ENS glia	VGLL3	389136
+Stomach	ENS glia	EGFLAM	133584
+Stomach	Vascular endothelial cells	SELE	6401
+Stomach	Vascular endothelial cells	PRND	23627
+Stomach	Vascular endothelial cells	APLNR	187
+Stomach	Vascular endothelial cells	ARHGEF15	22899
+Stomach	Vascular endothelial cells	PLVAP	83483
+Stomach	Vascular endothelial cells	FLT1	2321
+Stomach	Vascular endothelial cells	PCDH12	51294
+Stomach	Vascular endothelial cells	MADCAM1	8174
+Stomach	Vascular endothelial cells	GPIHBP1	338328
+Stomach	Vascular endothelial cells	GALNT15	117248
+Stomach	Vascular endothelial cells	RP4-601K24.1	NA
+Stomach	Vascular endothelial cells	MEOX1	4222
+Stomach	Vascular endothelial cells	A2M	2
+Stomach	Vascular endothelial cells	CCM2L	140706
+Stomach	Vascular endothelial cells	CLEC14A	161198
+Stomach	Lymphatic endothelial cells	NTS	4922
+Stomach	Lymphatic endothelial cells	STAB2	55576
+Stomach	Lymphatic endothelial cells	CCL21	6366
+Stomach	Lymphatic endothelial cells	RADIL	55698
+Stomach	Lymphatic endothelial cells	RP11-444A22.1	NA
+Stomach	Lymphatic endothelial cells	TFPI	7035
+Stomach	Lymphatic endothelial cells	RP11-142C4.6	NA
+Stomach	Lymphatic endothelial cells	TNFAIP8L3	NA
+Stomach	Lymphatic endothelial cells	LY86-AS1	285780
+Stomach	Lymphatic endothelial cells	PTGS2	5743
+Stomach	Lymphatic endothelial cells	RP11-554D15.1	NA
+Stomach	Lymphatic endothelial cells	EFCC1	79825
+Stomach	Lymphatic endothelial cells	MMRN1	22915
+Stomach	Lymphatic endothelial cells	Y_RNA	NA
+Stomach	Lymphatic endothelial cells	NFATC1	4772
+Stomach	Mesothelial cells	RP11-74M11.2	NA
+Stomach	Mesothelial cells	AP000705.7	NA
+Stomach	Mesothelial cells	BNC1	646
+Stomach	Mesothelial cells	SPHKAP	80309
+Stomach	Mesothelial cells	PTPRQ	NA
+Stomach	Mesothelial cells	NPHS1	4868
+Stomach	Mesothelial cells	TNNT1	7138
+Stomach	Mesothelial cells	TFPI2	7980
+Stomach	Mesothelial cells	BDNF	627
+Stomach	Mesothelial cells	PDZRN4	29951
+Stomach	Mesothelial cells	LRP2	4036
+Stomach	Mesothelial cells	GFPT2	9945
+Stomach	Mesothelial cells	HAS1	3036
+Stomach	Mesothelial cells	WT1	7490
+Stomach	Mesothelial cells	COL8A1	NA
+Stomach	Lymphoid cells	ICOS	29851
+Stomach	Lymphoid cells	CD27	939
+Stomach	Lymphoid cells	NKG7	4818
+Stomach	Lymphoid cells	CD28	940
+Stomach	Lymphoid cells	CD3D	915
+Stomach	Lymphoid cells	CHI3L2	1117
+Stomach	Lymphoid cells	TRAT1	50852
+Stomach	Lymphoid cells	THEMIS	387357
+Stomach	Lymphoid cells	CD52	1043
+Stomach	Lymphoid cells	KLRB1	3820
+Stomach	Lymphoid cells	CD79B	974
+Stomach	Lymphoid cells	CCL5	6352
+Stomach	Lymphoid cells	TRBC2	NA
+Stomach	Lymphoid cells	SIRPG	55423
+Stomach	Lymphoid cells	CD3E	916
+Stomach	PDE1C_ACSM3 positive cells	RP11-690G19.4	NA
+Stomach	PDE1C_ACSM3 positive cells	ACSM3	6296
+Stomach	PDE1C_ACSM3 positive cells	C1ORF95	NA
+Stomach	PDE1C_ACSM3 positive cells	KCNE4	23704
+Stomach	PDE1C_ACSM3 positive cells	PDE1C	5137
+Stomach	PDE1C_ACSM3 positive cells	PSEN2	5664
+Stomach	PDE1C_ACSM3 positive cells	ERBB4	2066
+Stomach	PDE1C_ACSM3 positive cells	ATP6V0A4	50617
+Stomach	PDE1C_ACSM3 positive cells	TFCP2L1	29842
+Stomach	PDE1C_ACSM3 positive cells	WNK3	65267
+Stomach	PDE1C_ACSM3 positive cells	GABRB2	2561
+Stomach	PDE1C_ACSM3 positive cells	ADARB2	105
+Stomach	PDE1C_ACSM3 positive cells	AMACR	NA
+Stomach	PDE1C_ACSM3 positive cells	SHISA2	387914
+Stomach	PDE1C_ACSM3 positive cells	NOX4	50507
+Thymus	Thymic epithelial cells	RP11-81F13.2	NA
+Thymus	Thymic epithelial cells	KCNJ5	3762
+Thymus	Thymic epithelial cells	RP11-153K16.1	NA
+Thymus	Thymic epithelial cells	RP11-81F13.1	NA
+Thymus	Thymic epithelial cells	LL22NC03-75H12.2	NA
+Thymus	Thymic epithelial cells	RP11-112J1.2	NA
+Thymus	Thymic epithelial cells	RP11-114G22.1	NA
+Thymus	Thymic epithelial cells	RP6-24A23.6	NA
+Thymus	Thymic epithelial cells	C11orf16	56673
+Thymus	Thymic epithelial cells	SLC46A2	57864
+Thymus	Thymic epithelial cells	CACNA1I	8911
+Thymus	Thymic epithelial cells	PTPRT	11122
+Thymus	Thymic epithelial cells	NPFFR2	10886
+Thymus	Thymic epithelial cells	RP1-223B1.1	NA
+Thymus	Thymic epithelial cells	C12orf56	115749
+Thymus	Stromal cells	PLAC9	219348
+Thymus	Stromal cells	LOX	4015
+Thymus	Stromal cells	MGP	4256
+Thymus	Stromal cells	COL1A2	1278
+Thymus	Stromal cells	COL5A3	50509
+Thymus	Stromal cells	COL1A1	1277
+Thymus	Stromal cells	ASPN	54829
+Thymus	Stromal cells	FGF18	8817
+Thymus	Stromal cells	MMP2	4313
+Thymus	Stromal cells	ISLR	3671
+Thymus	Stromal cells	DCN	1634
+Thymus	Stromal cells	SFRP2	6423
+Thymus	Stromal cells	COL3A1	1281
+Thymus	Stromal cells	SCARA5	286133
+Thymus	Stromal cells	COL6A6	131873
+Thymus	Antigen presenting cells	IL1RN	3557
+Thymus	Antigen presenting cells	EBI3	10148
+Thymus	Antigen presenting cells	FGD2	221472
+Thymus	Antigen presenting cells	MCOLN2	255231
+Thymus	Antigen presenting cells	MMP9	4318
+Thymus	Antigen presenting cells	TLR10	81793
+Thymus	Antigen presenting cells	LINC00996	285972
+Thymus	Antigen presenting cells	CD80	941
+Thymus	Antigen presenting cells	CXCL10	3627
+Thymus	Antigen presenting cells	SLAMF7	57823
+Thymus	Antigen presenting cells	P2RY13	53829
+Thymus	Antigen presenting cells	SLC24A4	123041
+Thymus	Antigen presenting cells	HCK	3055
+Thymus	Antigen presenting cells	C1QB	713
+Thymus	Antigen presenting cells	LYZ	4069
+Thymus	Vascular endothelial cells	ADAMTS9	56999
+Thymus	Vascular endothelial cells	PROX1	5629
+Thymus	Vascular endothelial cells	MET	4233
+Thymus	Vascular endothelial cells	AC011526.1	NA
+Thymus	Vascular endothelial cells	MEOX2	4223
+Thymus	Vascular endothelial cells	ANO2	57101
+Thymus	Vascular endothelial cells	CTD-3179P9.1	NA
+Thymus	Vascular endothelial cells	NOVA2	4858
+Thymus	Vascular endothelial cells	AOC3	8639
+Thymus	Vascular endothelial cells	CXORF36	NA
+Thymus	Vascular endothelial cells	GPR116	NA
+Thymus	Vascular endothelial cells	PODXL	5420
+Thymus	Vascular endothelial cells	NRN1	51299
+Thymus	Vascular endothelial cells	PTPRB	5787
+Thymus	Vascular endothelial cells	LINC00472	79940
+Thymus	Thymocytes	RP11-104L21.3	NA
+Thymus	Thymocytes	BEST3	144453
+Thymus	Thymocytes	HKDC1	80201
+Thymus	Thymocytes	KLRC4-KLRK1	NA
+Thymus	Thymocytes	RP11-305P22.9	NA
+Thymus	Thymocytes	LTA	4049
+Thymus	Thymocytes	TMSB15B	NA
+Thymus	Thymocytes	RP11-739G5.1	NA
+Thymus	Thymocytes	UBASH3A	53347
+Thymus	Thymocytes	PLK4	10733
+Thymus	Thymocytes	FBXO41	150726
+Thymus	Thymocytes	LIN28B	389421
+Thymus	Thymocytes	SKA3	221150
+Thymus	Thymocytes	CD40LG	959
+Thymus	Thymocytes	AC002454.1	NA
+Immune system	Cancer cells	CD44	960
+Immune system	Cancer cells	EPCAM	4072
+Immune system	Cancer cells	ERBB2	2064
+Immune system	Cancer cells	FOLH1	2346
+Immune system	Cancer cells	KRT18	NA
+Immune system	Cancer cells	PROM1	8842
+Pancreas	Cancer stem cells	CD24	100133941
+Pancreas	Cancer stem cells	CD44	960
+Pancreas	Cancer stem cells	FLOT2	2319
+Liver	Cancer stem cells	ANPEP	290
+Liver	Cancer stem cells	CD44	960
+Liver	Cancer stem cells	EPCAM	4072
+Liver	Cancer stem cells	POU5F1	NA
+Liver	Cancer stem cells	PROM1	8842
+Liver	Cancer stem cells	THY1	7070
+Eye	Cancer cells	EPCAM	4072
+Lung	Cancer stem cells	ABCG2	9429
+Lung	Cancer stem cells	ALCAM	214
+Lung	Cancer stem cells	ALDH1A1	216
+Lung	Cancer stem cells	BMI1	NA
+Lung	Cancer stem cells	CD24	100133941
+Lung	Cancer stem cells	CD44	960
+Lung	Cancer stem cells	KIT	3815
+Lung	Cancer stem cells	NANOG	NA
+Lung	Cancer stem cells	NES	10763
+Lung	Cancer stem cells	PDPN	10630
+Lung	Cancer stem cells	POU5F1	NA
+Lung	Cancer stem cells	PROM1	8842
+Lung	Cancer stem cells	SOX2	6657
+Lung	Cancer stem cells	THY1	7070
+Brain	Cancer cells	CD44	960
+Brain	Cancer cells	MBTPS2	51360
+Brain	Cancer cells	PARP1	142
+Brain	Cancer stem cells	FUT4	2526
+Brain	Cancer stem cells	MSI1	4440
+Brain	Cancer stem cells	NES	10763
+Brain	Cancer stem cells	PROM1	8842
+Brain	Cancer stem cells	SOX2	6657
+Brain	Cancer stem cells	THY1	7070
+Kidney	Cancer stem cells	EPCAM	4072

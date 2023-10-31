@@ -1,0 +1,264 @@
+---
+title: "gene_set_numbers"
+author: "Kayla Johnson"
+date: '2022-06-15'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(RColorBrewer)
+library(pheatmap)
+library(colorspace)
+library(Matrix)
+```
+
+```{r data_read, include=FALSE}
+# read enrichment results
+ngobp <- read_tsv("../../results/naive_sex_prediction_ranks/gobp_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+nsagd <- read_tsv("../../results/naive_sex_prediction_ranks/sagd_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+ndisc <- read_tsv("../../results/naive_sex_prediction_ranks/disgenetC_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+nmp <- read_tsv("../../results/naive_sex_prediction_ranks/mp_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+ngtex <- read_tsv("../../results/naive_sex_prediction_ranks/gtex_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+nguo <- read_tsv("../../results/naive_sex_prediction_ranks/guo_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+ngwas <- read_tsv("../../results/naive_sex_prediction_ranks/gwas_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+# number of genes in all genesets
+ngenes <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/number_genes_in_RNAseq-Mircroarray_commonset.tsv")
+
+# line to make palette with colorspace gui
+# choose_palette(pal = diverging_hcl, n = 7L, parent = NULL, gui = "tcltk")
+
+# blue/orange palette
+light_bo_div <- diverge_hcl(11, c = 100, h = c(260, 35), l = c(50, 90), rev = T)
+#each half
+blue_palette <- sequential_hcl(7, c = 100, h = 260, l = c(50, 90), rev = T)
+orange_palette <- sequential_hcl(7, c = 100, h = 35, l = c(50, 90))
+# dark colors hex codes blue "#1c4587ff"/ orange "#783f04ff"
+#blue/orange using on slides for M/F
+fm_palette <- c("#6fa8dcff", "#e69138ff")
+```
+
+```{r add_age_range, include=FALSE}
+# order of age groups
+fine_ag_order <- c("fetus", "infant", "young_child", "child", 
+                                   "adolescent", "young_adult", "adult", 
+                                   "middle_adult", "older_adult", "old_adult", "elderly")
+
+age_ranges <- c("< 0", "[0-2]", "(2-8]", "(8-12]", "(12-20]", 
+                "(20-35]", "(35-45]", "(45-60]", "(60-70]", "(70-80]", "> 80")
+
+ar_tibble <- tibble(age_group = fine_ag_order, age_range = age_ranges, ag_number = c(1:11))
+
+# add age range col to dfs
+ngobp <- left_join(ngobp, ar_tibble, by = "age_group")
+nsagd <- left_join(nsagd, ar_tibble, by = "age_group")
+ndisc <- left_join(ndisc, ar_tibble, by = "age_group")
+nmp <- left_join(nmp, ar_tibble, by = "age_group")
+ngtex <- left_join(ngtex, ar_tibble, by = "age_group")
+nguo <- left_join(nguo, ar_tibble, by = "age_group")
+ngwas <- left_join(ngwas, ar_tibble, by = "age_group")
+```
+
+```{r}
+make_heatmap <- function(df){
+  
+  keep_terms <- df %>% 
+    filter(abs(zscore) > 2) %>% 
+    group_by(term_id) %>% 
+    tally() %>% 
+    filter(n >3) %>% 
+    pull(term_id)
+    
+  cut_df <- df %>% 
+    mutate(zscore = ifelse(zscore > 5, 5, zscore)) %>% 
+    mutate(zscore = ifelse(zscore < -5, -5, zscore)) %>% 
+    filter(term_id %in% keep_terms)
+  
+  df_terms <- tibble(term_id = unique(cut_df$term_id), term_num = c(1:length(unique(cut_df$term_id))))
+  cut_df <- left_join(cut_df, df_terms, by = "term_id")
+  
+  cut_mat <- as.matrix(with(cut_df, sparseMatrix(ag_number, term_num, x=zscore)))
+
+  plot <- pheatmap(cut_mat, display_numbers = F, color = light_bo_div)
+  
+  return(plot)
+}
+```
+
+
+```{r}
+ggsave("~/Desktop/naive_gobp_full_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(ngobp))
+```
+
+```{r}
+ggsave("~/Desktop/naive_disc_full_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(ndisc))
+```
+
+```{r}
+ggsave("~/Desktop/naive_nmp_full_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(nmp))
+```
+
+```{r}
+ggsave("~/Desktop/naive_ngwas_full_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(ngwas))
+```
+```{r}
+mono_term_heatmap <- function(df){
+  
+  out <- tibble(term_id = "t", ag_cor = 0.8)
+  for (t in unique(df$term_id)){
+    tdf <- df %>% filter(term_id == t)
+    c <- cor(tdf$zscore, tdf$ag_number, method = "spearman")
+    tout <- tibble(term_id = t, ag_cor = c)
+    out <- bind_rows(out, tout)
+  }
+  out <- out[-1,]
+  keep_terms <- out %>% filter(abs(ag_cor) > 0.8) %>% pull(term_id)
+    
+  cut_df <- df %>% 
+    mutate(zscore = ifelse(zscore > 5, 5, zscore)) %>% 
+    mutate(zscore = ifelse(zscore < -5, -5, zscore)) %>% 
+    filter(term_id %in% keep_terms)
+  
+  df_terms <- tibble(term_id = unique(cut_df$term_id), term_num = c(1:length(unique(cut_df$term_id))))
+  cut_df <- left_join(cut_df, df_terms, by = "term_id")
+  
+  cut_mat <- as.matrix(with(cut_df, sparseMatrix(ag_number, term_num, x=zscore)))
+
+  plot <- pheatmap(cut_mat, display_numbers = F, color = light_bo_div)
+  
+  return(plot)
+}
+```
+
+```{r}
+ggsave("~/Desktop/naive_gobp_mono_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(ngobp))
+```
+
+```{r}
+ggsave("~/Desktop/naive_mp_mono_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(nmp))
+```
+
+```{r}
+ggsave("~/Desktop/naive_disc_mono_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(ndisc))
+```
+
+```{r}
+ggsave("~/Desktop/naive_ngwas_mono_zscore_heatmap.pdf", width = 12, height = 8, 
+       plot = make_heatmap(ngwas))
+```
+
+```{r}
+make_fheatmap <- function(df){
+  
+  keep_terms <- df %>% 
+    filter(abs(zscore) > 0) %>% 
+    group_by(term_id) %>% 
+    tally() %>% 
+    filter(n > 5) %>% 
+    pull(term_id)
+    
+  cut_df <- df %>% 
+    mutate(zscore = ifelse(zscore > 5, 5, zscore)) %>% 
+    mutate(zscore = ifelse(zscore < -5, -5, zscore)) %>% 
+    filter(term_id %in% keep_terms)
+  
+  df_terms <- tibble(term_id = unique(cut_df$term_id), term_num = c(1:length(unique(cut_df$term_id))))
+  cut_df <- left_join(cut_df, df_terms, by = "term_id")
+  
+  cut_mat <- as.matrix(with(cut_df, sparseMatrix(ag_number, term_num, x=zscore)))
+
+  plot <- pheatmap(cut_mat, display_numbers = F, color = blue_palette)
+  
+  return(plot)
+}
+```
+
+```{r}
+make_fheatmap(ngobp)
+```
+```{r}
+make_fheatmap(nmp)
+```
+
+
+```{r}
+make_bar_plot <- function(df){
+  fdf <- df %>% 
+    filter(zscore > 3) %>% 
+    group_by(age_range) %>% 
+    tally()
+  fdf$bias <- 'female'
+  
+  mdf <- df %>% 
+    filter(zscore < -3) %>% 
+    group_by(age_range) %>% 
+    tally()
+  mdf$bias <- 'male'
+  
+  df <- bind_rows(fdf, mdf)
+  
+  plot <- df %>% 
+    ggplot(aes(x = factor(age_range, levels = age_ranges), y = n, fill = bias)) +
+    geom_col(position = position_dodge(width = 1)) +
+    scale_fill_manual(values = fm_palette) +
+    geom_text(aes(label = n), position = position_dodge(width = 1), vjust = 0) + 
+    theme(axis.title = element_blank(),
+          panel.background = element_rect(fill = "white"),
+          panel.grid = element_line(size = 0.2, colour = "lightgray"),
+          text = element_text(size = 20))
+}
+```
+
+```{r}
+ggsave("~/Desktop/ngobp_bar_plot.pdf", width = 12, height = 8,
+       plot = make_bar_plot(ngobp))
+```
+
+```{r}
+ggsave("~/Desktop/ndisc_bar_plot.pdf", width = 12, height = 8,
+       plot = make_bar_plot(ndisc))
+```
+
+```{r}
+ggsave("~/Desktop/nmp_bar_plot.pdf", width = 12, height = 8,
+       plot = make_bar_plot(nmp))
+```
+
+```{r}
+ggsave("~/Desktop/ngwas_bar_plot.pdf", width = 12, height = 8,
+       plot = make_bar_plot(ngwas))
+```
+
+
+

@@ -1,0 +1,52 @@
+orsum 1.4
+
+gmt:	/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_gene_set_gmts/GWAS.gmt
+files:	['/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_adolescent_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_child_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_elderly_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_fetus_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_infant_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_middle_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_old_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_older_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_young_adult_terms_by_significance.txt', '/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_young_child_terms_by_significance.txt']
+fileAliases:	None
+outputFolder:	/mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/orsum/sex-pred/gwas
+maxRepSize:	1000000
+minTermSize:	10
+numberOfTermsToPlot:	50
+
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_adolescent_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_adult_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_child_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_elderly_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_fetus_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_infant_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_middle_adult_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_old_adult_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_older_adult_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_young_adult_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Processing /mnt/home/john3491/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_naive_sex_prediction_term_significance_files/gwas_young_child_terms_by_significance.txt
+10 terms are not in GMT, they are removed.
+
+Initial term number (recurring terms in different lists are not merged yet, each one is counted): 52206
+
+Same terms in multiple lists are unified
+Representing term number: 4746
+
+Superterms represent their less significant (worse ranked) subterms. This includes equal terms, i.e. the terms that annotate exactly the same set of genes.
+Representing term number:4721
+

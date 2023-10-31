@@ -1,0 +1,151 @@
+---
+title: "naive-gobp_enrichment"
+author: "Kayla Johnson"
+date: "6/11/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
+library(kableExtra)
+library(UpSetR)
+library(tidyverse)
+library(RColorBrewer)
+library(pheatmap)
+library(colorspace)
+```
+
+```{r data_read, include=FALSE}
+# read enrichment results
+ngobp <- read_tsv("../../results/naive_sex_prediction_ranks/gobp_enrichment.tsv") %>% 
+  rename(zscore = combined_zscore) %>% 
+  rename(term_id = term)
+
+# line to make palette with colorspace gui
+# choose_palette(pal = diverging_hcl, n = 7L, parent = NULL, gui = "tcltk")
+
+# blue/orange palette
+light_bo_div <- diverge_hcl(11, c = 100, h = c(260, 35), l = c(50, 90), rev = T)
+# dark colors hex codes blue "#1c4587ff"/ orange "#783f04ff"
+#blue/orange using on slides for M/F
+fm_palette <- c("#6fa8dcff", "#e69138ff")
+
+# order of age groups
+fine_ag_order <- c("fetus", "infant", "young_child", "child", 
+                                   "adolescent", "young_adult", "adult", 
+                                   "middle_adult", "older_adult", "old_adult", "elderly")
+
+age_ranges <- c("< 0", "[0-2]", "(2-8]", "(8-12]", "(12-20]", 
+                "(20-35]", "(35-45]", "(45-60]", "(60-70]", "(70-80]", "> 80")
+
+ar_tibble <- tibble(age_group = fine_ag_order, age_range = age_ranges, ag_number = c(1:11))
+
+# add age range col to ngobp
+ngobp <- left_join(ngobp, ar_tibble, by = "age_group")
+
+# read go term names in
+go_terms <- read_tsv("../../data/gene_sets/GOBPs/GO__propagated-annotations__term-size10-200__Homo_sapiens__Entrez__BP__EXP_IDA_IPI_IMP_IGI_TAS_IC.tsv") %>% 
+  select(go_id, go_name)
+colnames(go_terms) <- c("term_id", "term_name")
+
+# add term names to ngobp
+ngobp <- left_join(ngobp, go_terms, by = "term_id")
+# two GO IDs do not have term names, because they were replaced 
+# this gets rid of them (replacements exist in data)
+ngobp <- ngobp %>% 
+  filter(!is.na(term_name)) %>% 
+  filter(abs(zscore) > 3)
+```
+
+## Number of male-biased terms with zscore less than -5
+```{r}
+kbl(ngobp %>%
+      filter(zscore < -5) %>% 
+      group_by(ag_number, age_group, age_range) %>% 
+      tally() %>% 
+      arrange(ag_number) %>% 
+      ungroup() %>% 
+      select(-ag_number)) %>% 
+  kable_styling(bootstrap_options = c("striped", "condensed"))
+```
+
+## Overlap of male-biased terms with zscore less than -5
+```{r}
+less5age_overlap <- ngobp %>%
+  filter(zscore < -5) %>% 
+  select(age_group, term_id)
+less5age_overlap_list <- list(fetus = less5age_overlap %>% 
+                                filter(age_group == "fetus" ) %>% pull(term_id), 
+                              infant = less5age_overlap %>% 
+                                filter(age_group == "infant" ) %>% pull(term_id), 
+                              young_child = less5age_overlap %>% 
+                                filter(age_group == "young_child" ) %>% pull(term_id), 
+                              child = less5age_overlap %>% 
+                                filter(age_group == "child" ) %>% pull(term_id), 
+                              adolescent = less5age_overlap %>% 
+                                filter(age_group == "adolescent" ) %>% pull(term_id), 
+                              young_adult = less5age_overlap %>% 
+                                filter(age_group == "young_adult" ) %>% pull(term_id), 
+                              adult = less5age_overlap %>% 
+                                filter(age_group == "adult" ) %>% pull(term_id), 
+                              middle_adult = less5age_overlap %>% 
+                                filter(age_group == "middle_adult" ) %>% pull(term_id), 
+                              older_adult = less5age_overlap %>% 
+                                filter(age_group == "older_adult" ) %>% pull(term_id), 
+                              old_adult = less5age_overlap %>% 
+                                filter(age_group == "old_adult" ) %>% pull(term_id), 
+                              elderly = less5age_overlap %>% 
+                                filter(age_group == "elderly" ) %>% pull(term_id))
+upset(fromList(less5age_overlap_list), order.by = "freq", sets = rev(fine_ag_order), keep.order = TRUE)
+```
+## Number of female-biased terms with zscore greater than 5
+```{r}
+kbl(ngobp %>%
+      filter(zscore > 5) %>% 
+      group_by(ag_number, age_group, age_range) %>% 
+      tally() %>% 
+      arrange(ag_number) %>% 
+      ungroup() %>% 
+      select(-ag_number)) %>% 
+  kable_styling(bootstrap_options = c("striped", "condensed"))
+```
+
+## Overlap of female-biased terms with zscore greater than 5
+```{r}
+over5age_overlap <- ngobp %>%
+  filter(zscore > 5) %>% 
+  select(age_group, term_id)
+over5age_overlap_list <- list(fetus = over5age_overlap %>% 
+                                filter(age_group == "fetus" ) %>% pull(term_id), 
+                              infant = over5age_overlap %>% 
+                                filter(age_group == "infant" ) %>% pull(term_id), 
+                              young_child = over5age_overlap %>% 
+                                filter(age_group == "young_child" ) %>% pull(term_id), 
+                              child = over5age_overlap %>% 
+                                filter(age_group == "child" ) %>% pull(term_id), 
+                              adolescent = over5age_overlap %>% 
+                                filter(age_group == "adolescent" ) %>% pull(term_id), 
+                              young_adult = over5age_overlap %>% 
+                                filter(age_group == "young_adult" ) %>% pull(term_id), 
+                              adult = over5age_overlap %>% 
+                                filter(age_group == "adult" ) %>% pull(term_id), 
+                              middle_adult = over5age_overlap %>% 
+                                filter(age_group == "middle_adult" ) %>% pull(term_id), 
+                              older_adult = over5age_overlap %>% 
+                                filter(age_group == "older_adult" ) %>% pull(term_id), 
+                              old_adult = over5age_overlap %>% 
+                                filter(age_group == "old_adult" ) %>% pull(term_id), 
+                              elderly = over5age_overlap %>% 
+                                filter(age_group == "elderly" ) %>% pull(term_id))
+upset(fromList(over5age_overlap_list), order.by = "freq", sets = rev(fine_ag_order), keep.order = TRUE)
+```
+
+```{r include=FALSE}
+ngobp <- ngobp %>% 
+  filter()
+```
+
+
+
