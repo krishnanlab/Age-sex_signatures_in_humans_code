@@ -8,7 +8,6 @@ import argparse
 
 parser = argparse.ArgumentParser()                                               
 parser.add_argument("--sex", help="male or female", type=str, required=True)
-parser.add_argument("--age_group_type", help="fine or coarse", type=str, required=True)
 parser.add_argument("--pos_age_group", help="age group to train model for", type=str, required=True)
 parser.add_argument("--data_type", help="rnaseq or microaarray", type=str, required=True)
 parser.add_argument("--std_scale", help="with or without", type=str, required=True)
@@ -21,33 +20,24 @@ args = parser.parse_args()
 tic = time.time()
 
 print("sex: " + args.sex)
-print("age_group_type: " + args.age_group_type)
 print("pos_age_group: " + args.pos_age_group)
 print("data_type: " + args.data_type)
 
 # age_groups
-if args.age_group_type == "fine":
-  age_groups = ["fetus","infant","young_child","child","adolescent","young_adult","adult","middle_adult","older_adult","old_adult","elderly"]
+age_groups = ["fetus","infant","young_child","child","adolescent","young_adult","adult","middle_adult","older_adult","old_adult","elderly"]
 
-if args.age_group_type == "coarse":
-  age_groups = ["fetus","infant","child","adolescent","adult","older_adult","elderly"]
-  
 # data type
 if args.data_type == "rnaseq":
   label_path = "/mnt/home/john3491/projects/age-sex-prediction/data/folds/refine.bio_3F_CV_folds.tsv"
   expression_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_tpm_expression_sample-filtered.npy"
   sample_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_filtered-sample_IDs_tpm.txt"
   gene_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_geneIDs.npy"
-  if args.age_group_type == "coarse":
-    label_path = "/mnt/home/john3491/projects/age-sex-prediction/data/folds/coarse_refine.bio_3F_CV_folds.tsv"
-  
+
 if args.data_type == "microarray":
   label_path = "/mnt/home/john3491/projects/age-sex-prediction/data/folds/gpl570_3F_CV_folds.tsv"
   expression_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gpl570_gene_expression.npy"
   sample_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/sample_IDs.txt"
   gene_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gene_IDs.npy"
-  if args.age_group_type == "coarse":
-    label_path = "/mnt/home/john3491/projects/age-sex-prediction/data/folds/coarse_gpl570_3F_CV_folds.tsv"
 
 # read in labels and folds
 labels = pd.read_csv(label_path, sep = "\t")
@@ -158,19 +148,19 @@ auroc_results['n_positives'] = positives
 sample_probs = pd.concat(sample_probs_df_list, ignore_index=True)
 
 if args.data_type == "microarray":
-  auroc_results.to_csv(results_path + "3FCV_l2_LR_auroc_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
-  model_weights.to_csv(results_path + "3FCV_l2_LR_model_weights_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_weights_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
-  sample_probs.to_csv(results_path + "3FCV_l2_LR_sample_probabilities_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
+  auroc_results.to_csv(results_path + "3FCV_l2_LR_auroc_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results.tsv", sep = "\t", header = True, index = False)
+  model_weights.to_csv(results_path + "3FCV_l2_LR_model_weights_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_weights.tsv", sep = "\t", header = True, index = False)
+  sample_probs.to_csv(results_path + "3FCV_l2_LR_sample_probabilities_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results.tsv", sep = "\t", header = True, index = False)
 
 if args.data_type == "rnaseq":
   if args.feature: 
-    auroc_results.to_csv(results_path + "3FCV_l2_LR_auroc_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
-    model_weights.to_csv(results_path + "3FCV_l2_LR_model_weights_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_weights_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
-    sample_probs.to_csv(results_path + "3FCV_l2_LR_sample_probabilities_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
+    auroc_results.to_csv(results_path + "3FCV_l2_LR_auroc_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results.tsv", sep = "\t", header = True, index = False)
+    model_weights.to_csv(results_path + "3FCV_l2_LR_model_weights_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_weights.tsv", sep = "\t", header = True, index = False)
+    sample_probs.to_csv(results_path + "3FCV_l2_LR_sample_probabilities_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results.tsv", sep = "\t", header = True, index = False)
   if not args.feature:
-    auroc_results.to_csv(results_path + "3FCV_l2_LR_auroc_no-asinh_transformation_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
-    model_weights.to_csv(results_path + "3FCV_l2_LR_model_weights_no-asinh_transformation_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_weights_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
-    sample_probs.to_csv(results_path + "3FCV_l2_LR_sample_probabilities_no-asinh_transformation_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results_with_" + args.age_group_type + "_ags.tsv", sep = "\t", header = True, index = False)
+    auroc_results.to_csv(results_path + "3FCV_l2_LR_auroc_no-asinh_transformation_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results.tsv", sep = "\t", header = True, index = False)
+    model_weights.to_csv(results_path + "3FCV_l2_LR_model_weights_no-asinh_transformation_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_weights.tsv", sep = "\t", header = True, index = False)
+    sample_probs.to_csv(results_path + "3FCV_l2_LR_sample_probabilities_no-asinh_transformation_" + args.std_scale + "_std_scaling_" + args.sex + "_" + args.pos_age_group + "_results.tsv", sep = "\t", header = True, index = False)
 
 # script time
 print('The time it took this script to run is',time.time()-tic)
