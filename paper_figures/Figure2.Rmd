@@ -20,9 +20,9 @@ library(grid)
 ```
 
 ```{r include=FALSE}
-full_rs <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv")
+full_rs <- read_tsv("./final_results_files/naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv")
 
-full_ms <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/microarray_unsigned_balanced_accuracy_info_file.tsv")
+full_ms <- read_tsv("./final_results_files/naive_sex_prediction/microarray_unsigned_balanced_accuracy_info_file.tsv")
 full_ms <- full_ms %>% mutate(cutoff = as.character(cutoff))
 
 fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 
@@ -233,9 +233,9 @@ sb_heatmap <- full_sb %>%
 ## barplot
 
 ```{r include=FALSE}
-full_rs <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv")
+full_rs <- read_tsv("./final_results_files/naive_sex_prediction/rnaseq_unsigned_balanced_accuracy_info_file.tsv")
 
-full_ms <- read_tsv("~/projects/age-sex-prediction/paper_figures/final_results_files/small_step_naive_sex_prediction/microarray_unsigned_balanced_accuracy_info_file.tsv")
+full_ms <- read_tsv("./final_results_files/naive_sex_prediction/microarray_unsigned_balanced_accuracy_info_file.tsv")
 full_ms <- full_ms %>% mutate(cutoff = as.character(cutoff))
 
 fine_ag_order <- c("elderly", "old_adult", "older_adult", "middle_adult", "adult", 

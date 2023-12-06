@@ -18,14 +18,14 @@ library(RColorBrewer)
 
 ```{r include=FALSE}
 # enrichment scores
-gobp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/gobp_enrichment.tsv")
-gwas <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/gwas_enrichment.tsv")
-mp <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/mp_enrichment.tsv")
-mondo <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/mondo_enrichment.tsv")
-sctype <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/results/elasticnet_LR_model_weights/sctype_enrichment.tsv")
+gobp <- read_tsv("../zscore_gene_enrichment_analysis/results/elasticnet_LR_model_weights/gobp_enrichment.tsv")
+gwas <- read_tsv("../zscore_gene_enrichment_analysis/results/elasticnet_LR_model_weights/gwas_enrichment.tsv")
+mp <- read_tsv("../zscore_gene_enrichment_analysis/results/elasticnet_LR_model_weights/mp_enrichment.tsv")
+mondo <- read_tsv("../zscore_gene_enrichment_analysis/results/elasticnet_LR_model_weights/mondo_enrichment.tsv")
+sctype <- read_tsv("../zscore_gene_enrichment_analysis/results/elasticnet_LR_model_weights/sctype_enrichment.tsv")
 
 # add names to gobp
-go_names <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/GOBPs/considered_GOids_GOnames.tsv")
+go_names <- read_tsv("../zscore_gene_enrichment_analysis/data/gene_sets/GOBPs/considered_GOids_GOnames.tsv")
 gobp <- gobp %>% 
   rename(go_id = term)
 gobp <- left_join(gobp, go_names, by = "go_id")
@@ -290,7 +290,7 @@ msctype <- msctype %>%
 ```
 
 ```{r include=FALSE}
-info_sctype <- read_tsv("~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/sctype/sctype_gene_info.tsv") %>% 
+info_sctype <- read_tsv("../zscore_gene_enrichment_analysis/data/gene_sets/sctype/sctype_gene_info.tsv") %>% 
   mutate(term = paste(tissueType, cellName, sep = ": ")) %>% 
   select(tissueType, term) %>% 
   distinct()

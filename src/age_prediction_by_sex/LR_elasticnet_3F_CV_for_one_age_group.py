@@ -5,10 +5,11 @@ from sklearn.metrics import average_precision_score, roc_auc_score
 from sklearn.linear_model import LogisticRegression
 import time
 import argparse
+import os
 
 parser = argparse.ArgumentParser()                                               
 parser.add_argument("--sex", help="male or female", type=str, required=True)
-parser.add_argument("--pos_age_group", help="age group to train model for", type=str, required=True)
+parser.add_argument("--pos_age_group", help="age group to train model for, see age_groups variable in script for options", type=str, required=True)
 parser.add_argument("--data_type", help="rnaseq or microaarray", type=str, required=True)
 parser.add_argument("--std_scale", help="with or without", type=str, required=True)
 parser.add_argument('--asinh', dest='feature', action='store_true')
@@ -28,17 +29,17 @@ age_groups = ["fetus","infant","young_child","child","adolescent","young_adult",
   
 # data type
 if args.data_type == "rnaseq":
-  label_path = "/mnt/home/john3491/projects/age-sex-prediction/data/folds/refine.bio_3F_CV_folds.tsv"
-  expression_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_tpm_expression_sample-filtered.npy"
-  sample_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_filtered-sample_IDs_tpm.txt"
-  gene_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_geneIDs.npy"
+  label_path = "../../data/folds/refine.bio_3F_CV_folds.tsv"
+  expression_path = "../../data/expression/refine.bio_TPM_expression.npy"
+  sample_path = "../../data/expression/refine.bio_sample_IDs_tpm.txt"
+  gene_path = "../../data/expression/refine.bio_geneIDs.npy"
 
 if args.data_type == "microarray":
-  label_path = "/mnt/home/john3491/projects/age-sex-prediction/data/folds/gpl570_3F_CV_folds.tsv"
-  expression_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gpl570_gene_expression.npy"
-  sample_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/sample_IDs.txt"
-  gene_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gene_IDs.npy"
-
+  label_path = "../../data/folds/gpl570_3F_CV_folds.tsv"
+  expression_path = "../../data/expression/gpl570_expression.npy"
+  sample_path = "../../data/expression/gpl570_sample_IDs.txt"
+  gene_path = "../../data/expression/gpl570_gene_IDs.npy"
+  
 # read in labels and folds
 labels = pd.read_csv(label_path, sep = "\t")
 if args.data_type == "microarray":
@@ -58,7 +59,7 @@ sample_ids = pd.read_csv(sample_path, header = None, sep = "\t")
 gene_ids = np.load(gene_path)
 
 # read in common genes between microarray and rnaseq
-common_genes = pd.read_csv("~/projects/age-sex-prediction/data/refine.bio/common_Entrez_IDs_gpl570-refine.bio.txt", header = None)
+common_genes = pd.read_csv("../../data/refine.bio/common_Entrez_IDs_gpl570-refine.bio.txt", header = None)
 
 # subset to common genes
 common_gene_positions = np.isin(gene_ids, common_genes[0])
@@ -139,7 +140,9 @@ for fold in nfolds:
   sample_probs_df_list.append(tmp_sp)
 
 # write results  
-results_path = "~/projects/age-sex-prediction/results/age_prediction_by_sex/"+ args.data_type + "/output_files/"
+results_path = "../../results/age_prediction_by_sex/"+ args.data_type + "/output_files/"
+if not os.path.exists('results_path'):
+   os.makedirs('results_path')
 
 model_weights = pd.DataFrame(model_weights, columns = gene_ids.tolist())
 model_weights['n_positives'] = positives

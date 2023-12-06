@@ -14,13 +14,13 @@ library(ggpubr)
 ```
 
 ```{r include=FALSE}
-rmodel_weights <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/rnaseq/model_weights_from_model_with_chosen_parameters.tsv", 
+rmodel_weights <- read_delim("../results/age_prediction_by_sex/rnaseq/model_weights_from_model_with_chosen_parameters.tsv", 
                             delim="\t", col_names=T) %>% 
   filter(group_type == "fine") %>%
   select(-std_scld, -penalty, -parameters, -asinh, -n_positives, -group_type) %>% 
   select(sex, age_group, everything())
 
-mmodel_weights <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/microarray/model_weights_from_model_with_chosen_parameters.tsv", 
+mmodel_weights <- read_delim("../results/age_prediction_by_sex/microarray/model_weights_from_model_with_chosen_parameters.tsv", 
                             delim="\t", col_names=T) %>% 
   filter(group_type == "fine") %>%
   select(-std_scld, -penalty, -parameters, -n_positives, -group_type) %>% 
@@ -38,7 +38,7 @@ ar_tibble <- tibble(model_age_group = fine_ag_order,
 ```
 
 ```{r include=FALSE}
-rauroc <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/rnaseq/auroc_results.tsv", delim = "\t", col_names = T) %>% 
+rauroc <- read_delim("../results/age_prediction_by_sex/rnaseq/auroc_results.tsv", delim = "\t", col_names = T) %>% 
   dplyr::select(-parameters) %>% 
   dplyr::rename(model_age_group = age_group) %>% 
   filter(penalty == "elasticnet") %>% 
@@ -49,7 +49,7 @@ rauroc <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_se
   pivot_longer(c(fine_ag_order), names_to = "test_age_group", values_to = "auroc") %>% 
   mutate(data_type = "RNAseq")
 
-mauroc <- read_delim("~/projects/age-sex-prediction/results/age_prediction_by_sex/microarray/auroc_results.tsv", delim = "\t", col_names = T) %>% 
+mauroc <- read_delim("../results/age_prediction_by_sex/microarray/auroc_results.tsv", delim = "\t", col_names = T) %>% 
   dplyr::select(-parameters) %>% 
   dplyr::rename(model_age_group = age_group) %>% 
   filter(penalty == "elasticnet") %>% 
@@ -100,7 +100,7 @@ median_mauroc <- mauroc %>%
 ```
 
 ```{r include=FALSE}
-key <- image_read("~/projects/age-sex-prediction/paper_figures/target_bordering_nearby_distant_key.png")
+key <- image_read("./target_bordering_nearby_distant_key.png")
 ggkey <- ggplot() + background_image(key) + coord_fixed()
 ```
 
