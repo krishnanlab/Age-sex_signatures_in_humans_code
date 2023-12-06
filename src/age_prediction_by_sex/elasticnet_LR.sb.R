@@ -33,7 +33,7 @@ for (sex in c("female", "male")){
                  "which python",
                  "",
                  paste0("python LR_elasticnet_3F_CV_for_one_age_group.py --sex=",
-                        sex, " --age_group_type=fine", " --pos_age_group=", ag,
+                        sex, " --pos_age_group=", ag,
                         " --data_type=", dt, " --std_scale=", ss),
                  ""), rjobConn)
     close(rjobConn)

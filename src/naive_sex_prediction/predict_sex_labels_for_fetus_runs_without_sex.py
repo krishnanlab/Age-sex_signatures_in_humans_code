@@ -11,23 +11,22 @@ tic = time.time()
 best_genes = [8653, 9086, 6192, 7404, 8287, 83869, 7544, 7503, 8284, 9087, 22829, 90665, 6736, 246119, 159119]
 
 # results output path
-out_path = "/mnt/home/john3491/projects/age-sex-prediction/results/naive_sex_prediction/"
+out_path = "../../results/naive_sex_prediction/"
 
 # read in standard/sample labels
-labels = pd.read_csv("/mnt/home/john3491/projects/age-sex-prediction/data/labels/sample-filtered_manually_annotated_refine.bio_sample_labels.tsv", sep="\t", header=0, encoding = 'unicode_escape')
+labels = pd.read_csv("../../data/labels/sample-filtered_manually_annotated_refine.bio_sample_labels.tsv", sep="\t", header=0, encoding = 'unicode_escape')
 labels = labels[labels['age_group'].notnull()]
 unsexed_fetus_labels = labels[labels['sex'].isnull()]
 unsexed_fetus_runs = unsexed_fetus_labels['run']
 
 # read in gene ids
-gene_ids = np.load("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_geneIDs.npy", allow_pickle=True)
-
+gene_ids = np.load("../../data/expression/refine.bio_geneIDs.npy", allow_pickle=True)
 
 #read in sample ids
-sample_ids = pd.read_csv("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_filtered-sample_IDs_tpm.txt", header = None)
+sample_ids = pd.read_csv("../../data/expression/refine.bio_sample_IDs_tpm.txt", header = None)
 
 # load gene expression data
-gene_exp = np.load("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_tpm_expression_sample-filtered.npy", allow_pickle=True)
+gene_exp = np.load("../../data/expression/refine.bio_TPM_expression.npy", allow_pickle=True)
 gene_exp = np.arcsinh(gene_exp)
 
 # subset to genes being used for prediction

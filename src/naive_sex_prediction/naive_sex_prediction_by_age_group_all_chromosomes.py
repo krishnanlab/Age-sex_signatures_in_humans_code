@@ -8,7 +8,6 @@ import argparse
 
 parser = argparse.ArgumentParser()                                               
 parser.add_argument("--data_type", help="rnaseq or microarrray", type=str, required=True)
-parser.add_argument("--group_type", help="fine or coarse (for age groups)", type=str, required=True)
 args = parser.parse_args()
 
 # script time
@@ -17,27 +16,27 @@ tic = time.time()
 ##################READ DATA######################
 if args.data_type == 'microarray':
     #load gene expression data
-    gene_exp = np.load("/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gpl570_gene_expression.npy", allow_pickle=True)
+    gene_exp = np.load("../../data/expression/gpl570_expression.npy", allow_pickle=True)
     #read in gene ids
-    gene_ids = np.load("/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gene_IDs.npy", allow_pickle=True)
+    gene_ids = np.load("../../data/expression/gpl570_gene_IDs.npy", allow_pickle=True)
 
     #read in sample ids
-    sample_ids = pd.read_csv("/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/sample_IDs.txt", header = None)
+    sample_ids = pd.read_csv("../../data/expression/gpl570_sample_IDs.txt", header = None)
 
     #read in standard/sample labels
-    labels = pd.read_csv("/mnt/home/john3491/projects/age-sex-prediction/data/labels/sample-filtered_manually_annotated_gpl570_sample_labels.tsv", sep="\t", header=0)
+    labels = pd.read_csv("../../data/labels/sample-filtered_manually_annotated_gpl570_sample_labels.tsv", sep="\t", header=0)
     
 if args.data_type == 'rnaseq':
     #load gene expression data
-    gene_exp = np.load("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_tpm_expression_sample-filtered.npy", allow_pickle=True)
+    gene_exp = np.load("../../data/expression/refine.bio_TPM_expression.npy", allow_pickle=True)
     #read in gene ids
-    gene_ids = np.load("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_geneIDs.npy", allow_pickle=True)
+    gene_ids = np.load("../../data/expression/refine.bio_geneIDs.npy", allow_pickle=True)
 
     #read in sample ids
-    sample_ids = pd.read_csv("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_filtered-sample_IDs_tpm.txt", header = None)
+    sample_ids = pd.read_csv("../../data/expression/refine.bio_sample_IDs_tpm.txt", header = None)
     
     #read in standard/sample labels
-    labels = pd.read_csv("/mnt/home/john3491/projects/age-sex-prediction/data/labels/sample-filtered_manually_annotated_refine.bio_sample_labels_w_sex-pred_expansion.tsv", sep="\t", header=0, encoding = 'unicode_escape')
+    labels = pd.read_csv("../../data/labels/sample-filtered_manually_annotated_refine.bio_sample_labels_w_sex-pred_expansion.tsv", sep="\t", header=0, encoding = 'unicode_escape')
     labels = labels.rename(columns={"run": "gsm", "experiment": "gse"})
     labels = labels[labels['sex_inferred_wXY'] != True]
 
@@ -69,13 +68,8 @@ sample_positions = sample_positions.squeeze()
 #subset sample_ids to be same subset as gene_exp_zscores
 sample_ids = sample_ids[sample_positions]
 
-if args.group_type == 'coarse':
-    #get age groups
-    age_groups = labels.age_group.unique()
-    
-if args.group_type == 'fine':
-    #get age groups
-    age_groups = labels.fine_age_group.unique()
+#get age groups
+age_groups = labels.fine_age_group.unique()
     
 #create column for labels to give to balanced accuracy function
 #female = T and male = F
@@ -84,12 +78,8 @@ labels['y_true'] = np.where(labels.sex == 'female', True, False)
 final_gene_cuts = pd.DataFrame()
 
 for ag in age_groups:
-    if args.group_type == 'coarse':
-        #filter labels for given ag
-        ag_labels = labels[labels['age_group']==ag]
-    if args.group_type == 'fine':
-        #filter labels for given ag
-        ag_labels = labels[labels['fine_age_group']==ag]
+    #filter labels for given ag
+    ag_labels = labels[labels['fine_age_group']==ag]
     #get list of samples from ag
     ag_samples = ag_labels['gsm']
     #filter gene_exp_zscores for ag:
@@ -173,7 +163,7 @@ for ag in age_groups:
     ag_gene_cuts = pd.DataFrame({'age_group':ag, 'gene':gene_ids, 'cutoff':best_cutoffs, 'balanced_accuracy':best_bas, 'higher_sex':higher_sex})
     final_gene_cuts = final_gene_cuts.append(ag_gene_cuts)
 
-final_gene_cuts.to_csv("/mnt/home/john3491/projects/age-sex-prediction/results/naive_sex_prediction/" + args.data_type + "/" + args.group_type + "_age_groups/final_gene_cut_data_all_chromosomes.tsv", sep = "\t", header = True, index = False)
+final_gene_cuts.to_csv("../../results/naive_sex_prediction/" + args.data_type + "/final_gene_cut_data_all_chromosomes.tsv", sep = "\t", header = True, index = False)
 
 # script time
 print('The time it took this script to run is',time.time()-tic)

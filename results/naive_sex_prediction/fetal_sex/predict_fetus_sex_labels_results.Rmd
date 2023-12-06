@@ -1,0 +1,151 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(patchwork)
+```
+
+```{r}
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#0072B2","#F0E442", "#D55E00", "#CC79A7", "#000000")
+```
+
+```{r include=FALSE}
+gene_cuts <- read_delim("./top_fetus_gene_cutoffs_and_balanced_accuracies.tsv",
+                        delim = "\t", col_names = T)
+
+fetus_exp <- read_delim("./std_scaled_fetus_samples_wo_sex_labels_expression_values.tsv",
+                        delim = "\t", col_names = T)
+
+rs_labels <- read_delim("../../../data/labels/sample-filtered_manually_annotated_refine.bio_sample_labels.tsv", 
+                        delim = "\t", col_names = T)
+
+unsexed_fetus_runs <- rs_labels %>% 
+  filter(is.na(sex)) %>% 
+  filter(age_group == "fetus") %>% 
+  pull(run)
+
+# prediction script spit out all runs without sex instead of 
+# just fetus - this filter fixes to fetus only
+fetus_exp <- fetus_exp %>% 
+  filter(run %in% unsexed_fetus_runs)
+```
+
+```{r}
+# make tidy
+fetus_exp <- fetus_exp %>% 
+  pivot_longer(cols = c("8653", "9086", "6192", "7404", "8287", "83869", "7544", "7503", 
+                        "8284", "9087", "22829", "90665", "6736", "246119", "159119"),
+               names_to = "gene", values_to = "scaled_expression") %>% 
+  mutate(gene = as.numeric(gene))
+
+gene_cuts <- left_join(gene_cuts, fetus_exp, by = "gene")
+
+# prediction = sex
+ftmp <- gene_cuts %>% 
+  filter(higher_sex == "female") %>% 
+  mutate(prediction = ifelse(scaled_expression > cutoff, TRUE, FALSE))
+mtmp <- gene_cuts %>% 
+  filter(higher_sex == "male") %>% 
+  mutate(prediction = ifelse(scaled_expression > cutoff, FALSE, TRUE))
+gene_cuts <- bind_rows(ftmp, mtmp)
+```
+
+```{r}
+predictions <- gene_cuts %>% 
+  dplyr::select(run, prediction) %>% 
+  group_by(run) %>% 
+  summarise(prediction_sum = sum(prediction))
+
+predictions <- predictions %>% 
+  mutate(sex = ifelse(prediction_sum > 13, "female", ifelse(prediction_sum < 3, "male", "none")))
+
+predictions <- left_join(predictions, dplyr::select(rs_labels, run, experiment), by = "run")
+```
+
+```{r}
+predictions %>% 
+  ggplot(aes(x = experiment, fill = sex)) +
+  geom_bar(position = position_dodge()) +
+  scale_fill_manual(values = cbPalette) +
+  ylab("samples") +
+  theme_minimal() + 
+  theme(axis.text.x = element_blank())
+```
+
+```{r}
+full_pred_plot <- predictions %>% 
+  ggplot(aes(x = experiment, fill = sex)) +
+  geom_bar(position = position_dodge()) +
+  scale_fill_manual(values = cbPalette) +
+  ylab("samples") +
+  theme_minimal() + 
+  theme(axis.text.x = element_blank())
+```
+
+```{r}
+# write expanded labels (+ predicted sex samples)
+unsexed <- rs_labels %>% 
+  filter(is.na(sex)) %>% 
+  dplyr::select(-sex)
+
+predictions <- predictions %>% 
+  filter(sex != "none") %>% 
+  dplyr::select(run, sex)
+
+unsexed <- left_join(predictions, unsexed, by = "run")
+unsexed <- unsexed %>% 
+  dplyr::select(colnames(rs_labels))
+unsexed$sex_inferred_wXY <- TRUE
+
+rs_labels <- rs_labels %>% 
+  filter(!is.na(sex))
+rs_labels$sex_inferred_wXY <- FALSE
+
+rs_labels <- bind_rows(unsexed, rs_labels)
+
+# rewrite manually annotated file without labels that did not have sex labels
+rs_labels %>%
+  filter(!is.na(age_group)) %>% 
+  write_delim("../../../data/labels/sample-filtered_manually_annotated_refine.bio_sample_labels_w_sex-pred_expansion.tsv",
+              delim = "\t", col_names = T)
+```
+
+```{r}
+exp_samples <- rs_labels %>% 
+  filter(fine_age_group == 'fetus') %>% 
+  group_by(sex) %>% 
+  tally() %>% 
+  ggplot(aes(x = sex, y = n, fill = sex)) +
+  geom_col() +
+  scale_fill_manual(values = cbPalette) +
+  geom_text(aes(label = n), vjust = 0) +
+  ylab("samples") +
+  theme_minimal()
+```
+
+```{r}
+exp_exp <- rs_labels %>% 
+  filter(fine_age_group == 'fetus') %>% 
+  dplyr::select(experiment, sex) %>% 
+  distinct() %>% 
+  group_by(sex) %>% 
+  tally() %>% 
+  ggplot(aes(x = sex, y = n, fill = sex)) +
+  geom_col() +
+  scale_fill_manual(values = cbPalette) +
+  geom_text(aes(label = n), vjust = 0) +
+  ylab("experiments") +
+  theme_minimal()
+```
+
+```{r}
+#expanded_fetus_labels_figure <- full_pred_plot + exp_samples + exp_exp + plot_layout(guides = "collect")
+```
+
+```{r}
+#ggsave("~/Desktop/expanded_fetus_labels_figure.png", plot = expanded_fetus_labels_figure, height = 4.5, width = 9)
+```
+

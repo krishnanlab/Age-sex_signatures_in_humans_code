@@ -141,8 +141,8 @@ for fold in nfolds:
 
 # write results  
 results_path = "../../results/age_prediction_by_sex/"+ args.data_type + "/output_files/"
-if not os.path.exists('results_path'):
-   os.makedirs('results_path')
+if not os.path.exists(results_path):
+   os.makedirs(results_path)
 
 model_weights = pd.DataFrame(model_weights, columns = gene_ids.tolist())
 model_weights['n_positives'] = positives
