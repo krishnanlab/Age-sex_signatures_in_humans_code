@@ -16,27 +16,27 @@ tic = time.time()
 ##################READ DATA######################
 if args.data_type == 'microarray':
     #load gene expression data
-    gene_exp = np.load("/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gpl570_gene_expression.npy", allow_pickle=True)
+    gene_exp = np.load("../../../data/expression/gpl570_expression.npy", allow_pickle=True)
     #read in gene ids
-    gene_ids = np.load("/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gene_IDs.npy", allow_pickle=True)
+    gene_ids = np.load("../../../data/expression/gpl570_gene_IDs.npy", allow_pickle=True)
 
     #read in sample ids
-    sample_ids = pd.read_csv("/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/sample_IDs.txt", header = None)
+    sample_ids = pd.read_csv("../../../data/expression/gpl570_sample_IDs.txt", header = None)
 
     #read in standard/sample labels
-    labels = pd.read_csv("/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/gpl570_blood_samples.tsv", sep="\t", header=0)
+    labels = pd.read_csv("../../data/blood_labels/gpl570_blood_samples.tsv", sep="\t", header=0)
     
 if args.data_type == 'rnaseq':
     #load gene expression data
-    gene_exp = np.load("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_tpm_expression_sample-filtered.npy", allow_pickle=True)
+    gene_exp = np.load("../../../data/expression/refine.bio_TPM_expression.npy", allow_pickle=True)
     #read in gene ids
-    gene_ids = np.load("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_geneIDs.npy", allow_pickle=True)
+    gene_ids = np.load("../../../data/expression/refine.bio_geneIDs.npy", allow_pickle=True)
 
     #read in sample ids
-    sample_ids = pd.read_csv("/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_filtered-sample_IDs_tpm.txt", header = None)
+    sample_ids = pd.read_csv("../../../data/expression/refine.bio_sample_IDs_tpm.txt", header = None)
     
     #read in standard/sample labels
-    labels = pd.read_csv("/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/refine.bio_blood_samples.tsv", sep="\t", header=0, encoding = 'unicode_escape')
+    labels = pd.read_csv("../../data/blood_labels/refine.bio_blood_samples.tsv", sep="\t", header=0, encoding = 'unicode_escape')
     labels = labels.rename(columns={"run": "gsm", "experiment": "gse"})
     labels = labels[labels['sex_inferred_wXY'] != True]
 
@@ -163,7 +163,7 @@ for ag in age_groups:
     ag_gene_cuts = pd.DataFrame({'age_group':ag, 'gene':gene_ids, 'cutoff':best_cutoffs, 'balanced_accuracy':best_bas, 'higher_sex':higher_sex})
     final_gene_cuts = final_gene_cuts.append(ag_gene_cuts)
 
-final_gene_cuts.to_csv("/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/naive_sex_prediction_signed_ranks/" + args.data_type + "_fine_age_groups_final_gene_cut_data_fixed_step_all_chromosomes.tsv", sep = "\t", header = True, index = False)
+final_gene_cuts.to_csv("../../data/naive_sex_prediction_signed_ranks/" + args.data_type + "_fine_age_groups_final_gene_cut_data_fixed_step_all_chromosomes.tsv", sep = "\t", header = True, index = False)
 
 # script time
 print('The time it took this script to run is',time.time()-tic)

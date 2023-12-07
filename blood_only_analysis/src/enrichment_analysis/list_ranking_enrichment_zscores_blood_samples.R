@@ -54,43 +54,43 @@ gene_set <- args[4]
 print(paste("Doing", rank_method, data_type, gene_set, "for", basename(args[1]), sep = " "))
 
 if (gene_set == "disgenetC"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/DisGeNet/disgenet_curated_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/DisGeNet/disgenet_curated_gene-group_file.tsv"
 }
 if (gene_set == "disgenetF"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/DisGeNet/disgenet_full_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/DisGeNet/disgenet_full_gene-group_file.tsv"
 }
 if (gene_set == "gobp"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/GOBPs/GOBP_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/GOBPs/GOBP_gene-group_file.tsv"
 }
 if (gene_set == "gtex"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/GTEx/gtex-genes_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/GTEx/gtex-genes_gene-group_file.tsv"
 }
 if (gene_set == "guo"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/Guo_et_al/guo_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/Guo_et_al/guo_gene-group_file.tsv"
 }
 if (gene_set == "gwas"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/GWAS/GWASatlas_top25_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/GWAS/GWASatlas_top25_gene-group_file.tsv"
 }
 if (gene_set == "mp"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/mp/mpo_mouse-human_phenotypes_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/mp/mpo_mouse-human_phenotypes_gene-group_file.tsv"
 }
 if (gene_set == "sagd"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/SAGD/sagd_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/SAGD/sagd_gene-group_file.tsv"
 }
 if (gene_set == "mondo"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/mondo/mondo_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/mondo/mondo_gene-group_file.tsv"
 }
 if (gene_set == "gtex_tissue-spec"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/gtex_tissue-spec/gtex_tissue-spec_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/gtex_tissue-spec/gtex_tissue-spec_gene-group_file.tsv"
 }
 if (gene_set == "sctype"){
-  terms_path <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/gene_sets/sctype/sctype_gene-group_file.tsv"
+  terms_path <- "../../../zscore_gene_enrichment_analysis/data/gene_sets/sctype/sctype_gene-group_file.tsv"
 }
 
 terms = read_tsv(terms_path, col_names = T)
 colnames(terms) = c("gene_id", "group") 
 
-out_path <- paste0("~/projects/age-sex-prediction/blood-only_analysis/results/",
+out_path <- paste0("../../results/",
                    rank_method, "/", data_type, "/", gene_set, "/")
 
 output <- tibble(group = "term", zscore = 1.22)

@@ -25,15 +25,15 @@ age_groups = ["infant","young_child","child","adolescent","young_adult","adult",
 # data type
 if args.data_type == "rnaseq":
   label_path = "/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/refine.bio_blood_folds.tsv"
-  expression_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_tpm_expression_sample-filtered.npy"
-  sample_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_filtered-sample_IDs_tpm.txt"
-  gene_path = "/mnt/research/compbio/krishnanlab/data/rnaseq/refine.bio/data/refine.bio_geneIDs.npy"
+  expression_path = "../../../data/expression/refine.bio_tpm_expression_sample-filtered.npy"
+  sample_path = "../../../data/expression/refine.bio_filtered-sample_IDs_tpm.txt"
+  gene_path = "../../../data/expression/refine.bio_geneIDs.npy"
 
 if args.data_type == "microarray":
   label_path = "/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/gpl570_blood_folds.tsv"
-  expression_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gpl570_gene_expression.npy"
-  sample_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/sample_IDs.txt"
-  gene_path = "/mnt/research/compbio/krishnanlab/data/GEO/2019-07-29_downloaded-files/age-sex_project/gene_IDs.npy"
+  expression_path = "../../../data/expression/gpl570_gene_expression.npy"
+  sample_path = "../../../data/expression/sample_IDs.txt"
+  gene_path = "../../../data/expression/gene_IDs.npy"
 
 # read in labels and folds
 labels = pd.read_csv(label_path, sep = "\t")
@@ -51,7 +51,7 @@ sample_ids = pd.read_csv(sample_path, header = None, sep = "\t")
 gene_ids = np.load(gene_path)
 
 # read in common genes between microarray and rnaseq
-common_genes = pd.read_csv("~/projects/age-sex-prediction/data/refine.bio/common_Entrez_IDs_gpl570-refine.bio.txt", header = None)
+common_genes = pd.read_csv("../../../data/refine.bio/common_Entrez_IDs_gpl570-refine.bio.txt", header = None)
 
 # subset to common genes
 common_gene_positions = np.isin(gene_ids, common_genes[0])

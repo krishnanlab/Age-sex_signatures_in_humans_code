@@ -2,11 +2,11 @@ tic <- as.integer(as.POSIXct(Sys.time()))
 library(tidyverse)
 
 term_sets <- c('gobp', 'gwas', 'mp', 'mondo')
-gmt_dir <- "~/projects/age-sex-prediction/final_list-rank-zscore_gene_enrichment_analyses/data/orsum_gene_set_gmts"
+gmt_dir <- "../../../zscore_gene_enrichment_analysis/data/orsum_gene_set_gmts"
 gmt_files <- list.files(gmt_dir, full.names = T)
-significance_dir <- "~/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_naive_sex_prediction_term_significance_files/"
+significance_dir <- "../../data/orsum_blood_naive_sex_prediction_term_significance_files/"
 significance_files <- list.files(significance_dir, full.names = T)
-output_dir <- "/mnt/home/john3491/projects/age-sex-prediction/blood-only_analysis/results/orsum/sex-pred/"
+output_dir <- "../../results/orsum/sex-pred/"
 
 # make a directory to put sbatches
 dirname <- "./sbatches_sex-pred_orsum_jobs"

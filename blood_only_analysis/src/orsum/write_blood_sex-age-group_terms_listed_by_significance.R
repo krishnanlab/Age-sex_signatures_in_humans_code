@@ -1,10 +1,10 @@
 tic <- as.integer(as.POSIXct(Sys.time()))
 library(tidyverse)
 
-enrichment_dir <- "~/projects/age-sex-prediction/blood-only_analysis/results/naive_sex_prediction_ranks/"
+enrichment_dir <- "../../results/naive_sex_prediction_ranks/"
 enrichment_files <- list.files(enrichment_dir, pattern = "tsv", full.names = T)
 enrichment_files <- enrichment_files[!grepl("disgenet", enrichment_files)]
-output_dir <- "~/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_naive_sex_prediction_term_significance_files/"
+output_dir <- "../../data/orsum_blood_naive_sex_prediction_term_significance_files/"
 
 # write terms in order of significance for each age group and term set
 for (ef in enrichment_files){
@@ -22,10 +22,10 @@ for (ef in enrichment_files){
   }
 }
 
-enrichment_dir <- "~/projects/age-sex-prediction/blood-only_analysis/results/elasticnet_LR_model_weights/"
+enrichment_dir <- "../../results/elasticnet_LR_model_weights/"
 enrichment_files <- list.files(enrichment_dir, pattern = "tsv", full.names = T)
 enrichment_files <- enrichment_files[!grepl("disgenet", enrichment_files)]
-output_dir <- "~/projects/age-sex-prediction/blood-only_analysis/data/orsum_blood_age_prediction_significance_files/"
+output_dir <- "../../data/orsum_blood_age_prediction_significance_files/"
 
 # write terms in order of significance for each sex-age group and term set
 for (ef in enrichment_files){

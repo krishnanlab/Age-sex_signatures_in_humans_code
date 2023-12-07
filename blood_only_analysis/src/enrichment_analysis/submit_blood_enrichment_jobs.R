@@ -21,13 +21,13 @@ data_type <- args[2]
 gene_set <- args[3]
 
 if (rank_method == "LR"){
-  file_list <- list.files(paste0("~/projects/age-sex-prediction/blood-only_analysis/data/elasticnet_LR_model_weights/",
+  file_list <- list.files(paste0("../../data/elasticnet_LR_model_weights/",
                                  data_type),
                           pattern = "*_weights.tsv", full.names = T)
 }
 
 if (rank_method == "naive"){
-  file_list <- list.files(paste0("~/projects/age-sex-prediction/blood-only_analysis/data/naive_sex_prediction_signed_ranks/",
+  file_list <- list.files(paste0("../../data/naive_sex_prediction_signed_ranks/",
                                  data_type), 
                           pattern = "*_signed_gene_cut_data_all_chromosomes.tsv", full.names = T)
 }

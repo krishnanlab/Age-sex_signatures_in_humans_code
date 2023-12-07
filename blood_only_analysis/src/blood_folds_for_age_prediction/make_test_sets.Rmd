@@ -13,9 +13,9 @@ library(tidyverse)
 ```
 
 ```{r data, include=FALSE}
-rl <- read_tsv("~/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/refine.bio_blood_samples.tsv") %>% 
+rl <- read_tsv("../../data/blood_labels/refine.bio_blood_samples.tsv") %>% 
   select(experiment, run, sex, fine_age_group)
-ml <- read_tsv("~/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/gpl570_blood_samples.tsv") %>% 
+ml <- read_tsv("../../data/blood_labels/gpl570_blood_samples.tsv") %>% 
   select(gse, gsm, sex, fine_age_group) %>% 
   dplyr::rename(experiment = gse) %>% 
   dplyr::rename(run = gsm)
@@ -457,7 +457,7 @@ mm_folds <- ml %>%
 ```
 
 ```{r}
-write_dir <- "~/projects/age-sex-prediction/blood-only_analysis/data/blood_labels/"
+write_dir <- "../../data/blood_labels/"
 
 rfolds <- bind_rows(fr_folds, mr_folds)
 rfolds %>% 

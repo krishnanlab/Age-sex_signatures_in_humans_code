@@ -14,7 +14,7 @@ args <- commandArgs(TRUE)
 #                       gtex_tissue-spec
 gene_set <- args[1]
 
-results_dir <- "~/projects/age-sex-prediction/blood-only_analysis/results/naive_sex_prediction_ranks/"
+results_dir <- "../../results/naive_sex_prediction_ranks/"
 rnaseq_results_dir <- paste0(results_dir, "rnaseq/", gene_set)
 microarray_results_dir <- paste0(results_dir, "microarray/", gene_set)
 

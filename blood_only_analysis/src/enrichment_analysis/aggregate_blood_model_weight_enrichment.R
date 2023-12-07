@@ -12,7 +12,7 @@ args <- commandArgs(TRUE)
 #                       sagd
 gene_set <- args[1]
 
-results_dir <- "~/projects/age-sex-prediction/blood-only_analysis/results/elasticnet_LR_model_weights/"
+results_dir <- "../../results/elasticnet_LR_model_weights/"
 rnaseq_results_dir <- paste0(results_dir, "rnaseq/", gene_set)
 microarray_results_dir <- paste0(results_dir, "microarray/", gene_set)
 
